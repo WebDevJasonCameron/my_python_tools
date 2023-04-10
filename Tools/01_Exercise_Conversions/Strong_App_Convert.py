@@ -47,15 +47,12 @@ def get_file_title(read_file_path):
     read_file = open(read_file_path, "r")
 
     line_num = 1
-    out = ""
 
     for line in read_file:
         if line_num != 2:
             line_num += 1
-        elif line == 2:
-            out = build_file_title(line)
-
-    return out
+        else:
+            return build_file_title(line).rstrip()
 
 
 def get_ex_name(line):
@@ -82,9 +79,10 @@ def convert_data(read_file_path, write_file_path):
 
 read_file_path = args.in_f
 write_file_path = args.out_p
+file_title = ""
 
-out = get_file_title(read_file_path)
-print(out)
+file_title = get_file_title(read_file_path)
+print(file_title)
 
 
 """
