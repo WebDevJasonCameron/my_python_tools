@@ -1,5 +1,17 @@
+"""
+#     SMASH Notes
+#       NAME:       Strong_App_Convert.py
+#       LOCATION:   https://github.com/WebDevJasonCameron/my_python_tools/blob/main/Tools/Exercise_Conversions/Strong_App_Convert.py
+#       PURPOSE:    Built to convert text files exported out of the IOS Strong App and imported into my 
+#                   Obsidian Personal Management Vault
+#       CREATED:    2023 04 09
+#       NOTES:      This is a CLI tool that takes in two arguments.  The first param, --in-f , requires the 
+#                   file path you wish to target.  The second param, --out_p , requires the path you wish to
+#                   place the converted file.  The final final title is created from the second line of the 
+#                   original file
+"""
+
 import argparse
-import glob
 
 from Month_Number import get_month_number
 
@@ -14,7 +26,7 @@ parser.add_argument(
 args = parser.parse_args()
 
 flag = True
-line_num = 0
+line_num = 1
 file_title = ""
 
 
@@ -28,10 +40,57 @@ def build_file_title(line):
     at = line_parts[4]
     time = line_parts[5]
     am_pm = line_parts[6]
-
     return year_num_str + "_" + month_num_str + "_" + day_num_str + "__" + day + "__" + at + "_" + time + "_" + am_pm
 
 
-checks = build_file_title("Friday, December 10, 2021 at 9:41 AM")
+def get_file_title(read_file_path):
+    read_file = open(read_file_path, "r")
 
-print(checks)
+    line_num = 1
+
+    for line in read_file:
+        if line_num != 2:
+            line_num += 1
+        elif line == 2:
+            return build_file_title(line)
+
+
+def get_ex_name(line):
+    return line.replace(" ", "_")
+
+
+def convert_data(read_file_path, write_file_path):
+    read_file = open(read_file_path, "r")
+    write_file = open(write_file_path, "r")
+
+    line_num_mon = 0
+    first_line = True
+
+    for line in read_file:
+        if first_line == True:
+            first_line = False
+            continue
+        elif "AM" in line or "PM" in line:
+            print(line)
+
+    read_file.close()
+    write_file.close()
+
+
+# <F> DETERMINES CARDIO, STRENGTH, BODYWEIGHT, STRETCHING   (name, ex_num)    #   After Ex name
+
+# <F> CARDIO          id by "mi"
+# EX_#: NAME
+# EX_#_SET_#_DIST:    ### mi                                <- REPEAT
+# EX_#_SET_#_TIME:    ### min                               <- REPEAT
+
+
+# <F> STRENGTH        id by "lb"
+# EX_#: NAME
+# EX_#_SET_#_WEIGHT:  ### lb                                <- REPEAT
+# EX_#_SET_#_REPS:    ###                                   <- REPEAT
+
+
+# <F> BODYWEIGHT      id by "reps"
+# EX_#: NAME
+# EX_#_SET_#_REPS:    ### reps                              <- REPEAT
