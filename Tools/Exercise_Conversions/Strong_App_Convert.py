@@ -47,12 +47,15 @@ def get_file_title(read_file_path):
     read_file = open(read_file_path, "r")
 
     line_num = 1
+    out = ""
 
     for line in read_file:
         if line_num != 2:
             line_num += 1
         elif line == 2:
-            return build_file_title(line)
+            out = build_file_title(line)
+
+    return out
 
 
 def get_ex_name(line):
@@ -77,6 +80,14 @@ def convert_data(read_file_path, write_file_path):
     write_file.close()
 
 
+read_file_path = args.in_f
+write_file_path = args.out_p
+
+out = get_file_title(read_file_path)
+print(out)
+
+
+"""
 # <F> DETERMINES CARDIO, STRENGTH, BODYWEIGHT, STRETCHING   (name, ex_num)    #   After Ex name
 
 # <F> CARDIO          id by "mi"
@@ -94,3 +105,5 @@ def convert_data(read_file_path, write_file_path):
 # <F> BODYWEIGHT      id by "reps"
 # EX_#: NAME
 # EX_#_SET_#_REPS:    ### reps                              <- REPEAT
+
+"""
