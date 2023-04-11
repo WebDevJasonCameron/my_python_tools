@@ -26,8 +26,8 @@ parser.add_argument(
 args = parser.parse_args()
 
 flag = True
-ex_num = 0
 file_title = ""
+ex_num = 1
 
 
 # (0 Day), (1 Month), (2 Day #), (3 Year), (4 "at"), (5 time), (6 "AM/PM")
@@ -55,8 +55,38 @@ def get_file_title(read_file_path):
             return build_file_title(line).rstrip()
 
 
-def get_ex_name(line):
-    return ex_name + ex_num + ":: " + line
+def get_ex_name(line, ex_num):
+    return "Ex_" + str(ex_num) + ":: " + line.replace(" ", "_")
+
+
+def build_plank_sets(line, ex_name):
+    line_parts = line.split(":")
+    set = ex_name + "_" + line_parts[0] + ":: "
+    min = line_parts[1]
+    sec = line_parts[2]
+    return set + min + ":" + sec + "\n"
+
+
+def build_weight_sets(line, ex_name):
+    line_parts = line.split(":")
+    part_01 = line_parts[0].replace(" ", "_")
+    part_02 = line_parts[1].split(" x ")
+
+    sets = ex_name + "_" + part_01
+    weights = sets + "_weight::" + part_02[0]
+    reps = sets + "_reps::" + part_02[1]
+    return weights + "\n" + reps + "\n"
+
+
+def build_cardio_sets(line, ex_name):
+    line_parts = line.split(":")
+    part_01 = line_parts[0].replace(" ", "_")
+    part_02 = line_parts[1].split(" | ")
+
+    sets = ex_name + "_" + part_01
+    weights = sets + "_distance::" + part_02[0]
+    reps = sets + "_time::" + part_02[1]
+    return weights + "\n" + reps + "\n"
 
 
 def convert_data(read_file_path, write_file_path):
@@ -82,7 +112,7 @@ write_file_path = args.out_p
 file_title = ""
 
 file_title = get_file_title(read_file_path)
-print(file_title)
+print(get_ex_name("Reverse Plank", 1))
 
 
 """
