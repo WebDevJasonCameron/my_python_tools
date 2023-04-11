@@ -26,7 +26,7 @@ parser.add_argument(
 args = parser.parse_args()
 
 flag = True
-line_num = 1
+ex_num = 0
 file_title = ""
 
 
@@ -56,7 +56,7 @@ def get_file_title(read_file_path):
 
 
 def get_ex_name(line):
-    return line.replace(" ", "_")
+    return ex_name + ex_num + ":: " + line
 
 
 def convert_data(read_file_path, write_file_path):
