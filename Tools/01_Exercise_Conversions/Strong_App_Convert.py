@@ -54,15 +54,22 @@ def get_file_title(read_file_path):
 
 
 def get_ex_name(line, ex_num):
-    return (("Ex_" + str(ex_num) + ":: " + line.replace(" ", "_")), line.replace(" ", "_"))
+    return (("Ex_" + str(ex_num) + ": " + line), line.replace(" ", "_").replace("(", "").replace(")", ""))
 
 
 def build_plank_sets(line, ex_name):
     line_parts = line.split(":")
-    set = ex_name + "_" + line_parts[0] + ":: "
-    min = line_parts[1]
-    sec = line_parts[2]
-    return set + min + ":" + sec
+    set = ex_name + "_" + line_parts[0].replace(" ", "_") + ": "
+    min = line_parts[1].rstrip()
+    sec = line_parts[2].rstrip()
+    return set + min + " min " + sec + " sec\n"
+
+
+def build_rep_only_sets(line, ex_name):
+    line_parts = line.split(":")
+    set = ex_name + "_" + line_parts[0].replace(" ", "_") + ": "
+    reps = line_parts[1]
+    return set + reps
 
 
 def build_weight_sets(line, ex_name):
@@ -71,8 +78,8 @@ def build_weight_sets(line, ex_name):
     part_02 = line_parts[1].split(" × ")
 
     sets = ex_name + "_" + part_01
-    weights = sets + "_weight::" + part_02[0]
-    reps = sets + "_reps::" + part_02[1]
+    weights = sets + "_weight:" + part_02[0]
+    reps = sets + "_reps: " + part_02[1]
     return weights + "\n" + reps
 
 
@@ -82,9 +89,9 @@ def build_cardio_sets(line, ex_name):
     part_02 = line_parts[1].split(" | ")
 
     sets = ex_name + "_" + part_01
-    weights = sets + "_distance::" + part_02[0]
-    reps = sets + "_time::" + part_02[1]
-    return weights + "\n" + reps
+    distance = sets + "_distance:" + part_02[0]
+    reps = sets + "_time:" + part_02[1]
+    return distance + "\n" + reps
 
 
 def convert_data(read_file_path, write_file_path, file_title):
@@ -95,15 +102,17 @@ def convert_data(read_file_path, write_file_path, file_title):
     ex_num = 1
     ex_name = ""
 
-    write_file.writelines(file_title.replace(
-        "__", ", ").replace("_", " ") + "\n\n")
+    write_file.writelines("---")
 
     for line in read_file:
         if header_count < 3:
             header_count += 1
             continue
 
-        elif line == "\n" or "https://" in line:
+        elif "http" in line:
+            continue
+
+        elif line == "\n":
             write_file.writelines(line)
 
         elif "Set" not in line and header_count >= 3:
@@ -114,19 +123,20 @@ def convert_data(read_file_path, write_file_path, file_title):
 
         elif "Set" in line and "mi" in line:
             write_file.writelines(build_cardio_sets(line, ex_name))
-            print(build_cardio_sets(line, ex_name).rstrip())
 
         elif "Set" in line and "lb" in line:
             write_file.writelines(build_weight_sets(line, ex_name))
-            print(build_weight_sets(line, ex_name).rstrip())
 
-        elif "Set" in line:     #
+        elif "Set" in line and "reps" in line:
+            write_file.writelines(build_rep_only_sets(line, ex_name))
+
+        elif "Set" in line:
             write_file.writelines(build_plank_sets(line, ex_name))
-            print(build_plank_sets(line, ex_name).rstrip())
 
         else:
             write_file.writelines("Error Here\n")
-            print("Error Here\n")
+
+    write_file.writelines("---")
 
     read_file.close()
     write_file.close()
