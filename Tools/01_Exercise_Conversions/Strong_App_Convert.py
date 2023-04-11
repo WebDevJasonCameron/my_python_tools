@@ -26,8 +26,6 @@ parser.add_argument(
 args = parser.parse_args()
 
 flag = True
-file_title = ""
-ex_num = 1
 
 
 # (0 Day), (1 Month), (2 Day #), (3 Year), (4 "at"), (5 time), (6 "AM/PM")
@@ -52,11 +50,11 @@ def get_file_title(read_file_path):
         if line_num != 2:
             line_num += 1
         else:
-            return build_file_title(line).rstrip()
+            return build_file_title(line).rstrip() + ".md"
 
 
 def get_ex_name(line, ex_num):
-    return "Ex_" + str(ex_num) + ":: " + line.replace(" ", "_")
+    return (("Ex_" + str(ex_num) + ":: " + line.replace(" ", "_")), line.replace(" ", "_"))
 
 
 def build_plank_sets(line, ex_name):
@@ -64,18 +62,18 @@ def build_plank_sets(line, ex_name):
     set = ex_name + "_" + line_parts[0] + ":: "
     min = line_parts[1]
     sec = line_parts[2]
-    return set + min + ":" + sec + "\n"
+    return set + min + ":" + sec
 
 
 def build_weight_sets(line, ex_name):
     line_parts = line.split(":")
     part_01 = line_parts[0].replace(" ", "_")
-    part_02 = line_parts[1].split(" x ")
+    part_02 = line_parts[1].split(" × ")
 
     sets = ex_name + "_" + part_01
     weights = sets + "_weight::" + part_02[0]
     reps = sets + "_reps::" + part_02[1]
-    return weights + "\n" + reps + "\n"
+    return weights + "\n" + reps
 
 
 def build_cardio_sets(line, ex_name):
@@ -86,52 +84,61 @@ def build_cardio_sets(line, ex_name):
     sets = ex_name + "_" + part_01
     weights = sets + "_distance::" + part_02[0]
     reps = sets + "_time::" + part_02[1]
-    return weights + "\n" + reps + "\n"
+    return weights + "\n" + reps
 
 
-def convert_data(read_file_path, write_file_path):
+def convert_data(read_file_path, write_file_path, file_title):
     read_file = open(read_file_path, "r")
-    write_file = open(write_file_path, "r")
+    write_file = open(write_file_path + "/" + file_title, "w")
 
-    line_num_mon = 0
-    first_line = True
+    header_count = 1
+    ex_num = 1
+    ex_name = ""
+
+    write_file.writelines(file_title.replace(
+        "__", ", ").replace("_", " ") + "\n\n")
 
     for line in read_file:
-        if first_line == True:
-            first_line = False
+        if header_count < 3:
+            header_count += 1
             continue
-        elif "AM" in line or "PM" in line:
-            print(line)
+
+        elif line == "\n" or "https://" in line:
+            write_file.writelines(line)
+
+        elif "Set" not in line and header_count >= 3:
+            ex_name_list = get_ex_name(line, ex_num)
+            ex_name = ex_name_list[1].rstrip()
+            ex_num += 1
+            write_file.writelines(ex_name_list[0])
+
+        elif "Set" in line and "mi" in line:
+            write_file.writelines(build_cardio_sets(line, ex_name))
+            print(build_cardio_sets(line, ex_name).rstrip())
+
+        elif "Set" in line and "lb" in line:
+            write_file.writelines(build_weight_sets(line, ex_name))
+            print(build_weight_sets(line, ex_name).rstrip())
+
+        elif "Set" in line:     #
+            write_file.writelines(build_plank_sets(line, ex_name))
+            print(build_plank_sets(line, ex_name).rstrip())
+
+        else:
+            write_file.writelines("Error Here\n")
+            print("Error Here\n")
 
     read_file.close()
     write_file.close()
 
+
+print("Running\n\n")
 
 read_file_path = args.in_f
 write_file_path = args.out_p
 file_title = ""
 
 file_title = get_file_title(read_file_path)
-print(get_ex_name("Reverse Plank", 1))
+convert_data(read_file_path, write_file_path, file_title)
 
-
-"""
-# <F> DETERMINES CARDIO, STRENGTH, BODYWEIGHT, STRETCHING   (name, ex_num)    #   After Ex name
-
-# <F> CARDIO          id by "mi"
-# EX_#: NAME
-# EX_#_SET_#_DIST:    ### mi                                <- REPEAT
-# EX_#_SET_#_TIME:    ### min                               <- REPEAT
-
-
-# <F> STRENGTH        id by "lb"
-# EX_#: NAME
-# EX_#_SET_#_WEIGHT:  ### lb                                <- REPEAT
-# EX_#_SET_#_REPS:    ###                                   <- REPEAT
-
-
-# <F> BODYWEIGHT      id by "reps"
-# EX_#: NAME
-# EX_#_SET_#_REPS:    ### reps                              <- REPEAT
-
-"""
+print("\n\nCompleted")
