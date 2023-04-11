@@ -33,7 +33,7 @@ def build_file_title(line):
     line_parts = line.replace(",", "").split(" ")
     day = line_parts[0]
     month_num_str = get_month_number(line_parts[1])
-    day_num_str = line_parts[2]
+    day_num_str = line_parts[2].zfill(2)
     year_num_str = line_parts[3]
     at = line_parts[4]
     time = line_parts[5]
@@ -59,7 +59,7 @@ def get_ex_name(line, ex_num):
 
 def build_plank_sets(line, ex_name):
     line_parts = line.split(":")
-    set = ex_name + "_" + line_parts[0].replace(" ", "_") + ": "
+    set = ex_name + "_" + line_parts[0].replace(" ", "_") + ":: "
     min = line_parts[1].rstrip()
     sec = line_parts[2].rstrip()
     return set + min + " min " + sec + " sec\n"
@@ -67,7 +67,7 @@ def build_plank_sets(line, ex_name):
 
 def build_rep_only_sets(line, ex_name):
     line_parts = line.split(":")
-    set = ex_name + "_" + line_parts[0].replace(" ", "_") + ": "
+    set = ex_name + "_" + line_parts[0].replace(" ", "_") + ":: "
     reps = line_parts[1]
     return set + reps
 
@@ -78,8 +78,8 @@ def build_weight_sets(line, ex_name):
     part_02 = line_parts[1].split(" × ")
 
     sets = ex_name + "_" + part_01
-    weights = sets + "_weight:" + part_02[0]
-    reps = sets + "_reps: " + part_02[1]
+    weights = sets + "_weight:: " + part_02[0]
+    reps = sets + "_reps:: " + part_02[1]
     return weights + "\n" + reps
 
 
@@ -89,20 +89,33 @@ def build_cardio_sets(line, ex_name):
     part_02 = line_parts[1].split(" | ")
 
     sets = ex_name + "_" + part_01
-    distance = sets + "_distance:" + part_02[0]
-    reps = sets + "_time:" + part_02[1]
-    return distance + "\n" + reps
+    distance = sets + "_distance:: " + part_02[0]
+    reps = sets + "_time:: " + part_02[1]
+    return distance + "\n" + reps + "\n"
 
 
 def convert_data(read_file_path, write_file_path, file_title):
     read_file = open(read_file_path, "r")
     write_file = open(write_file_path + "/" + file_title, "w")
 
+    parts = file_title.split("__")
+    date = parts[0].replace("_", " ")
+    day = parts[1].replace("_", " ")
+    pre_time = parts[2].replace("_", " ")
+    time = pre_time[3: (len(pre_time) - 3)]
+
     header_count = 1
     ex_num = 1
     ex_name = ""
 
-    write_file.writelines("---")
+    write_file.writelines("---\n")
+    write_file.writelines("workout_date: " + date + "\n")
+    write_file.writelines("workout_day: " + day + "\n")
+    write_file.writelines("workout_time: " + time + "\n")
+    write_file.writelines("workout_quality: \n")
+    write_file.writelines("---\n")
+
+    write_file.writelines("# Workout Log: " + date + "\n")
 
     for line in read_file:
         if header_count < 3:
@@ -135,8 +148,6 @@ def convert_data(read_file_path, write_file_path, file_title):
 
         else:
             write_file.writelines("Error Here\n")
-
-    write_file.writelines("---")
 
     read_file.close()
     write_file.close()
