@@ -27,16 +27,6 @@ def build_col(row, start_num, col_num):
     read_file = open("table_text.txt", "r")
     write_file = open("output_table.txt", "a")
 
-    line_num = start_num
-
-    for line in read_file:
-        if line_count == 1:
-            write_file.writelines("| " + line.rstrip() + " |\n")
-            write_file.writelines("| " + dash_counter(line) + " |\n")
-            line_count += 1
-        elif line_count == row * col_num:
-            write_file.writelines("| " + line.rstrip() + " |\n")
-
     read_file.close()
     write_file.close()
 
