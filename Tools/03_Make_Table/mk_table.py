@@ -23,15 +23,53 @@ def dash_counter(line):
     return output
 
 
-def build_col(row, start_num, col_num):
-    read_file = open("table_text.txt", "r")
-    write_file = open("output_table.txt", "a")
+def fill_lines():
+    read_file = open("input_text.txt", "r")
+    out_lines_list = []
+
+    for line in read_file:
+        if line == "\n":
+            continue
+        else:
+            out_lines_list.append(line.rstrip())
 
     read_file.close()
-    write_file.close()
+    return out_lines_list
+
+
+def build_table(lines, rows, cols):
+    # write_file = open("output_table.txt", "w")
+    s_num = 1
+    c_num = 1
+    r_num = 1
+    i_num = 0
+
+    if r_num == 1 and c_num == 1:
+        print("| " + lines[i_num] + " | ")
+        i_num += rows
+        c_num += 1
+
+    elif r_num == 1 and c_num > 1 and c_num < cols:
+        print(lines[i_num] + " |")
+        i_num += rows
+        c_num += 1
+
+    elif r_num == 1 and c_num == cols:
+        print(lines[i_num] + " |\n")
+        i_num += rows
+        c_num += 1
+        r_num += 1
+
+    # write_file.close()
 
 
 if flag:
     print("Program is running...")
+
+    rows = int(args.row)
+    cols = int(args.col)
+
+    lines = fill_lines()
+    build_table(lines, rows, cols)
 
     print("Program complete.")
