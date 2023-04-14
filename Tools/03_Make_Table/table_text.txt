@@ -1,1 +1,19 @@
-<Start>
+d4
+
+1
+
+2
+
+3
+
+4
+
+Senses
+
+Hearing and normal vision out to 30 feet. 
+
+Hearing and normal vision out to 60 feet. 
+
+Hearing and normal vision out to 120 feet. 
+
+Hearing and [[darkvision]] out to 120 feet.
