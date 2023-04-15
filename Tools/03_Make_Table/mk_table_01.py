@@ -4,15 +4,12 @@ parser = argparse.ArgumentParser(
     description='Create markdown table from text and prompts.')
 
 parser.add_argument(
-    "--col", help="How many columns in the table.", default="No Arguments provided.")
-
-parser.add_argument(
-    "--row", help="How many rows in the table.", default="No Arguments provided.")
+    "--c", help="How many columns in the table.", default="No Arguments provided.")
 
 args = parser.parse_args()
 flag = True
 
-if args.col == "No column Arguments provided." or args.row == "No Row Arguments provided.":
+if args.c == "No column Arguments provided.":
     flag = False
 
 
@@ -37,8 +34,9 @@ def fill_lines():
     return out_lines_list
 
 
-def build_table(lines, rows, cols):
+def build_table(lines, cols):
     write_file = open("output_table.txt", "w")
+    rows = len(lines) / cols
     s_num = 0
     c_num = 1
     r_num = 1
@@ -108,10 +106,12 @@ def build_table(lines, rows, cols):
 if flag:
     print("Program is running...")
 
-    rows = int(args.row)
-    cols = int(args.col)
+    cols = int(args.c)
 
     lines = fill_lines()
-    build_table(lines, rows, cols)
+    build_table(lines, cols)
+
+    for line in lines:
+        print(line)
 
     print("Program complete.")

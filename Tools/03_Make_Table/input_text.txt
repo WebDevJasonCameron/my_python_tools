@@ -1,30 +1,23 @@
-C1 r1
+STR
 
-c1 r2
+3 (-4)
 
-c1 r3
+DEX
 
-c1 r4
+16 (+3)
 
-c1 r5
+CON
 
-c2 r1
+8 (-1)
 
-c2 r2
+INT
 
-c2 r3
+2 (-4)
 
-c2 r4 
+WIS
 
-c2 r5
+12 (+1)
 
-c3 r1
+CHA
 
-c3 r2
-
-c3 r3
-
-c3 r4
-
-c3 5
-
+3 (-4)
