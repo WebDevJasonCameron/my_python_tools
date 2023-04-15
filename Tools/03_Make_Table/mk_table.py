@@ -38,29 +38,74 @@ def fill_lines():
 
 
 def build_table(lines, rows, cols):
-    # write_file = open("output_table.txt", "w")
+    write_file = open("output_table.txt", "w")
     s_num = 1
     c_num = 1
     r_num = 1
     i_num = 0
+    n = 1
 
-    if r_num == 1 and c_num == 1:
-        print("| " + lines[i_num] + " | ")
-        i_num += rows
-        c_num += 1
+    while n <= len(lines):
 
-    elif r_num == 1 and c_num > 1 and c_num < cols:
-        print(lines[i_num] + " |")
-        i_num += rows
-        c_num += 1
+        if r_num == 1 and c_num == 1:
+            c_num = 1
+            write_file.writelines("| " + lines[i_num] + " | ")
+            i_num += rows
+            c_num += 1
 
-    elif r_num == 1 and c_num == cols:
-        print(lines[i_num] + " |\n")
-        i_num += rows
-        c_num += 1
-        r_num += 1
+        elif r_num == 1 and c_num > 1 and c_num < cols:
+            write_file.writelines(lines[i_num] + " | ")
+            i_num += rows
+            c_num += 1
 
-    # write_file.close()
+        elif r_num == 1 and c_num == cols:
+            write_file.writelines(lines[i_num] + " |\n")
+            c_num = 1
+            r_num += 1
+            s_num += 1
+            i_num = s_num
+
+        elif r_num == 2 and c_num == 1:
+            write_file.writelines("| --- | ")
+            i_num += rows
+            c_num += 1
+
+        elif r_num == 2 and c_num > 1 and c_num < cols:
+            write_file.writelines("--- | ")
+            i_num += rows
+            c_num += 1
+
+        elif r_num == 2 and c_num == cols:
+            write_file.writelines("--- |\n")
+            c_num = 1
+            r_num += 1
+            s_num += 1
+            i_num = s_num
+
+        elif r_num > 2 and c_num == 1:
+            write_file.writelines("| " + lines[i_num] + " | ")
+            i_num += rows
+            c_num += 1
+
+        elif r_num > 2 and c_num > 1 and c_num < cols:
+            write_file.writelines(lines[i_num] + " | ")
+            i_num += rows
+            c_num += 1
+
+        elif r_num > 2 and c_num > 1 and c_num == cols:
+            write_file.writelines(lines[i_num] + " |\n")
+
+        elif r_num > 2 and c_num == cols:
+            c_num = 1
+            r_num += 1
+            s_num += 1
+            i_num = s_num
+
+        # else:
+        #     write_file.writelines("\nFound an Error\n")
+
+        n += 1
+    write_file.close()
 
 
 if flag:
