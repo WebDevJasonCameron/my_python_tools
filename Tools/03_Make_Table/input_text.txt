@@ -1,19 +1,30 @@
-d4
+C1 r1
 
-1
+c1 r2
 
-2
+c1 r3
 
-3
+c1 r4
 
-4
+c1 r5
 
-Senses
+c2 r1
 
-Hearing and normal vision out to 30 feet. 
+c2 r2
 
-Hearing and normal vision out to 60 feet. 
+c2 r3
 
-Hearing and normal vision out to 120 feet. 
+c2 r4 
 
-Hearing and [[darkvision]] out to 120 feet.
+c2 r5
+
+c3 r1
+
+c3 r2
+
+c3 r3
+
+c3 r4
+
+c3 5
+
