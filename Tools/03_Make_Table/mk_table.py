@@ -63,7 +63,6 @@ def build_table(lines, rows, cols):
             r_num += 1
             s_num += 1
             i_num = s_num
-            print("i num was: " + str(i_num))
 
 # 1ST ROW
 
@@ -94,15 +93,13 @@ def build_table(lines, rows, cols):
 
         elif r_num > 2 and c_num > 1 and c_num == cols:
             write_file.writelines(lines[i_num] + " |\n")
-
-        elif r_num > 2 and c_num == cols:
             c_num = 1
             r_num += 1
             s_num += 1
             i_num = s_num
 
-        # else:
-        #     write_file.writelines("\nFound an Error\n")
+        else:
+            write_file.writelines("\nFound an Error\n")
 
         n += 1
     write_file.close()
