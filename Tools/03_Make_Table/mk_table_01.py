@@ -36,7 +36,7 @@ def fill_lines():
 
 def build_table(lines, cols):
     write_file = open("output_table.txt", "w")
-    rows = len(lines) / cols
+    rows = int(len(lines) / cols)
     s_num = 0
     c_num = 1
     r_num = 1
@@ -67,15 +67,18 @@ def build_table(lines, cols):
         elif r_num == 2 and c_num == 1:
             write_file.writelines("| --- | ")
             c_num += 1
+            n -= 1
 
         elif r_num == 2 and c_num > 1 and c_num < cols:
             write_file.writelines("--- | ")
             c_num += 1
+            n -= 1
 
         elif r_num == 2 and c_num == cols:
             write_file.writelines("--- |\n")
             c_num = 1
             r_num += 1
+            n -= 1
 
 # 2ND ROW
 

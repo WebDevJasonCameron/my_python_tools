@@ -1,23 +1,39 @@
-STR
+d100
 
-3 (-4)
+01–20
 
-DEX
+21–55
 
-16 (+3)
+56–80
 
-CON
+81–100
 
-8 (-1)
+Size
 
-INT
+3 ft. × 5 ft. 
 
-2 (-4)
+4 ft. × 6 ft. 
 
-WIS
+5 ft. × 7 ft. 
 
-12 (+1)
+6 ft. × 9 ft.
 
-CHA
+Capacity
 
-3 (-4)
+200 lb.
+
+400 lb.
+
+600 lb.
+
+800 lb.
+
+Flying Speed
+
+80 feet
+
+60 feet
+
+40 feet
+
+30 feet
