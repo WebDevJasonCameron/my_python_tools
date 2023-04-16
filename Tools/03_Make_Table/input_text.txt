@@ -1,39 +1,39 @@
 d100
 
-01–20
+01–40
 
-21–55
+41–75
 
-56–80
+76–90
 
-81–100
+91–00
 
-Size
+Horn Type
 
-3 ft. × 5 ft. 
+Silver
 
-4 ft. × 6 ft. 
+Brass
 
-5 ft. × 7 ft. 
+Bronze
 
-6 ft. × 9 ft.
+Iron
 
-Capacity
+Berserkers Summoned
 
-200 lb.
+2d4 + 2
 
-400 lb.
+3d4 + 3
 
-600 lb.
+4d4 + 4
 
-800 lb.
+5d4 + 5
 
-Flying Speed
+Requirement
 
-80 feet
+None
 
-60 feet
+Proficiency with all simple weapons
 
-40 feet
+Proficiency with all medium armor 
 
-30 feet
+Proficiency with all martial weapons 
