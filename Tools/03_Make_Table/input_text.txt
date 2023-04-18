@@ -1,39 +1,129 @@
-d100
+Name
 
-01–40
+Type
 
-41–75
+AC
 
-76–90
+Strength
 
-91–00
+Stealth
 
-Horn Type
+Padded
 
-Silver
+Light
 
-Brass
+11 + Dex modifier
 
-Bronze
+--
 
-Iron
+Disadvantage
 
-Berserkers Summoned
+Leather
 
-2d4 + 2
+Light
 
-3d4 + 3
+11 + Dex modifier
 
-4d4 + 4
+--
 
-5d4 + 5
+--
 
-Requirement
+Studded Leather
 
-None
+Light
 
-Proficiency with all simple weapons
+12 + Dex modifier
 
-Proficiency with all medium armor 
+--
 
-Proficiency with all martial weapons 
+--
+
+Hide
+
+Medium
+
+12 + Dex modifier (max 2)
+
+--
+
+--
+
+Chain Shirt
+
+Medium
+
+13 + Dex modifier (max 2)
+
+--
+
+--
+
+Scale Mail
+
+Medium
+
+14 + Dex modifier (max 2)
+
+--
+
+Disadvantage
+
+Breastplate
+
+Medium
+
+14 + Dex modifier (max 2)
+
+--
+
+--
+
+Half Plate
+
+Medium
+
+15 + Dex modifier (max 2)
+
+--
+
+Disadvantage
+
+Ring Mail
+
+Heavy
+
+14
+
+--
+
+Disadvantage
+
+Chain Mail
+
+Heavy
+
+16
+
+Strength 13
+
+Disadvantage
+
+Splint
+
+Heavy
+
+17
+
+Strength 15
+
+Disadvantage
+
+Plate
+
+Heavy
+
+18
+
+Strength 15
+
+Disadvantage
