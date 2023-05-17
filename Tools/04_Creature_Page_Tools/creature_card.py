@@ -51,7 +51,8 @@ def card_proccess(stat_block):
 
         if stat_block_num == 0 or stat_block_num >= 12:
             if line_num == 1:
-                write_file.writelines("[[" + line.upper().rstrip() + "]]\n\n")
+                write_file.writelines(
+                    "## [[" + line.upper().rstrip() + "]]\n\n")
                 line_num += 1
             elif line.startswith("STR"):
                 write_file.writelines(stat_block + "\n")
@@ -63,7 +64,8 @@ def card_proccess(stat_block):
                 write_file.writelines(line.replace(
                     "Hit Points", "**Hit Points**"))
             elif line.startswith("Speed"):
-                write_file.writelines(line.replace("Speed", "**Speed**"))
+                write_file.writelines(line.replace(
+                    "Speed", "**Speed**").rstrip())
             elif line.startswith("Skills"):
                 write_file.writelines(line.replace("Skills", "\n**Skills**"))
             elif line.startswith("Saving Throws"):
@@ -87,13 +89,13 @@ def card_proccess(stat_block):
                 write_file.writelines(line.replace(
                     "Multiattack", "***Multiattack**"))
             elif line.startswith("Actions"):
-                write_file.writelines("## " + line + "\n---\n")
+                write_file.writelines("##### " + line)
             elif line.startswith("Bonus Action"):
-                write_file.writelines("## " + line + "\n---\n")
+                write_file.writelines("##### " + line)
             elif line.startswith("Reaction"):
-                write_file.writelines("## " + line + "\n---\n")
+                write_file.writelines("##### " + line)
             elif line.startswith("Legendary Actions"):
-                write_file.writelines("## " + line + "\n---\n")
+                write_file.writelines("##### " + line)
             elif "." in line and not "(Recharge" in line:
                 output = other_titles_by_period(line)
                 write_file.writelines(output)
