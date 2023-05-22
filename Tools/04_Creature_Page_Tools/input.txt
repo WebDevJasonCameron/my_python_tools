@@ -1,79 +1,40 @@
-[Bone Devil](https://www.dndbeyond.com/monsters/16813-bone-devil)
+ZOMBIE
+Medium undead, neutral evil
 
-Large Fiend (Devil), Lawful Evil
+Armor Class 8
 
-![](https://www.dndbeyond.com/file-attachments/0/579/stat-block-header-bar.svg)
+Hit Points 22 (3d8 + 9)
 
-Armor Class 19 (natural armor)
-
-Hit Points 142 (15d10 + 60)
-
-Speed 40 ft., fly 40 ft.
-
-![](https://www.dndbeyond.com/file-attachments/0/579/stat-block-header-bar.svg)
+Speed 20 ft.
 
 STR
-
-18 (+4)
-
+13(+1)
 DEX
-
-16 (+3)
-
+6(−2)
 CON
-
-18 (+4)
-
+16(+3)
 INT
-
-13 (+1)
-
+3(−4)
 WIS
-
-14 (+2)
-
+6(−2)
 CHA
+5(−3)
+Saving Throws Wis +0
 
-16 (+3)
+Damage Immunities poison
 
-![](https://www.dndbeyond.com/file-attachments/0/579/stat-block-header-bar.svg)
+Condition Immunities poisoned
 
-Saving Throws INT +5, WIS +6, CHA +7
+Senses darkvision 60 ft., passive Perception 8
 
-Skills [Deception](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Deception) +7, [Insight](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Insight) +6
+Languages understands the languages it knew in life but can’t speak
 
-Damage Resistances Cold; Bludgeoning, Piercing, and Slashing from Nonmagical Attacks that aren't Silvered
+Challenge 1/4 (50 XP)
 
-Damage Immunities Fire, Poison
-
-Condition Immunities [Poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned)
-
-Senses [Darkvision](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Darkvision) 120 ft., Passive Perception 12
-
-Languages Infernal, Telepathy 120 ft.
-
-Challenge 9 (5,000 XP)
-
-Proficiency Bonus +4
-
-![](https://www.dndbeyond.com/file-attachments/0/579/stat-block-header-bar.svg)
-
-_**Devil's Sight.**_ Magical darkness doesn't impede the devil's [darkvision](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Darkvision).
-
-_**Magic Resistance.**_ The devil has advantage on saving throws against spells and other magical effects.
+Undead Fortitude. If damage reduces the zombie to 0 hit points, it must make a Constitution saving throw with a DC of 5 + the damage taken, unless the damage is radiant or from a critical hit. On a success, the zombie drops to 1 hit point instead.
 
 Actions
 
-_**Multiattack.**_ The devil makes three attacks: two with its claws and one with its sting.
+Slam. Melee Weapon Attack: +3 to hit, reach 5 ft., one target. Hit: 4 (1d6 + 1) bludgeoning damage.
 
-_**Claw.** Melee Weapon Attack:_ +8 to hit, reach 10 ft., one target. _Hit:_ 8 (1d8 + 4) slashing damage.
-
-_**Sting.** Melee Weapon Attack:_ +8 to hit, reach 10 ft., one target. _Hit:_ 13 (2d8 + 4) piercing damage plus 17 (5d6) poison damage, and the target must succeed on a DC 14 Constitution saving throw or become [poisoned](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Poisoned) for 1 minute. The target can repeat the saving throw at the end of each of its turns, ending the effect on itself on a success.
-
-Driven by hate, lust, and envy, bone devils act as the cruel taskmasters of the Nine Hells. They set weaker devils to work, taking special delight in seeing fiends that defy them demoted. At the same time, they long for promotion and are bitterly envious of their superiors, attempting to curry favor though it irks them to do so.
-
-A bone devil appears as a humanoid husk, with dried skin stretched tight across its skeletal frame. It bears a fearsome skull-like head and the tail of a scorpion, and a foul odor of decay hangs in the air around it. Though they are devastating in combat with their claws, bone devils also wield hooked polearms made of bone, which they use to subdue enemies before striking with their venomous tails.
-
-Monster Tags: DEVIL
-
-![Bone Devil | 500](https://www.dndbeyond.com/avatars/thumbnails/30781/997/1000/1000/638061947836745919.png)
+Undead zombies move with a jerky, uneven gait. They are clad in the moldering apparel they wore when put to rest, and carry the stench of decay.
