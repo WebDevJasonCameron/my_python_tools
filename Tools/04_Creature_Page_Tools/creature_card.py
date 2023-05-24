@@ -17,7 +17,7 @@ def other_titles_by_recharge(line):
 
 
 def create_stat_block():
-    read_file = open("input.txt", "r")
+    read_file = open("../input.txt", "r")
     stat_parts = []
     line_num = 0
 
@@ -42,8 +42,8 @@ def create_stat_block():
 
 
 def card_proccess(stat_block):
-    read_file = open("input.txt", "r")
-    write_file = open("output.txt", "w")
+    read_file = open("../input.txt", "r")
+    write_file = open("../output.txt", "w")
     line_num = 1
     stat_block_num = 0
 

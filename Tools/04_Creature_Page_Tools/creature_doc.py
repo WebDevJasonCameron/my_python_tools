@@ -8,7 +8,7 @@ def other_titles_by_period(line):
 
 
 def create_stat_block():
-    read_file = open("input.txt", "r")
+    read_file = open("../input.txt", "r")
     stat_parts = []
     line_num = 0
 
@@ -33,7 +33,7 @@ def create_stat_block():
 
 
 def get_meta():
-    read_file = open("input.txt", "r")
+    read_file = open("../input.txt", "r")
     meta_data = {"size": "", "alignment": "", "challenge_num": "",
                  "xp_num": "", "monster_tag": "", "enviornment": ""}
 
@@ -82,8 +82,8 @@ def build_meta_block(size, alignment, challenge_num, xp_num, monster_tag, envior
 
 
 def doc_processing(stat_block, meta_block):
-    read_file = open("input.txt", "r")
-    write_file = open("output.txt", "w")
+    read_file = open("../input.txt", "r")
+    write_file = open("../output.txt", "w")
     line_num = 1
     stat_block_num = 0
 

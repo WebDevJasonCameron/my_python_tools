@@ -1,0 +1,31 @@
+LEVEL
+
+Cantrip
+
+CASTING TIME
+
+1 Action
+
+RANGE/AREA
+
+Self
+
+COMPONENTS
+
+V, S
+
+DURATION
+
+1 Round
+
+SCHOOL
+
+Abjuration
+
+ATTACK/SAVE
+
+None
+
+DAMAGE/EFFECT
+
+Combat (...)

@@ -21,7 +21,7 @@ def dash_counter(line):
 
 
 def fill_lines():
-    read_file = open("input_text.txt", "r")
+    read_file = open("../input.txt", "r")
     out_lines_list = []
 
     for line in read_file:
@@ -35,7 +35,7 @@ def fill_lines():
 
 
 def build_table(lines, cols):
-    write_file = open("output_table.txt", "w")
+    write_file = open("../output.txt", "w")
     rows = int(len(lines) / cols)
     c_num = 1
     r_num = 1
