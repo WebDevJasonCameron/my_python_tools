@@ -1,3 +1,23 @@
-| LEVEL | Cantrip | CASTING TIME | 1 Action | RANGE/AREA | Self | COMPONENTS | V, S |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| DURATION | 1 Round | SCHOOL | Abjuration | ATTACK/SAVE | None | DAMAGE/EFFECT | Combat (...) |
+---
+ttrpg: DND5E
+source: Player's Handbook
+asset_type:
+ - spells
+ - evocation
+spell_tags: DAMAGE, CONTROL
+available_for: 
+---
+# Destructive Wave
+
+---
+| LEVEL | CASTING TIME | RANGE/AREA | COMPONENTS | DURATION | SCHOOL | ATTACK/SAVE | DAMAGE/EFFECT | 
+| --- | --- | --- | --- | --- | --- | --- | --- | 
+| 5th | 1 Action | Self (30 ft ) | V | Instantaneous | Evocation | CON Save | Thunder (...) | 
+
+---
+
+You strike the ground, creating a burst of divine energy that ripples outward from you. Each creature you choose within 30 feet of you must succeed on a Constitution saving throw or take 5d6 thunder damage, as well as 5d6 radiant or necrotic damage (your choice), and be knocked prone. A creature that succeeds on its saving throw takes half as much damage and isn’t knocked prone.
+
+
+
+Destructive Wave

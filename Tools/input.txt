@@ -1,27 +1,25 @@
-Darkness Concentration
+ Destructive Wave 
 LEVEL
-2nd
+5th
 CASTING TIME
 1 Action
 RANGE/AREA
-60 ft (15 ft )
+Self (30 ft )
 COMPONENTS
-V, M *
+V
 DURATION
-Concentration 10 Minutes
+Instantaneous
 SCHOOL
 Evocation
 ATTACK/SAVE
-None
+CON Save
 DAMAGE/EFFECT
-Control
-Magical darkness spreads from a point you choose within range to fill a 15-foot-radius sphere for the duration. The darkness spreads around corners. A creature with darkvision can't see through this darkness, and nonmagical light can't illuminate it.
+ Thunder (...)
+You strike the ground, creating a burst of divine energy that ripples outward from you. Each creature you choose within 30 feet of you must succeed on a Constitution saving throw or take 5d6 thunder damage, as well as 5d6 radiant or necrotic damage (your choice), and be knocked prone. A creature that succeeds on its saving throw takes half as much damage and isn’t knocked prone.
 
-If the point you choose is on an object you are holding or one that isn't being worn or carried, the darkness emanates from the object and moves with it. Completely covering the source of the darkness with an opaque object, such as a bowl or a helm, blocks the darkness.
+Spell Tags: DAMAGE CONTROL
 
-If any of this spell's area overlaps with an area of light created by a spell of 2nd level or lower, the spell that created the light is dispelled.
+Available For: PALADIN TEMPEST DOMAIN
 
-* - (bat fur and a drop of pitch or piece of coal)
-Spell Tags: CONTROL
-
-Available For: SORCERER WARLOCK WIZARD CIRCLE OF THE LAND (SWAMP) OATHBREAKER
+Player's Handbook, pg. 231
+Destructive Wave
