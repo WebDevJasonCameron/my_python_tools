@@ -108,7 +108,7 @@ def proccess_doc(lines, meta_data, meta_block, stat_block):
             elif "At Higher Levels." in line:
                 write_file.writelines(line.replace(
                     "At Higher Levels.", "_At Higher Levels._") + "\n")
-            elif "Spell Tags:" in line or "Available For:" in line or "Player's Handbook" in line:
+            elif "Spell Tags:" in line or "Available For:" in line or "Player's Handbook" in line or "Basic Rules" in line:
                 continue
             else:
                 write_file.writelines(line + "\n")
