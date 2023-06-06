@@ -33,14 +33,17 @@ def get_meta_data(read_file):
             if first_hash:
                 meta_data["file_name"] = line.removeprefix(
                     "# ").replace(" ", "_").rstrip() + ".md"
-                meta_data["skill_name"] = line
+                meta_data["skill_name"] = line.removeprefix(
+                    "# ").rstrip()
                 first_hash = False
         elif line.startswith("Abillity: "):
-            meta_data["ability_score"] = line.replace("Abillity: ", "")
+            meta_data["ability_score"] = line.replace(
+                "Abillity: ", "").rstrip()
         elif line.startswith("Skill Catagory: "):
-            meta_data["skill_cat"] = line.replace("Skill Catagory: ", "")
+            meta_data["skill_cat"] = line.replace(
+                "Skill Catagory: ", "").rstrip()
         elif line.startswith("Skill Type: "):
-            meta_data["skill_type"] = line.replace("Skill Type: ", "")
+            meta_data["skill_type"] = line.replace("Skill Type: ", "").rstrip()
         else:
             continue
 
@@ -49,8 +52,13 @@ def get_meta_data(read_file):
 
 
 def buil_body_block():
-    return "# Situation \n" + \
-        ""
+    output = " |    | Situation | Task | Action | Result | \n" + \
+        " | --- | --- | --- | --- | --- | \n" + \
+        " | Explination | Think of a specific time or circumstance when you used this skill; define the general context of that situation. |  Name the key objective you were responsible for in that situation or the challenges/ obstacles you had to overcome. | Describe what you did to complete the assigned task; emphasize the skills you used, and the resources involved. | Summarize the outcome and how you specifically contributed to that outcome; describe the improvements and/or benefits that were observed. | \n" + \
+        " | Example | My department received new portable generators that had to be installed, operated, and maintained after my company lost power. | I was tasked with ensuring my team members were able to install, operate, and follow new maintenance procedures for the new portable generators. | I designed and conducted training for a team of 16 people to properly install, operate, and maintain the new generators. | The team members received a 95% pass rate on their first proficiency test and a 100% satisfaction rate from corporate managers. | \n" + \
+        " |     |     |     |     |     | \n\n"
+
+    return output
 
 
 def write_final_file(read_file_path, write_file_path, meta_data):
@@ -63,10 +71,12 @@ def write_final_file(read_file_path, write_file_path, meta_data):
                           "skill_name: " + meta_data["skill_name"] + "\n" +
                           "ability_score: " + meta_data["ability_score"] + "\n" +
                           "skill_cat: " + meta_data["skill_cat"] + "\n" +
-                          "skill_type" + meta_data["skill_type"] + "\n" +
+                          "skill_type: " + meta_data["skill_type"] + "\n" +
                           "---\n")
 
-    write_file.writelines("# " + meta_data["file_name"])
+    write_file.writelines("# " + meta_data["skill_name"] + "\n\n")
+
+    write_file.writelines(buil_body_block())
 
     # WRITE BODY
 
@@ -74,20 +84,18 @@ def write_final_file(read_file_path, write_file_path, meta_data):
     write_file.close()
 
 
-def remod_all_in_file_list(file_list, out_dir):
+def remod_all_in_file_list(read_file_list, out_dir):
     write_file_path = out_dir
 
-    for file in file_list:
-        read_file_path = file
-
-        file_title = build_file_name(read_file_path)
-        write_final_file(read_file_path, write_file_path, file_title)
+    for read_file in read_file_list:
+        meta_data = get_meta_data(read_file)
+        write_final_file(read_file, write_file_path, meta_data)
 
 
 if flag:
     print("Program is running...")
 
-    file_list = get_file_list(args.in_dir)
-    remod_all_in_file_list(file_list, args.out_dir)
+    read_file_list = get_file_list(args.in_dir)
+    remod_all_in_file_list(read_file_list, args.out_dir)
 
 print("\nCompleted")
