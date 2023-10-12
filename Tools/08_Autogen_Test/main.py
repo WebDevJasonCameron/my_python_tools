@@ -1,6 +1,7 @@
+from keys.keys import provide_key1
 from autogen import AssistantAgent, UserProxyAgent, config_list_from_json
 
-
+key = provide_key1()
 
 config_list = config_list_from_json(env_or_file="OAI_CONFIG_LIST")
 assistant = AssistantAgent("assistant", llm_config={"config_list": config_list})
