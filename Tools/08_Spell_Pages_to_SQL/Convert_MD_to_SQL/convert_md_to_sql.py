@@ -14,7 +14,7 @@ spell = { "name" : "",
           "save_type" : "",
           "description" : "",
           "image_url" : "",
-          "source_id" : 5}
+          "source_id" : "5"}
 
 lines = []
 spell_tags = []
@@ -23,7 +23,8 @@ spell_damagetypes = []
 spell_classes = []
 attributes = []
 
-file_input = open("/Users/jasoncameron/Desktop/py_spells/Spells/acid arrow.md", "r")
+file_input = open("/Users/jasoncameron/Desktop/py_spells/Spells/acid arrow.md", "r")        # <R>  Replace
+spell_id_number = "1"                                                                         # <R>  Replace
 
 
 # FUN
@@ -36,7 +37,6 @@ def Capture_Lines(input):
             lines.append(line.strip().replace("\xa0", ""));
 
 # <F> Capture_Conditions
-
 # <F> Capture_Damagetypes
 
 # <F> Capture_Tags
@@ -73,7 +73,7 @@ def Capture_Attributes(lines):
         else:
             continue
 
-#<F> Fill_In_Dictionary
+# <F> Fill_In_Dictionary
 def Fill_In_Spell(attributes, lines):
     count_three_dashes = 1
     string_description = ""
@@ -85,9 +85,9 @@ def Fill_In_Spell(attributes, lines):
             spell["component_materials"] = line.replace("* - (", "").rstrip(")")
         elif line.startswith("!["):
             continue
-        elif "---" in line and count_three_dashes <= 3:
+        elif "---" in line and "|" not in line and count_three_dashes <= 3:
             count_three_dashes += 1
-        elif count_three_dashes == 4:
+        elif count_three_dashes >= 4 and "|" not in line and "---" not in line:
             string_description += line.replace("**","").replace("_","") + "\n"
 
     spell["level"] = attributes[0]
@@ -97,9 +97,95 @@ def Fill_In_Spell(attributes, lines):
     spell["component_semantic"] = "s" in attributes[3]
     spell["component_material"] = "m" in attributes[3]
     spell["duration"] = attributes[4].replace("_concentration_", "")
+    spell["concentration"] = "_concentration_" in attributes[4]
+    spell["ritual"] = "_ritual_" in attributes[1]
     spell["school"] = attributes[5]
+    spell["save_type"] = attributes[6]
 
     spell["description"] = string_description.rstrip("\n")
+
+# <F> Spell_Output
+def Spell_Output(spell):
+    return ("('" + spell["name"] + "', '" +
+            spell["level"] + "', '" +
+            spell["casting_time"] + "', '" +
+            spell["range_area"] + "', '" +
+            str(spell["component_visual"]) + "', '" +
+            str(spell["component_semantic"]) + "', '" +
+            str(spell["component_material"]) + "', '" +
+            spell["component_materials"] + "', '" +
+            spell["duration"] + "', '" +
+            str(spell["concentration"]) + "', '" +
+            str(spell["ritual"]) + "', '" +
+            spell["school"] + "', '" +
+            spell["save_type"] + "', '" +
+            spell["description"] + "', '" +
+            spell["image_url"] + "', '" +
+            spell["source_id"] + "')")
+
+# <F> Conditions_Output
+# <F> Damagetypes_Output
+# <F> Tags_Output
+# <F> Classes_Output
+
+# <F> Match_Conditions
+# <F> Match_Damagetypes
+
+# <F> Match_Tags
+def Match_Tags(spell_tags, spell_id_number):
+    output = ""
+
+    for tag in spell_tags:
+        output += Get_Tag_Id_Num(spell_tags, spell_id_number)
+
+    return output
+
+
+# <f> Get_Tag_Id_Num
+def Get_Tag_Id_Num(word, spell_id_number):
+
+    tag_list = {
+        "banishment": 5,
+        "buff": 8,
+        "charmed": 9,
+        "combat": 10,
+        "communication": 11,
+        "compulsion": 12,
+        "control": 15,
+        "creation": 16,
+        "damage": 18,
+        "debuf": 19,
+        "deception": 20,
+        "detection": 21,
+        "dunamancy": 23,
+        "environment": 26,
+        "exploration": 28,
+        "foreknowledge": 33,
+        "foresight": 34,
+        "healing": 36,
+        "movement": 44,
+        "negation": 47,
+        "sangromancy": 52,
+        "scrying": 55,
+        "shapechanging": 57,
+        "social": 58,
+        "special": 59,
+        "summoning": 61,
+        "teleportation": 66,
+    }
+
+    if word in tag_list:
+        return "('"+ spell_id_number + "', '" + str(tag_list[word]) + "')"
+    else:
+        return "Nothing found, <!> needs to be fixed"  # Return None if the word is not in the list
+
+
+
+
+# <F> Match_Classes
+
+
+
 
 # RUN ====================================================
 Capture_Lines(file_input)
@@ -107,15 +193,6 @@ Capture_Tags(lines)
 Capture_Classes(lines)
 Capture_Attributes(lines)
 Fill_In_Spell(attributes, lines)
+spell_output = Spell_Output(spell)
 
-print("name: " + spell["name"])
-print("level: " + spell["level"])
-print("casting time: " + spell["casting_time"])
-print("range / area: " + spell["range_area"])
-print("requires visual component: " + str(spell["component_visual"]))
-print("requires semantic component: " + str(spell["component_semantic"]))
-print("requires material component: " + str(spell["component_material"]))
-print("material components: " + spell["component_materials"])
-print("duration: " + spell["duration"])
-print("school: " + spell["school"])
-print("description: " + spell["description"])
+
