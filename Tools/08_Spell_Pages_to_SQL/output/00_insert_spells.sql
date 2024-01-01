@@ -1,0 +1,20 @@
+INSERT INTO spells
+    (
+     name,
+     level,
+     casting_time,
+     range_area,
+     component_visual,
+     component_semantic,
+     component_material,
+     component_materials,
+     duration,
+     concentration,
+     ritual,
+     school,
+     save_type,
+     description,
+     image_url,
+     source_id
+    )
+VALUES
