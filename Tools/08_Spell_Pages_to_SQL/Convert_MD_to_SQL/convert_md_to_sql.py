@@ -1,3 +1,29 @@
+# OVERALL
+
+"""
+    APPLICATION SET UP
+    1. Establish spell_id var at 0
+    2. Establish target directory
+    3. Start For Each document in directory function
+
+    FOR EACH DOCUMENT
+    1. +1 to spell_id var
+    2. Establish Spells' Dictionary with 16 keys and all blank values
+    3. Establish spell_tags string array
+    4. Establish available_fore string array
+    5. Establish spell_attributes string array based on "| LEVEL |" + 1 line and seperated by "|"
+    6. Establish description based on after spell_attributes tabel and prior to "* - (" or "!["
+    7. Establish skills_materials string
+    8. Parse each value from captured data and place them into the key/value pair
+    9. Parse and Append spell_tags line to 01_insert_spell_tag sql
+    10. Parse and Append spell_conditionsline to 02_insert_spell_condition sql
+    11. Parse and Append spell_damagetypes line to 03_insert_spell_damagetypes sql
+    12. Parse and Append spell_classes line to 04_insert_spell_classes sql
+    13. Close
+
+"""
+
+
 
 # SPELL
 
@@ -113,6 +139,7 @@
 
 # 1. Use current spell_id number
 # 2. Compile all data found in available_fore and match it with rpg_classes table.  For each match, append to 04_ file a line
+# 3. If something is found but not a match, I want to push this item and the name of the spell and spell_id number to be put into a noted text file.  We can add these items to the rpg_classes and spell_classes tables later.
 """
     1	"rouge"
     2	"fighter"
