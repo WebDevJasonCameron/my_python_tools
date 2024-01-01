@@ -23,8 +23,7 @@ spell_damagetypes = []
 spell_classes = []
 attributes = []
 
-file_input = open("/Users/jasoncameron/Desktop/py_spells/Spells/acid arrow.md", "r");
-count_three_dashes = 0;
+file_input = open("/Users/jasoncameron/Desktop/py_spells/Spells/acid arrow.md", "r")
 
 
 # FUN
@@ -74,15 +73,49 @@ def Capture_Attributes(lines):
         else:
             continue
 
+#<F> Fill_In_Dictionary
+def Fill_In_Spell(attributes, lines):
+    count_three_dashes = 1
+    string_description = ""
 
+    for line in lines:
+        if line.startswith("#"):
+            spell["name"] = line.replace("# ", "")
+        elif line.startswith("* - ("):
+            spell["component_materials"] = line.replace("* - (", "").rstrip(")")
+        elif line.startswith("!["):
+            continue
+        elif "---" in line and count_three_dashes <= 3:
+            count_three_dashes += 1
+        elif count_three_dashes == 4:
+            string_description += line.replace("**","").replace("_","") + "\n"
 
+    spell["level"] = attributes[0]
+    spell["casting_time"] = attributes[1].replace("_ritual_", "")
+    spell["range_area"] = attributes[2]
+    spell["component_visual"] = "v" in attributes[3]
+    spell["component_semantic"] = "s" in attributes[3]
+    spell["component_material"] = "m" in attributes[3]
+    spell["duration"] = attributes[4].replace("_concentration_", "")
+    spell["school"] = attributes[5]
 
+    spell["description"] = string_description.rstrip("\n")
 
 # RUN ====================================================
 Capture_Lines(file_input)
 Capture_Tags(lines)
 Capture_Classes(lines)
 Capture_Attributes(lines)
+Fill_In_Spell(attributes, lines)
 
-for line in attributes:
-    print(line)
+print("name: " + spell["name"])
+print("level: " + spell["level"])
+print("casting time: " + spell["casting_time"])
+print("range / area: " + spell["range_area"])
+print("requires visual component: " + str(spell["component_visual"]))
+print("requires semantic component: " + str(spell["component_semantic"]))
+print("requires material component: " + str(spell["component_material"]))
+print("material components: " + spell["component_materials"])
+print("duration: " + spell["duration"])
+print("school: " + spell["school"])
+print("description: " + spell["description"])
