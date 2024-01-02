@@ -21,6 +21,13 @@ def Parse_Document(file, spell_id_number):
     damagetypes_output = Damagetypes_Output(spell_damagetypes, spell_id_number)
     classes_output = Classes_Output(spell_classes, spell_id_number)
 
+    spell_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/00_insert_spells.sql", "a")
+    spell_doc.writelines(spell_output + "\n")
+    spell_doc.close()
+
+    tag_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/01_insert_spell_tags.sql", "a")
+    tag_doc.writelines(tags_output + "\n")
+
     print(spell_output)
     print(tags_output)
     print(conditions_output)
