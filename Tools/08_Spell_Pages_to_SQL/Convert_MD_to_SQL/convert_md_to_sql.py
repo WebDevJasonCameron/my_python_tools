@@ -1,8 +1,8 @@
-file = "/Users/jasoncameron/Desktop/py_spells/Spells/Aid.md"       # <R>  Replace
-spell_id_number = "1"                                                                         # <R>  Replace
+file = "/Users/jasoncameron/Desktop/py_spells/Spells/Banishing Smite.md"       # <R>  Replace
+spell_id_number = "2"                                                                         # <R>  Replace
 
 # DOC RUNNER
-def Parse_Document(file):
+def Parse_Document(file, spell_id_number):
     # DLVs
     input = open(file, "r")
 
@@ -190,7 +190,7 @@ def Fill_In_Spell(attributes, lines):
     spell["ritual"] = "_ritual_" in attributes[1]
     spell["school"] = attributes[5]
     spell["save_type"] = attributes[6]
-    spell["description"] = string_description.rstrip("\n")
+    spell["description"] = string_description.replace("'", "''").rstrip("\n")
 
     return spell
 
@@ -376,4 +376,4 @@ def Get_Class_Id_Num(class_word, spell_id_number):
 
 
 # RUN ====================================================
-Parse_Document(file)
+Parse_Document(file, spell_id_number)
