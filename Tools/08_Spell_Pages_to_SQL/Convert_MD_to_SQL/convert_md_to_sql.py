@@ -23,7 +23,7 @@ spell_damagetypes = []
 spell_classes = []
 attributes = []
 
-file_input = open("/Users/jasoncameron/Desktop/py_spells/Spells/acid arrow.md", "r")        # <R>  Replace
+file_input = open("/Users/jasoncameron/00_Drive/Core/00_Managers/03_RPG_Management/RPGMS/01_DnD/02_DnD_Assets/Spells/Necromancy/Blindness or Deafness.md", "r")        # <R>  Replace
 spell_id_number = "1"                                                                         # <R>  Replace
 
 
@@ -36,9 +36,6 @@ def Capture_Lines(input):
         else:
             lines.append(line.strip().replace("\xa0", ""));
 
-# <F> Capture_Conditions
-# <F> Capture_Damagetypes
-
 # <F> Capture_Tags
 def Capture_Tags(lines):
     for line in lines:
@@ -47,6 +44,39 @@ def Capture_Tags(lines):
             array_line = mod_line.split(",")
             for l in array_line:
                 spell_tags.append(l.lower().strip())
+
+# <F> Capture_Conditions
+def Capture_Condition(lines, spell_description):
+
+    condition_list = [ "blinded",
+                        "charmed",
+                        "deafened",
+                        "exhaustion",
+                        "frightened",
+                        "grappled",
+                        "incapacitated",
+                        "invisible",
+                        "paralyzed",
+                        "petrified",
+                        "poisoned",
+                        "prone",
+                        "restrained",
+                        "stunned",
+                        "unconscious"]
+
+    mod_description = spell_description.lower().replace("[", " ").replace("]", " ").replace(",", "").replace(".", "")
+    array_description = mod_description.split(" ")
+
+    for condition_word in condition_list:
+        if condition_word in array_description:
+            spell_conditions.append(condition_word)
+
+    for word in spell_conditions:
+        print(word)
+
+# <F> Capture_Damagetypes
+def Capture_Damagetypes(lines, spell_description):
+    print("wait")
 
 # <F> Capture_Classes
 def Capture_Classes(lines):
@@ -73,7 +103,8 @@ def Capture_Attributes(lines):
         else:
             continue
 
-# <F> Fill_In_Dictionary
+
+# <F> Fill_In_Spell
 def Fill_In_Spell(attributes, lines):
     count_three_dashes = 1
     string_description = ""
@@ -124,15 +155,25 @@ def Spell_Output(spell):
             spell["source_id"] + "')")
 
 # <F> Conditions_Output
+def Conditions_Output(spell_conditions, spell_id_number):
+    output = ""
+
+    for condition_word in spell_conditions:
+        output += Get_Condition_Id_Num(condition_word, spell_id_number)
+
+    return output.rstrip(",")
+
 # <F> Damagetypes_Output
+def Damagetypes_Output(spell_damagetypes, spell_id_number):
+    output = ""
+
+    for damagetype_word in spell_damagetypes:
+        output += Get_Damageytpe_Id_Num(damagetype_word, spell_id_number)
+
+    return output.rstrip(",")
+
 # <F> Tags_Output
-# <F> Classes_Output
-
-# <F> Match_Conditions
-# <F> Match_Damagetypes
-
-# <F> Match_Tags
-def Match_Tags(spell_tags, spell_id_number):
+def Tags_Output(spell_tags, spell_id_number):
     output = ""
 
     for tag_word in spell_tags:
@@ -140,14 +181,15 @@ def Match_Tags(spell_tags, spell_id_number):
 
     return output.rstrip(",")
 
-# <F> Match_Classes
-def Match_Classes(spell_classes, spell_id_number):
+# <F> Classes_Output
+def Classes_Output(spell_classes, spell_id_number):
     output = ""
 
     for class_word in spell_classes:
         output += Get_Class_Id_Num(class_word, spell_id_number)
 
     return output.rstrip(",")
+
 
 # <f> Get_Tag_Id_Num
 def Get_Tag_Id_Num(tag_word, spell_id_number):
@@ -187,6 +229,62 @@ def Get_Tag_Id_Num(tag_word, spell_id_number):
     else:
         return "Nothing found, <!> needs to be fixed"
 
+# <f> Get_Conditions_Id_Num
+def Get_Condition_Id_Num(condition_word, spell_id_number):
+
+    condition_list = {
+        "blinded": 1,
+        "charmed": 2,
+        "deafened": 3,
+        "exhaustion": 4,
+        "frightened": 5,
+        "grappled": 6,
+        "incapacitated": 7,
+        "invisible": 8,
+        "paralyzed": 9,
+        "petrified": 10,
+        "poisoned": 11,
+        "prone": 12,
+        "restrained": 13,
+        "stunned": 14,
+        "unconscious": 15,
+    }
+
+    if condition_word in condition_list:
+        return "("+ str(spell_id_number) + ", " + str(condition_list[condition_word]) + "),"
+    else:
+        return "Nothing found, <!> needs to be fixed"
+
+# <f> Get_Damagetype_Id_Num
+def Get_Damageytpe_Id_Num(damagetype_word, spell_id_number):
+
+    damagetype_list = {
+        "acid": 1,
+        "bludgeoning": 2,
+        "cold": 3,
+        "fire": 4,
+        "force": 5,
+        "lightning": 6,
+        "necrotic": 7,
+        "piercing": 8,
+        "poison": 9,
+        "psychic": 10,
+        "radiant": 11,
+        "slashing": 12,
+        "thunder": 13,
+        "shortbow": 14,
+        "longbow": 15,
+        "one-handed melee attacks": 16,
+        "unarmed attacks": 17,
+        "natural attacks": 18,
+        "melee weapon attacks": 19,
+    }
+
+    if damagetype_word in damagetype_list:
+        return "("+ str(spell_id_number) + ", " + str(damagetype_list[damagetype_word]) + "),"
+    else:
+        return "Nothing found, <!> needs to be fixed"
+
 # <f> Get_Class_Id_Num
 def Get_Class_Id_Num(class_word, spell_id_number):
 
@@ -222,9 +320,10 @@ Capture_Classes(lines)
 Capture_Attributes(lines)
 Fill_In_Spell(attributes, lines)
 spell_output = Spell_Output(spell)
-tags_output = Match_Tags(spell_tags, spell_id_number)
-class_output = Match_Classes(spell_classes, spell_id_number)
+tags_output = Tags_Output(spell_tags, spell_id_number)
+class_output = Classes_Output(spell_classes, spell_id_number)
 
+Capture_Condition(lines, spell["description"])
 
-print("Tags Output: \n" + tags_output + "\n-------------")
-print("Class Output: \n" + class_output + "\n-------------")
+# print("Tags Output: \n" + tags_output + "\n-------------")
+# print("Class Output: \n" + class_output + "\n-------------")

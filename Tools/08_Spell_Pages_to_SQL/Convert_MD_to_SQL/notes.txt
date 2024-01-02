@@ -135,7 +135,7 @@
 """
 
 # -----------------------------------------------------------------------
-# SPELL DAMAGETYPE
+# SPELL CLASSES
 
 # 1. Use current spell_id number
 # 2. Compile all data found in available_fore and match it with rpg_classes table.  For each match, append to 04_ file a line
