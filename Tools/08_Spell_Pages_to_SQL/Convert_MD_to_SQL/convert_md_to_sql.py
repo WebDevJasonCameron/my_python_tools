@@ -1,7 +1,22 @@
-file = "/Users/jasoncameron/Desktop/py_spells/Spells/Banishing Smite.md"       # <R>  Replace
-spell_id_number = "2"                                                                         # <R>  Replace
+import os
+import glob
 
-# DOC RUNNER
+path = "/Users/jasoncameron/Desktop/py_spells/Spells/"
+
+# FINAL RUNNING FUNCTION
+def Run_Parser_In_Dir(path):
+    spell_id_number = 1
+
+    files = os.listdir(path)
+    for file in files:
+        f = path + file
+        Parse_Document(f, spell_id_number)
+        spell_id_number += 1
+
+    print("Completed")
+
+# FUN
+# <F> Parse_Document
 def Parse_Document(file, spell_id_number):
     # DLVs
     input = open(file, "r")
@@ -33,7 +48,7 @@ def Parse_Document(file, spell_id_number):
     conditions_doc.writelines(conditions_output)
     conditions_doc.close()
 
-    damagetypes_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/02_insert_spell_conditions.sql", "a")
+    damagetypes_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/03_insert_spell_damagetypes.sql", "a")
     damagetypes_doc.writelines(damagetypes_output)
     damagetypes_doc.close()
 
@@ -41,8 +56,10 @@ def Parse_Document(file, spell_id_number):
     classes_doc.writelines(classes_output)
     classes_doc.close()
 
+    input.close()
 
-# FUN
+    print("Spell: " + str(spell_id_number) + "  Completed.  " + spell["name"] + "\n")
+
 # <F> Capture_Lines
 def Capture_Lines(input):
     lines = []
@@ -183,9 +200,9 @@ def Fill_In_Spell(attributes, lines):
 
     for line in lines:
         if line.startswith("#"):
-            spell["name"] = line.replace("# ", "")
+            spell["name"] = line.replace("# ", "").replace("'", "''")
         elif line.startswith("* - ("):
-            spell["component_materials"] = line.replace("* - (", "").rstrip(")")
+            spell["component_materials"] = line.replace("* - (", "").replace("'","''").rstrip(")")
         elif line.startswith("!["):
             continue
         elif "---" in line and "|" not in line and count_three_dashes <= 3:
@@ -194,16 +211,16 @@ def Fill_In_Spell(attributes, lines):
             string_description += line.replace("**","").replace("_","") + "\n"
 
     spell["level"] = attributes[0]
-    spell["casting_time"] = attributes[1].replace("_ritual_", "")
-    spell["range_area"] = attributes[2]
+    spell["casting_time"] = attributes[1].replace("_ritual_", "").replace("'", "''")
+    spell["range_area"] = attributes[2].replace("'", "''")
     spell["component_visual"] = "v" in attributes[3]
     spell["component_semantic"] = "s" in attributes[3]
     spell["component_material"] = "m" in attributes[3]
-    spell["duration"] = attributes[4].replace("_concentration_", "")
+    spell["duration"] = attributes[4].replace("_concentration_", "").replace("'", "''")
     spell["concentration"] = "_concentration_" in attributes[4]
     spell["ritual"] = "_ritual_" in attributes[1]
-    spell["school"] = attributes[5]
-    spell["save_type"] = attributes[6]
+    spell["school"] = attributes[5].replace("'", "''")
+    spell["save_type"] = attributes[6].replace("'", "''")
     spell["description"] = string_description.replace("'", "''").rstrip("\n")
 
     return spell
@@ -260,7 +277,7 @@ def Classes_Output(spell_classes, spell_id_number):
     output = ""
 
     for class_word in spell_classes:
-        output += Get_Class_Id_Num(class_word, spell_id_number) + ","
+        output += Get_Class_Id_Num(class_word, spell_id_number)
 
     return output
 
@@ -296,12 +313,26 @@ def Get_Tag_Id_Num(tag_word, spell_id_number):
         "special": 59,
         "summoning": 61,
         "teleportation": 66,
+        "warding": 73,
+        "utility": 71
     }
 
-    if tag_word in tag_list:
-        return "("+ str(spell_id_number) + ", " + str(tag_list[tag_word]) + "),\n\t"
+    if tag_word.strip() in tag_list:
+        return "(" + str(spell_id_number) + ", " + str(tag_list[tag_word]) + "),\n\t"
+    elif tag_word == "teleportationcontrol":
+        return "(" + str(spell_id_number) + ", 66),\n\t (" + str(spell_id_number) + ", 15),\n\t "
+    elif tag_word == "teleportationbuff":
+        return "(" + str(spell_id_number) + ", 66),\n\t (" + str(spell_id_number) + ", 8),\n\t "
+    elif tag_word == "buffsocial":
+        return "(" + str(spell_id_number) + ", 58),\n\t (" + str(spell_id_number) + ", 8),\n\t "
+    elif tag_word == "buffmovement":
+        return "(" + str(spell_id_number) + ", 44),\n\t (" + str(spell_id_number) + ", 8),\n\t "
+    elif tag_word == "controlsocial":
+        return "(" + str(spell_id_number) + ", 58),\n\t (" + str(spell_id_number) + ", 15),\n\t "
+    elif tag_word == "damagecontrol":
+        return "(" + str(spell_id_number) + ", 18),\n\t (" + str(spell_id_number) + ", 15),\n\t "
     else:
-        return "\n" + tag_word + "   --> Not found\n"
+        return "--  " + tag_word + "   --> Not found\n\t"
 
 # <f> Get_Conditions_Id_Num
 def Get_Condition_Id_Num(condition_word, spell_id_number):
@@ -327,7 +358,7 @@ def Get_Condition_Id_Num(condition_word, spell_id_number):
     if condition_word in condition_list:
         return "("+ str(spell_id_number) + ", " + str(condition_list[condition_word]) + "),\n\t"
     else:
-        return "\n" + condition_word + "   --> Not found\n"
+        return "--  " + condition_word + "   --> Not found\n\t"
 
 # <f> Get_Damagetype_Id_Num
 def Get_Damageytpe_Id_Num(damagetype_word, spell_id_number):
@@ -357,7 +388,7 @@ def Get_Damageytpe_Id_Num(damagetype_word, spell_id_number):
     if damagetype_word in damagetype_list:
         return "("+ str(spell_id_number) + ", " + str(damagetype_list[damagetype_word]) + "),\n\t"
     else:
-        return "\n" + damagetype_word + "   --> Not found\n"
+        return "--  " + damagetype_word + "   --> Not found\n\t"
 
 # <f> Get_Class_Id_Num
 def Get_Class_Id_Num(class_word, spell_id_number):
@@ -384,10 +415,10 @@ def Get_Class_Id_Num(class_word, spell_id_number):
     if class_word in class_list:
         return "("+ str(spell_id_number) + ", " + str(class_list[class_word]) + "),\n\t"
     else:
-        return "\n" + class_word + "   --> Not found\n"
+        return "--  " + class_word + "   --> Not found\n\t"
 
 
 
 
 # RUN ====================================================
-Parse_Document(file, spell_id_number)
+Run_Parser_In_Dir(path)
