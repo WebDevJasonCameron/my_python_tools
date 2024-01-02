@@ -22,17 +22,24 @@ def Parse_Document(file, spell_id_number):
     classes_output = Classes_Output(spell_classes, spell_id_number)
 
     spell_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/00_insert_spells.sql", "a")
-    spell_doc.writelines(spell_output + "\n")
+    spell_doc.writelines(spell_output)
     spell_doc.close()
 
     tag_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/01_insert_spell_tags.sql", "a")
-    tag_doc.writelines(tags_output + "\n")
+    tag_doc.writelines(tags_output)
+    tag_doc.close()
 
-    print(spell_output)
-    print(tags_output)
-    print(conditions_output)
-    print(damagetypes_output)
-    print(classes_output)
+    conditions_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/02_insert_spell_conditions.sql", "a")
+    conditions_doc.writelines(conditions_output)
+    conditions_doc.close()
+
+    damagetypes_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/02_insert_spell_conditions.sql", "a")
+    damagetypes_doc.writelines(damagetypes_output)
+    damagetypes_doc.close()
+
+    classes_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/04_insert_spell_classes.sql", "a")
+    classes_doc.writelines(classes_output)
+    classes_doc.close()
 
 
 # FUN
@@ -219,7 +226,7 @@ def Spell_Output(spell):
             spell["save_type"] + "', '" +
             spell["description"] + "', '" +
             spell["image_url"] + "', '" +
-            spell["source_id"] + "')")
+            spell["source_id"] + "'),\n\t")
 
 # <F> Tags_Output
 def Tags_Output(spell_tags, spell_id_number):
@@ -228,7 +235,7 @@ def Tags_Output(spell_tags, spell_id_number):
     for tag_word in spell_tags:
         output += Get_Tag_Id_Num(tag_word, spell_id_number)
 
-    return output.rstrip(",")
+    return output
 
 # <F> Conditions_Output
 def Conditions_Output(spell_conditions, spell_id_number):
@@ -237,7 +244,7 @@ def Conditions_Output(spell_conditions, spell_id_number):
     for condition_word in spell_conditions:
         output += Get_Condition_Id_Num(condition_word, spell_id_number)
 
-    return output.rstrip(",")
+    return output
 
 # <F> Damagetypes_Output
 def Damagetypes_Output(spell_damagetypes, spell_id_number):
@@ -246,16 +253,16 @@ def Damagetypes_Output(spell_damagetypes, spell_id_number):
     for damagetype_word in spell_damagetypes:
         output += Get_Damageytpe_Id_Num(damagetype_word, spell_id_number)
 
-    return output.rstrip(",")
+    return output
 
 # <F> Classes_Output
 def Classes_Output(spell_classes, spell_id_number):
     output = ""
 
     for class_word in spell_classes:
-        output += Get_Class_Id_Num(class_word, spell_id_number)
+        output += Get_Class_Id_Num(class_word, spell_id_number) + ","
 
-    return output.rstrip(",")
+    return output
 
 
 # <f> Get_Tag_Id_Num
@@ -292,9 +299,9 @@ def Get_Tag_Id_Num(tag_word, spell_id_number):
     }
 
     if tag_word in tag_list:
-        return "("+ str(spell_id_number) + ", " + str(tag_list[tag_word]) + "),"
+        return "("+ str(spell_id_number) + ", " + str(tag_list[tag_word]) + "),\n\t"
     else:
-        return "Nothing found, <!> needs to be fixed"
+        return "\n" + tag_word + "   --> Not found\n"
 
 # <f> Get_Conditions_Id_Num
 def Get_Condition_Id_Num(condition_word, spell_id_number):
@@ -318,9 +325,9 @@ def Get_Condition_Id_Num(condition_word, spell_id_number):
     }
 
     if condition_word in condition_list:
-        return "("+ str(spell_id_number) + ", " + str(condition_list[condition_word]) + "),"
+        return "("+ str(spell_id_number) + ", " + str(condition_list[condition_word]) + "),\n\t"
     else:
-        return "Nothing found, <!> needs to be fixed"
+        return "\n" + condition_word + "   --> Not found\n"
 
 # <f> Get_Damagetype_Id_Num
 def Get_Damageytpe_Id_Num(damagetype_word, spell_id_number):
@@ -348,9 +355,9 @@ def Get_Damageytpe_Id_Num(damagetype_word, spell_id_number):
     }
 
     if damagetype_word in damagetype_list:
-        return "("+ str(spell_id_number) + ", " + str(damagetype_list[damagetype_word]) + "),"
+        return "("+ str(spell_id_number) + ", " + str(damagetype_list[damagetype_word]) + "),\n\t"
     else:
-        return "Nothing found, <!> needs to be fixed"
+        return "\n" + damagetype_word + "   --> Not found\n"
 
 # <f> Get_Class_Id_Num
 def Get_Class_Id_Num(class_word, spell_id_number):
@@ -375,7 +382,7 @@ def Get_Class_Id_Num(class_word, spell_id_number):
     }
 
     if class_word in class_list:
-        return "("+ str(spell_id_number) + ", " + str(class_list[class_word]) + "),"
+        return "("+ str(spell_id_number) + ", " + str(class_list[class_word]) + "),\n\t"
     else:
         return "\n" + class_word + "   --> Not found\n"
 
