@@ -135,14 +135,22 @@ def Spell_Output(spell):
 def Match_Tags(spell_tags, spell_id_number):
     output = ""
 
-    for tag in spell_tags:
-        output += Get_Tag_Id_Num(spell_tags, spell_id_number)
+    for tag_word in spell_tags:
+        output += Get_Tag_Id_Num(tag_word, spell_id_number)
 
-    return output
+    return output.rstrip(",")
 
+# <F> Match_Classes
+def Match_Classes(spell_classes, spell_id_number):
+    output = ""
+
+    for class_word in spell_classes:
+        output += Get_Class_Id_Num(class_word, spell_id_number)
+
+    return output.rstrip(",")
 
 # <f> Get_Tag_Id_Num
-def Get_Tag_Id_Num(word, spell_id_number):
+def Get_Tag_Id_Num(tag_word, spell_id_number):
 
     tag_list = {
         "banishment": 5,
@@ -174,17 +182,37 @@ def Get_Tag_Id_Num(word, spell_id_number):
         "teleportation": 66,
     }
 
-    if word in tag_list:
-        return "('"+ spell_id_number + "', '" + str(tag_list[word]) + "')"
+    if tag_word in tag_list:
+        return "("+ str(spell_id_number) + ", " + str(tag_list[tag_word]) + "),"
     else:
-        return "Nothing found, <!> needs to be fixed"  # Return None if the word is not in the list
+        return "Nothing found, <!> needs to be fixed"
 
+# <f> Get_Class_Id_Num
+def Get_Class_Id_Num(class_word, spell_id_number):
 
+    class_list = {
+        "rouge": 1,
+        "fighter": 2,
+        "cleric": 3,
+        "ranger": 4,
+        "druid": 5,
+        "warlock": 6,
+        "paladin": 7,
+        "monk": 8,
+        "wizard": 9,
+        "barbarian": 10,
+        "magician": 11,
+        "artificer": 12,
+        "bard": 13,
+        "sourcerer": 14,
+        "alchemist": 15
 
+    }
 
-# <F> Match_Classes
-
-
+    if class_word in class_list:
+        return "("+ str(spell_id_number) + ", " + str(class_list[class_word]) + "),"
+    else:
+        return "\n<!>" + class_word + " Not found. Update\n"
 
 
 # RUN ====================================================
@@ -194,5 +222,9 @@ Capture_Classes(lines)
 Capture_Attributes(lines)
 Fill_In_Spell(attributes, lines)
 spell_output = Spell_Output(spell)
+tags_output = Match_Tags(spell_tags, spell_id_number)
+class_output = Match_Classes(spell_classes, spell_id_number)
 
 
+print("Tags Output: \n" + tags_output + "\n-------------")
+print("Class Output: \n" + class_output + "\n-------------")
