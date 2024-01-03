@@ -395,29 +395,220 @@ def Get_Class_Id_Num(class_word, spell_id_number):
 
     class_list = {
         "rouge": 1,
-        "fighter": 2,
-        "cleric": 3,
-        "ranger": 4,
-        "druid": 5,
-        "warlock": 6,
-        "paladin": 7,
-        "monk": 8,
-        "wizard": 9,
-        "barbarian": 10,
-        "magician": 11,
-        "artificer": 12,
-        "bard": 13,
-        "sourcerer": 14,
-        "alchemist": 15
-
+        "thief": 2,
+        "assassin": 3,
+        "arcane trickster": 4,
+        "inquisitive": 5,
+        "mastermind": 6,
+        "scout": 7,
+        "swashbuckler": 8,
+        "phantom": 9,
+        "soulknife": 10,
+        "fighter": 11,
+        "champion": 12,
+        "battle master": 13,
+        "eldritch knight": 14,
+        "arcane archer": 15,
+        "cavalier": 16,
+        "samurai": 17,
+        "psi warrior": 18,
+        "rune knight": 19,
+        "echo fighter": 20,
+        "purple dragon knight": 21,
+        "cleric": 22,
+        "knowledge domain": 23,
+        "life domain": 24,
+        "light domain": 25,
+        "nature domain": 26,
+        "tempest domain": 27,
+        "trickery domain": 28,
+        "war domain": 29,
+        "death domain": 30,
+        "twilight domain": 31,
+        "order domain": 32,
+        "forge domain": 33,
+        "grave domain": 34,
+        "peace domain": 35,
+        "arcane domain": 36,
+        "ranger": 37,
+        "fey wanderer": 38,
+        "swarmkeeper": 39,
+        "gloom stalker": 40,
+        "horizon walker": 41,
+        "monster slayer": 42,
+        "hunter": 43,
+        "beast master": 44,
+        "drakewarden": 45,
+        "druid": 46,
+        "circle of the land": 47,
+        "circle of the moon": 48,
+        "circle of dreams": 49,
+        "circle of the shepherd": 50,
+        "circle of spores": 51,
+        "circle of stars": 52,
+        "circle of wildfire": 53,
+        "warlock": 54,
+        "the archfey": 55,
+        "the fiend": 56,
+        "the great old one": 57,
+        "the celestial": 58,
+        "undying": 59,
+        "the hexblade": 60,
+        "the fathomless": 61,
+        "the genie": 62,
+        "the undead": 63,
+        "paladin": 64,
+        "oath of devotion": 65,
+        "oath of the ancients": 66,
+        "oath of vengeance": 67,
+        "oathbreaker": 68,
+        "oath of conquest": 69,
+        "oath of redemption": 70,
+        "oath of glory": 71,
+        "oath of the watchers": 72,
+        "oath of the crown": 73,
+        "monk": 74,
+        "way of the open hand": 75,
+        "way of the shadow": 76,
+        "way of the four elements": 77,
+        "way of mercy": 78,
+        "way of the astral self": 79,
+        "way of the drunken master": 80,
+        "way of the kensei": 81,
+        "way of the sun soul": 82,
+        "way of long death": 83,
+        "way of the ascendant dragon": 84,
+        "wizard": 85,
+        "school of abjuration": 86,
+        "school of conjuration": 87,
+        "school of divination": 88,
+        "school of enchantment": 89,
+        "school of evocation": 90,
+        "school of illusion": 91,
+        "school of necromancy": 92,
+        "school of transmutation": 93,
+        "school of graviturgy": 94,
+        "school of chronurgy": 95,
+        "war magic": 96,
+        "bladesinging": 97,
+        "order of scribes": 98,
+        "barbarian": 99,
+        "berserker": 100,
+        "totem warrior": 101,
+        "ancestral guardian": 102,
+        "storm herald": 103,
+        "zealot": 104,
+        "beast": 105,
+        "wild soul": 106,
+        "battlerager": 107,
+        "artificer": 108,
+        "armorer": 109,
+        "alchemist": 110,
+        "artillerist": 111,
+        "battle smith": 112,
+        "bard": 113,
+        "college of lore": 114,
+        "college of valor": 115,
+        "college of creation": 116,
+        "college of glamor": 117,
+        "college of swords": 118,
+        "college of whispers": 119,
+        "college of eloquence": 120,
+        "college of spirits": 121,
+        "sorcerer": 122,
+        "aberrant mind": 123,
+        "clockwork soul": 124,
+        "divine soul": 125,
+        "shadow magic": 126,
+        "storm sorcery": 127,
+        "draconic bloodline": 128,
+        "wild magic": 129,
+        "blood hunter": 130,
+        "Order of the Ghostslayer": 131,
+        "Order of the Lycan": 132,
+        "Order of the Mutant": 133,
+        "Order of the Profane Soul": 134,
     }
 
     if class_word in class_list:
         return "("+ str(spell_id_number) + ", " + str(class_list[class_word]) + "),\n\t"
+    elif (class_word == "circle of the land (forest)" or
+          class_word == "circle of the land (swamp)" or
+          class_word == "circle of the land (mountain)" or
+          class_word == "circle of the land (desert)" or
+          class_word == "circle of the land (grassland)" or
+          class_word == "circle of the land (coast)" or
+          class_word == "domaincircle of the land (grassland)" or
+          class_word == "domaincircle of the land (coast)" or
+          class_word == "domaincircle of the land (arctic)" or
+          class_word == "domaincircle of the land (underdark)" or
+          class_word == "circle of the land (underdark)"):
+        return "("+ str(spell_id_number) + ", 47),\n\t"
+    elif class_word == "the archfeythe great old one":
+        return "(" + str(spell_id_number) + ", 57),\n\t ( " + str(spell_id_number) + ", 55),\n\t"
+    elif class_word == "warlock.wizard":
+        return "(" + str(spell_id_number) + ", 54),\n\t ( " + str(spell_id_number) + ", 85),\n\t"
+    elif class_word == "arcana domain" or class_word == "arcana":
+        return "(" + str(spell_id_number) + ", 36),\n\t"
+    elif class_word == "nature":
+        return "(" + str(spell_id_number) + ", 26),\n\t"
+    elif class_word == "trickery":
+        return "(" + str(spell_id_number) + ", 100),\n\t"
+    elif class_word == "domainoath of the watchers":
+        return "(" + str(spell_id_number) + ", 72),\n\t"
+    elif class_word == "forge":
+        return "(" + str(spell_id_number) + ", 33),\n\t"
+    elif class_word == "tempest":
+        return "(" + str(spell_id_number) + ", 27),\n\t"
+    elif class_word == "death":
+        return "(" + str(spell_id_number) + ", 30),\n\t"
+    elif class_word == "domainthe genie":
+        return "(" + str(spell_id_number) + ", 62),\n\t"
+    elif class_word == "domainoath of vengeance":
+        return "(" + str(spell_id_number) + ", 67),\n\t"
+    elif class_word == "the undying":
+        return "(" + str(spell_id_number) + ", 59),\n\t"
+    elif class_word == "domainoath of the ancients":
+        return "(" + str(spell_id_number) + ", 66),\n\t"
+    elif class_word == "twilight":
+        return "(" + str(spell_id_number) + ", 31),\n\t"
+    elif class_word == "oath of the open sea":
+        return "(" + str(spell_id_number) + ", 135),\n\t"
+    elif class_word == "clericdruid":
+        return "(" + str(spell_id_number) + ", 22),\n\t ( " + str(spell_id_number) + ", 46),\n\t"
+    elif class_word == "knowledge domainlight":
+        return "(" + str(spell_id_number) + ", 23),\n\t ( " + str(spell_id_number) + ", 25),\n\t"
+    elif class_word == "paladin.war domain":
+        return "(" + str(spell_id_number) + ", 64),\n\t ( " + str(spell_id_number) + ", 29),\n\t"
+    elif class_word == "the undyingthe fathomless":
+        return "(" + str(spell_id_number) + ", 59),\n\t ( " + str(spell_id_number) + ", 61),\n\t"
+    elif class_word == "circle of sporesalchemist":
+        return "(" + str(spell_id_number) + "51, ),\n\t ( " + str(spell_id_number) + ", 110),\n\t"
+    elif class_word == "artificer≤circle of the land (grassland)":
+        return "(" + str(spell_id_number) + ", 108),\n\t ( " + str(spell_id_number) + ", 47),\n\t"
+    elif class_word == "sorcererwarlockwizard":
+        return ("(" + str(spell_id_number) + ", 122),\n\t ( "
+                + str(spell_id_number) + ", 54),\n\t ("
+                + str(spell_id_number) + ", 85),\n\t ")
+    elif class_word == "the archfeythe hexblade":
+        return ("(" + str(spell_id_number) + ", 55),\n\t ( "
+                + str(spell_id_number) + ", 60),\n\t")
+    elif class_word == "bardsorcererwizardartificer":
+        return ("(" + str(spell_id_number) + ", 113),\n\t ( "
+                + str(spell_id_number) + ", 122),\n\t ("
+                + str(spell_id_number) + ", 85),\n\t "
+                + str(spell_id_number) + ", 108),\n\t ")
+    elif class_word == "bardclericdruidartificerpeace domainthe celestial":
+        return ("(" + str(spell_id_number) + ", 133),\n\t ( "
+                + str(spell_id_number) + ", 22),\n\t ("
+                + str(spell_id_number) + ", 46),\n\t ("
+                + str(spell_id_number) + ", 108\n\t ("
+                + str(spell_id_number) + ", 35\n\t ("
+                + str(spell_id_number) + ", 58\n\t (")
+    elif class_word == "domain":
+        print("skipped")
     else:
         return "--  " + class_word + "   --> Not found\n\t"
-
-
 
 
 # RUN ====================================================
