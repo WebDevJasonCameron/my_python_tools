@@ -31,10 +31,10 @@ def Parse_Document(file, spell_id_number):
     spell_damagetypes = Capture_Damagetypes(lines, spell["description"])
 
     spell_output = Spell_Output(spell)
-    tags_output = Tags_Output(spell_tags, spell_id_number)
+    tags_output = Tags_Output(spell_tags, spell_id_number, spell["name"])                       # <R>
     conditions_output = Conditions_Output(spell_conditions, spell_id_number)
     damagetypes_output = Damagetypes_Output(spell_damagetypes, spell_id_number)
-    classes_output = Classes_Output(spell_classes, spell_id_number)
+    classes_output = Classes_Output(spell_classes, spell_id_number, spell["name"])              # <R>
 
     spell_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/00_insert_spells.sql", "a")
     spell_doc.writelines(spell_output)
@@ -246,11 +246,11 @@ def Spell_Output(spell):
             spell["source_id"] + "'),\n\t")
 
 # <F> Tags_Output
-def Tags_Output(spell_tags, spell_id_number):
+def Tags_Output(spell_tags, spell_id_number, spell_name):                   # <R>
     output = ""
 
     for tag_word in spell_tags:
-        output += Get_Tag_Id_Num(tag_word, spell_id_number)
+        output += Get_Tag_Id_Num(tag_word, spell_id_number, spell_name)     # <R>
 
     return output
 
@@ -273,17 +273,17 @@ def Damagetypes_Output(spell_damagetypes, spell_id_number):
     return output
 
 # <F> Classes_Output
-def Classes_Output(spell_classes, spell_id_number):
+def Classes_Output(spell_classes, spell_id_number, spell_name):                 # <R>
     output = ""
 
     for class_word in spell_classes:
-        output += Get_Class_Id_Num(class_word, spell_id_number)
+        output += Get_Class_Id_Num(class_word, spell_id_number, spell_name)     # <R>
 
     return output
 
 
 # <f> Get_Tag_Id_Num
-def Get_Tag_Id_Num(tag_word, spell_id_number):
+def Get_Tag_Id_Num(tag_word, spell_id_number, spell_name):                      # <R>
 
     tag_list = {
         "banishment": 5,
@@ -295,7 +295,7 @@ def Get_Tag_Id_Num(tag_word, spell_id_number):
         "control": 15,
         "creation": 16,
         "damage": 18,
-        "debuf": 19,
+        "debuff": 19,
         "deception": 20,
         "detection": 21,
         "dunamancy": 23,
@@ -332,7 +332,7 @@ def Get_Tag_Id_Num(tag_word, spell_id_number):
     elif tag_word == "damagecontrol":
         return "(" + str(spell_id_number) + ", 18),\n\t (" + str(spell_id_number) + ", 15),\n\t "
     else:
-        return "--  " + tag_word + "   --> Not found\n\t"
+        return "--  " + tag_word + "   --> Not found from: "+ spell_name + "\n\t"       # <R>
 
 # <f> Get_Conditions_Id_Num
 def Get_Condition_Id_Num(condition_word, spell_id_number):
@@ -391,7 +391,7 @@ def Get_Damageytpe_Id_Num(damagetype_word, spell_id_number):
         return "--  " + damagetype_word + "   --> Not found\n\t"
 
 # <f> Get_Class_Id_Num
-def Get_Class_Id_Num(class_word, spell_id_number):
+def Get_Class_Id_Num(class_word, spell_id_number, spell_name):  # <R>
 
     class_list = {
         "rouge": 1,
@@ -530,7 +530,7 @@ def Get_Class_Id_Num(class_word, spell_id_number):
         "Order of the Profane Soul": 134,
     }
 
-    if class_word in class_list:
+    if class_word.strip() in class_list:
         return "("+ str(spell_id_number) + ", " + str(class_list[class_word]) + "),\n\t"
     elif (class_word == "circle of the land (forest)" or
           class_word == "circle of the land (swamp)" or
@@ -606,9 +606,9 @@ def Get_Class_Id_Num(class_word, spell_id_number):
                 + str(spell_id_number) + ", 35\n\t ("
                 + str(spell_id_number) + ", 58\n\t (")
     elif class_word == "domain":
-        print("skipped")
+        return "-- domain Found from: " + spell_name            # <R>
     else:
-        return "--  " + class_word + "   --> Not found\n\t"
+        return "--  " + class_word + "   --> Not found in spell: "+ spell_name +"\n\t"
 
 
 # RUN ====================================================
