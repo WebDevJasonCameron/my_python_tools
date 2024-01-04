@@ -319,18 +319,18 @@ def Get_Tag_Id_Num(tag_word, spell_id_number, spell_name):                      
 
     if tag_word.strip() in tag_list:
         return "(" + str(spell_id_number) + ", " + str(tag_list[tag_word]) + "),\n\t"
-    elif tag_word == "teleportationcontrol":
-        return "(" + str(spell_id_number) + ", 66),\n\t (" + str(spell_id_number) + ", 15),\n\t "
-    elif tag_word == "teleportationbuff":
-        return "(" + str(spell_id_number) + ", 66),\n\t (" + str(spell_id_number) + ", 8),\n\t "
-    elif tag_word == "buffsocial":
-        return "(" + str(spell_id_number) + ", 58),\n\t (" + str(spell_id_number) + ", 8),\n\t "
-    elif tag_word == "buffmovement":
-        return "(" + str(spell_id_number) + ", 44),\n\t (" + str(spell_id_number) + ", 8),\n\t "
-    elif tag_word == "controlsocial":
-        return "(" + str(spell_id_number) + ", 58),\n\t (" + str(spell_id_number) + ", 15),\n\t "
-    elif tag_word == "damagecontrol":
-        return "(" + str(spell_id_number) + ", 18),\n\t (" + str(spell_id_number) + ", 15),\n\t "
+    # elif tag_word == "teleportationcontrol":
+    #     return "(" + str(spell_id_number) + ", 66),\n\t (" + str(spell_id_number) + ", 15),\n\t "
+    # elif tag_word == "teleportationbuff":
+    #     return "(" + str(spell_id_number) + ", 66),\n\t (" + str(spell_id_number) + ", 8),\n\t "
+    # elif tag_word == "buffsocial":
+    #     return "(" + str(spell_id_number) + ", 58),\n\t (" + str(spell_id_number) + ", 8),\n\t "
+    # elif tag_word == "buffmovement":
+    #     return "(" + str(spell_id_number) + ", 44),\n\t (" + str(spell_id_number) + ", 8),\n\t "
+    # elif tag_word == "controlsocial":
+    #     return "(" + str(spell_id_number) + ", 58),\n\t (" + str(spell_id_number) + ", 15),\n\t "
+    # elif tag_word == "damagecontrol":
+    #     return "(" + str(spell_id_number) + ", 18),\n\t (" + str(spell_id_number) + ", 15),\n\t "
     else:
         return "--  " + tag_word + "   --> Not found from: "+ spell_name + "\n\t"       # <R>
 
@@ -532,81 +532,6 @@ def Get_Class_Id_Num(class_word, spell_id_number, spell_name):  # <R>
 
     if class_word.strip() in class_list:
         return "("+ str(spell_id_number) + ", " + str(class_list[class_word]) + "),\n\t"
-    elif (class_word == "circle of the land (forest)" or
-          class_word == "circle of the land (swamp)" or
-          class_word == "circle of the land (mountain)" or
-          class_word == "circle of the land (desert)" or
-          class_word == "circle of the land (grassland)" or
-          class_word == "circle of the land (coast)" or
-          class_word == "domaincircle of the land (grassland)" or
-          class_word == "domaincircle of the land (coast)" or
-          class_word == "domaincircle of the land (arctic)" or
-          class_word == "domaincircle of the land (underdark)" or
-          class_word == "circle of the land (underdark)"):
-        return "("+ str(spell_id_number) + ", 47),\n\t"
-    elif class_word == "the archfeythe great old one":
-        return "(" + str(spell_id_number) + ", 57),\n\t ( " + str(spell_id_number) + ", 55),\n\t"
-    elif class_word == "warlock.wizard":
-        return "(" + str(spell_id_number) + ", 54),\n\t ( " + str(spell_id_number) + ", 85),\n\t"
-    elif class_word == "arcana domain" or class_word == "arcana":
-        return "(" + str(spell_id_number) + ", 36),\n\t"
-    elif class_word == "nature":
-        return "(" + str(spell_id_number) + ", 26),\n\t"
-    elif class_word == "trickery":
-        return "(" + str(spell_id_number) + ", 100),\n\t"
-    elif class_word == "domainoath of the watchers":
-        return "(" + str(spell_id_number) + ", 72),\n\t"
-    elif class_word == "forge":
-        return "(" + str(spell_id_number) + ", 33),\n\t"
-    elif class_word == "tempest":
-        return "(" + str(spell_id_number) + ", 27),\n\t"
-    elif class_word == "death":
-        return "(" + str(spell_id_number) + ", 30),\n\t"
-    elif class_word == "domainthe genie":
-        return "(" + str(spell_id_number) + ", 62),\n\t"
-    elif class_word == "domainoath of vengeance":
-        return "(" + str(spell_id_number) + ", 67),\n\t"
-    elif class_word == "the undying":
-        return "(" + str(spell_id_number) + ", 59),\n\t"
-    elif class_word == "domainoath of the ancients":
-        return "(" + str(spell_id_number) + ", 66),\n\t"
-    elif class_word == "twilight":
-        return "(" + str(spell_id_number) + ", 31),\n\t"
-    elif class_word == "oath of the open sea":
-        return "(" + str(spell_id_number) + ", 135),\n\t"
-    elif class_word == "clericdruid":
-        return "(" + str(spell_id_number) + ", 22),\n\t ( " + str(spell_id_number) + ", 46),\n\t"
-    elif class_word == "knowledge domainlight":
-        return "(" + str(spell_id_number) + ", 23),\n\t ( " + str(spell_id_number) + ", 25),\n\t"
-    elif class_word == "paladin.war domain":
-        return "(" + str(spell_id_number) + ", 64),\n\t ( " + str(spell_id_number) + ", 29),\n\t"
-    elif class_word == "the undyingthe fathomless":
-        return "(" + str(spell_id_number) + ", 59),\n\t ( " + str(spell_id_number) + ", 61),\n\t"
-    elif class_word == "circle of sporesalchemist":
-        return "(" + str(spell_id_number) + "51, ),\n\t ( " + str(spell_id_number) + ", 110),\n\t"
-    elif class_word == "artificer≤circle of the land (grassland)":
-        return "(" + str(spell_id_number) + ", 108),\n\t ( " + str(spell_id_number) + ", 47),\n\t"
-    elif class_word == "sorcererwarlockwizard":
-        return ("(" + str(spell_id_number) + ", 122),\n\t ( "
-                + str(spell_id_number) + ", 54),\n\t ("
-                + str(spell_id_number) + ", 85),\n\t ")
-    elif class_word == "the archfeythe hexblade":
-        return ("(" + str(spell_id_number) + ", 55),\n\t ( "
-                + str(spell_id_number) + ", 60),\n\t")
-    elif class_word == "bardsorcererwizardartificer":
-        return ("(" + str(spell_id_number) + ", 113),\n\t ( "
-                + str(spell_id_number) + ", 122),\n\t ("
-                + str(spell_id_number) + ", 85),\n\t "
-                + str(spell_id_number) + ", 108),\n\t ")
-    elif class_word == "bardclericdruidartificerpeace domainthe celestial":
-        return ("(" + str(spell_id_number) + ", 133),\n\t ( "
-                + str(spell_id_number) + ", 22),\n\t ("
-                + str(spell_id_number) + ", 46),\n\t ("
-                + str(spell_id_number) + ", 108\n\t ("
-                + str(spell_id_number) + ", 35\n\t ("
-                + str(spell_id_number) + ", 58\n\t (")
-    elif class_word == "domain":
-        return "-- domain Found from: " + spell_name            # <R>
     else:
         return "--  " + class_word + "   --> Not found in spell: "+ spell_name +"\n\t"
 
