@@ -2,7 +2,8 @@ import csv
 
 
 
-data = """1,rouge,
+data = """
+1,rouge,
 2,rouge,thief
 3,rouge,assassin
 4,rouge,arcane trickster
@@ -12,7 +13,7 @@ data = """1,rouge,
 8,rouge,swashbuckler
 9,rouge,phantom
 10,rouge,soulknife
-11,fighter,""
+11,fighter,
 12,fighter,champion
 13,fighter,battle master
 14,fighter,eldritch knight
@@ -23,7 +24,7 @@ data = """1,rouge,
 19,fighter,rune knight
 20,fighter,echo fighter
 21,fighter,purple dragon knight
-22,cleric,""
+22,cleric,
 23,cleric,knowledge domain
 24,cleric,life domain
 25,cleric,light domain
@@ -38,7 +39,7 @@ data = """1,rouge,
 34,cleric,grave domain
 35,cleric,peace domain
 36,cleric,arcane domain
-37,ranger,""
+37,ranger,
 38,ranger,fey wanderer
 39,ranger,swarmkeeper
 40,ranger,gloom stalker
@@ -47,7 +48,7 @@ data = """1,rouge,
 43,ranger,hunter
 44,ranger,beast master
 45,ranger,drakewarden
-46,druid,""
+46,druid,
 47,druid,circle of the land
 48,druid,circle of the land (arctic)
 49,druid,circle of the land (coastland)
@@ -63,7 +64,7 @@ data = """1,rouge,
 59,druid,circle of spores
 60,druid,circle of stars
 61,druid,circle of wildfire
-62,warlock,""
+62,warlock,
 63,warlock,the archfey
 64,warlock,the fiend
 65,warlock,the great old one
@@ -73,7 +74,7 @@ data = """1,rouge,
 69,warlock,the fathomless
 70,warlock,the genie
 71,warlock,the undead
-72,paladin,""
+72,paladin,
 73,paladin,oath of devotion
 74,paladin,oath of the ancients
 75,paladin,oath of vengeance
@@ -84,7 +85,7 @@ data = """1,rouge,
 80,paladin,oath of the watchers
 81,paladin,oath of the crown
 82,paladin,oath of the open sea
-83,monk,""
+83,monk,
 84,monk,way of the open hand
 85,monk,way of the shadow
 86,monk,way of the four elements
@@ -95,7 +96,7 @@ data = """1,rouge,
 91,monk,way of the sun soul
 92,monk,way of long death
 93,monk,way of the ascendant dragon
-94,wizard,""
+94,wizard,
 95,wizard,school of abjuration
 96,wizard,school of conjuration
 97,wizard,school of divination
@@ -109,7 +110,7 @@ data = """1,rouge,
 105,wizard,war magic
 106,wizard,bladesinging
 107,wizard,order of scribes
-108,barbarian,""
+108,barbarian,
 109,barbarian,berserker
 110,barbarian,totem warrior
 111,barbarian,ancestral guardian
@@ -118,12 +119,12 @@ data = """1,rouge,
 114,barbarian,beast
 115,barbarian,wild soul
 116,barbarian,battlerager
-117,artificer,""
+117,artificer,
 118,artificer,armorer
 119,artificer,alchemist
 120,artificer,artillerist
 121,artificer,battle smith
-122,bard,""
+122,bard,
 123,bard,college of lore
 124,bard,college of valor
 125,bard,college of creation
@@ -132,7 +133,7 @@ data = """1,rouge,
 128,bard,college of whispers
 129,bard,college of eloquence
 130,bard,college of spirits
-131,sorcerer,""
+131,sorcerer,
 132,sorcerer,aberrant mind
 133,sorcerer,clockwork soul
 134,sorcerer,divine soul
@@ -140,7 +141,7 @@ data = """1,rouge,
 136,sorcerer,storm sorcery
 137,sorcerer,draconic bloodline
 138,sorcerer,wild magic
-139,blood hunter,""
+139,blood hunter,
 140,blood hunter,Order of the Ghostslayer
 141,blood hunter,Order of the Lycan
 142,blood hunter,Order of the Mutant
@@ -161,6 +162,10 @@ for row in rows:
     else:
         result_list.append(f'"{subclass_name}": {class_id}')
 
+output_file = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/class_list_to_dictionary/output_file.txt", "w")
+
 for item in result_list:
-    print(item)
+    output_file.writelines(item + "\n")
+
+output_file.close()
 
