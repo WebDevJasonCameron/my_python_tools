@@ -36,22 +36,27 @@ def Parse_Document(file, spell_id_number):
     damagetypes_output = Damagetypes_Output(spell_damagetypes, spell_id_number)
     classes_output = Classes_Output(spell_classes, spell_id_number, spell["name"])              # <R>
 
+    print(str(spell_id_number) + ". Recording Spell: " + spell["name"] + "\n")
     spell_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/00_insert_spells.sql", "a")
     spell_doc.writelines(spell_output)
     spell_doc.close()
 
+    print(str(spell_id_number) + ". Recording Spell Tag: " + spell["name"] + "\n")
     tag_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/01_insert_spell_tags.sql", "a")
     tag_doc.writelines(tags_output)
     tag_doc.close()
 
+    print(str(spell_id_number) + ". Recording Spell condition: " + spell["name"] + "\n")
     conditions_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/02_insert_spell_conditions.sql", "a")
     conditions_doc.writelines(conditions_output)
     conditions_doc.close()
 
+    print(str(spell_id_number) + ". Recording damage type: " + spell["name"] + "\n")
     damagetypes_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/03_insert_spell_damagetypes.sql", "a")
     damagetypes_doc.writelines(damagetypes_output)
     damagetypes_doc.close()
 
+    print(str(spell_id_number) + ". Recording class: " + spell["name"] + "\n")
     classes_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/04_insert_spell_classes.sql", "a")
     classes_doc.writelines(classes_output)
     classes_doc.close()
