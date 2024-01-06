@@ -65,16 +65,6 @@ def Parse_Document(file, spell_id_number):
 
     print("Spell: " + str(spell_id_number) + "  Completed.  " + spell["name"] + "\n")
 
-# <f> Clean_File
-def Clean_file(file):
-    old_file = open(file, "r")
-    clean_file = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/output/99_clean_file.sql" "w")
-
-
-
-    old_file.close()
-    clean_file.close()
-
 # <F> Capture_Lines
 def Capture_Lines(input):
     lines = []
@@ -214,7 +204,7 @@ def Fill_In_Spell(attributes, lines):
     string_description = ""
 
     for line in lines:
-        if line.startswith("#"):
+        if line.startswith("# "):
             spell["name"] = line.replace("# ", "").replace("'", "''")
         elif line.startswith("* - ("):
             spell["component_materials"] = line.replace("* - (", "").replace("'","''").rstrip(")")
@@ -222,7 +212,7 @@ def Fill_In_Spell(attributes, lines):
             continue
         elif "---" in line and "|" not in line and count_three_dashes <= 3:
             count_three_dashes += 1
-        elif count_three_dashes >= 4 and "|" not in line and "---" not in line:
+        elif count_three_dashes >= 4: # and "|" not in line and "---" not in line:
             string_description += line.replace("**","").replace("_","") + "\n"
 
     spell["level"] = attributes[0]
