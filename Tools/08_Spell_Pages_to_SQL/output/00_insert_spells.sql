@@ -17,3 +17,4 @@ INSERT INTO spells
      image_url,
      source_id
     )
+VALUES
