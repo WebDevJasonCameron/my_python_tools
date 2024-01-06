@@ -19,7 +19,7 @@ def Run_Parser_In_Dir(path):
 # <F> Parse_Document
 def Parse_Document(file, spell_id_number):
     # DLVs
-    input = open(file, encoding="utf-8", errors='replace')
+    input = open(file, "r")
 
     lines = Capture_Lines(input)
     spell_tags = Capture_Tags(lines)
@@ -334,20 +334,20 @@ def Get_Tag_Id_Num(tag_word, spell_id_number, spell_name):                      
 
     if tag_word.strip() in tag_list:
         return "(" + str(spell_id_number) + ", " + str(tag_list[tag_word]) + "),\n\t"
-    # elif tag_word == "teleportationcontrol":
-    #     return "(" + str(spell_id_number) + ", 66),\n\t (" + str(spell_id_number) + ", 15),\n\t "
-    # elif tag_word == "teleportationbuff":
-    #     return "(" + str(spell_id_number) + ", 66),\n\t (" + str(spell_id_number) + ", 8),\n\t "
-    # elif tag_word == "buffsocial":
-    #     return "(" + str(spell_id_number) + ", 58),\n\t (" + str(spell_id_number) + ", 8),\n\t "
-    # elif tag_word == "buffmovement":
-    #     return "(" + str(spell_id_number) + ", 44),\n\t (" + str(spell_id_number) + ", 8),\n\t "
-    # elif tag_word == "controlsocial":
-    #     return "(" + str(spell_id_number) + ", 58),\n\t (" + str(spell_id_number) + ", 15),\n\t "
-    # elif tag_word == "damagecontrol":
-    #     return "(" + str(spell_id_number) + ", 18),\n\t (" + str(spell_id_number) + ", 15),\n\t "
+    elif tag_word == "teleportationcontrol":
+        return "(" + str(spell_id_number) + ", 66),\n\t (" + str(spell_id_number) + ", 15),\n\t "
+    elif tag_word == "teleportationbuff":
+        return "(" + str(spell_id_number) + ", 66),\n\t (" + str(spell_id_number) + ", 8),\n\t "
+    elif tag_word == "buffsocial":
+        return "(" + str(spell_id_number) + ", 58),\n\t (" + str(spell_id_number) + ", 8),\n\t "
+    elif tag_word == "buffmovement":
+        return "(" + str(spell_id_number) + ", 44),\n\t (" + str(spell_id_number) + ", 8),\n\t "
+    elif tag_word == "controlsocial":
+        return "(" + str(spell_id_number) + ", 58),\n\t (" + str(spell_id_number) + ", 15),\n\t "
+    elif tag_word == "damagecontrol":
+        return "(" + str(spell_id_number) + ", 18),\n\t (" + str(spell_id_number) + ", 15),\n\t "
     else:
-        return "--  " + tag_word + "   --> Not found from: "+ spell_name + "\n\t"       # <R>
+        return "--  " + tag_word + "   --> Not found from: "+ spell_name + "\n\t"
 
 # <f> Get_Conditions_Id_Num
 def Get_Condition_Id_Num(condition_word, spell_id_number):
@@ -457,12 +457,12 @@ def Get_Class_Id_Num(class_word, spell_id_number, spell_name):  # <R>
         "druid": 46,
         "circle of the land": 47,
         "circle of the land (arctic)": 48,
-        "circle of the land (coastland)": 49,
+        "circle of the land (coast)": 49,
         "circle of the land (desert)": 50,
         "circle of the land (forest)": 51,
         "circle of the land (grassland)": 52,
-        "circle of the land (mountains)": 53,
-        "circle of the land (swamps)": 54,
+        "circle of the land (mountain)": 53,
+        "circle of the land (swamp)": 54,
         "circle of the land (underdark)": 55,
         "circle of the moon": 56,
         "circle of dreams": 57,
