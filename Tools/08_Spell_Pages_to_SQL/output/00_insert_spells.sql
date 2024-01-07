@@ -115,6 +115,22 @@ A[[remove curse]]spell ends this effect. At the DM''s option, you may choose an 
 At Higher Levels.If you cast this spell using a spell slot of 4th level or higher, the duration is concentration, up to 10 minutes. If you use a spell slot of 5th level or higher, the duration is 8 hours. If you use a spell slot of 7th level or higher, the duration is 24 hours. If you use a 9th level spell slot, the spell lasts until it is dispelled. Using a spell slot of 5th level or higher grants a duration that doesn''t require concentration.', '', '5'),
 	('Reincarnate', '5th', '1 hour', 'touch', 'True', 'True', 'True', 'rare oils and unguents worth at least 1,000 gp, which the spell consumes', 'instantaneous', 'False', 'False', 'transmutation', 'none', 'You touch a dead humanoid or a piece of a dead humanoid. Provided that the creature has been dead no longer than 10 days, the spell forms a new adult body for it and then calls the soul to enter that body. If the target''s soul isn''t free or willing to do so, the spell fails.
 The magic fashions a new body for the creature to inhabit, which likely causes the creature''s race to change. The GM rolls a d100 and consults the following table to determine what form the creature takes when restored to life, or the GM chooses a form.
+| d100 | Race |
+| --- | --- |
+| 01-04 | Dragonborn |
+| 05-13 | Dwarf, hill |
+| 14-21 | Dwarf, mountain |
+| 22-25 | Elf, dark |
+| 26-34 | Elf, high |
+| 35-42 | Elf, wood |
+| 43-46 | Gnome, forest |
+| 47-52 | Gnome, rock |
+| 53-56 | Half-elf |
+| 57-60 | Half-orc |
+| 61-68 | Halfling, lightfoot |
+| 69-76 | Halfling, stout |
+| 77-96 | Human |
+| 97-100 | Tiefling |
 The reincarnated creature recalls its former life and experiences. It retains the capabilities it had in its original form, except it exchanges its original race for the new one and changes its racial traits accordingly.', '', '5'),
 	('Hunter''s Mark', '1st', '1 bonus action', '90 ft', 'True', 'False', 'False', '', '1 hour', 'True', 'False', 'divination', 'none', 'You choose a creature you can see within range and mystically mark it as your quarry. Until the spell ends, you deal an extra 1d6 damage to the target whenever you hit it with a weapon attack, and you have advantage on any Wisdom ([Perception](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Perception)) or Wisdom ([Survival](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Survival)) check you make to find it. If the target drops to 0 hit points before this spell ends, you can use a bonus action on a subsequent turn of yours to mark a new creature.
 At Higher Levels.When you cast this spell using a spell slot of 3rd or 4th level, you can maintain your concentration on the spell for up to 8 hours. When you use a spell slot of 5th level or higher, you can maintain your concentration on the spell for up to 24 hours.', '', '5'),
@@ -150,7 +166,21 @@ The fey creature is friendly to you and your companions for the duration. Roll i
 If your concentration is broken, the fey creature doesn''t disappear. Instead, you lose control of the fey creature, it becomes hostile toward you and your companions, and it might attack. An uncontrolled fey creature can''t be dismissed by you, and it disappears 1 hour after you summoned it.
 The GM has the fey creature''s statistics. Some sample creatures are listed below.
 At Higher Levels.When you cast this spell using a spell slot of 7th level or higher, the challenge rating increases by 1 for each slot level above 6th.
-Sample Creatures', '', '5'),
+Sample Creatures
+| CR | Creature Name |
+| --- | --- |
+| 0 | [[Frog]], [[Sea Horse]], [[Baboon]], [[Badger]], [[Bat]], [[Cat]], [[Crab]], [[Deer]], [[Eagle]], [[Giant Fire Beetle]], [[Goat]], [[Hawk]], [[Hyena]], [[Jackal]], [[Lizard]], [[Octopus]], [[Owl]], [[Quipper]], [[Rat]], [[Raven]], [[Scorpion]], [[Spider]], [[Vulture]], [[Weasel]] |
+| 1/8 | [[Blood Hawk]], [[Camel]], [[Flying Snake]], [[Giant Crab]], [[Giant Rat]], [[Giant Weasel]], [[Mastiff]], [[Mule]], [[Poisonous Snake]], [[Pony]], [[Stirge]] |
+| 1/4 | [[Axe Beak]], [[Blink Dog]], [[Boar]], [[Constrictor Snake]], [[Draft horse]], [[Elk]], [[Giant Badger]], [[Giant Bat]], [[Giant Centipede]], [[Giant Frog]], [[Giant Lizard]], [[Giant Owl]], [[Giant Poisonous Snake]], [[Giant Wolf Spider]], [[Panther]], [[Riding horse]], [[Sprite]], [[Wolf]] |
+| 1/2 | [[Ape]], [[Black Bear]], [[Crocodile]], [[Giant Goat]], [[Giant Sea Horse]], [[Giant Wasp]], [[Reef Shark]], [[Satyr]], [[Warhorse]] |
+| 1 | [[Brown Bear]], [[Dire Wolf]], [[Dryad]], [[Giant Eagle]], [[Giant Hyena]], [[Giant Octopus]], [[Giant Spider]], [[Giant Toad]], [[Giant Vulture]], [[Lion]], [[Tiger]] |
+| 2 | [[Giant Boar]], [[Giant Constrictor Snake]], [[Giant Elk]], [[Hunter Shark]], [[Plesiosaurus]], [[Polar Bear]], [[Rhinoceros]], [[Saber-toothed Tiger]], [[Sea Hag]] |
+| 3 | [[Giant Scorpion]], [[Green Hag]], [[Killer Whale]] |
+| 4 | [[elephant]] |
+| 5 | [[Giant Crocodile]], [[Giant Shark]] |
+| 6 | [[Mammoth]] |
+| 7 | [[Giant Ape]] |
+| 8 | [[Tyrannosaurus Rex]] |', '', '5'),
 	('Modify Memory', '5th', '1 action', '30 ft', 'True', 'True', 'False', '', '1 minute', 'True', 'False', 'enchantment', 'wis save', 'You attempt to reshape another creature''s memories. One creature that you can see must make a Wisdom saving throw. If you are fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)by you for the duration. The[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)target is[incapacitated](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Incapacitated)and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target''s memories are modified.
 While this charm lasts, you can affect the target''s memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.
 You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature''s memory isn''t altered. Otherwise, the modified memories take hold when the spell ends.
@@ -262,11 +292,7 @@ A duplicate''s AC equals 10 + your Dexterity modifier. If an attack hits a dupli
 A creature is unaffected by this spell if it can''t see, if it relies on senses other than sight, such as[blindsight](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Blindsight), or if it can perceive illusions as false, as with[truesight](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Truesight).', '', '5'),
 	('Detect Magic', '1st', '1 action', 'self(30 ft)', 'True', 'True', 'False', '', '10 minutes', 'True', 'True', 'divination', 'none', 'For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.
 The spell can penetrate most barriers, but it is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt.', '', '5'),
-	('Dominate Monster', '8th', '1 action', '60 ft', 'True', 'True', 'False', '', '1 hour', 'True', 'False', 'enchantment', 'wis save', 'You attempt to beguile a creature that you can see within range. It must succeed on a Wisdom saving throw or be[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.
-While the creature is[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed), you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as "Attack that creature," "Run over there," or "Fetch that object." If the creature completes the order and doesn''t receive further direction from you, it defends and preserves itself to the best of its ability.
-You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn''t do anything that you don''t allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.
-Each time the target takes damage, it makes a new Wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.
-At Higher Levels.When you cast this spell with a 9th-level spell slot, the duration is concentration, up to 8 hours.', '', '5'),
+	('Dominate Monster', '8th', '1 action', '60 ft', 'True', 'True', 'False', '', '1 hour', 'True', 'False', 'enchantment', 'wis save', '', '', '5'),
 	('Find Steed', '2nd', '10 minutes', '30 ft', 'True', 'True', 'False', '', 'instantaneous', 'False', 'False', 'conjuration', 'none', 'You summon a spirit that assumes the form of an unusually intelligent, strong, and loyal steed, creating a long-lasting bond with it. Appearing in an unoccupied space within range, the steed takes on a form that you choose: a[[Warhorse]], a[[Pony]], a[[Camel]], an[[elk]], or a[[Mastiff]]. (Your GM might allow other animals to be summoned as steeds.) The steed has the statistics of the chosen form, though it is a celestial, fey, or fiend (your choice) instead of its normal type. Additionally, if your steed has an Intelligence of 5 or less, its Intelligence becomes 6, and it gains the ability to understand one language of your choice that you speak.
 Your steed serves you as a mount, both in combat and out, and you have an instinctive bond with it that allows you to fight as a seamless unit. While mounted on your steed, you can make any spell you cast that targets only you also target your steed.
 When the steed drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss your steed at any time as an action, causing it to disappear. In either case, casting this spell again summons the same steed, restored to its hit point maximum.
@@ -294,7 +320,14 @@ The elemental is friendly to you and your companions for the duration. Roll init
 If your concentration is broken, the elemental doesn''t disappear. Instead, you lose control of the elemental, it becomes hostile toward you and your companions, and it might attack. An uncontrolled elemental can''t be dismissed by you, and it disappears 1 hour after you summoned it.
 The GM has the elemental''s statistics. Sample elementals can be found below.
 At Higher Levels.When you cast this spell using a spell slot of 6th level or higher, the challenge rating increases by 1 for each slot level above 5th.
-Sample Elementals', '', '5'),
+Sample Elementals
+| CR  | Creature Name                                                                                         |
+| ------- | --------------------------------------------------------------------------------------------------------- |
+| 1/4 | [[Steam Mephit]]                                                                                          |
+| 1/2 | [[Dust Mephit]],[[Ice Mephit]],[[Magma Mephit]],[[Magmin]]                                             |
+| 2   | [[Azer]],[[Gargoyle]]                                                                                    |
+| 5   | [[Air elemental]],[[Earth elemental]],[[Fire elemental]],[[Salamander]],[[Water elemental]],[[Xorn]] |
+| 6   | [[Invisible stalker]]                                                                                     |', '', '5'),
 	('Seeming', '5th', '1 action', '30 ft', 'True', 'True', 'False', '', '8 hours', 'False', 'False', 'illusion', 'cha save', 'This spell allows you to change the appearance of any number of creatures that you can see within range. You give each target you choose a new, illusory appearance. An unwilling target can make a Charisma saving throw, and if it succeeds, it is unaffected by this spell.
 The spell disguises physical appearance as well as clothing, armor, weapons, and equipment. You can make each creature seem 1 foot shorter or taller and appear thin, fat, or in between. You can''t change a target''s body type, so you must choose a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you. The spell lasts for the duration, unless you use your action to dismiss it sooner.
 The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to a creature''s outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel the creature''s head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.
@@ -371,6 +404,12 @@ Many major temples, guilds, and other important places have permanent teleportat
 You can create a permanent teleportation circle by casting this spell in the same location every day for one year. You need not use the circle to teleport when you cast the spell in this way.', '', '5'),
 	('Confusion', '4th', '1 action', '90 ft(10 ft)', 'True', 'True', 'True', 'three nut shells', '1 minute', 'True', 'False', 'enchantment', 'wis save', 'This spell assaults and twists creatures'' minds, spawning delusions and provoking uncontrolled action. Each creature in a 10-foot-radius sphere centered on a point you choose within range must succeed on a Wisdom saving throw when you cast this spell or be affected by it.
 An affected target can''t take reactions and must roll a d10 at the start of each of its turns to determine its behavior for that turn.
+| d10 | Behavior |
+| --- | --- |
+| 1 | The creature uses all its movement to move in a random direction. To determine the direction, roll a d8 and assign a direction to each die face. The creature doesn''t take an action this turn. |
+| 2-6 | The creature doesn''t move or take actions this turn. |
+| 7-8 | The creature uses its action to make a melee attack against a randomly determined creature within its reach. If there is no creature within its reach, the creature does nothing this turn. |
+| 9-10 | The creature can act and move normally. |
 At the end of each of its turns, an affected target can make a Wisdom saving throw. If it succeeds, this effect ends for that target.
 At Higher Levels.When you cast this spell using a spell slot of 5th level or higher, the radius of the sphere increases by 5 feet for each slot level above 4th.', '', '5'),
 	('Charm Person', '1st', '1 action', '30 ft', 'True', 'True', 'False', '', '1 hour', 'False', 'False', 'enchantment', 'wis save', 'You attempt to charm a humanoid you can see within range. It must make a Wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)by you until the spell ends or until you or your companions do anything harmful to it. The[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)by you.
@@ -380,8 +419,16 @@ Until the spell ends, you can direct the vine to lash out at the same creature o
 	('Blade Ward', 'cantrip', '1 action', 'self', 'True', 'True', 'False', '', '1 round', 'False', 'False', 'abjuration', 'none', 'You extend your hand and trace a sigil of warding in the air. Until the end of your next turn, you have resistance against bludgeoning, piercing, and slashing damage dealt by weapon attacks.', '', '5'),
 	('Elemental Weapon', '3rd', '1 action', 'touch', 'True', 'True', 'False', '', 'concentration 1 hour', 'False', 'False', 'transmutation', 'none', 'A nonmagical weapon you touch becomes a magic weapon. Choose one of the following damage types: acid, cold, fire, lightning, or thunder. For the duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 damage of the chosen type when it hits.
 At Higher Levels. When you cast this spell using a spell slot of 5th or 6th level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4. When you use a spell slot of 7th level or higher, the bonus increases to +3 and the extra damage increases to 3d4.', '', '5'),
-	('####Animated Object Statistics', '5th', '1 action', '120 ft', 'True', 'True', 'False', '', '1 minute', 'True', 'False', 'transmutation', 'none', 'Objects come to life at your command. Choose up to ten nonmagical objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can''t animate any object larger than Huge. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points.
+	('Animate Objects', '5th', '1 action', '120 ft', 'True', 'True', 'False', '', '1 minute', 'True', 'False', 'transmutation', 'none', 'Objects come to life at your command. Choose up to ten nonmagical objects within range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can''t animate any object larger than Huge. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points.
 As a bonus action, you can mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.
+##### Animated Object Statistics
+| Size | HP | AC | Str | Dex | Attack |
+| --- | --- | --- | --- | --- | --- |
+| Tiny | 20 | 18 | 4 | 18 | +8 to hit, 1d4 + 4 damage |
+| Small | 25 | 16 | 6 | 14 | +6 to hit, 1d8 + 2 damage |
+| Medium | 40 | 13 | 10 | 12 | +5 to hit, 2d6 + 1 damage |
+| Large | 50 | 10 | 14 | 10 | +6 to hit, 2d10 + 2 damage |
+| Huge | 80 | 10 | 18 | 6 | +8 to hit, 2d12 + 4 damage |
 Constitution is 10 and its Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet; if the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0. It has[blindsight](https://www.dndbeyond.com/compendium/rules/basic-rules/monsters#Blindsight)with a radius of 30 feet and is blind beyond that distance. When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.
 If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and bludgeoning damage determined by its size. The GM might rule that a specific object inflicts slashing or piercing damage based on its form.
 At Higher Levels.If you cast this spell using a spell slot of 6th level or higher, you can animate two additional objects for each slot level above 5th.', '', '5'),
@@ -508,7 +555,13 @@ A summoned creature disappears when it drops to 0 hit points or when the spell e
 The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which have their own turns. They obey any verbal commands that you issue to them (no action required by you). If you don''t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.
 The GM has the creatures'' statistics. You can see some sample creatures below.
 At Higher Levels.When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot.
-Sample Creatures', '', '5'),
+Sample Creatures
+| CR | Creature |
+| --- | --- |
+| 1/4 | [[Blink Dog]], [[Sprite]] |
+| 1/2 | [[Satyr]] |
+| 1 | [[Dryad]] |
+| 2 | [[Sea Hag]] |', '', '5'),
 	('Weird', '9th', '1 action', '120 ft(30 ft)', 'True', 'True', 'False', '', '1 minute', 'True', 'False', 'illusion', 'wis save', 'Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened)for the duration. The illusion calls on the creature''s deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened)creature''s turns, it must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends for that creature.', '', '5'),
 	('Drawmij''s Instant Summons', '6th', '1 minute ritual', 'touch', 'True', 'True', 'True', 'a sapphire worth 1,000 gp', 'until dispelled', 'False', 'False', 'conjuration', 'none', 'You touch an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an invisible mark on its surface and invisibly inscribes the name of the item on the sapphire you use as the material component. Each time you cast this spell, you must use a different sapphire.
 At any time thereafter, you can use your action to speak the item’s name and crush the sapphire. The item instantly appears in your hand regardless of physical or planar distances, and the spell ends.
@@ -565,6 +618,16 @@ At the end of each of its turns, and each time it takes damage, the target can m
 The spell can locate a specific object known to you, as long as you have seen it up close--within 30 feet--at least once. Alternatively, the spell can locate the nearest object of a particular kind, such as a certain kind of apparel, jewelry, furniture, tool, or weapon.
 This spell can''t locate an object if any thickness of lead, even a thin sheet, blocks a direct path between you and the object.', '', '5'),
 	('Scrying', '5th', '10 minutes', 'self', 'True', 'True', 'True', 'a focus worth at least 1,000 gp, such as a crystal ball, a silver mirror, or a font filled with holy water', '10 minutes', 'True', 'False', 'divination', 'wis save', 'You can see and hear a particular creature you choose that is on the same plane of existence as you. The target must make a Wisdom saving throw, which is modified by how well you know the target and the sort of physical connection you have to it. If a target knows you''re casting this spell, it can fail the saving throw voluntarily if it wants to be observed.
+| Knowledge                                 | Save Modifier |
+| ----------------------------------------- | ------------- |
+| Secondhand (you have heard of the target) | +5            |
+| Firsthand (you have met the target)       | 0             |
+| Familiar (you know the target well)       | -5            |
+| Connection                                        | Save Modifier |
+| ------------------------------------------------- | ------------- |
+| Likeness or picture                               | -2            |
+| Possession or garment                             | -4            |
+| Body part, lock of hair, bit of nail, or the like | -10           |
 On a successful save, the target isn''t affected, and you can''t use this spell against it again for 24 hours.
 On a failed save, the spell creates an invisible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. A creature that can see invisible objects sees the sensor as a luminous orb about the size of your fist.
 Instead of targeting a creature, you can choose a location you have seen before as the target of this spell. When you do, the sensor appears at that location and doesn''t move.', '', '5'),
@@ -596,7 +659,8 @@ When the messenger arrives, it delivers your message to the creature that you de
 At Higher Levels.If you cast this spell using a spell slot of 3rd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd.
 *(a morsel of food)
 SpellTags:: COMMUNICATIONSOCIAL
-AvailableFor:: BARD DRUID RANGER', '', '5'),
+AvailableFor:: BARD DRUID RANGER
+---', '', '5'),
 	('Tree Stride', '5th', '1 action', 'self', 'True', 'True', 'False', '', '1 minute', 'True', 'False', 'conjuration', 'none', 'You gain the ability to enter a tree and move from inside it to inside another tree of the same kind within 500 feet. Both trees must be living and at least the same size as you. You must use 5 feet of movement to enter a tree. You instantly know the location of all other trees of the same kind within 500 feet and, as part of the move used to enter the tree, can either pass into one of those trees or step out of the tree you''re in. You appear in a spot of your choice within 5 feet of the destination tree, using another 5 feet of movement. If you have no movement left, you appear within 5 feet of the tree you entered.
 You can use this transportation ability once per round for the duration. You must end each turn outside a tree.', '', '5'),
 	('Clairvoyance', '3rd', '10 minutes', '1 mile', 'True', 'True', 'True', 'a focus worth at least 100 gp, either a jeweled horn for hearing or a glass eye for seeing', '10 minutes', 'True', 'False', 'divination', 'none', 'You create an invisible sensor within range in a location familiar to you (a place you have visited or seen before) or in an obvious location that is unfamiliar to you (such as behind a door, around a corner, or in a grove of trees). The sensor remains in place for the duration, and it can''t be attacked or otherwise interacted with.
@@ -609,8 +673,6 @@ On a successful save, you can ask the entity up to five questions. You must ask 
 At Higher Levels.When you cast this spell using a spell slot of 2nd level or higher, you can target one additional creature for each slot level above 1st.', '', '5'),
 	('Otto''s Irresistible Dance', '6th', '1 action', '30 ft', 'True', 'False', 'False', '', '1 minute', 'True', 'False', 'enchantment', 'wis save', 'Choose one creature that you can see within range. The target begins a comic dance in place: shuffling, tapping its feet, and capering for the duration. Creatures that can''t be[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)are immune to this spell.
 A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it. As an action, a dancing creature makes a Wisdom saving throw to regain control of itself. On a successful save, the spell ends.', '', '5'),
-	('Protection from Evil and Good', '1st', '1 action', 'touch', 'True', 'True', 'True', 'holy water or powdered silver and iron, which the spell consumes', '10 minutes', 'True', 'False', 'abjuration', 'none', 'Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.
-The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can''t be[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed),[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened), or possessed by them. If the target is already[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed),[frightened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Frightened), or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.', '', '5'),
 	('Spirit Guardians', '3rd', '1 action', 'self(15 ft)', 'True', 'True', 'True', 'a holy symbol', '10 minutes', 'True', 'False', 'conjuration', 'wis save', 'You call forth spirits to protect you. They flit around you to a distance of 15 feet for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.
 When you cast this spell, you can designate any number of creatures you can see to be unaffected by it. An affected creature''s speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Wisdom saving throw. On a failed save, the creature takes 3d8 radiant damage (if you are good or neutral) or 3d8 necrotic damage (if you are evil). On a successful save, the creature takes half as much damage.
 At Higher Levels.When you cast this spell using a spell slot of 4th level or higher, the damage increases by 1d8 for each slot level above 3rd.', '', '5'),
@@ -631,6 +693,13 @@ At the start of each of your turns, the hound attempts to bite one creature with
 The information you learn is accurate but might be couched in figurative language. For example, if you have a mysterious magic axe on hand, the spell might yield this information: “Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a true Child of Stone, lover and beloved of Moradin, may awaken the true powers of the axe, and only with the sacred wordRudnoggon the lips."', '', '5'),
 	('Creation', '5th', '1 minute', '30 ft(5 ft)', 'True', 'True', 'True', 'a tiny piece of matter of the same type of the item you plan to create', 'special', 'False', 'False', 'illusion', 'none', 'You pull wisps of shadow material from the Shadowfell to create a nonliving object of vegetable matter within range: soft goods, rope, wood, or something similar. You can also use this spell to create mineral objects such as stone, crystal, or metal. The object created must be no larger than a 5-foot cube, and the object must be of a form and material that you have seen before.
 The duration depends on the object''s material. If the object is composed of multiple materials, use the shortest duration.
+| Material | Duration |
+| --- | --- |
+| Vegetable matter | 1 day |
+| Stone or crystal | 12 hours |
+| Precious metals | 1 hour |
+| Gems | 10 minutes |
+| Adamantine or mithral | 1 minute |
 Using any material created by this spell as another spell''s material component causes that spell to fail.
 At Higher Levels.When you cast this spell using a spell slot of 6th level or higher, the cube increases by 5 feet for each slot level above 5th.', '', '5'),
 	('Simulacrum', '7th', '12 hours', 'touch', 'True', 'True', 'True', 'snow or ice in quantities sufficient to make a life-size copy of the duplicated creature; some hair, fingernail clippings, or other piece of that creature''s body placed inside the snow or ice; and powdered ruby worth 1,500 gp, sprinkled over the duplicate and consumed by the spell', 'until dispelled', 'False', 'False', 'illusion', 'none', 'You shape an illusory duplicate of one beast or humanoid that is within range for the entire casting time of the spell. The duplicate is a creature, partially real and formed from ice or snow, and it can take actions and otherwise be affected as a normal creature. It appears to be the same as the original, but it has half the creature''s hit point maximum and is formed without any equipment. Otherwise, the illusion uses all the statistics of the creature it duplicates, except that it is a construct.
@@ -663,6 +732,15 @@ This spell can''t manipulate natural stone or stone construction. Rocks and stru
 Similarly, this spell doesn''t directly affect plant growth. The moved earth carries any plants along with it.', '', '5'),
 	('Teleport', '7th', '1 action', '10 ft', 'True', 'False', 'False', '', 'instantaneous', 'False', 'False', 'conjuration', 'none', 'This spell instantly transports you and up to eight willing creatures of your choice that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be able to fit entirely inside a 10-foot cube, and it can''t be held or carried by an unwilling creature.
 The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The GM rolls d100 and consults the table.
+| Familiarity       | Mishap | Similar Area | Off Target | On Target |
+| ----------------- | ------ | ------------ | ---------- | --------- |
+| Permanent circle  | -      | -            | -          | 01-100    |
+| Associated object | -      | -            | -          | 01-100    |
+| Very familiar     | 01-05  | 06-13        | 14-24      | 25-100    |
+| Seen casually     | 01-33  | 34-43        | 44-53      | 54-100    |
+| Viewed once       | 01-43  | 44-53        | 54-73      | 74-100    |
+| Description       | 01-43  | 44-53        | 54-73      | 74-100    |
+| False destination | 01-50  | 51-100       | -          | -          |
 Familiarity."Permanent circle" means a permanent teleportation circle whose sigil sequence you know. "Associated object" means that you possess an object taken from the desired destination within the last six months, such as a book from a wizard''s library, bed linen from a royal suite, or a chunk of marble from a lich''s secret tomb.
 "Very familiar" is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell. "Seen casually" is someplace you have seen more than once but with which you aren''t very familiar. "Viewed once" is a place you have seen once, possibly using magic. "Description" is a place whose location and appearance you know through someone else''s description, perhaps from a map.
 "False destination" is a place that doesn''t exist. Perhaps you tried to scry an enemy''s sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.
@@ -715,7 +793,12 @@ An elemental summoned by this spell disappears when it drops to 0 hit points or 
 The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don''t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.
 The GM has the creatures'' statistics.
 At Higher Levels.When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 6th-level slot and three times as many with an 8th-level slot.
-Sample Elementals', '', '5'),
+Sample Elementals
+| CR | Monster |
+| --- | --- |
+| 1/4 | [[Steam Mephit]] |
+| 1/2 | [[Dust Mephit]], [[Ice Mephit]], [[Magma Mephit]], [[Magmin]] |
+| 2 | [[Azer]], [[Gargoyle]] |', '', '5'),
 	('Silence', '2nd', '1 action', '120 ft(20 ft)', 'True', 'True', 'False', '', '10 minutes', 'True', 'True', 'illusion', 'none', 'For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are[deafened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Deafened)while entirely inside it. Casting a spell that includes a verbal component is impossible there.', '', '5'),
 	('Dominate Person', '5th', '1 action', '60 ft', 'True', 'True', 'False', '', '1 minute', 'True', 'False', 'enchantment', 'wis save', 'You attempt to beguile a humanoid that you can see within range. It must succeed on a Wisdom saving throw or be[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed)by you for the duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.
 While the target is[charmed](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Charmed), you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as "Attack that creature," "Run over there," or "Fetch that object." If the creature completes the order and doesn''t receive further direction from you, it defends and preserves itself to the best of its ability.
@@ -847,7 +930,7 @@ The wall can be destroyed, also one layer at a time, in order from red to violet
 You can use your action to move this illusion up to twice your speed, and make it gesture, speak, and behave in whatever way you choose. It mimics your mannerisms perfectly.
 You can see through its eyes and hear through its ears as if you were in its space. On your turn as a bonus action, you can switch from using its senses to using your own, or back again. While you are using its senses, you are[blinded](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Blinded)and[deafened](https://www.dndbeyond.com/compendium/rules/basic-rules/appendix-a-conditions#Deafened)in regard to your own surroundings.
 Physical interaction with the image reveals it to be an illusion, because things can pass through it. A creature that uses its action to examine the image can determine that it is an illusion with a successful Intelligence ([Investigation](https://www.dndbeyond.com/compendium/rules/basic-rules/using-ability-scores#Investigation)) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.', '', '5'),
-	('Aura of Life', '4th', '1 action', 'self (30 ft sphere)', 'True', 'False', 'False', '', 'concentration 10 minutes', 'False', 'False', 'abjuration', 'none', 'Life-preserving energy radiates from you in an aura with a 30-foot radius.  Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can’t be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points.', '', '5'),
+	('Aura of Life', '4th', '1 action', 'self (30 ft sphere)', 'True', 'False', 'False', '', 'concentration 10 minutes', 'False', 'False', 'abjuration', 'none', '', '', '5'),
 	('Plane Shift', '7th', '1 action', 'touch', 'True', 'True', 'True', 'a forked, metal rod worth at least 250 gp, attuned to a particular plane of existence', 'instantaneous', 'False', 'False', 'conjuration', 'cha save', 'You and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as the City of Brass on the Elemental Plane of Fire or the palace of Dispater on the second level of the Nine Hells, and you appear in or near that destination. If you are trying to reach the City of Brass, for example, you might arrive in its Street of Steel, before its Gate of Ashes, or looking at the city from across the Sea of Fire, at the GM''s discretion.
 Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.
 You can use this spell to banish an unwilling creature to another plane. Choose a creature within your reach and make a melee spell attack against it. On a hit, the creature must make a Charisma saving throw. If the creature fails this save, it is transported to a random location on the plane of existence you specify. A creature so transported must find its own way back to your current plane of existence.', '', '5'),
@@ -905,9 +988,34 @@ A disintegrated creature and everything it is wearing and carrying, except magic
 This spell automatically disintegrates a Large or smaller nonmagical object or a creation of magical force. If the target is a Huge or larger object or creation of force, this spell disintegrates a 10-foot- cube portion of it. A magic item is unaffected by this spell.
 At Higher Levels.When you cast this spell using a spell slot of 7th level or higher, the damage increases by 3d6 for each slot level above 6th.', '', '5'),
 	('Water Breathing', '3rd', '1 action', '30 ft', 'True', 'True', 'True', 'a short reed or piece of straw', '24 hours', 'False', 'True', 'transmutation', 'none', 'This spell grants up to ten willing creatures you can see within range the ability to breathe underwater until the spell ends. Affected creatures also retain their normal mode of respiration.', '', '5'),
-	('###Wind', '8th', '10 minutes', 'self(5 miles)', 'True', 'True', 'True', '', '8 hours', 'True', 'False', 'transmutation', 'none', 'You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell. Moving to a place where you don’t have a clear path to the sky ends the spell early.
+	('Control Weather', '8th', '10 minutes', 'self(5 miles)', 'True', 'True', 'True', '', '8 hours', 'True', 'False', 'transmutation', 'none', 'You take control of the weather within 5 miles of you for the duration. You must be outdoors to cast this spell. Moving to a place where you don’t have a clear path to the sky ends the spell early.
 When you cast the spell, you change the current weather conditions, which are determined by the DM based on the climate and season. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.
-When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.', '', '5'),
+When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.
+#### Precipitation
+| Stage | Condition |
+| --- | --- |
+| 1 | Clear |
+| 2 | Light clouds |
+| 3 | Overcast or ground fog |
+| 4 | Rain, hail, or snow |
+| 5 | Torrential rain, driving hail, or blizzard |
+#### Temperature
+| Stage | Condition |
+| --- | --- |
+| 1 | Unbearable heat |
+| 2 | Hot |
+| 3 | Warm |
+| 4 | Cool |
+| 5 | Cold |
+| 6 | Arctic cold |
+#### Wind
+| Stage | Condition |
+| --- | --- |
+| 1 | Calm |
+| 2 | Moderate wind |
+| 3 | Strong wind |
+| 4 | Gale |
+| 5 | Storm |', '', '5'),
 	('Detect Thoughts', '2nd', '1 action', 'self', 'True', 'True', 'True', '', '1 minute', 'True', 'False', 'divination', 'wis save', 'For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn’t speak any language, the creature is unaffected.
 You initially learn the surface thoughts of the creature—what is most on its mind in that moment. As an action, you can either shift your attention to another creature’s thoughts or attempt to probe deeper into the same creature’s mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature’s thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check; if it succeeds, the spell ends.
 Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.
@@ -989,5 +1097,13 @@ Each beast is also considered fey, and it disappears when it drops to 0 hit poin
 The summoned creatures are friendly to you and your companions. Roll initiative for the summoned creatures as a group, which has its own turns. They obey any verbal commands that you issue to them (no action required by you). If you don''t issue any commands to them, they defend themselves from hostile creatures, but otherwise take no actions.
 The GM has the creatures'' statistics. Sample creatures can be found below.
 At Higher Levels.When you cast this spell using certain higher-level spell slots, you choose one of the summoning options above, and more creatures appear: twice as many with a 5th-level slot, three times as many with a 7th-level slot, and four times as many with a 9th-level slot.
-Sample Creatures', '', '5')
+Sample Creatures
+| CR | Creature Name |
+| --- | --- |
+| 0 | [[Frog]], [[Sea Horse]], [[Baboon]], [[Badger]], [[Bat]], [[Cat]], [[Crab]], [[Deer]], [[Eagle]], [[Giant Fire Beetle]], [[Goat]], [[Hawk]], [[Hyena]], [[Jackal]], [[Lizard]], [[Octopus]], [[Owl]], [[Quipper]], [[Rat]], [[Raven]], [[Scorpion]], [[Spider]], [[Vulture]], [[Weasel]] |
+| 1/8 | [[Blood Hawk]], [[Camel]], [[Flying Snake]], [[Giant Crab]], [[Giant Rat]], [[Giant Weasel]], [[Mastiff]], [[Mule]], [[Poisonous Snake]], [[Pony]], [[Stirge]] |
+| 1/4 | [[Axe Beak]], [[Boar]], [[Constrictor Snake]], [[Draft horse]], [[Elk]], [[Giant Badger]], [[Giant Bat]], [[Giant Centipede]], [[Giant Frog]], [[Giant Lizard]], [[Giant Owl]], [[Giant Poisonous Snake]], [[Giant Wolf Spider]], [[Panther]], [[Riding horse]], [[Wolf]] |
+| 1/2 | [[Ape]], [[Black Bear]], [[Crocodile]], [[Giant Goat]], [[Giant Sea Horse]], [[Giant Wasp]], [[Reef Shark]], [[Warhorse]] |
+| 1 | [[Brown Bear]], [[Dire Wolf]], [[Giant Eagle]], [[Giant Hyena]], [[Giant Octopus]], [[Giant Spider]], [[Giant Toad]], [[Giant Vulture]], [[Lion]], [[Tiger]] |
+| 2 | [[Giant Boar]], [[Giant Constrictor Snake]], [[Giant Elk]], [[Hunter Shark]], [[Plesiosaurus]], [[Polar Bear]], [[Rhinoceros]], [[Saber-toothed Tiger]] |', '', '5')
 	

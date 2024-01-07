@@ -210,9 +210,9 @@ def Fill_In_Spell(attributes, lines):
             spell["component_materials"] = line.replace("* - (", "").replace("'","''").rstrip(")")
         elif line.startswith("!["):
             continue
-        elif "---" in line and "|" not in line and count_three_dashes <= 3:
+        elif "---" in line and "|" not in line and count_three_dashes <= 4:
             count_three_dashes += 1
-        elif count_three_dashes >= 4: # and "|" not in line and "---" not in line:
+        elif count_three_dashes >= 5: # and "|" not in line and "---" not in line:
             string_description += line.replace("**","").replace("_","") + "\n"
 
     spell["level"] = attributes[0]
@@ -465,7 +465,7 @@ def Get_Class_Id_Num(class_word, spell_id_number, spell_name):  # <R>
         "the fiend": 64,
         "the great old one": 65,
         "the celestial": 66,
-        "undying": 67,
+        "the undying": 67,
         "the hexblade": 68,
         "the fathomless": 69,
         "the genie": 70,
