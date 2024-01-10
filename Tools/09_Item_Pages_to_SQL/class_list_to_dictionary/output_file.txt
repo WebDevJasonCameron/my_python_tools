@@ -1,0 +1,143 @@
+"rouge": 1
+"thief": 2
+"assassin": 3
+"arcane trickster": 4
+"inquisitive": 5
+"mastermind": 6
+"scout": 7
+"swashbuckler": 8
+"phantom": 9
+"soulknife": 10
+"fighter": 11
+"champion": 12
+"battle master": 13
+"eldritch knight": 14
+"arcane archer": 15
+"cavalier": 16
+"samurai": 17
+"psi warrior": 18
+"rune knight": 19
+"echo fighter": 20
+"purple dragon knight": 21
+"cleric": 22
+"knowledge domain": 23
+"life domain": 24
+"light domain": 25
+"nature domain": 26
+"tempest domain": 27
+"trickery domain": 28
+"war domain": 29
+"death domain": 30
+"twilight domain": 31
+"order domain": 32
+"forge domain": 33
+"grave domain": 34
+"peace domain": 35
+"arcane domain": 36
+"ranger": 37
+"fey wanderer": 38
+"swarmkeeper": 39
+"gloom stalker": 40
+"horizon walker": 41
+"monster slayer": 42
+"hunter": 43
+"beast master": 44
+"drakewarden": 45
+"druid": 46
+"circle of the land": 47
+"circle of the land (arctic)": 48
+"circle of the land (coastland)": 49
+"circle of the land (desert)": 50
+"circle of the land (forest)": 51
+"circle of the land (grassland)": 52
+"circle of the land (mountains)": 53
+"circle of the land (swamps)": 54
+"circle of the land (underdark)": 55
+"circle of the moon": 56
+"circle of dreams": 57
+"circle of the shepherd": 58
+"circle of spores": 59
+"circle of stars": 60
+"circle of wildfire": 61
+"warlock": 62
+"the archfey": 63
+"the fiend": 64
+"the great old one": 65
+"the celestial": 66
+"undying": 67
+"the hexblade": 68
+"the fathomless": 69
+"the genie": 70
+"the undead": 71
+"paladin": 72
+"oath of devotion": 73
+"oath of the ancients": 74
+"oath of vengeance": 75
+"oathbreaker": 76
+"oath of conquest": 77
+"oath of redemption": 78
+"oath of glory": 79
+"oath of the watchers": 80
+"oath of the crown": 81
+"oath of the open sea": 82
+"monk": 83
+"way of the open hand": 84
+"way of the shadow": 85
+"way of the four elements": 86
+"way of mercy": 87
+"way of the astral self": 88
+"way of the drunken master": 89
+"way of the kensei": 90
+"way of the sun soul": 91
+"way of long death": 92
+"way of the ascendant dragon": 93
+"wizard": 94
+"school of abjuration": 95
+"school of conjuration": 96
+"school of divination": 97
+"school of enchantment": 98
+"school of evocation": 99
+"school of illusion": 100
+"school of necromancy": 101
+"school of transmutation": 102
+"school of graviturgy": 103
+"school of chronurgy": 104
+"war magic": 105
+"bladesinging": 106
+"order of scribes": 107
+"barbarian": 108
+"berserker": 109
+"totem warrior": 110
+"ancestral guardian": 111
+"storm herald": 112
+"zealot": 113
+"beast": 114
+"wild soul": 115
+"battlerager": 116
+"artificer": 117
+"armorer": 118
+"alchemist": 119
+"artillerist": 120
+"battle smith": 121
+"bard": 122
+"college of lore": 123
+"college of valor": 124
+"college of creation": 125
+"college of glamor": 126
+"college of swords": 127
+"college of whispers": 128
+"college of eloquence": 129
+"college of spirits": 130
+"sorcerer": 131
+"aberrant mind": 132
+"clockwork soul": 133
+"divine soul": 134
+"shadow magic": 135
+"storm sorcery": 136
+"draconic bloodline": 137
+"wild magic": 138
+"blood hunter": 139
+"Order of the Ghostslayer": 140
+"Order of the Lycan": 141
+"Order of the Mutant": 142
+"Order of the Profane Soul": 143
