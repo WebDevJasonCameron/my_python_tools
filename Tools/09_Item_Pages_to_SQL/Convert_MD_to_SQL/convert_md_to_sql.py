@@ -2,7 +2,7 @@ import os
 import glob
 
 path = "/Users/jasoncameron/Desktop/dnd_items/Items"
-file = "/Users/jasoncameron/Desktop/dnd_items/Items/Arrow-Catching Shield.md"
+file = "/Users/jasoncameron/Desktop/dnd_items/Items/Bag of Tricks.md"
 
 item_id_number = 1
 
@@ -18,7 +18,28 @@ def Pars_Document(file):
     item_tags = Capture_Tags(lines)
     item_types = Capture_Types(lines)
 
-    Fill_In_Item(lines)
+    item = Fill_In_Item(lines)       # Must be completed Prior to cond & magic bonuses
+
+    item["has_charges"] = Capture_Charges(item["description"])
+
+    conditions = Capture_Condition(item["description"])
+
+    print("1. name: " + item["name"])
+    print("2. ttrpg: " + item["ttrpg"])
+    print("3. rarity: " + item["rarity"])
+    print("4. renowned quality: " + item["renowned_quality"])
+    print("5. requires attunement: " + str(item["requires_attunement"]))
+    print("6. has charges: " + str(item["has_charges"]))                            # <R> Req Description
+    print("7. is cursed: " + str(item["is_cursed"]))
+    print("8. cost: " + str(item["cost"]))
+    print("9. weight: " + str(item["weight"]))
+    print("9. description: " + item["description"])
+    print("10. image url: " + str(item["image_url"]))
+    print("11. source id: " + str(item["source_id"]))
+    print("12. magic bonus +1: " + str(item["magic_bonus_plus_1"]))                 # <R> Req Description
+    print("13. magic bonus +2: " + str(item["magic_bonus_plus_2"]))                 # <R> Req Description
+    print("14. magic bonus +3: " + str(item["magic_bonus_plus_3"]))                 # <R> Req Description
+    print("15. notes: " + str(item["description_notes"]))
 
 
 # <F> Capture_Lines
@@ -60,7 +81,7 @@ def Capture_Tags(lines):
 
 
 # <F> Capture_Conditions
-def Capture_Condition(lines, item_description):
+def Capture_Condition(item_description):
     item_conditions = []
     condition_list = ["blinded",
                       "charmed",
@@ -87,6 +108,17 @@ def Capture_Condition(lines, item_description):
 
     return item_conditions
 
+
+# <F> Capture_Charges
+def Capture_Charges(item_description):
+    mod_description = item_description.lower().replace("[", " ").replace("]", " ").replace(",", "").replace(".", "")
+    array_description = mod_description.split(" ")
+
+    for word in array_description:
+        if word == "charges":
+            return True
+        else:
+            return False
 
 # <F> Capture_Attached_Spells
 
@@ -134,30 +166,13 @@ def Fill_In_Item(lines):
             continue
         elif "---" in line and count_three_dashes <= 3:
             count_three_dashes += 1
-            print("count: " + str(count_three_dashes))
         elif count_three_dashes >= 3:
-            print("HERE!")
-            string_description += line.replace("'", "''").replace("**", "").replace("_", "")
+            string_description += line.replace("'", "''").replace("**", "").replace("_", "").replace("[[", "").replace("]]", "") + "\n"
 
-    item["description"] = string_description
+    item["description"] = string_description.rstrip("\n")
 
-
-    print("1. name: " + item["name"])
-    print("2. ttrpg: " + item["ttrpg"])
-    print("3. rarity: " + item["rarity"])
-    print("4. renowned quality: " + item["renowned_quality"])
-    print("5. requires attunement: " + str(item["requires_attunement"]))
-    print("6. has charges: " + str(item["has_charges"]))                            # <R> Req Description
-    print("7. is cursed: " + str(item["is_cursed"]))
-    print("8. cost: " + str(item["cost"]))
-    print("9. weight: " + str(item["weight"]))
-    print("9. description: " + item["description"])
-    print("10. image url: " + str(item["image_url"]))
-    print("11. source id: " + str(item["source_id"]))
-    print("12. magic bonus +1: " + str(item["magic_bonus_plus_1"]))
-    print("13. magic bonus +2: " + str(item["magic_bonus_plus_2"]))
-    print("14. magic bonus +3: " + str(item["magic_bonus_plus_3"]))
-    print("15. notes: " + str(item["description_notes"]))
+    return item
 
 # RUN ====================================================
 Pars_Document(file)
+

@@ -25,6 +25,7 @@ def Parse_Document(file, spell_id_number):
     spell_tags = Capture_Tags(lines)
     spell_classes = Capture_Classes(lines)
     attributes = Capture_Attributes(lines)
+
     spell = Fill_In_Spell(attributes, lines)  # Must be completed Prior to cond & DT capture
 
     spell_conditions = Capture_Condition(lines, spell["description"])
