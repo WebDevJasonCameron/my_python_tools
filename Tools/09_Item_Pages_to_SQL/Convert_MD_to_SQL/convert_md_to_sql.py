@@ -129,7 +129,7 @@ def Fill_In_Item(lines):
             if "yes" in line.lower():
                 item["is_cursed"] = True
         elif line.startswith("Notes:"):
-            item["description_notes"] = line.replace("Notes:", "").replace("'", "''").strip()
+            item["description_notes"] = line.replace("Notes:", "").replace("'", "''").lower().strip()
         elif line.startswith("!["):
             continue
         elif "---" in line and count_three_dashes <= 3:
@@ -137,7 +137,7 @@ def Fill_In_Item(lines):
             print("count: " + str(count_three_dashes))
         elif count_three_dashes >= 3:
             print("HERE!")
-            string_description += line.replace("'", "''").replace("**", "").replace("_", "") + "\n"
+            string_description += line.replace("'", "''").replace("**", "").replace("_", "")
 
     item["description"] = string_description
 
@@ -151,7 +151,13 @@ def Fill_In_Item(lines):
     print("7. is cursed: " + str(item["is_cursed"]))
     print("8. cost: " + str(item["cost"]))
     print("9. weight: " + str(item["weight"]))
-    print("9. description: " + str(item["description"]))
+    print("9. description: " + item["description"])
+    print("10. image url: " + str(item["image_url"]))
+    print("11. source id: " + str(item["source_id"]))
+    print("12. magic bonus +1: " + str(item["magic_bonus_plus_1"]))
+    print("13. magic bonus +2: " + str(item["magic_bonus_plus_2"]))
+    print("14. magic bonus +3: " + str(item["magic_bonus_plus_3"]))
+    print("15. notes: " + str(item["description_notes"]))
 
 # RUN ====================================================
 Pars_Document(file)
