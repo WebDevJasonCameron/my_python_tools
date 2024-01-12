@@ -2,7 +2,7 @@ import os
 import glob
 
 path = "/Users/jasoncameron/Desktop/dnd_items/Items"
-file = "/Users/jasoncameron/Desktop/dnd_items/Items/Dagger of Venom.md"
+file = "/Users/jasoncameron/Desktop/dnd_items/Items/Staff of the Woodlands.md"
 
 item_id_number = 1
 
@@ -15,34 +15,22 @@ def Pars_Document(file):
     read_file = open(file, 'r')
 
     lines = Capture_Lines(read_file)
-    item_tags = Capture_Tags(lines)
-    item_types = Capture_Types(lines)
 
     item = Fill_In_Item(lines)       # Must be completed Prior to cond & magic bonuses
 
     item["has_charges"] = Search_Description_For_Word("charges", item["description"])
     item["magic_bonus_plus_1"] = Search_Description_For_Bonuses("+1", item["description"])
-    # item["magic_bonus_plus_2"] = Search_Description_For_Bonuses("+2", item["description"])
-    # item["magic_bonus_plus_3"] = Search_Description_For_Bonuses("+3", item["description"])
+    item["magic_bonus_plus_2"] = Search_Description_For_Bonuses("+2", item["description"])
+    item["magic_bonus_plus_3"] = Search_Description_For_Bonuses("+3", item["description"])
 
     conditions = Capture_Condition(item["description"])
+    attached_spells = Capture_Attached_Spells(item["description"])
+    item_tags = Capture_Tags(lines)
+    item_types = Capture_Types(lines)
 
-    # print("1. name: " + item["name"])
-    # print("2. ttrpg: " + item["ttrpg"])
-    # print("3. rarity: " + item["rarity"])
-    # print("4. renowned quality: " + item["renowned_quality"])
-    # print("5. requires attunement: " + str(item["requires_attunement"]))
-    # print("6. has charges: " + str(item["has_charges"]))                            # <R> Req Description
-    # print("7. is cursed: " + str(item["is_cursed"]))
-    # print("8. cost: " + str(item["cost"]))
-    # print("9. weight: " + str(item["weight"]))
-    # print("9. description: " + item["description"])
-    # print("10. image url: " + str(item["image_url"]))
-    # print("11. source id: " + str(item["source_id"]))
-    print("12. magic bonus +1: " + str(item["magic_bonus_plus_1"]))                 # <R> Req Description
-    print("13. magic bonus +2: " + str(item["magic_bonus_plus_2"]))                 # <R> Req Description
-    print("14. magic bonus +3: " + str(item["magic_bonus_plus_3"]))                 # <R> Req Description
-    # print("15. notes: " + str(item["description_notes"]))
+    for spell in attached_spells:
+        print(spell)
+
 
 
 
@@ -57,7 +45,6 @@ def Capture_Lines(input):
 
     return lines
 
-
 # <F> Capture_Types
 def Capture_Types(lines):
     item_types = []
@@ -68,7 +55,6 @@ def Capture_Types(lines):
             item_types.append(mod_line.lower().strip())
 
     return item_types
-
 
 # <F> Capture_Tags
 def Capture_Tags(lines):
@@ -82,7 +68,6 @@ def Capture_Tags(lines):
                 item_tags.append(l.lower().strip())
 
     return item_tags
-
 
 # <F> Capture_Conditions
 def Capture_Condition(item_description):
@@ -112,7 +97,6 @@ def Capture_Condition(item_description):
 
     return item_conditions
 
-
 # <f> Search_Description_For_Word
 def Search_Description_For_Word(searched_word, item_description):
     mod_description = item_description.lower().replace("[", " ").replace("]", " ").replace(",", "").replace(".", "")
@@ -138,28 +122,339 @@ def Search_Description_For_Bonuses(searched_bonus, item_description):
     return False
 
 # <F> Capture_Attached_Spells
+def Capture_Attached_Spells(item_description):
+    attached_spells = []
+    spells = [
+        "Druidcraft",
+        "Regenerate",
+        "Locate Creature",
+        "Spare the Dying",
+        "Circle of Power",
+        "Power Word Kill",
+        "Bless",
+        "Harm",
+        "Counterspell",
+        "Polymorph",
+        "Mage Armor",
+        "Gentle Repose",
+        "Fabricate",
+        "Raise Dead",
+        "Call Lightning",
+        "Gate",
+        "Mordenkainen’s Private Sanctum",
+        "Phantasmal Force",
+        "Beacon of Hope",
+        "Produce Flame",
+        "Transport via Plants",
+        "Glyph of Warding",
+        "Swift Quiver",
+        "Fly",
+        "Nondetection",
+        "Sleep",
+        "Sanctuary",
+        "Speak with Plants",
+        "Bestow Curse",
+        "Reincarnate",
+        "Hunter's Mark",
+        "Misty Step",
+        "Evard’s Black Tentacles",
+        "Etherealness",
+        "Flaming Sphere",
+        "Plant Growth",
+        "Arcane Eye",
+        "Antipathy/Sympathy",
+        "Conjure Fey",
+        "Modify Memory",
+        "Entangle",
+        "Mass Suggestion",
+        "Detect Evil and Good",
+        "Dominate Beast",
+        "Enhance Ability",
+        "Blur",
+        "Dispel Magic",
+        "BLIGHT",
+        "Eyebite",
+        "Zone of Truth",
+        "Poison Spray",
+        "Hex",
+        "Wall of Thorns",
+        "Awaken",
+        "True Polymorph",
+        "Slow",
+        "Hail of Thorns",
+        "Hypnotic Pattern",
+        "Banishing Smite",
+        "Conjure Volley",
+        "Guards and Wards",
+        "Augury",
+        "Animal Friendship",
+        "Feeblemind",
+        "Stone Shape",
+        "Chill Touch",
+        "Phantasmal Killer",
+        "Mirror Image",
+        "Detect Magic",
+        "Dominate Monster",
+        "Find Steed",
+        "Holy Aura",
+        "Maze",
+        "Arcane Lock",
+        "Divination",
+        "Conjure Celestial",
+        "Barkskin",
+        "Arcane Gate",
+        "Conjure Elemental",
+        "Seeming",
+        "Antimagic Field",
+        "Animal Shapes",
+        "Wind Walk",
+        "Color Spray",
+        "Pass without Trace",
+        "Thorn Whip",
+        "Prestidigitation",
+        "Find Traps",
+        "Globe of Invulnerability",
+        "Magic Circle",
+        "Dissonant Whispers",
+        "Rary's Telepathic Bond",
+        "Crown of Madness",
+        "Leomund’s Secret Chest",
+        "Finger of Death",
+        "Resurrection",
+        "Ray of Enfeeblement",
+        "Banishment",
+        "Teleportation Circle",
+        "Create or Destroy Water",
+        "Confusion",
+        "Charm Person",
+        "Grasping Vine",
+        "Blade Ward",
+        "Elemental Weapon",
+        "Animate Objects",
+        "Guidance",
+        "Levitate",
+        "Arms of Hadar",
+        "Clone",
+        "Feign Death",
+        "Create Food and Water",
+        "Shillelagh",
+        "Calm Emotions",
+        "Inflict Wounds",
+        "Mending",
+        "Illusory Script",
+        "Control Water",
+        "Cloudkill",
+        "Meld into Stone",
+        "Sleet Storm",
+        "Comprehend Languages",
+        "Word of Recall",
+        "Imprisonment",
+        "True Seeing",
+        "Stinking Cloud",
+        "Enthrall",
+        "Fog Cloud",
+        "Mirage Arcane",
+        "Greater Restoration",
+        "Protection from Energy",
+        "Contagion",
+        "Remove Curse",
+        "Commune with Nature",
+        "Nystul’s Magic Aura",
+        "Minor Illusion",
+        "Mind Blank",
+        "Conjure Woodland Beings",
+        "Weird",
+        "Drawmij's Instant Summons",
+        "Sequester",
+        "Demiplane",
+        "Grease",
+        "Identify",
+        "Haste",
+        "Blindness/Deafness",
+        "Aid",
+        "Cordon of Arrows",
+        "Storm of Vengeance",
+        "Disguise Self",
+        "Foresight",
+        "Mage Hand",
+        "Protection from Evil and Good",
+        "True Strike",
+        "Guardian of Faith",
+        "Cloud of Daggers",
+        "Silvery Barbs",
+        "Tasha’s Hideous Laughter",
+        "Locate Object",
+        "Scrying",
+        "Shield of Faith",
+        "Magic Weapon",
+        "Heroes' Feast",
+        "Knock",
+        "Command",
+        "Friends",
+        "Commune",
+        "Animal Messenger",
+        "Tree Stride",
+        "Clairvoyance",
+        "Contact Other Plane",
+        "Locate Animals or Plants",
+        "Bane",
+        "Otto's Irresistible Dance",
+        "Spirit Guardians",
+        "Protection from Poison",
+        "Time Stop",
+        "Mislead",
+        "Incendiary Cloud",
+        "Mordenkainen’s Faithful Hound",
+        "Legend Lore",
+        "Creation",
+        "Simulacrum",
+        "Suggestion",
+        "Wish",
+        "Move Earth",
+        "Teleport",
+        "Animate Dead",
+        "Death Ward",
+        "Circle of Death",
+        "Silent Image",
+        "Dimension Door",
+        "Zephyr Strike",
+        "Find Familiar",
+        "Planar Ally",
+        "Ray of Sickness",
+        "Vampiric Touch",
+        "Hold Person",
+        "Conjure Minor Elementals",
+        "Silence",
+        "Dominate Person",
+        "Dispel Evil and Good",
+        "Heat Metal",
+        "Invisibility",
+        "Freedom of Movement",
+        "Web",
+        "Magic Jar",
+        "Programmed Illusion",
+        "Rope Trick",
+        "Thaumaturgy",
+        "Speak with Dead",
+        "Feather Fall",
+        "Telekinesis",
+        "Insect Plague",
+        "Detect Poison and Disease",
+        "Fear",
+        "True Resurrection",
+        "Flesh to Stone",
+        "Armor of Agathys",
+        "Phantom Steed",
+        "Gaseous Form",
+        "Vicious Mockery",
+        "Speak with Animals",
+        "Resistance",
+        "Mordenkainen’s Magnificent Mansion",
+        "Message",
+        "Greater Invisibility",
+        "Magic Mouth",
+        "Spike Growth",
+        "Enlarge/Reduce",
+        "Darkvision",
+        "Beast Sense",
+        "Find the Path",
+        "Symbol",
+        "Stoneskin",
+        "Dream",
+        "Lesser Restoration",
+        "Prismatic Wall",
+        "Giant Insect",
+        "Project Image",
+        "Aura of Life",
+        "Plane Shift",
+        "Jump",
+        "Astral Projection",
+        "Blink",
+        "Major Image",
+        "Forbiddance",
+        "Hallucinatory Terrain",
+        "Reverse Gravity",
+        "Acid Splash",
+        "Goodberry",
+        "Revivify",
+        "Geas",
+        "Create Undead",
+        "Planar Binding",
+        "Disintegrate",
+        "Water Breathing",
+        "Control Weather",
+        "Detect Thoughts",
+        "Ensnaring Strike",
+        "Expeditious Retreat",
+        "Tongues",
+        "Tsunami",
+        "Compelled Duel",
+        "Shapechange",
+        "Hold Monster",
+        "Warding Bond",
+        "Conjure Barrage",
+        "Longstrider",
+        "Shield",
+        "Antilife Shell",
+        "Alter Self",
+        "See Invisibility",
+        "Tenser’s Floating Disk",
+        "Spider Climb",
+        "Water Walk",
+        "Compulsion",
+        "Alarm",
+        "Unseen Servant",
+        "Lightning Arrow",
+        "Glibness",
+        "Heroism",
+        "False Life",
+        "Passwall",
+        "Purify Food and Drink",
+        "Power Word Stun",
+        "Aura of Purity",
+        "Conjure Animals"
+    ]
 
+    print(item_description + "\n")
+
+    for spell in spells:
+        if spell.lower() in item_description.replace("\n", "").replace(",", " ").replace("-", " ").replace("(", " ").lower():
+            attached_spells.append(spell)
+
+    if "Friends" in attached_spells and "Animal Friendship" in attached_spells:
+        attached_spells.remove("Friends")
+
+    if "Command" in attached_spells:
+        array_description = item_description.lower().split(" ")
+        index = array_description.index("command")
+        next_word = array_description[index + 1].replace(",", "").replace("-", "").replace(".", "")
+        if next_word == "word":
+            attached_spells.remove("Command")
+
+
+
+    return attached_spells
 
 # <F> Capture Effects
 
 # <F> Fill_In_Item
 def Fill_In_Item(lines):
-    item = {"name": "",                                             # 1.
-            "ttrpg": "DND5E",                                       # 2.
-            "rarity": "",                                           # 3.
-            "renowned_quality": "",                                 # 4.
-            "requires_attunement": False,                           # 5.
-            "has_charges": False,                                   # 6. Search Description
-            "is_cursed": False,                                     # 7.
-            "cost": "",                                             # 8. Blank
-            "weight": "",                                           # 9. Blank
-            "description": "",                                      # 10.
-            "image_url": "",                                        # 11. Blank
-            "source_id": 5,                                         # 12.
-            "magic_bonus_plus_1": False,                            # 13. Search Description
-            "magic_bonus_plus_2": False,                            # 14. Search Description
-            "magic_bonus_plus_3": False,                            # 15. Search Description
-            "description_notes": ""                                 # 16.
+    item = {"name": "",
+            "ttrpg": "DND5E",
+            "rarity": "",
+            "renowned_quality": "",
+            "requires_attunement": False,
+            "has_charges": False,
+            "is_cursed": False,
+            "cost": "",
+            "weight": "",
+            "description": "",
+            "image_url": "",
+            "source_id": 5,
+            "magic_bonus_plus_1": False,
+            "magic_bonus_plus_2": False,
+            "magic_bonus_plus_3": False,
+            "description_notes": ""
             }
     count_three_dashes = 0
     string_description = ""
