@@ -1336,9 +1336,6 @@ data = """
 1331,Weapon Property,Versatile,
 """
 
-
-
-
 rows = [row.split(',') for row in data.strip().split('\n')]
 
 result_list = []
@@ -1353,7 +1350,7 @@ for row in rows:
     else:
         result_list.append(f'"{subclass_name}": {class_id}')
 
-output_file = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/class_list_to_dictionary/output_file.txt", "w")
+output_file = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/class_list_to_dictionary/output_file.txt", "w")
 
 for item in result_list:
     output_file.writelines(item + "\n")
