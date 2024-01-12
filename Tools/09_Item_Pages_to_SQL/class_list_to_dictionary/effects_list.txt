@@ -3,7 +3,7 @@ import csv
 
 
 data = """
-1,Advantage,	
+1,Advantage,
 2,vantage,Ability Checks,
 3,vantage,Acrobatics,
 4,vantage,Animal Handling,
@@ -43,7 +43,7 @@ data = """
 38,advantage,Survival,
 39,advantage,Wisdom Ability Checks,
 40,advantage,Wisdom Saving Throws,
-41	,Bonus,	
+41	,Bonus,
 42,Bonus,Ability Checks,
 43,Bonus,Ability Score Maximum,
 44,Bonus,AC Max Dex Modifier,
@@ -144,7 +144,7 @@ data = """
 139,Carrying Capacity,Multiplier,
 140,Carrying Capacity,Small,
 141,Carrying Capacity,Tiny,
-142,Damage,	
+142,Damage,
 143,Damage,Acid,
 144,Damage,Additional,
 145,Damage,All,
@@ -343,7 +343,7 @@ data = """
 338,Expertise,Wisdom Ability Checks,
 339,Expertise,Wisdom Saving Throws,
 340,Expertise,Woodcarver Tools,
-341,Favored Enemy,	
+341,Favored Enemy,
 342,Favored Enemy,Aberrations,
 343,Favored Enemy,Beasts,
 344,Favored Enemy,Celestials,
@@ -420,7 +420,7 @@ data = """
 415,Feat,Tough,
 416,Feat,War Caster,
 417,Feat,Weapon Master,
-418,Half Proficiency,	
+418,Half Proficiency,
 419,Half Proficiency,Ability Checks,
 420,Half Proficiency,Acrobatics,
 421,Half Proficiency,Alchemist Supplies,
@@ -551,7 +551,7 @@ data = """
 546,Half Proficiency,Wisdom Ability Checks,
 547,Half Proficiency,Wisdom Saving Throws,
 548,Half Proficiency,Woodcarver Tools,
-549,Half Proficiency Round up,	
+549,Half Proficiency Round up,
 550,Half Proficiency Round up,Ability Checks,
 551,Half Proficiency Round up,Acrobatics,
 552,Half Proficiency Round up,Alchemist Supplies,
@@ -682,13 +682,13 @@ data = """
 677,Half Proficiency Round up,Wisdom Ability Checks,
 678,Half Proficiency Round up,Wisdom Saving Throws,
 679,Half Proficiency Round up,Woodcarver Tools,
-680,Ignore,	
+680,Ignore,
 681,Ignore,Dual Wield Light Restrictions,
 682,Ignore,Dual Wield Modifier Restrictions,
 683,Ignore,Heavy Armor Speed Reduction,
 684,Ignore,Unarmored Dex AC Bonus,
 685,Ignore,Unarmored Dex Natural AC Bonus,
-686,Ignore Weapon Property,	
+686,Ignore Weapon Property,
 687,Ignore Weapon Property,Finesse,
 688,Ignore Weapon Property,Heavy,
 689,Ignore Weapon Property,Light,
@@ -732,7 +732,7 @@ data = """
 727,Immunity,Stunned,
 728,Immunity,Thunder,
 729,Immunity,Unconscious,
-730,Kensei,	
+730,Kensei,
 731,Kensei,Antimatter Rifle,
 732,Kensei,Battleaxe,
 733,Kensei,Blowgun,
@@ -774,7 +774,7 @@ data = """
 769,Kensei,Warhammer,
 770,Kensei,Whip,
 771,Kensei,Yklwa,
-772,Language,	
+772,Language,
 773,Language,Aarakocra,
 774,Language,Abanasinian,
 775,Language,Abyssal,
@@ -838,7 +838,7 @@ data = """
 833,Language,Worg,
 834,Language,Yeti,
 835,Language,Zemnian,
-836,Melee Weapon Attack,	
+836,Melee Weapon Attack,
 837,Melee Weapon Attack,Acid,
 838,Melee Weapon Attack,Bludgeoning,
 839,Melee Weapon Attack,Cold,
@@ -852,7 +852,7 @@ data = """
 847,Melee Weapon Attack,Radiant,
 848,Melee Weapon Attack,Slashing,
 849,Melee Weapon Attack,Thunder,
-850,Monk Weapon,	
+850,Monk Weapon,
 851,Monk Weapon,Battleaxe,
 852,Monk Weapon,Blowgun,
 853,Monk Weapon,Boomerang,
@@ -895,7 +895,7 @@ data = """
 890,Natural Weapon,Bludgeoning,
 891,Natural Weapon,Piercing,
 892,Natural Weapon,Slashing,
-893,Proficiency,	
+893,Proficiency,
 894,Proficiency,Ability Checks,
 895,Proficiency,Acrobatics,
 896,Proficiency,Alchemist Supplies,
@@ -1335,28 +1335,3 @@ data = """
 1330,Weapon Property,Two-Handed,
 1331,Weapon Property,Versatile,
 """
-
-
-
-
-rows = [row.split(',') for row in data.strip().split('\n')]
-
-result_list = []
-
-for row in rows:
-    class_id = row[0]
-    class_name = row[1]
-    subclass_name = row[2].strip()
-
-    if subclass_name == "":
-        result_list.append(f'"{class_name}": {class_id}')
-    else:
-        result_list.append(f'"{subclass_name}": {class_id}')
-
-output_file = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/08_Spell_Pages_to_SQL/class_list_to_dictionary/output_file.txt", "w")
-
-for item in result_list:
-    output_file.writelines(item + "\n")
-
-output_file.close()
-

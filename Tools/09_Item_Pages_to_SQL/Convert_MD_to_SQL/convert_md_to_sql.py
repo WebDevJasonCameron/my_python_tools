@@ -415,8 +415,6 @@ def Capture_Attached_Spells(item_description):
         "Conjure Animals"
     ]
 
-    print(item_description + "\n")
-
     for spell in spells:
         if spell.lower() in item_description.replace("\n", "").replace(",", " ").replace("-", " ").replace("(", " ").lower():
             attached_spells.append(spell)
@@ -430,8 +428,6 @@ def Capture_Attached_Spells(item_description):
         next_word = array_description[index + 1].replace(",", "").replace("-", "").replace(".", "")
         if next_word == "word":
             attached_spells.remove("Command")
-
-
 
     return attached_spells
 
