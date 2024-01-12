@@ -2,7 +2,7 @@ import os
 import glob
 
 path = "/Users/jasoncameron/Desktop/dnd_items/Items"
-file = "/Users/jasoncameron/Desktop/dnd_items/Items/Bag of Tricks.md"
+file = "/Users/jasoncameron/Desktop/dnd_items/Items/Dagger of Venom.md"
 
 item_id_number = 1
 
@@ -20,26 +20,30 @@ def Pars_Document(file):
 
     item = Fill_In_Item(lines)       # Must be completed Prior to cond & magic bonuses
 
-    item["has_charges"] = Capture_Charges(item["description"])
+    item["has_charges"] = Search_Description_For_Word("charges", item["description"])
+    item["magic_bonus_plus_1"] = Search_Description_For_Bonuses("+1", item["description"])
+    # item["magic_bonus_plus_2"] = Search_Description_For_Bonuses("+2", item["description"])
+    # item["magic_bonus_plus_3"] = Search_Description_For_Bonuses("+3", item["description"])
 
     conditions = Capture_Condition(item["description"])
 
-    print("1. name: " + item["name"])
-    print("2. ttrpg: " + item["ttrpg"])
-    print("3. rarity: " + item["rarity"])
-    print("4. renowned quality: " + item["renowned_quality"])
-    print("5. requires attunement: " + str(item["requires_attunement"]))
-    print("6. has charges: " + str(item["has_charges"]))                            # <R> Req Description
-    print("7. is cursed: " + str(item["is_cursed"]))
-    print("8. cost: " + str(item["cost"]))
-    print("9. weight: " + str(item["weight"]))
-    print("9. description: " + item["description"])
-    print("10. image url: " + str(item["image_url"]))
-    print("11. source id: " + str(item["source_id"]))
+    # print("1. name: " + item["name"])
+    # print("2. ttrpg: " + item["ttrpg"])
+    # print("3. rarity: " + item["rarity"])
+    # print("4. renowned quality: " + item["renowned_quality"])
+    # print("5. requires attunement: " + str(item["requires_attunement"]))
+    # print("6. has charges: " + str(item["has_charges"]))                            # <R> Req Description
+    # print("7. is cursed: " + str(item["is_cursed"]))
+    # print("8. cost: " + str(item["cost"]))
+    # print("9. weight: " + str(item["weight"]))
+    # print("9. description: " + item["description"])
+    # print("10. image url: " + str(item["image_url"]))
+    # print("11. source id: " + str(item["source_id"]))
     print("12. magic bonus +1: " + str(item["magic_bonus_plus_1"]))                 # <R> Req Description
     print("13. magic bonus +2: " + str(item["magic_bonus_plus_2"]))                 # <R> Req Description
     print("14. magic bonus +3: " + str(item["magic_bonus_plus_3"]))                 # <R> Req Description
-    print("15. notes: " + str(item["description_notes"]))
+    # print("15. notes: " + str(item["description_notes"]))
+
 
 
 # <F> Capture_Lines
@@ -109,16 +113,29 @@ def Capture_Condition(item_description):
     return item_conditions
 
 
-# <F> Capture_Charges
-def Capture_Charges(item_description):
+# <f> Search_Description_For_Word
+def Search_Description_For_Word(searched_word, item_description):
     mod_description = item_description.lower().replace("[", " ").replace("]", " ").replace(",", "").replace(".", "")
     array_description = mod_description.split(" ")
 
     for word in array_description:
-        if word == "charges":
+        if word == searched_word:
             return True
         else:
             return False
+
+# <f> Search_Description_For_Bonuses
+def Search_Description_For_Bonuses(searched_bonus, item_description):
+    mod_description = item_description.lower().replace("[", " ").replace("]", " ").replace(",", "").replace(".", "")
+    array_description = mod_description.split(" ")
+
+    for word in array_description:
+        if word == searched_bonus:
+            index = array_description.index(word)
+            next_word = array_description[index + 1]
+            if next_word == "bonus":
+                return True
+    return False
 
 # <F> Capture_Attached_Spells
 
