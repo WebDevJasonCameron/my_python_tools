@@ -1,1330 +1,1328 @@
-"Advantage": 1
-"Ability Checks": 2
-"Acrobatics": 3
-"Animal Handling": 4
-"Arcana": 5
-"Athletics": 6
-"Charisma Ability Checks": 7
-"Charisma Saving Throws": 8
-"Constitution Ability Checks": 9
-"Constitution Saving Throws": 10
-"Death Saving Throws": 11
-"Deception": 12
-"Dexterity Ability Checks": 13
-"Dexterity Attacks": 14
-"Dexterity Saving Throws": 15
-"History": 16
-"Initiative": 17
-"Insight": 18
-"Intelligence Ability Checks": 19
-"Intelligence Saving Throws": 20
-"Intimidation": 21
-"Investigation": 22
-"Medicine": 23
-"Melee Attacks": 24
-"Nature": 25
-"Perception": 26
-"Performance": 27
-"Persuasion": 28
-"Ranged Attacks": 29
-"Religion": 30
-"Saving Throws": 31
-"Sleight of Hand": 32
-"Spell Attacks": 33
-"Stealth": 34
-"Strength Ability Checks": 35
-"Strength Attacks": 36
-"Strength Saving Throws": 37
-"Survival": 38
-"Wisdom Ability Checks": 39
-"Wisdom Saving Throws": 40
-"Bonus": 41
-"Ability Checks": 42
-"Ability Score Maximum": 43
-"AC Max Dex Modifier": 44
-"Acrobatics": 45
-"Animal Handling": 46
-"Arcana": 47
-"Armor Class": 48
-"Armored Armor Class": 49
-"Athletics": 50
-"Charisma Ability Checks": 51
-"Charisma Saving Throws": 52
-"Charisma Score": 53
-"Cleric Cantrip Damage": 54
-"Constitution Ability Checks": 55
-"Constitution Saving Throws": 56
-"Constitution Score": 57
-"Deception": 58
-"Dexterity Ability Checks": 59
-"Dexterity Attacks": 60
-"Dexterity Saving Throws": 61
-"Dexterity Score": 62
-"Domain Spell": 63
-"Dual Wield Armor Class": 64
-"Eldritch Blast Damage": 65
-"Extra Attacks": 66
-"Half Proficiency": 67
-"History": 68
-"Hit Points": 69
-"Hit Points per Level": 70
-"Initiative": 71
-"Insight": 72
-"Intelligence Ability Checks": 73
-"Intelligence Saving Throws": 74
-"Intelligence Score": 75
-"Intimidation": 76
-"Investigation": 77
-"Legendary Resistance": 78
-"Magic": 79
-"Magic Item Attack With Charisma": 80
-"Magic Item Attack With Constitution": 81
-"Magic Item Attack With Dexterity": 82
-"Magic Item Attack With Intelligence": 83
-"Magic Item Attack With Strength": 84
-"Magic Item Attack With Wisdom": 85
-"Medicine": 86
-"Melee Attacks": 87
-"Melee Reach": 88
-"Melee Spell Attacks": 89
-"Natural Attacks": 90
-"Nature": 91
-"Passive Investigation": 92
-"Passive Perception": 93
-"Perception": 94
-"Performance": 95
-"Persuasion": 96
-"Proficiency": 97
-"Proficiency Bonus": 98
-"Ranged Attacks": 99
-"Ranged Spell Attacks": 100
-"Ranged Weapon Attacks": 101
-"Religion": 102
-"Saving Throws": 103
-"Shield AC on Dex Saves": 104
-"Slight of Hand": 105
-"Seed": 106
-"Seed (Burrowing)": 107
-"Seed (Climbing)": 108
-"Seed (Flying)": 109
-"Seed (Swimming)": 110
-"Seed (Walking)": 111
-"Spell Attack Range Multiplier": 112
-"Spell Attacks": 113
-"Spell Group - Healing": 114
-"Spell Save DC": 115
-"Stealth": 116
-"Strength Ability Checks": 117
-"Strength Attacks": 118
-"Strength Saving Throws": 119
-"Strength Score": 120
-"Survival": 121
-"Temporary Hit Points": 122
-"Twice Proficiency Bonus": 123
-"Unarmed Attacks": 124
-"Unarmored Armor Class": 125
-"Unarmored Movement": 126
-"Warlock Spell Attacks": 127
-"Warlock Spell Save DC": 128
-"Warlock Attack Range": 129
-"Weapon Attack Range Multiplier": 130
-"Wisdom Ability Checks": 131
-"Wisdom Saving Throws": 132
-"Wisdom Score": 133
-"Carrying Capacity": 134
-"Gargantuan": 135
-"Huge": 136
-"Large": 137
-"Medium": 138
-"Multiplier": 139
-"Small": 140
-"Tiny": 141
-"Damage": 142
-"Acid": 143
-"Additional": 144
-"All": 145
-"Bludgeoning": 146
-"Cold": 147
-"Eldritch Blast": 148
-"Fire": 149
-"Force": 150
-"Lightning": 151
-"Longbow": 152
-"Melee Attacks": 153
-"Melee Weapon Attacks": 154
-"Natural Attacks": 155
-"Necrotic": 156
-"One-Handed Melee Attacks": 157
-"Piercing": 158
-"Poison": 159
-"Psychic": 160
-"Radiant": 161
-"Ranged Attacks": 162
-"Shortbow": 163
-"Slashing": 164
-"Thunder": 165
-"Unarmed Attacks": 166
-"Disadvantage": 167
-"Ability Checks": 168
-"Acrobatics": 169
-"Animal Handling": 170
-"Arcana": 171
-"Athletics": 172
-"Attack Rolls Against You": 173
-"Charisma Ability Checks": 174
-"Charisma Saving Throws": 175
-"Constitution Ability Checks": 176
-"Constitution Saving Throws": 177
-"Death Saving Throws": 178
-"Deception": 179
-"Dexterity Ability Checks": 180
-"Dexterity Attacks": 181
-"Dexterity Saving Throws": 182
-"History": 183
-"Insight": 184
-"Intelligence Ability Checks": 185
-"Intelligence Saving Throws": 186
-"Intimidation": 187
-"Investigation": 188
-"Medicine": 189
-"Melee Attacks": 190
-"Nature": 191
-"Perception": 192
-"Performance": 193
-"Persuasion": 194
-"Ranged Attacks": 195
-"Religion": 196
-"Saving Throws": 197
-"Sleight of Hand": 198
-"Spell Attacks": 199
-"Stealth": 200
-"Strength Ability Checks": 201
-"Strength Attacks": 202
-"Strength Saving Throws": 203
-"Survival": 204
-"Weapon Attacks": 205
-"Wisdom Ability Checks": 206
-"Wisdom Saving Throws": 207
-"Eldritch Blast": 208
-"Bonus Damage": 209
-"Bonus Range": 210
-"Expertise": 211
-"Ability Checks": 212
-"Acrobatics": 213
-"Alchemist Supplies": 214
-"Animal Handling": 215
-"Arcana": 216
-"Athletic": 217
-"Bagpipes": 218
-"Battleaxe": 219
-"Blowgun": 220
-"Breastplate": 221
-"Brewer Supplies": 222
-"Calligrapher Supplies": 223
-"Carpenter Tools": 224
-"Cartographer Tools": 225
-"Chain Mail": 226
-"Chain Shirt": 227
-"Charisma Ability Checks": 228
-"Charisma Saving Throws": 229
-"Club": 230
-"Cobbler Tools": 231
-"Constitution Ability Checks": 232
-"Constitution Saving Throws": 233
-"Cook Utensils": 234
-"Crossbow": 235
-"Crossbow": 236
-"Crossbow": 237
-"Dagger": 238
-"Dart": 239
-"Deception": 240
-"Dexterity Ability Checks": 241
-"Dexterity Attacks": 242
-"Dexterity Saving Throws": 243
-"Dice Set": 244
-"Disguise Kit": 245
-"Drum": 246
-"Dulcimer": 247
-"Flail": 248
-"Flute": 249
-"Forgery Kit": 250
-"Glaive": 251
-"Glassblower Tools": 252
-"Greataxe": 253
-"Greatclub": 254
-"Halberd": 255
-"Half Plate": 256
-"Handaxe": 257
-"Heavy Armor": 258
-"Herbalism Kit": 259
-"Hid": 260
-"History": 261
-"Horn": 262
-"Initiative": 263
-"Insight": 264
-"Intelligence Ability Checks": 265
-"Intelligence Saving Throws": 266
-"Intimidation": 267
-"Investigation": 268
-"Javelin": 269
-"Jeweler Tools": 270
-"Lance": 271
-"Leather": 272
-"Leatherworker Tools": 273
-"Light Armor": 274
-"Light Hammer": 275
-"Longbow": 276
-"Longsword": 277
-"Lute": 278
-"Lyre": 279
-"Mace": 280
-"Martial Weapons": 281
-"Mason Tools": 282
-"Maul": 283
-"Medicine": 284
-"Medium Armor": 285
-"Melee Attacks": 286
-"Mithril Plate Armor": 287
-"Morningstar": 288
-"Nature": 289
-"Navigator Tools": 290
-"Net": 291
-"Padded": 292
-"Painter Supplies": 293
-"Pan Flute": 294
-"Perception": 295
-"Performance": 296
-"Persuasion": 297
-"Pike": 298
-"Plate": 299
-"Playing Card Set": 300
-"Poisoner Kit": 301
-"Potter Tools": 302
-"Quarterstaff": 303
-"Ranged Attacks": 304
-"Rapier": 305
-"Religion": 306
-"Ring Mail": 307
-"Saving Throws": 308
-"Scale Mail": 309
-"Scimitar": 310
-"Shawn": 311
-"Shortbow": 312
-"Shortsword": 313
-"Sickle": 314
-"Simple Weapons": 315
-"Sleight of Hand": 316
-"Sling": 317
-"Smith Tools": 318
-"Spear": 319
-"Spell Attacks": 320
-"Splint": 321
-"Stealth": 322
-"Steel Shield": 323
-"Strength Ability Checks": 324
-"Strength Attacks": 325
-"Strength Saving Throws": 326
-"Studded Leather": 327
-"Survival": 328
-"Thieve Tools": 329
-"Tinker Tools": 330
-"Trident": 331
-"Viol": 332
-"War Pick": 333
-"Warhammer": 334
-"Weaver Tools": 335
-"Whip": 336
-"Wisdom Ability Checks": 337
-"Wisdom Saving Throws": 338
-"Woodcarver Tools": 339
-"Favored Enemy": 340
-"Aberrations": 341
-"Beasts": 342
-"Celestials": 343
-"Constructs": 344
-"Dragonborn": 345
-"Dragons": 346
-"Dwarves": 347
-"Elementals": 348
-"Elves": 349
-"Fey": 350
-"Fiends": 351
-"Giants": 352
-"Gnolls": 353
-"Gnomes": 354
-"Goblinoids": 355
-"Grimlock": 356
-"Halflings": 357
-"Humans": 358
-"Kobolds": 359
-"Lizardfolk": 360
-"Merfolk": 361
-"Monstrosities": 362
-"Oozes": 363
-"Orcs": 364
-"Plants": 365
-"Sahuagin": 366
-"Undead": 367
-"Werebears": 368
-"Wereboars": 369
-"Wererats": 370
-"Werewolves": 371
-"Feat": 372
-"Actor": 373
-"Alert": 374
-"Athlete": 375
-"Charger": 376
-"Choose a Feat": 377
-"Crossbow Expert": 378
-"Defensive Duelist": 379
-"Dual Wielder": 380
-"Dungeon Delver": 381
-"Durable": 382
-"Elemental Adept": 383
-"Grappler": 384
-"Great Weapon Master": 385
-"Healer": 386
-"Heavily Armored": 387
-"Heavy Armor Master": 388
-"Inspiring Leader": 389
-"Keen Mind": 390
-"Lightly Armored": 391
-"Linguist": 392
-"Lucky": 393
-"Mage Slayer": 394
-"Magic Initiate": 395
-"Martial Adept": 396
-"Medium Armor Master": 397
-"Mobile": 398
-"Moderately Armored": 399
-"Mounted Combatant": 400
-"Observant": 401
-"Polearm Master": 402
-"Resilient": 403
-"Ritual Caster": 404
-"Savage Attacker": 405
-"Sentinel": 406
-"Sharpshooter": 407
-"Shield Master": 408
-"Skilled": 409
-"Skulker": 410
-"Spell Sniper": 411
-"Svirfneblin Magic": 412
-"Tavern Brawler": 413
-"Tough": 414
-"War Caster": 415
-"Weapon Master": 416
-"Half Proficiency": 417
-"Ability Checks": 418
-"Acrobatics": 419
-"Alchemist Supplies": 420
-"Animal Handling": 421
-"Arcana": 422
-"Athletics": 423
-"Bagpipes": 424
-"Battleaxe": 425
-"Blowgun": 426
-"Breastplate": 427
-"Brewer Supplies": 428
-"Calligrapher Supplies": 429
-"Carpenter Tools": 430
-"Cartographer Tools": 431
-"Chain Mail": 432
-"Chain Shirt": 433
-"Charisma Ability Checks": 434
-"Charisma Saving Throws": 435
-"Club": 436
-"Cobbler Tools": 437
-"Constitution Ability Checks": 438
-"Constitution Saving Throws": 439
-"Cooking Utensils": 440
-"Crossbow": 441
-"Crossbow": 442
-"Crossbow": 443
-"Dagger": 444
-"Dart": 445
-"Deception": 446
-"Dexterity Ability Checks": 447
-"Dexterity  Attacks": 448
-"Dexterity Saving Throws": 449
-"Dice Set": 450
-"Disguise Kit": 451
-"Drum": 452
-"Dulcimer": 453
-"Flail": 454
-"Flute": 455
-"Forgery Kit": 456
-"Glaive": 457
-"Glassblower Tools": 458
-"Greataxe": 459
-"Greatclub": 460
-"Greatsword": 461
-"Halberd": 462
-"Half Plate": 463
-"Handaxe": 464
-"Heavy Armor": 465
-"Herbalism Kit": 466
-"Hide": 467
-"History": 468
-"Horn": 469
-"Initiative": 470
-"Insight": 471
-"Intelligence Ability Checks": 472
-"Intelligence Saving Throws": 473
-"Intimidation": 474
-"Investigation": 475
-"Javelin": 476
-"Jeweler Tools": 477
-"Lance": 478
-"Leather": 479
-"Leatherworker Tools": 480
-"Light Armor": 481
-"Light Hammer": 482
-"Longbow": 483
-"Longsword": 484
-"Lute": 485
-"Lyre": 486
-"Mace": 487
-"Martial Weapons": 488
-"Mason Tools": 489
-"Maul": 490
-"Medicine": 491
-"Medium Armor": 492
-"Melee Attacks": 493
-"Mithril Plate Armor": 494
-"Morningstar": 495
-"Nature": 496
-"Navigator Tools": 497
-"Net": 498
-"Padded": 499
-"Painter Supplies": 500
-"Pan Flute": 501
-"Perception": 502
-"Performance": 503
-"Persuasion": 504
-"Pike": 505
-"Plate": 506
-"Playing Card Set": 507
-"Poisoner Kit": 508
-"Potter Tools": 509
-"Quarterstaff": 510
-"Ranged Attacks": 511
-"Rapier": 512
-"Religion": 513
-"Ring Mail": 514
-"Round Up": 515
-"Saving Throws": 516
-"Scale Mail": 517
-"Scimitar": 518
-"Shawm": 519
-"Shortbow": 520
-"Shortsword": 521
-"Sickle": 522
-"Simple Weapons": 523
-"Sleight of Hand": 524
-"Sling": 525
-"Smith Tools": 526
-"Spear": 527
-"Spell Attacks": 528
-"Splint": 529
-"Stealth": 530
-"Steel Shield": 531
-"Strength Ability Checks": 532
-"Strength Attacks": 533
-"Strength Saving Throws": 534
-"Studded Leather": 535
-"Survival": 536
-"Thieve Tools": 537
-"Tinker Tools": 538
-"Trident": 539
-"Viol": 540
-"War Pick": 541
-"Warhammer": 542
-"Weaver Tools": 543
-"Whip": 544
-"Wisdom Ability Checks": 545
-"Wisdom Saving Throws": 546
-"Woodcarver Tools": 547
-"Half Proficiency Round up": 548
-"Ability Checks": 549
-"Acrobatics": 550
-"Alchemist Supplies": 551
-"Animal Handling": 552
-"Arcana": 553
-"Athletics": 554
-"Bagpipes": 555
-"Battleaxe": 556
-"Blowgun": 557
-"Breastplate": 558
-"Brewer Supplies": 559
-"Calligrapher Supplies": 560
-"Carpenter Tools": 561
-"Cartographer Tools": 562
-"Chain Mail": 563
-"Chain Shirt": 564
-"Charisma Ability Checks": 565
-"Charisma Saving Throws": 566
-"Club": 567
-"Cobbler Tools": 568
-"Constitution Ability Checks": 569
-"Constitution Saving Throws": 570
-"Cooking Utensils": 571
-"Crossbow": 572
-"Crossbow": 573
-"Crossbow": 574
-"Dagger": 575
-"Dart": 576
-"Deception": 577
-"Dexterity Ability Checks": 578
-"Dexterity  Attacks": 579
-"Dexterity Saving Throws": 580
-"Dice Set": 581
-"Disguise Kit": 582
-"Drum": 583
-"Dulcimer": 584
-"Flail": 585
-"Flute": 586
-"Forgery Kit": 587
-"Glaive": 588
-"Glassblower Tools": 589
-"Greataxe": 590
-"Greatclub": 591
-"Greatsword": 592
-"Halberd": 593
-"Half Plate": 594
-"Handaxe": 595
-"Heavy Armor": 596
-"Herbalism Kit": 597
-"Hide": 598
-"History": 599
-"Horn": 600
-"Initiative": 601
-"Insight": 602
-"Intelligence Ability Checks": 603
-"Intelligence Saving Throws": 604
-"Intimidation": 605
-"Investigation": 606
-"Javelin": 607
-"Jeweler Tools": 608
-"Lance": 609
-"Leather": 610
-"Leatherworker Tools": 611
-"Light Armor": 612
-"Light Hammer": 613
-"Longbow": 614
-"Longsword": 615
-"Lute": 616
-"Lyre": 617
-"Mace": 618
-"Martial Weapons": 619
-"Mason Tools": 620
-"Maul": 621
-"Flail": 740
-"Medicine": 622
-"Medium Armor": 623
-"Melee Attacks": 624
-"Mithril Plate Armor": 625
-"Morningstar": 626
-"Nature": 627
-"Navigator Tools": 628
-"Net": 629
-"Padded": 630
-"Painter Supplies": 631
-"Pan Flute": 632
-"Perception": 633
-"Performance": 634
-"Persuasion": 635
-"Pike": 636
-"Plate": 637
-"Playing Card Set": 638
-"Poisoner Kit": 639
-"Potter Tools": 640
-"Quarterstaff": 641
-"Ranged Attacks": 642
-"Rapier": 643
-"Religion": 644
-"Ring Mail": 645
-"Round Up": 646
-"Saving Throws": 647
-"Scale Mail": 648
-"Scimitar": 649
-"Shawm": 650
-"Shortbow": 651
-"Shortsword": 652
-"Sickle": 653
-"Simple Weapons": 654
-"Sleight of Hand": 655
-"Sling": 656
-"Smith Tools": 657
-"Spear": 658
-"Spell Attacks": 659
-"Splint": 660
-"Stealth": 661
-"Steel Shield": 662
-"Strength Ability Checks": 663
-"Strength Attacks": 664
-"Strength Saving Throws": 665
-"Studded Leather": 666
-"Survival": 667
-"Thieve Tools": 668
-"Tinker Tools": 669
-"Trident": 670
-"Viol": 671
-"War Pick": 672
-"Warhammer": 673
-"Weaver Tools": 674
-"Whip": 675
-"Wisdom Ability Checks": 676
-"Wisdom Saving Throws": 677
-"Woodcarver Tools": 678
-"Ignore": 679
-"Dual Wield Light Restrictions": 680
-"Dual Wield Modifier Restrictions": 681
-"Heavy Armor Speed Reduction": 682
-"Unarmored Dex AC Bonus": 683
-"Unarmored Dex Natural AC Bonus": 684
-"Ignore Weapon Property": 685
-"Finesse": 686
-"Heavy": 687
-"Light": 688
-"Loading": 689
-"Range": 690
-"Reach": 691
-"Thrown": 692
-"Two-Handed": 693
-"Versatile": 694
-"Immunity": 695
-"Acid": 696
-"Blinded": 697
-"Bludgeoning": 698
-"Bludgeoning": 699
-"Charmed": 700
-"Cold": 701
-"Critical Hits": 702
-"Deafened": 703
-"Disease": 704
-"DO NO USE": 705
-"Exhaustion": 706
-"Fire": 707
-"Force": 708
-"Frightened": 709
-"Grappled": 710
-"Incapacitated": 711
-"Invisible": 712
-"Lightning": 713
-"Magical Sleep": 714
-"Necrotic": 715
-"Paralyzed": 716
-"Petrified": 717
-"Piercing": 718
-"Poison": 719
-"Poisoned": 720
-"Prone": 721
-"Psychic": 722
-"Radiant": 723
-"Restrained": 724
-"Slashing": 725
-"Stunned": 726
-"Thunder": 727
-"Unconscious": 728
-"Kensei": 729
-"Antimatter Rifle": 730
-"Battleaxe": 731
-"Blowgun": 732
-"Boomerang": 733
-"Club": 734
-"Crossbow": 735
-"Crossbow": 736
-"Dagger": 737
-"Dart": 738
-"Double-Bladed Scimitar": 739
-"Greatclub": 741
-"Handaxe": 742
-"Javelin": 743
-"Laser Pistol": 744
-"Laser Rifle": 745
-"Light Hammer": 746
-"Longbow": 747
-"Longsword": 748
-"Mace": 749
-"Morningstar": 750
-"Musket": 751
-"Pistol": 752
-"Pistol": 753
-"Quarterstaff": 754
-"Rapier": 755
-"Revolver": 756
-"Rifle": 757
-"Rifle": 758
-"Scimitar": 759
-"Shortbow": 760
-"Shortsword": 761
-"Shotgun": 762
-"Sickle": 763
-"Sling": 764
-"Spear": 765
-"Trident": 766
-"War Pick": 767
-"Warhammer": 768
-"Whip": 769
-"Yklwa": 770
-"Language": 771
-"Aarakocra": 772
-"Abanasinian": 773
-"Abyssal": 774
-"All": 775
-"Aquan": 776
-"Auran": 777
-"Blink Dog": 778
-"Celestial": 779
-"Common": 780
-"Daelkyr": 781
-"Deep Speech": 782
-"Draconic": 783
-"Druidic": 784
-"Dwarvish": 785
-"Elvish": 786
-"Ergot": 787
-"Giant": 788
-"Giant Eagle": 789
-"Giant Elk": 790
-"Giant Owl": 791
-"Gith": 792
-"Gnoll": 793
-"Gnomish": 794
-"Goblin": 795
-"Grippli": 796
-"Grung": 797
-"Hadozee": 798
-"Halfling": 799
-"Ignan": 800
-"Infernal": 801
-"Istarian": 802
-"Kenderspeak": 803
-"Kharolian": 804
-"Khur": 805
-"Kothian": 806
-"Kraul": 807
-"Leonin": 808
-"Loxodon": 809
-"Marquesian": 810
-"Minotaur": 811
-"Naush": 812
-"Nerakese": 813
-"Nordmaarian": 814
-"Ogre": 815
-"Orc": 816
-"Otyugh": 817
-"Primordial": 818
-"Quori": 819
-"Riedran": 820
-"Sahuagin": 821
-"Solamnic": 822
-"Sphinx": 823
-"Sylvan": 824
-"Telepathy": 825
-"Terran": 826
-"Thieves Cant": 827
-"Thri-Kreen": 828
-"Undercommon": 829
-"Vedalken": 830
-"Winter Wolf": 831
-"Worg": 832
-"Yeti": 833
-"Zemnian": 834
-"Melee Weapon Attack": 835
-"Acid": 836
-"Bludgeoning": 837
-"Cold": 838
-"Fire": 839
-"Force": 840
-"Lightning": 841
-"Necrotic": 842
-"Piercing": 843
-"Poison": 844
-"Psychic": 845
-"Radiant": 846
-"Slashing": 847
-"Thunder": 848
-"Monk Weapon": 849
-"Battleaxe": 850
-"Blowgun": 851
-"Boomerang": 852
-"Club": 853
-"Crossbow": 854
-"Crossbow": 855
-"Crossbow": 856
-"Dagger": 857
-"Dart": 858
-"Flail": 859
-"Glaive": 860
-"Greataxe": 861
-"Greatsword": 862
-"Halberd": 863
-"Handaxe": 864
-"Javelin": 865
-"Lance": 866
-"Light Hammer": 867
-"Longbow": 868
-"Longsword": 869
-"Mace": 870
-"Maul": 871
-"Morningstar": 872
-"Net": 873
-"Pike": 874
-"Quarterstaff": 875
-"Rapier": 876
-"Scimitar": 877
-"Shortbow": 878
-"Shortsword": 879
-"Sickle": 880
-"Sling": 881
-"Spear": 882
-"Trident": 883
-"War Pick": 884
-"Warhammer": 885
-"Whip": 886
-"Yklwa": 887
-"Natural Weapon": 888
-"Bludgeoning": 889
-"Piercing": 890
-"Slashing": 891
-"Proficiency": 892
-"Ability Checks": 893
-"Acrobatics": 894
-"Alchemist Supplies": 895
-"Animal Handling": 896
-"Arcana": 897
-"Athletics": 898
-"Bagpipes": 899
-"Battleaxe": 900
-"Bird Pipes": 901
-"Blowgun": 902
-"Boomerang": 903
-"Breastplate": 904
-"Brewer Supplies": 905
-"Calligrapher Supplies": 906
-"Carpenter Tools": 907
-"Cartographer Tools": 908
-"Chain Mail": 909
-"Chain Shirt": 910
-"Charisma Ability Checks": 911
-"Charisma Saving Throws": 912
-"Choose a Bard Skill": 913
-"Club": 914
-"Cobbler Tools": 915
-"Constitution Ability Checks": 916
-"Constitution Saving Throws": 917
-"Cook Utensils": 918
-"Crossbow": 919
-"Crossbow": 920
-"Crossbow": 921
-"Dagger": 922
-"Dart": 923
-"Deception": 924
-"DELETE - double-Bladed Scimitar": 925
-"Dexterity Ability Checks": 926
-"Dexterity Attacks": 927
-"Dexterity Saving Throws": 928
-"Dice Set": 929
-"Disguise Kit": 930
-"Double-Bladed Scimitar": 931
-"Dragonchess Set": 932
-"Drum": 933
-"Dulcimer": 934
-"Firearms": 935
-"Flail": 936
-"Flute": 937
-"Forgery Kit": 938
-"Glaive": 939
-"Glassblower Tools": 940
-"Glaur": 941
-"Greataxe": 942
-"Greatclub": 943
-"Greatsword": 944
-"Halberd": 945
-"Half Plate": 946
-"Hand Drum": 947
-"Handaxe": 948
-"Heavy Armor": 949
-"Herbalism Kit": 950
-"Hide": 951
-"History": 952
-"Hoopak": 953
-"Hoopak (Ranged)": 954
-"Horn": 955
-"Improvised Weapon": 956
-"Initiative": 957
-"Insight": 958
-"Intelligence Ability Checks": 959
-"Intelligence Saving Throws": 960
-"Intimidation": 961
-"Investigation": 962
-"Javelin": 963
-"Jeweler Tools": 964
-"Lance": 965
-"Leather": 966
-"Leatherworker Tools": 967
-"Light Armor": 968
-"Light Hammer": 969
-"Longbow": 970
-"Longhorn": 971
-"Longsword": 972
-"Lute": 973
-"Lyre": 974
-"Mace": 975
-"Martial Weapons": 976
-"Mason Tools": 977
-"Maul": 978
-"Medicine": 979
-"Medium Armor": 980
-"Melee Attacks": 981
-"Mithril Plate Armor": 982
-"Morningstar": 983
-"Nature": 984
-"Navigator Tools": 985
-"Net": 986
-"Padded": 987
-"Painter Supplies": 988
-"Pan Flute": 989
-"Perception": 990
-"Performance": 991
-"Persuasion": 992
-"Pike": 993
-"Plate": 994
-"Playing Card Set": 995
-"Poisoner Kit": 996
-"Potter Tools": 997
-"Quarterstaff": 998
-"Ranged Attacks": 999
-"Rapier": 1000
-"Religion": 1001
-"Ring Mail": 1002
-"Saving Throws": 1003
-"Scale Mail": 1004
-"Scimitar": 1005
-"Self": 1006
-"Shawm": 1007
-"Shields": 1008
-"Shortbow": 1009
-"Sickle": 1010
-"Simple Weapons": 1011
-"Sleight of Hand": 1012
-"Sling": 1013
-"Smith Tools": 1014
-"Songhorn": 1015
-"Spear": 1016
-"Spell Attacks": 1017
-"Splint": 1018
-"Stealth": 1019
-"Steel Shield": 1020
-"Strength Ability Checks": 1021
-"Strength Attacks": 1022
-"Strength Saving Throws": 1023
-"Studded Leather": 1024
-"Survival": 1025
-"Tantan": 1026
-"Thelarr": 1027
-"Thieves Tools": 1028
-"Three-Dragon Ante Set": 1029
-"Tinker Tools": 1030
-"Tocken": 1031
-"Trident": 1032
-"Vehicles (Land)": 1033
-"Vehicles (Space)": 1034
-"Vehicles (Water)": 1035
-"Viol": 1036
-"War Pick": 1037
-"Wargong": 1038
-"Warhammer": 1039
-"Weaver Tools": 1040
-"Whip": 1041
-"Whistle-Stick": 1042
-"Wisdom Ability Checks": 1043
-"Wisdom Saving Throws": 1044
-"Woodcarver Tools": 1045
-"Yarting": 1046
-"Yklwa": 1047
-"Zulkoon": 1048
-"protection": 1049
-"0 Hp": 1050
-"Ranged Weapon Attack": 1051
-"Acid": 1052
-"Bludgeoning": 1053
-"Cold": 1054
-"Fire": 1055
-"Force": 1056
-"Lightning": 1057
-"Necrotic": 1058
-"Piercing": 1059
-"Poison": 1060
-"Psychic": 1061
-"Radiant": 1062
-"Slashing": 1063
-"Thunder": 1064
-"Replace Damage Type": 1065
-"Acid": 1066
-"Bludgeoning": 1067
-"Cold": 1068
-"Fire": 1069
-"Force": 1070
-"Lightning": 1071
-"Necrotic": 1072
-"Piercing": 1073
-"Poison": 1074
-"Psychic": 1075
-"Radiant": 1076
-"Slashing": 1077
-"Thunder": 1078
-"Resistance": 1079
-"Acid": 1080
-"All": 1081
-"All Except Psychic": 1082
-"Bludgeoning": 1083
-"Bludgeoning": 1084
-"Cold": 1085
-"Damage Dealt by Traps": 1086
-"Cod": 1087
-"Damage Dealt by Traps": 1088
-"Fire": 1089
-"Force": 1090
-"Lightning": 1091
-"Necrotic": 1092
-"Piercing": 1093
-"Poison": 1094
-"Psychic": 1095
-"Radiant": 1096
-"Ranged Attacks": 1097
-"Slashing": 1098
-"Thunder": 1099
-"Sense": 1100
-"Blindsight": 1101
-"Darkvision": 1102
-"Tremorsense": 1103
-"Truesight": 1104
-"Set": 1105
-"Ability Score Maximum": 1106
-"AC Max Dex Armored Modifier": 1107
-"AC Max Dex Modifier": 1108
-"AC Max Dex Unarmored Modifier": 1109
-"Armor Cass": 1110
-"Attunement Slots": 1111
-"Charisma Score": 1112
-"Constitution Score": 1113
-"Death": 1114
-"Dexterity Score": 1115
-"Eldritch Blast Range": 1116
-"Extra Attacks": 1117
-"Innate Speed (Burrowing)": 1118
-"Innate Speed (Climbing)": 1119
-"Innate Speed (Flying)": 1120
-"Innate Speed (Swimming)": 1121
-"Innate Speed (Walking)": 1122
-"Intelligence Score": 1123
-"Minimum Base Armor": 1124
-"Speed (Burrowing)": 1125
-"Speed (Flying)": 1126
-"Speed (Swimming)": 1127
-"Speed (Walking)": 1128
-"Strength Score": 1129
-"Subclass": 1130
-"Unarmed Damage Die": 1131
-"Unarmored Armor Class": 1132
-"Wisdom Score": 1133
-"Set Base": 1134
-"Blindsight": 1135
-"Darkvision": 1136
-"Tremorsense": 1137
-"Truesight": 1138
-"Size": 1139
-"Gargantuan": 1140
-"Huge": 1141
-"Large": 1142
-"Medium": 1143
-"Small": 1144
-"Tiny": 1145
-"Speed Reduction": 1146
-"Impose": 1147
-"Remove": 1148
-"Spell Slot Increase": 1149
-"Bard": 1150
-"Cleric": 1151
-"Druid": 1152
-"Paladin": 1153
-"Ranger": 1154
-"Sorcerer": 1155
-"Warlock": 1156
-"Wizard": 1157
-"Stacking Bonus": 1158
-"Charisma Score": 1159
-"Constitution Score": 1160
-"Dexterity Score": 1161
-"Intelligence Score": 1162
-"Strength Score": 1163
-"Wisdom Score": 1164
-"Stealth Disadvantage": 1165
-"Impose": 1166
-"Remove": 1167
-"Twice Proficiency": 1168
-"Ability Checks": 1169
-"Acrobatics": 1170
-"Alchemist Supplies": 1171
-"Animal Handling": 1172
-"Arcana": 1173
-"Athletics": 1174
-"Bagpipes": 1175
-"Battleaxe": 1176
-"Blowgun": 1177
-"Breastplate": 1178
-"Brewer Supplies": 1179
-"Calligrapher Supplies": 1180
-"Carpenter Tools": 1181
-"Cartographer Tools": 1182
-"Chain Mail": 1183
-"Chain Shirt": 1184
-"Charisma Ability Checks": 1185
-"Charisma Saving Throws": 1186
-"Choose a Bard Skill": 1187
-"Choose a Saving Throw": 1188
-"Club": 1189
-"Cobbler Tools": 1190
-"Constitution Ability Checks": 1191
-"Constitution Saving Throws": 1192
-"Cook Utensils": 1193
-"Crossbow": 1194
-"Crossbow": 1195
-"Crossbow": 1196
-"Dagger": 1197
-"Dart": 1198
-"Deception": 1199
-"Dexterity Ability Checks": 1200
-"Dexterity Attacks": 1201
-"Dexterity Saving Throws": 1202
-"Dice Set": 1203
-"Disguise Kit": 1204
-"Dragonchess Set": 1205
-"Drum": 1206
-"Dulcimer": 1207
-"Flail": 1208
-"Flute": 1209
-"Forgery Kit": 1210
-"Glaive": 1211
-"Glassblower Tools": 1212
-"Greataxe": 1213
-"Greatclub": 1214
-"Greatsword": 1215
-"Halberd": 1216
-"Half Plate": 1217
-"Handaxe": 1218
-"Heavy Armor": 1219
-"Herbalism Kit": 1220
-"Hide": 1221
-"History": 1222
-"Horn": 1223
-"Improvised Weapons": 1224
-"Initiative": 1225
-"Insight": 1226
-"Intelligence Ability Checks": 1227
-"Intelligence Saving Throws": 1228
-"Intimidation": 1229
-"Investigation": 1230
-"Javelin": 1231
-"Jeweler Tools": 1232
-"Lance": 1233
-"Leather": 1234
-"Leatherworker Tools": 1235
-"Light Armor": 1236
-"Light Hammer": 1237
-"Longbow": 1238
-"Longsword": 1239
-"Lute": 1240
-"Lyre": 1241
-"Mace": 1242
-"Martial Weapons": 1243
-"Mason Tools": 1244
-"Maul": 1245
-"Medicine": 1246
-"Medium Armor": 1247
-"Melee Attacks": 1248
-"Mithril Plate Armor": 1249
-"Morningstar": 1250
-"Nature": 1251
-"Navigator Tools": 1252
-"Net": 1253
-"Padded": 1254
-"Painter Supplies": 1255
-"Pan Flute": 1256
-"Perception": 1257
-"Performance": 1258
-"Pike": 1259
-"Plate": 1260
-"Playing Card Set": 1261
-"Poisoner Kit": 1262
-"Potter Tools": 1263
-"Quarterstaff": 1264
-"Ranged Attacks": 1265
-"Rapier": 1266
-"Religion": 1267
-"Ring Mail": 1268
-"Saving Throws": 1269
-"Scale Mail": 1270
-"Scimitar": 1271
-"Self": 1272
-"Shawm": 1273
-"Shields": 1274
-"Shortbow": 1275
-"Shortsword": 1276
-"Sickle": 1277
-"Simple Weapon": 1278
-"Sleight of Hand": 1279
-"Sling": 1280
-"Smith Tools": 1281
-"Spear": 1282
-"Spell Attacks": 1283
-"Splint": 1284
-"Stealth": 1285
-"Steel Shield": 1286
-"Strength Ability Checks": 1287
-"Strength Attacks": 1288
-"Strength Saving Throws": 1289
-"Studded Leather": 1290
-"Survival": 1291
-"Thieves Tools": 1292
-"Three-Dragon Ante Set": 1293
-"Tinker Tools": 1294
-"Trident": 1295
-"Vehicles (Land)": 1296
-"Vehicles (Water)": 1297
-"Viol": 1298
-"War Pick": 1299
-"Warhammer": 1300
-"Weaver Tools": 1301
-"Whip": 1302
-"Wisdom Ability Checks": 1303
-"Wisdom Saving Throws": 1304
-"Woodcarver Tools": 1305
-"Vulnerability": 1306
-"Acid": 1307
-"All": 1308
-"Bludgeoning": 1309
-"Cold": 1310
-"Fire": 1311
-"Force": 1312
-"Lightning": 1313
-"Necrotic": 1314
-"Piercing": 1315
-"Poison": 1316
-"Psychic": 1317
-"Radiant": 1318
-"Slashing": 1319
-"Thunder": 1320
-"Weapon Property": 1321
-"Finesse": 1322
-"Heavy": 1323
-"Light": 1324
-"Loading": 1325
-"Range": 1326
-"Reach": 1327
-"Thrown": 1328
-"Two-Handed": 1329
-"Versatile": 1330
+"Advantage": 1,
+"Advantage: Ability Checks": 2,
+"Advantage: Acrobatics": 3,
+"Advantage: Animal Handling": 4,
+"Advantage: Arcana": 5,
+"Advantage: Athletics": 6,
+"Advantage: Charisma Ability Checks": 7,
+"Advantage: Charisma Saving Throws": 8,
+"Advantage: Constitution Ability Checks": 9,
+"Advantage: Constitution Saving Throws": 10,
+"Advantage: Death Saving Throws": 11,
+"Advantage: Deception": 12,
+"Advantage: Dexterity Ability Checks": 13,
+"Advantage: Dexterity Attacks": 14,
+"Advantage: Dexterity Saving Throws": 15,
+"Advantage: History": 16,
+"Advantage: Initiative": 17,
+"Advantage: Insight": 18,
+"Advantage: Intelligence Ability Checks": 19,
+"Advantage: Intelligence Saving Throws": 20,
+"Advantage: Intimidation": 21,
+"Advantage: Investigation": 22,
+"Advantage: Medicine": 23,
+"Advantage: Melee Attacks": 24,
+"Advantage: Nature": 25,
+"Advantage: Perception": 26,
+"Advantage: Performance": 27,
+"Advantage: Persuasion": 28,
+"Advantage: Ranged Attacks": 29,
+"Advantage: Religion": 30,
+"Advantage: Saving Throws": 31,
+"Advantage: Sleight of Hand": 32,
+"Advantage: Spell Attacks": 33,
+"Advantage: Stealth": 34,
+"Advantage: Strength Ability Checks": 35,
+"Advantage: Strength Attacks": 36,
+"Advantage: Strength Saving Throws": 37,
+"Advantage: Survival": 38,
+"Advantage: Wisdom Ability Checks": 39,
+"Advantage: Wisdom Saving Throws": 40,
+"Bonus": 41,
+"Bonus: Ability Checks": 42,
+"Bonus: Ability Score Maximum": 43,
+"Bonus: AC Max Dex Modifier": 44,
+"Bonus: Acrobatics": 45,
+"Bonus: Animal Handling": 46,
+"Bonus: Arcana": 47,
+"Bonus: Armor Class": 48,
+"Bonus: Armored Armor Class": 49,
+"Bonus: Athletics": 50,
+"Bonus: Charisma Ability Checks": 51,
+"Bonus: Charisma Saving Throws": 52,
+"Bonus: Charisma Score": 53,
+"Bonus: Cleric Cantrip Damage": 54,
+"Bonus: Constitution Ability Checks": 55,
+"Bonus: Constitution Saving Throws": 56,
+"Bonus: Constitution Score": 57,
+"Bonus: Deception": 58,
+"Bonus: Dexterity Ability Checks": 59,
+"Bonus: Dexterity Attacks": 60,
+"Bonus: Dexterity Saving Throws": 61,
+"Bonus: Dexterity Score": 62,
+"Bonus: Domain Spell": 63,
+"Bonus: Dual Wield Armor Class": 64,
+"Bonus: Eldritch Blast Damage": 65,
+"Bonus: Extra Attacks": 66,
+"Bonus: Half Proficiency": 67,
+"Bonus: History": 68,
+"Bonus: Hit Points": 69,
+"Bonus: Hit Points per Level": 70,
+"Bonus: Initiative": 71,
+"Bonus: Insight": 72,
+"Bonus: Intelligence Ability Checks": 73,
+"Bonus: Intelligence Saving Throws": 74,
+"Bonus: Intelligence Score": 75,
+"Bonus: Intimidation": 76,
+"Bonus: Investigation": 77,
+"Bonus: Legendary Resistance": 78,
+"Bonus: Magic": 79,
+"Bonus: Magic Item Attack With Charisma": 80,
+"Bonus: Magic Item Attack With Constitution": 81,
+"Bonus: Magic Item Attack With Dexterity": 82,
+"Bonus: Magic Item Attack With Intelligence": 83,
+"Bonus: Magic Item Attack With Strength": 84,
+"Bonus: Magic Item Attack With Wisdom": 85,
+"Bonus: Medicine": 86,
+"Bonus: Melee Attacks": 87,
+"Bonus: Melee Reach": 88,
+"Bonus: Melee Spell Attacks": 89,
+"Bonus: Natural Attacks": 90,
+"Bonus: Nature": 91,
+"Bonus: Passive Investigation": 92,
+"Bonus: Passive Perception": 93,
+"Bonus: Perception": 94,
+"Bonus: Performance": 95,
+"Bonus: Persuasion": 96,
+"Bonus: Proficiency": 97,
+"Bonus: Proficiency Bonus": 98,
+"Bonus: Ranged Attacks": 99,
+"Bonus: Ranged Spell Attacks": 100,
+"Bonus: Ranged Weapon Attacks": 101,
+"Bonus: Religion": 102,
+"Bonus: Saving Throws": 103,
+"Bonus: Shield AC on Dex Saves": 104,
+"Bonus: Slight of Hand": 105,
+"Bonus: Seed": 106,
+"Bonus: Seed (Burrowing)": 107,
+"Bonus: Seed (Climbing)": 108,
+"Bonus: Seed (Flying)": 109,
+"Bonus: Seed (Swimming)": 110,
+"Bonus: Seed (Walking)": 111,
+"Bonus: Spell Attack Range Multiplier": 112,
+"Bonus: Spell Attacks": 113,
+"Bonus: Spell Group - Healing": 114,
+"Bonus: Spell Save DC": 115,
+"Bonus: Stealth": 116,
+"Bonus: Strength Ability Checks": 117,
+"Bonus: Strength Attacks": 118,
+"Bonus: Strength Saving Throws": 119,
+"Bonus: Strength Score": 120,
+"Bonus: Survival": 121,
+"Bonus: Temporary Hit Points": 122,
+"Bonus: Twice Proficiency Bonus": 123,
+"Bonus: Unarmed Attacks": 124,
+"Bonus: Unarmored Armor Class": 125,
+"Bonus: Unarmored Movement": 126,
+"Bonus: Warlock Spell Attacks": 127,
+"Bonus: Warlock Spell Save DC": 128,
+"Bonus: Warlock Attack Range": 129,
+"Bonus: Weapon Attack Range Multiplier": 130,
+"Bonus: Wisdom Ability Checks": 131,
+"Bonus: Wisdom Saving Throws": 132,
+"Bonus: Wisdom Score": 133,
+"Carrying Capacity": 134,
+"Carrying Capacity: Gargantuan": 135,
+"Carrying Capacity: Huge": 136,
+"Carrying Capacity: Large": 137,
+"Carrying Capacity: Medium": 138,
+"Carrying Capacity: Multiplier": 139,
+"Carrying Capacity: Small": 140,
+"Carrying Capacity: Tiny": 141,
+"Damage": 142,
+"Damage: Acid": 143,
+"Damage: Additional": 144,
+"Damage: All": 145,
+"Damage: Bludgeoning": 146,
+"Damage: Cold": 147,
+"Damage: Eldritch Blast": 148,
+"Damage: Fire": 149,
+"Damage: Force": 150,
+"Damage: Lightning": 151,
+"Damage: Longbow": 152,
+"Damage: Melee Attacks": 153,
+"Damage: Melee Weapon Attacks": 154,
+"Damage: Natural Attacks": 155,
+"Damage: Necrotic": 156,
+"Damage: One-Handed Melee Attacks": 157,
+"Damage: Piercing": 158,
+"Damage: Poison": 159,
+"Damage: Psychic": 160,
+"Damage: Radiant": 161,
+"Damage: Ranged Attacks": 162,
+"Damage: Shortbow": 163,
+"Damage: Slashing": 164,
+"Damage: Thunder": 165,
+"Damage: Unarmed Attacks": 166,
+"Disadvantage": 167,
+"Disadvantage: Ability Checks": 168,
+"Disadvantage: Acrobatics": 169,
+"Disadvantage: Animal Handling": 170,
+"Disadvantage: Arcana": 171,
+"Disadvantage: Athletics": 172,
+"Disadvantage: Attack Rolls Against You": 173,
+"Disadvantage: Charisma Ability Checks": 174,
+"Disadvantage: Charisma Saving Throws": 175,
+"Disadvantage: Constitution Ability Checks": 176,
+"Disadvantage: Constitution Saving Throws": 177,
+"Disadvantage: Death Saving Throws": 178,
+"Disadvantage: Deception": 179,
+"Disadvantage: Dexterity Ability Checks": 180,
+"Disadvantage: Dexterity Attacks": 181,
+"Disadvantage: Dexterity Saving Throws": 182,
+"Disadvantage: History": 183,
+"Disadvantage: Insight": 184,
+"Disadvantage: Intelligence Ability Checks": 185,
+"Disadvantage: Intelligence Saving Throws": 186,
+"Disadvantage: Intimidation": 187,
+"Disadvantage: Investigation": 188,
+"Disadvantage: Medicine": 189,
+"Disadvantage: Melee Attacks": 190,
+"Disadvantage: Nature": 191,
+"Disadvantage: Perception": 192,
+"Disadvantage: Performance": 193,
+"Disadvantage: Persuasion": 194,
+"Disadvantage: Ranged Attacks": 195,
+"Disadvantage: Religion": 196,
+"Disadvantage: Saving Throws": 197,
+"Disadvantage: Sleight of Hand": 198,
+"Disadvantage: Spell Attacks": 199,
+"Disadvantage: Stealth": 200,
+"Disadvantage: Strength Ability Checks": 201,
+"Disadvantage: Strength Attacks": 202,
+"Disadvantage: Strength Saving Throws": 203,
+"Disadvantage: Survival": 204,
+"Disadvantage: Weapon Attacks": 205,
+"Disadvantage: Wisdom Ability Checks": 206,
+"Disadvantage: Wisdom Saving Throws": 207,
+"Eldritch Blast": 208,
+"Eldritch Blast: Bonus Damage": 209,
+"Eldritch Blast: Bonus Range": 210,
+"Expertise": 211,
+"Expertise: Ability Checks": 212,
+"Expertise: Acrobatics": 213,
+"Expertise: Alchemist Supplies": 214,
+"Expertise: Animal Handling": 215,
+"Expertise: Arcana": 216,
+"Expertise: Athletic": 217,
+"Expertise: Bagpipes": 218,
+"Expertise: Battleaxe": 219,
+"Expertise: Blowgun": 220,
+"Expertise: Breastplate": 221,
+"Expertise: Brewer Supplies": 222,
+"Expertise: Calligrapher Supplies": 223,
+"Expertise: Carpenter Tools": 224,
+"Expertise: Cartographer Tools": 225,
+"Expertise: Chain Mail": 226,
+"Expertise: Chain Shirt": 227,
+"Expertise: Charisma Ability Checks": 228,
+"Expertise: Charisma Saving Throws": 229,
+"Expertise: Club": 230,
+"Expertise: Cobbler Tools": 231,
+"Expertise: Constitution Ability Checks": 232,
+"Expertise: Constitution Saving Throws": 233,
+"Expertise: Cook Utensils": 234,
+"Expertise: Crossbow, Hand": 235,
+"Expertise: Crossbow, Heavy": 236,
+"Expertise: Crossbow, Light": 237,
+"Expertise: Dagger": 238,
+"Expertise: Dart": 239,
+"Expertise: Deception": 240,
+"Expertise: Dexterity Ability Checks": 241,
+"Expertise: Dexterity Attacks": 242,
+"Expertise: Dexterity Saving Throws": 243,
+"Expertise: Dice Set": 244,
+"Expertise: Disguise Kit": 245,
+"Expertise: Drum": 246,
+"Expertise: Dulcimer": 247,
+"Expertise: Flail": 248,
+"Expertise: Flute": 249,
+"Expertise: Forgery Kit": 250,
+"Expertise: Glaive": 251,
+"Expertise: Glassblower Tools": 252,
+"Expertise: Greataxe": 253,
+"Expertise: Greatclub": 254,
+"Expertise: Halberd": 255,
+"Expertise: Half Plate": 256,
+"Expertise: Handaxe": 257,
+"Expertise: Heavy Armor": 258,
+"Expertise: Herbalism Kit": 259,
+"Expertise: Hid": 260,
+"Expertise: History": 261,
+"Expertise: Horn": 262,
+"Expertise: Initiative": 263,
+"Expertise: Insight": 264,
+"Expertise: Intelligence Ability Checks": 265,
+"Expertise: Intelligence Saving Throws": 266,
+"Expertise: Intimidation": 267,
+"Expertise: Investigation": 268,
+"Expertise: Javelin": 269,
+"Expertise: Jeweler Tools": 270,
+"Expertise: Lance": 271,
+"Expertise: Leather": 272,
+"Expertise: Leatherworker Tools": 273,
+"Expertise: Light Armor": 274,
+"Expertise: Light Hammer": 275,
+"Expertise: Longbow": 276,
+"Expertise: Longsword": 277,
+"Expertise: Lute": 278,
+"Expertise: Lyre": 279,
+"Expertise: Mace": 280,
+"Expertise: Martial Weapons": 281,
+"Expertise: Mason Tools": 282,
+"Expertise: Maul": 283,
+"Expertise: Medicine": 284,
+"Expertise: Medium Armor": 285,
+"Expertise: Melee Attacks": 286,
+"Expertise: Mithril Plate Armor": 287,
+"Expertise: Morningstar": 288,
+"Expertise: Nature": 289,
+"Expertise: Navigator Tools": 290,
+"Expertise: Net": 291,
+"Expertise: Padded": 292,
+"Expertise: Painter Supplies": 293,
+"Expertise: Pan Flute": 294,
+"Expertise: Perception": 295,
+"Expertise: Performance": 296,
+"Expertise: Persuasion": 297,
+"Expertise: Pike": 298,
+"Expertise: Plate": 299,
+"Expertise: Playing Card Set": 300,
+"Expertise: Poisoner Kit": 301,
+"Expertise: Potter Tools": 302,
+"Expertise: Quarterstaff": 303,
+"Expertise: Ranged Attacks": 304,
+"Expertise: Rapier": 305,
+"Expertise: Religion": 306,
+"Expertise: Ring Mail": 307,
+"Expertise: Saving Throws": 308,
+"Expertise: Scale Mail": 309,
+"Expertise: Scimitar": 310,
+"Expertise: Shawn": 311,
+"Expertise: Shortbow": 312,
+"Expertise: Shortsword": 313,
+"Expertise: Sickle": 314,
+"Expertise: Simple Weapons": 315,
+"Expertise: Sleight of Hand": 316,
+"Expertise: Sling": 317,
+"Expertise: Smith Tools": 318,
+"Expertise: Spear": 319,
+"Expertise: Spell Attacks": 320,
+"Expertise: Splint": 321,
+"Expertise: Stealth": 322,
+"Expertise: Steel Shield": 323,
+"Expertise: Strength Ability Checks": 324,
+"Expertise: Strength Attacks": 325,
+"Expertise: Strength Saving Throws": 326,
+"Expertise: Studded Leather": 327,
+"Expertise: Survival": 328,
+"Expertise: Thieve Tools": 329,
+"Expertise: Tinker Tools": 330,
+"Expertise: Trident": 331,
+"Expertise: Viol": 332,
+"Expertise: War Pick": 333,
+"Expertise: Warhammer": 334,
+"Expertise: Weaver Tools": 335,
+"Expertise: Whip": 336,
+"Expertise: Wisdom Ability Checks": 337,
+"Expertise: Wisdom Saving Throws": 338,
+"Expertise: Woodcarver Tools": 339,
+"Favored Enemy": 340,
+"Favored Enemy: Aberrations": 341,
+"Favored Enemy: Beasts": 342,
+"Favored Enemy: Celestials": 343,
+"Favored Enemy: Constructs": 344,
+"Favored Enemy: Dragonborn": 345,
+"Favored Enemy: Dragons": 346,
+"Favored Enemy: Dwarves": 347,
+"Favored Enemy: Elementals": 348,
+"Favored Enemy: Elves": 349,
+"Favored Enemy: Fey": 350,
+"Favored Enemy: Fiends": 351,
+"Favored Enemy: Giants": 352,
+"Favored Enemy: Gnolls": 353,
+"Favored Enemy: Gnomes": 354,
+"Favored Enemy: Goblinoids": 355,
+"Favored Enemy: Grimlock": 356,
+"Favored Enemy: Halflings": 357,
+"Favored Enemy: Humans": 358,
+"Favored Enemy: Kobolds": 359,
+"Favored Enemy: Lizardfolk": 360,
+"Favored Enemy: Merfolk": 361,
+"Favored Enemy: Monstrosities": 362,
+"Favored Enemy: Oozes": 363,
+"Favored Enemy: Orcs": 364,
+"Favored Enemy: Plants": 365,
+"Favored Enemy: Sahuagin": 366,
+"Favored Enemy: Undead": 367,
+"Favored Enemy: Werebears": 368,
+"Favored Enemy: Wereboars": 369,
+"Favored Enemy: Wererats": 370,
+"Favored Enemy: Werewolves": 371,
+"Feat": 372,
+"Feat: Actor": 373,
+"Feat: Alert": 374,
+"Feat: Athlete": 375,
+"Feat: Charger": 376,
+"Feat: Choose a Feat": 377,
+"Feat: Crossbow Expert": 378,
+"Feat: Defensive Duelist": 379,
+"Feat: Dual Wielder": 380,
+"Feat: Dungeon Delver": 381,
+"Feat: Durable": 382,
+"Feat: Elemental Adept": 383,
+"Feat: Grappler": 384,
+"Feat: Great Weapon Master": 385,
+"Feat: Healer": 386,
+"Feat: Heavily Armored": 387,
+"Feat: Heavy Armor Master": 388,
+"Feat: Inspiring Leader": 389,
+"Feat: Keen Mind": 390,
+"Feat: Lightly Armored": 391,
+"Feat: Linguist": 392,
+"Feat: Lucky": 393,
+"Feat: Mage Slayer": 394,
+"Feat: Magic Initiate": 395,
+"Feat: Martial Adept": 396,
+"Feat: Medium Armor Master": 397,
+"Feat: Mobile": 398,
+"Feat: Moderately Armored": 399,
+"Feat: Mounted Combatant": 400,
+"Feat: Observant": 401,
+"Feat: Polearm Master": 402,
+"Feat: Resilient": 403,
+"Feat: Ritual Caster": 404,
+"Feat: Savage Attacker": 405,
+"Feat: Sentinel": 406,
+"Feat: Sharpshooter": 407,
+"Feat: Shield Master": 408,
+"Feat: Skilled": 409,
+"Feat: Skulker": 410,
+"Feat: Spell Sniper": 411,
+"Feat: Svirfneblin Magic": 412,
+"Feat: Tavern Brawler": 413,
+"Feat: Tough": 414,
+"Feat: War Caster": 415,
+"Feat: Weapon Master": 416,
+"Half Proficiency": 417,
+"Half Proficiency: Ability Checks": 418,
+"Half Proficiency: Acrobatics": 419,
+"Half Proficiency: Alchemist Supplies": 420,
+"Half Proficiency: Animal Handling": 421,
+"Half Proficiency: Arcana": 422,
+"Half Proficiency: Athletics": 423,
+"Half Proficiency: Bagpipes": 424,
+"Half Proficiency: Battleaxe": 425,
+"Half Proficiency: Blowgun": 426,
+"Half Proficiency: Breastplate": 427,
+"Half Proficiency: Brewer Supplies": 428,
+"Half Proficiency: Calligrapher Supplies": 429,
+"Half Proficiency: Carpenter Tools": 430,
+"Half Proficiency: Cartographer Tools": 431,
+"Half Proficiency: Chain Mail": 432,
+"Half Proficiency: Chain Shirt": 433,
+"Half Proficiency: Charisma Ability Checks": 434,
+"Half Proficiency: Charisma Saving Throws": 435,
+"Half Proficiency: Club": 436,
+"Half Proficiency: Cobbler Tools": 437,
+"Half Proficiency: Constitution Ability Checks": 438,
+"Half Proficiency: Constitution Saving Throws": 439,
+"Half Proficiency: Cooking Utensils": 440,
+"Half Proficiency: Crossbow, Hand": 441,
+"Half Proficiency: Crossbow, Heavy": 442,
+"Half Proficiency: Crossbow, Light": 443,
+"Half Proficiency: Dagger": 444,
+"Half Proficiency: Dart": 445,
+"Half Proficiency: Deception": 446,
+"Half Proficiency: Dexterity Ability Checks": 447,
+"Half Proficiency: Dexterity  Attacks": 448,
+"Half Proficiency: Dexterity Saving Throws": 449,
+"Half Proficiency: Dice Set": 450,
+"Half Proficiency: Disguise Kit": 451,
+"Half Proficiency: Drum": 452,
+"Half Proficiency: Dulcimer": 453,
+"Half Proficiency: Flail": 454,
+"Half Proficiency: Flute": 455,
+"Half Proficiency: Forgery Kit": 456,
+"Half Proficiency: Glaive": 457,
+"Half Proficiency: Glassblower Tools": 458,
+"Half Proficiency: Greataxe": 459,
+"Half Proficiency: Greatclub": 460,
+"Half Proficiency: Greatsword": 461,
+"Half Proficiency: Halberd": 462,
+"Half Proficiency: Half Plate": 463,
+"Half Proficiency: Handaxe": 464,
+"Half Proficiency: Heavy Armor": 465,
+"Half Proficiency: Herbalism Kit": 466,
+"Half Proficiency: Hide": 467,
+"Half Proficiency: History": 468,
+"Half Proficiency: Horn": 469,
+"Half Proficiency: Initiative": 470,
+"Half Proficiency: Insight": 471,
+"Half Proficiency: Intelligence Ability Checks": 472,
+"Half Proficiency: Intelligence Saving Throws": 473,
+"Half Proficiency: Intimidation": 474,
+"Half Proficiency: Investigation": 475,
+"Half Proficiency: Javelin": 476,
+"Half Proficiency: Jeweler Tools": 477,
+"Half Proficiency: Lance": 478,
+"Half Proficiency: Leather": 479,
+"Half Proficiency: Leatherworker Tools": 480,
+"Half Proficiency: Light Armor": 481,
+"Half Proficiency: Light Hammer": 482,
+"Half Proficiency: Longbow": 483,
+"Half Proficiency: Longsword": 484,
+"Half Proficiency: Lute": 485,
+"Half Proficiency: Lyre": 486,
+"Half Proficiency: Mace": 487,
+"Half Proficiency: Martial Weapons": 488,
+"Half Proficiency: Mason Tools": 489,
+"Half Proficiency: Maul": 490,
+"Half Proficiency: Medicine": 491,
+"Half Proficiency: Medium Armor": 492,
+"Half Proficiency: Melee Attacks": 493,
+"Half Proficiency: Mithril Plate Armor": 494,
+"Half Proficiency: Morningstar": 495,
+"Half Proficiency: Nature": 496,
+"Half Proficiency: Navigator Tools": 497,
+"Half Proficiency: Net": 498,
+"Half Proficiency: Padded": 499,
+"Half Proficiency: Painter Supplies": 500,
+"Half Proficiency: Pan Flute": 501,
+"Half Proficiency: Perception": 502,
+"Half Proficiency: Performance": 503,
+"Half Proficiency: Persuasion": 504,
+"Half Proficiency: Pike": 505,
+"Half Proficiency: Plate": 506,
+"Half Proficiency: Playing Card Set": 507,
+"Half Proficiency: Poisoner Kit": 508,
+"Half Proficiency: Potter Tools": 509,
+"Half Proficiency: Quarterstaff": 510,
+"Half Proficiency: Ranged Attacks": 511,
+"Half Proficiency: Rapier": 512,
+"Half Proficiency: Religion": 513,
+"Half Proficiency: Ring Mail": 514,
+"Half Proficiency: Round Up": 515,
+"Half Proficiency: Saving Throws": 516,
+"Half Proficiency: Scale Mail": 517,
+"Half Proficiency: Scimitar": 518,
+"Half Proficiency: Shawm": 519,
+"Half Proficiency: Shortbow": 520,
+"Half Proficiency: Shortsword": 521,
+"Half Proficiency: Sickle": 522,
+"Half Proficiency: Simple Weapons": 523,
+"Half Proficiency: Sleight of Hand": 524,
+"Half Proficiency: Sling": 525,
+"Half Proficiency: Smith Tools": 526,
+"Half Proficiency: Spear": 527,
+"Half Proficiency: Spell Attacks": 528,
+"Half Proficiency: Splint": 529,
+"Half Proficiency: Stealth": 530,
+"Half Proficiency: Steel Shield": 531,
+"Half Proficiency: Strength Ability Checks": 532,
+"Half Proficiency: Strength Attacks": 533,
+"Half Proficiency: Strength Saving Throws": 534,
+"Half Proficiency: Studded Leather": 535,
+"Half Proficiency: Survival": 536,
+"Half Proficiency: Thieve Tools": 537,
+"Half Proficiency: Tinker Tools": 538,
+"Half Proficiency: Trident": 539,
+"Half Proficiency: Viol": 540,
+"Half Proficiency: War Pick": 541,
+"Half Proficiency: Warhammer": 542,
+"Half Proficiency: Weaver Tools": 543,
+"Half Proficiency: Whip": 544,
+"Half Proficiency: Wisdom Ability Checks": 545,
+"Half Proficiency: Wisdom Saving Throws": 546,
+"Half Proficiency: Woodcarver Tools": 547,
+"Half Proficiency Round up": 548,
+"Half Proficiency Round up: Ability Checks": 549,
+"Half Proficiency Round up: Acrobatics": 550,
+"Half Proficiency Round up: Alchemist Supplies": 551,
+"Half Proficiency Round up: Animal Handling": 552,
+"Half Proficiency Round up: Arcana": 553,
+"Half Proficiency Round up: Athletics": 554,
+"Half Proficiency Round up: Bagpipes": 555,
+"Half Proficiency Round up: Battleaxe": 556,
+"Half Proficiency Round up: Blowgun": 557,
+"Half Proficiency Round up: Breastplate": 558,
+"Half Proficiency Round up: Brewer Supplies": 559,
+"Half Proficiency Round up: Calligrapher Supplies": 560,
+"Half Proficiency Round up: Carpenter Tools": 561,
+"Half Proficiency Round up: Cartographer Tools": 562,
+"Half Proficiency Round up: Chain Mail": 563,
+"Half Proficiency Round up: Chain Shirt": 564,
+"Half Proficiency Round up: Charisma Ability Checks": 565,
+"Half Proficiency Round up: Charisma Saving Throws": 566,
+"Half Proficiency Round up: Club": 567,
+"Half Proficiency Round up: Cobbler Tools": 568,
+"Half Proficiency Round up: Constitution Ability Checks": 569,
+"Half Proficiency Round up: Constitution Saving Throws": 570,
+"Half Proficiency Round up: Cooking Utensils": 571,
+"Half Proficiency Round up: Crossbow, Hand": 572,
+"Half Proficiency Round up: Crossbow, Heavy": 573,
+"Half Proficiency Round up: Crossbow, Light": 574,
+"Half Proficiency Round up: Dagger": 575,
+"Half Proficiency Round up: Dart": 576,
+"Half Proficiency Round up: Deception": 577,
+"Half Proficiency Round up: Dexterity Ability Checks": 578,
+"Half Proficiency Round up: Dexterity  Attacks": 579,
+"Half Proficiency Round up: Dexterity Saving Throws": 580,
+"Half Proficiency Round up: Dice Set": 581,
+"Half Proficiency Round up: Disguise Kit": 582,
+"Half Proficiency Round up: Drum": 583,
+"Half Proficiency Round up: Dulcimer": 584,
+"Half Proficiency Round up: Flail": 585,
+"Half Proficiency Round up: Flute": 586,
+"Half Proficiency Round up: Forgery Kit": 587,
+"Half Proficiency Round up: Glaive": 588,
+"Half Proficiency Round up: Glassblower Tools": 589,
+"Half Proficiency Round up: Greataxe": 590,
+"Half Proficiency Round up: Greatclub": 591,
+"Half Proficiency Round up: Greatsword": 592,
+"Half Proficiency Round up: Halberd": 593,
+"Half Proficiency Round up: Half Plate": 594,
+"Half Proficiency Round up: Handaxe": 595,
+"Half Proficiency Round up: Heavy Armor": 596,
+"Half Proficiency Round up: Herbalism Kit": 597,
+"Half Proficiency Round up: Hide": 598,
+"Half Proficiency Round up: History": 599,
+"Half Proficiency Round up: Horn": 600,
+"Half Proficiency Round up: Initiative": 601,
+"Half Proficiency Round up: Insight": 602,
+"Half Proficiency Round up: Intelligence Ability Checks": 603,
+"Half Proficiency Round up: Intelligence Saving Throws": 604,
+"Half Proficiency Round up: Intimidation": 605,
+"Half Proficiency Round up: Investigation": 606,
+"Half Proficiency Round up: Javelin": 607,
+"Half Proficiency Round up: Jeweler Tools": 608,
+"Half Proficiency Round up: Lance": 609,
+"Half Proficiency Round up: Leather": 610,
+"Half Proficiency Round up: Leatherworker Tools": 611,
+"Half Proficiency Round up: Light Armor": 612,
+"Half Proficiency Round up: Light Hammer": 613,
+"Half Proficiency Round up: Longbow": 614,
+"Half Proficiency Round up: Longsword": 615,
+"Half Proficiency Round up: Lute": 616,
+"Half Proficiency Round up: Lyre": 617,
+"Half Proficiency Round up: Mace": 618,
+"Half Proficiency Round up: Martial Weapons": 619,
+"Half Proficiency Round up: Mason Tools": 620,
+"Half Proficiency Round up: Maul": 621,
+"Kensei: Flail": 740,
+"Half Proficiency Round up: Medicine": 622,
+"Half Proficiency Round up: Medium Armor": 623,
+"Half Proficiency Round up: Melee Attacks": 624,
+"Half Proficiency Round up: Mithril Plate Armor": 625,
+"Half Proficiency Round up: Morningstar": 626,
+"Half Proficiency Round up: Nature": 627,
+"Half Proficiency Round up: Navigator Tools": 628,
+"Half Proficiency Round up: Net": 629,
+"Half Proficiency Round up: Padded": 630,
+"Half Proficiency Round up: Painter Supplies": 631,
+"Half Proficiency Round up: Pan Flute": 632,
+"Half Proficiency Round up: Perception": 633,
+"Half Proficiency Round up: Performance": 634,
+"Half Proficiency Round up: Persuasion": 635,
+"Half Proficiency Round up: Pike": 636,
+"Half Proficiency Round up: Plate": 637,
+"Half Proficiency Round up: Playing Card Set": 638,
+"Half Proficiency Round up: Poisoner Kit": 639,
+"Half Proficiency Round up: Potter Tools": 640,
+"Half Proficiency Round up: Quarterstaff": 641,
+"Half Proficiency Round up: Ranged Attacks": 642,
+"Half Proficiency Round up: Rapier": 643,
+"Half Proficiency Round up: Religion": 644,
+"Half Proficiency Round up: Ring Mail": 645,
+"Half Proficiency Round up: Round Up": 646,
+"Half Proficiency Round up: Saving Throws": 647,
+"Half Proficiency Round up: Scale Mail": 648,
+"Half Proficiency Round up: Scimitar": 649,
+"Half Proficiency Round up: Shawm": 650,
+"Half Proficiency Round up: Shortbow": 651,
+"Half Proficiency Round up: Shortsword": 652,
+"Half Proficiency Round up: Sickle": 653,
+"Half Proficiency Round up: Simple Weapons": 654,
+"Half Proficiency Round up: Sleight of Hand": 655,
+"Half Proficiency Round up: Sling": 656,
+"Half Proficiency Round up: Smith Tools": 657,
+"Half Proficiency Round up: Spear": 658,
+"Half Proficiency Round up: Spell Attacks": 659,
+"Half Proficiency Round up: Splint": 660,
+"Half Proficiency Round up: Stealth": 661,
+"Half Proficiency Round up: Steel Shield": 662,
+"Half Proficiency Round up: Strength Ability Checks": 663,
+"Half Proficiency Round up: Strength Attacks": 664,
+"Half Proficiency Round up: Strength Saving Throws": 665,
+"Half Proficiency Round up: Studded Leather": 666,
+"Half Proficiency Round up: Survival": 667,
+"Half Proficiency Round up: Thieve Tools": 668,
+"Half Proficiency Round up: Tinker Tools": 669,
+"Half Proficiency Round up: Trident": 670,
+"Half Proficiency Round up: Viol": 671,
+"Half Proficiency Round up: War Pick": 672,
+"Half Proficiency Round up: Warhammer": 673,
+"Half Proficiency Round up: Weaver Tools": 674,
+"Half Proficiency Round up: Whip": 675,
+"Half Proficiency Round up: Wisdom Ability Checks": 676,
+"Half Proficiency Round up: Wisdom Saving Throws": 677,
+"Half Proficiency Round up: Woodcarver Tools": 678,
+"Ignore": 679,
+"Ignore: Dual Wield Light Restrictions": 680,
+"Ignore: Dual Wield Modifier Restrictions": 681,
+"Ignore: Heavy Armor Speed Reduction": 682,
+"Ignore: Unarmored Dex AC Bonus": 683,
+"Ignore: Unarmored Dex Natural AC Bonus": 684,
+"Ignore Weapon Property": 685,
+"Ignore Weapon Property: Finesse": 686,
+"Ignore Weapon Property: Heavy": 687,
+"Ignore Weapon Property: Light": 688,
+"Ignore Weapon Property: Loading": 689,
+"Ignore Weapon Property: Range": 690,
+"Ignore Weapon Property: Reach": 691,
+"Ignore Weapon Property: Thrown": 692,
+"Ignore Weapon Property: Two-Handed": 693,
+"Ignore Weapon Property: Versatile": 694,
+"Immunity": 695,
+"Immunity: Acid": 696,
+"Immunity: Blinded": 697,
+"Immunity: Bludgeoning": 698,
+"Immunity: Bludgeoning, Piercing, and Slashing from Non-magical Weapons": 699,
+"Immunity: Charmed": 700,
+"Immunity: Cold": 701,
+"Immunity: Critical Hits": 702,
+"Immunity: Deafened": 703,
+"Immunity: Disease": 704,
+"Immunity: DO NO USE": 705,
+"Immunity: Exhaustion": 706,
+"Immunity: Fire": 707,
+"Immunity: Force": 708,
+"Immunity: Frightened": 709,
+"Immunity: Grappled": 710,
+"Immunity: Incapacitated": 711,
+"Immunity: Invisible": 712,
+"Immunity: Lightning": 713,
+"Immunity: Magical Sleep": 714,
+"Immunity: Necrotic": 715,
+"Immunity: Paralyzed": 716,
+"Immunity: Petrified": 717,
+"Immunity: Piercing": 718,
+"Immunity: Poison": 719,
+"Immunity: Poisoned": 720,
+"Immunity: Prone": 721,
+"Immunity: Psychic": 722,
+"Immunity: Radiant": 723,
+"Immunity: Restrained": 724,
+"Immunity: Slashing": 725,
+"Immunity: Stunned": 726,
+"Immunity: Thunder": 727,
+"Immunity: Unconscious": 728,
+"Kensei": 729,
+"Kensei: Antimatter Rifle": 730,
+"Kensei: Battleaxe": 731,
+"Kensei: Blowgun": 732,
+"Kensei: Boomerang": 733,
+"Kensei: Club": 734,
+"Kensei: Crossbow, Hand": 735,
+"Kensei: Crossbow, Light": 736,
+"Kensei: Dagger": 737,
+"Kensei: Dart": 738,
+"Kensei: Double-Bladed Scimitar": 739,
+"Kensei: Greatclub": 741,
+"Kensei: Handaxe": 742,
+"Kensei: Javelin": 743,
+"Kensei: Laser Pistol": 744,
+"Kensei: Laser Rifle": 745,
+"Kensei: Light Hammer": 746,
+"Kensei: Longbow": 747,
+"Kensei: Longsword": 748,
+"Kensei: Mace": 749,
+"Kensei: Morningstar": 750,
+"Kensei: Musket": 751,
+"Kensei: Pistol": 752,
+"Kensei: Pistol, Automatic": 753,
+"Kensei: Quarterstaff": 754,
+"Kensei: Rapier": 755,
+"Kensei: Revolver": 756,
+"Kensei: Rifle, Automatic": 757,
+"Kensei: Rifle, Hunting": 758,
+"Kensei: Scimitar": 759,
+"Kensei: Shortbow": 760,
+"Kensei: Shortsword": 761,
+"Kensei: Shotgun": 762,
+"Kensei: Sickle": 763,
+"Kensei: Sling": 764,
+"Kensei: Spear": 765,
+"Kensei: Trident": 766,
+"Kensei: War Pick": 767,
+"Kensei: Warhammer": 768,
+"Kensei: Whip": 769,
+"Kensei: Yklwa": 770,
+"Language": 771,
+"Language: Aarakocra": 772,
+"Language: Abanasinian": 773,
+"Language: Abyssal": 774,
+"Language: All": 775,
+"Language: Aquan": 776,
+"Language: Auran": 777,
+"Language: Blink Dog": 778,
+"Language: Celestial": 779,
+"Language: Common": 780,
+"Language: Daelkyr": 781,
+"Language: Deep Speech": 782,
+"Language: Draconic": 783,
+"Language: Druidic": 784,
+"Language: Dwarvish": 785,
+"Language: Elvish": 786,
+"Language: Ergot": 787,
+"Language: Giant": 788,
+"Language: Giant Eagle": 789,
+"Language: Giant Elk": 790,
+"Language: Giant Owl": 791,
+"Language: Gith": 792,
+"Language: Gnoll": 793,
+"Language: Gnomish": 794,
+"Language: Goblin": 795,
+"Language: Grippli": 796,
+"Language: Grung": 797,
+"Language: Hadozee": 798,
+"Language: Halfling": 799,
+"Language: Ignan": 800,
+"Language: Infernal": 801,
+"Language: Istarian": 802,
+"Language: Kenderspeak": 803,
+"Language: Kharolian": 804,
+"Language: Khur": 805,
+"Language: Kothian": 806,
+"Language: Kraul": 807,
+"Language: Leonin": 808,
+"Language: Loxodon": 809,
+"Language: Marquesian": 810,
+"Language: Minotaur": 811,
+"Language: Naush": 812,
+"Language: Nerakese": 813,
+"Language: Nordmaarian": 814,
+"Language: Ogre": 815,
+"Language: Orc": 816,
+"Language: Otyugh": 817,
+"Language: Primordial": 818,
+"Language: Quori": 819,
+"Language: Riedran": 820,
+"Language: Sahuagin": 821,
+"Language: Solamnic": 822,
+"Language: Sphinx": 823,
+"Language: Sylvan": 824,
+"Language: Telepathy": 825,
+"Language: Terran": 826,
+"Language: Thieves Cant": 827,
+"Language: Thri-Kreen": 828,
+"Language: Undercommon": 829,
+"Language: Vedalken": 830,
+"Language: Winter Wolf": 831,
+"Language: Worg": 832,
+"Language: Yeti": 833,
+"Language: Zemnian": 834,
+"Melee Weapon Attack": 835,
+"Melee Weapon Attack: Acid": 836,
+"Melee Weapon Attack: Bludgeoning": 837,
+"Melee Weapon Attack: Cold": 838,
+"Melee Weapon Attack: Fire": 839,
+"Melee Weapon Attack: Force": 840,
+"Melee Weapon Attack: Lightning": 841,
+"Melee Weapon Attack: Necrotic": 842,
+"Melee Weapon Attack: Piercing": 843,
+"Melee Weapon Attack: Poison": 844,
+"Melee Weapon Attack: Psychic": 845,
+"Melee Weapon Attack: Radiant": 846,
+"Melee Weapon Attack: Slashing": 847,
+"Melee Weapon Attack: Thunder": 848,
+"Monk Weapon": 849,
+"Monk Weapon: Battleaxe": 850,
+"Monk Weapon: Blowgun": 851,
+"Monk Weapon: Boomerang": 852,
+"Monk Weapon: Club": 853,
+"Monk Weapon: Crossbow, Hand": 854,
+"Monk Weapon: Crossbow, Heavy": 855,
+"Monk Weapon: Crossbow, Light": 856,
+"Monk Weapon: Dagger": 857,
+"Monk Weapon: Dart": 858,
+"Monk Weapon: Flail": 859,
+"Monk Weapon: Glaive": 860,
+"Monk Weapon: Greataxe": 861,
+"Monk Weapon: Greatsword": 862,
+"Monk Weapon: Halberd": 863,
+"Monk Weapon: Handaxe": 864,
+"Monk Weapon: Javelin": 865,
+"Monk Weapon: Lance": 866,
+"Monk Weapon: Light Hammer": 867,
+"Monk Weapon: Longbow": 868,
+"Monk Weapon: Longsword": 869,
+"Monk Weapon: Mace": 870,
+"Monk Weapon: Maul": 871,
+"Monk Weapon: Morningstar": 872,
+"Monk Weapon: Net": 873,
+"Monk Weapon: Pike": 874,
+"Monk Weapon: Quarterstaff": 875,
+"Monk Weapon: Rapier": 876,
+"Monk Weapon: Scimitar": 877,
+"Monk Weapon: Shortbow": 878,
+"Monk Weapon: Shortsword": 879,
+"Monk Weapon: Sickle": 880,
+"Monk Weapon: Sling": 881,
+"Monk Weapon: Spear": 882,
+"Monk Weapon: Trident": 883,
+"Monk Weapon: War Pick": 884,
+"Monk Weapon: Warhammer": 885,
+"Monk Weapon: Whip": 886,
+"Monk Weapon: Yklwa": 887,
+"Natural Weapon": 888,
+"Natural Weapon: Bludgeoning": 889,
+"Natural Weapon: Piercing": 890,
+"Natural Weapon: Slashing": 891,
+"Proficiency": 892,
+"Proficiency: Ability Checks": 893,
+"Proficiency: Acrobatics": 894,
+"Proficiency: Alchemist Supplies": 895,
+"Proficiency: Animal Handling": 896,
+"Proficiency: Arcana": 897,
+"Proficiency: Athletics": 898,
+"Proficiency: Bagpipes": 899,
+"Proficiency: Battleaxe": 900,
+"Proficiency: Bird Pipes": 901,
+"Proficiency: Blowgun": 902,
+"Proficiency: Boomerang": 903,
+"Proficiency: Breastplate": 904,
+"Proficiency: Brewer Supplies": 905,
+"Proficiency: Calligrapher Supplies": 906,
+"Proficiency: Carpenter Tools": 907,
+"Proficiency: Cartographer Tools": 908,
+"Proficiency: Chain Mail": 909,
+"Proficiency: Chain Shirt": 910,
+"Proficiency: Charisma Ability Checks": 911,
+"Proficiency: Charisma Saving Throws": 912,
+"Proficiency: Choose a Bard Skill": 913,
+"Proficiency: Club": 914,
+"Proficiency: Cobbler Tools": 915,
+"Proficiency: Constitution Ability Checks": 916,
+"Proficiency: Constitution Saving Throws": 917,
+"Proficiency: Cook Utensils": 918,
+"Proficiency: Crossbow, Hand": 919,
+"Proficiency: Crossbow, Heavy": 920,
+"Proficiency: Crossbow, Light": 921,
+"Proficiency: Dagger": 922,
+"Proficiency: Dart": 923,
+"Proficiency: Deception": 924,
+"Proficiency: DELETE - double-Bladed Scimitar": 925,
+"Proficiency: Dexterity Ability Checks": 926,
+"Proficiency: Dexterity Attacks": 927,
+"Proficiency: Dexterity Saving Throws": 928,
+"Proficiency: Dice Set": 929,
+"Proficiency: Disguise Kit": 930,
+"Proficiency: Double-Bladed Scimitar": 931,
+"Proficiency: Dragonchess Set": 932,
+"Proficiency: Drum": 933,
+"Proficiency: Dulcimer": 934,
+"Proficiency: Firearms": 935,
+"Proficiency: Flail": 936,
+"Proficiency: Flute": 937,
+"Proficiency: Forgery Kit": 938,
+"Proficiency: Glaive": 939,
+"Proficiency: Glassblower Tools": 940,
+"Proficiency: Glaur": 941,
+"Proficiency: Greataxe": 942,
+"Proficiency: Greatclub": 943,
+"Proficiency: Greatsword": 944,
+"Proficiency: Halberd": 945,
+"Proficiency: Half Plate": 946,
+"Proficiency: Hand Drum": 947,
+"Proficiency: Handaxe": 948,
+"Proficiency: Heavy Armor": 949,
+"Proficiency: Herbalism Kit": 950,
+"Proficiency: Hide": 951,
+"Proficiency: History": 952,
+"Proficiency: Hoopak": 953,
+"Proficiency: Hoopak (Ranged)": 954,
+"Proficiency: Horn": 955,
+"Proficiency: Improvised Weapon": 956,
+"Proficiency: Initiative": 957,
+"Proficiency: Insight": 958,
+"Proficiency: Intelligence Ability Checks": 959,
+"Proficiency: Intelligence Saving Throws": 960,
+"Proficiency: Intimidation": 961,
+"Proficiency: Investigation": 962,
+"Proficiency: Javelin": 963,
+"Proficiency: Jeweler Tools": 964,
+"Proficiency: Lance": 965,
+"Proficiency: Leather": 966,
+"Proficiency: Leatherworker Tools": 967,
+"Proficiency: Light Armor": 968,
+"Proficiency: Light Hammer": 969,
+"Proficiency: Longbow": 970,
+"Proficiency: Longhorn": 971,
+"Proficiency: Longsword": 972,
+"Proficiency: Lute": 973,
+"Proficiency: Lyre": 974,
+"Proficiency: Mace": 975,
+"Proficiency: Martial Weapons": 976,
+"Proficiency: Mason Tools": 977,
+"Proficiency: Maul": 978,
+"Proficiency: Medicine": 979,
+"Proficiency: Medium Armor": 980,
+"Proficiency: Melee Attacks": 981,
+"Proficiency: Mithril Plate Armor": 982,
+"Proficiency: Morningstar": 983,
+"Proficiency: Nature": 984,
+"Proficiency: Navigator Tools": 985,
+"Proficiency: Net": 986,
+"Proficiency: Padded": 987,
+"Proficiency: Painter Supplies": 988,
+"Proficiency: Pan Flute": 989,
+"Proficiency: Perception": 990,
+"Proficiency: Performance": 991,
+"Proficiency: Persuasion": 992,
+"Proficiency: Pike": 993,
+"Proficiency: Plate": 994,
+"Proficiency: Playing Card Set": 995,
+"Proficiency: Poisoner Kit": 996,
+"Proficiency: Potter Tools": 997,
+"Proficiency: Quarterstaff": 998,
+"Proficiency: Ranged Attacks": 999,
+"Proficiency: Rapier": 1000,
+"Proficiency: Religion": 1001,
+"Proficiency: Ring Mail": 1002,
+"Proficiency: Saving Throws": 1003,
+"Proficiency: Scale Mail": 1004,
+"Proficiency: Scimitar": 1005,
+"Proficiency: Self": 1006,
+"Proficiency: Shawm": 1007,
+"Proficiency: Shields": 1008,
+"Proficiency: Shortbow": 1009,
+"Proficiency: Sickle": 1010,
+"Proficiency: Simple Weapons": 1011,
+"Proficiency: Sleight of Hand": 1012,
+"Proficiency: Sling": 1013,
+"Proficiency: Smith Tools": 1014,
+"Proficiency: Songhorn": 1015,
+"Proficiency: Spear": 1016,
+"Proficiency: Spell Attacks": 1017,
+"Proficiency: Splint": 1018,
+"Proficiency: Stealth": 1019,
+"Proficiency: Steel Shield": 1020,
+"Proficiency: Strength Ability Checks": 1021,
+"Proficiency: Strength Attacks": 1022,
+"Proficiency: Strength Saving Throws": 1023,
+"Proficiency: Studded Leather": 1024,
+"Proficiency: Survival": 1025,
+"Proficiency: Tantan": 1026,
+"Proficiency: Thelarr": 1027,
+"Proficiency: Thieves Tools": 1028,
+"Proficiency: Three-Dragon Ante Set": 1029,
+"Proficiency: Tinker Tools": 1030,
+"Proficiency: Tocken": 1031,
+"Proficiency: Trident": 1032,
+"Proficiency: Vehicles (Land)": 1033,
+"Proficiency: Vehicles (Space)": 1034,
+"Proficiency: Vehicles (Water)": 1035,
+"Proficiency: Viol": 1036,
+"Proficiency: War Pick": 1037,
+"Proficiency: Wargong": 1038,
+"Proficiency: Warhammer": 1039,
+"Proficiency: Weaver Tools": 1040,
+"Proficiency: Whip": 1041,
+"Proficiency: Whistle-Stick": 1042,
+"Proficiency: Wisdom Ability Checks": 1043,
+"Proficiency: Wisdom Saving Throws": 1044,
+"Proficiency: Woodcarver Tools": 1045,
+"Proficiency: Yarting": 1046,
+"Proficiency: Yklwa": 1047,
+"Proficiency: Zulkoon": 1048,
+"protection": 1049,
+"protection: 0 Hp": 1050,
+"Ranged Weapon Attack": 1051,
+"Ranged Weapon Attack: Acid": 1052,
+"Ranged Weapon Attack: Bludgeoning": 1053,
+"Ranged Weapon Attack: Cold": 1054,
+"Ranged Weapon Attack: Fire": 1055,
+"Ranged Weapon Attack: Force": 1056,
+"Ranged Weapon Attack: Lightning": 1057,
+"Ranged Weapon Attack: Necrotic": 1058,
+"Ranged Weapon Attack: Piercing": 1059,
+"Ranged Weapon Attack: Poison": 1060,
+"Ranged Weapon Attack: Psychic": 1061,
+"Ranged Weapon Attack: Radiant": 1062,
+"Ranged Weapon Attack: Slashing": 1063,
+"Ranged Weapon Attack: Thunder": 1064,
+"Replace Damage Type": 1065,
+"Replace Damage Type: Acid": 1066,
+"Replace Damage Type: Bludgeoning": 1067,
+"Replace Damage Type: Cold": 1068,
+"Replace Damage Type: Fire": 1069,
+"Replace Damage Type: Force": 1070,
+"Replace Damage Type: Lightning": 1071,
+"Replace Damage Type: Necrotic": 1072,
+"Replace Damage Type: Piercing": 1073,
+"Replace Damage Type: Poison": 1074,
+"Replace Damage Type: Psychic": 1075,
+"Replace Damage Type: Radiant": 1076,
+"Replace Damage Type: Slashing": 1077,
+"Replace Damage Type: Thunder": 1078,
+"Resistance": 1079,
+"Resistance: Acid": 1080,
+"Resistance: All": 1081,
+"Resistance: All Except Psychic": 1082,
+"Resistance: Bludgeoning": 1083,
+"Resistance: Bludgeoning, Piercing, and Slashing from Non-magical Attacks": 1084,
+"Resistance: Cold": 1085,
+"Resistance: Damage Dealt by Traps": 1086,
+"Resistance: Fire": 1087,
+"Resistance: Force": 1088,
+"Resistance: Lightning": 1089,
+"Resistance: Necrotic": 1090,
+"Resistance: Piercing": 1091,
+"Resistance: Poison": 1092,
+"Resistance: Psychic": 1093,
+"Resistance: Radiant": 1094,
+"Resistance: Ranged Attacks": 1095,
+"Resistance: Slashing": 1096,
+"Resistance: Thunder": 1097,
+"Sense": 1098,
+"Sense: Blindsight": 1099,
+"Sense: Darkvision": 1100,
+"Sense: Tremorsense": 1101,
+"Sense: Truesight": 1102,
+"Set": 1103,
+"Set: Ability Score Maximum": 1104,
+"Set: AC Max Dex Armored Modifier": 1105,
+"Set: AC Max Dex Modifier": 1106,
+"Set: AC Max Dex Unarmored Modifier": 1107,
+"Set: Armor Cass": 1108,
+"Set: Attunement Slots": 1109,
+"Set: Charisma Score": 1110,
+"Set: Constitution Score": 1111,
+"Set: Death": 1112,
+"Set: Dexterity Score": 1113,
+"Set: Eldritch Blast Range": 1114,
+"Set: Extra Attacks": 1115,
+"Set: Innate Speed (Burrowing)": 1116,
+"Set: Innate Speed (Climbing)": 1117,
+"Set: Innate Speed (Flying)": 1118,
+"Set: Innate Speed (Swimming)": 1119,
+"Set: Innate Speed (Walking)": 1120,
+"Set: Intelligence Score": 1121,
+"Set: Minimum Base Armor": 1122,
+"Set: Speed (Burrowing)": 1123,
+"Set: Speed (Flying)": 1124,
+"Set: Speed (Swimming)": 1125,
+"Set: Speed (Walking)": 1126,
+"Set: Strength Score": 1127,
+"Set: Subclass": 1128,
+"Set: Unarmed Damage Die": 1129,
+"Set: Unarmored Armor Class": 1130,
+"Set: Wisdom Score": 1131,
+"Set Base": 1132,
+"Set Base: Blindsight": 1133,
+"Set Base: Darkvision": 1134,
+"Set Base: Tremorsense": 1135,
+"Set Base: Truesight": 1136,
+"Size": 1137,
+"Size: Gargantuan": 1138,
+"Size: Huge": 1139,
+"Size: Large": 1140,
+"Size: Medium": 1141,
+"Size: Small": 1142,
+"Size: Tiny": 1143,
+"Speed Reduction": 1144,
+"Speed Reduction: Impose": 1145,
+"Speed Reduction: Remove": 1146,
+"Spell Slot Increase": 1147,
+"Spell Slot Increase: Bard": 1148,
+"Spell Slot Increase: Cleric": 1149,
+"Spell Slot Increase: Druid": 1150,
+"Spell Slot Increase: Paladin": 1151,
+"Spell Slot Increase: Ranger": 1152,
+"Spell Slot Increase: Sorcerer": 1153,
+"Spell Slot Increase: Warlock": 1154,
+"Spell Slot Increase: Wizard": 1155,
+"Stacking Bonus": 1156,
+"Stacking Bonus: Charisma Score": 1157,
+"Stacking Bonus: Constitution Score": 1158,
+"Stacking Bonus: Dexterity Score": 1159,
+"Stacking Bonus: Intelligence Score": 1160,
+"Stacking Bonus: Strength Score": 1161,
+"Stacking Bonus: Wisdom Score": 1162,
+"Stealth Disadvantage": 1163,
+"Stealth Disadvantage: Impose": 1164,
+"Stealth Disadvantage: Remove": 1165,
+"Twice Proficiency": 1166,
+"Twice Proficiency: Ability Checks": 1167,
+"Twice Proficiency: Acrobatics": 1168,
+"Twice Proficiency: Alchemist Supplies": 1169,
+"Twice Proficiency: Animal Handling": 1170,
+"Twice Proficiency: Arcana": 1171,
+"Twice Proficiency: Athletics": 1172,
+"Twice Proficiency: Bagpipes": 1173,
+"Twice Proficiency: Battleaxe": 1174,
+"Twice Proficiency: Blowgun": 1175,
+"Twice Proficiency: Breastplate": 1176,
+"Twice Proficiency: Brewer Supplies": 1177,
+"Twice Proficiency: Calligrapher Supplies": 1178,
+"Twice Proficiency: Carpenter Tools": 1179,
+"Twice Proficiency: Cartographer Tools": 1180,
+"Twice Proficiency: Chain Mail": 1181,
+"Twice Proficiency: Chain Shirt": 1182,
+"Twice Proficiency: Charisma Ability Checks": 1183,
+"Twice Proficiency: Charisma Saving Throws": 1184,
+"Twice Proficiency: Choose a Bard Skill": 1185,
+"Twice Proficiency: Choose a Saving Throw": 1186,
+"Twice Proficiency: Club": 1187,
+"Twice Proficiency: Cobbler Tools": 1188,
+"Twice Proficiency: Constitution Ability Checks": 1189,
+"Twice Proficiency: Constitution Saving Throws": 1190,
+"Twice Proficiency: Cook Utensils": 1191,
+"Twice Proficiency: Crossbow, Hand": 1192,
+"Twice Proficiency: Crossbow, Heavy": 1193,
+"Twice Proficiency: Crossbow, Light": 1194,
+"Twice Proficiency: Dagger": 1195,
+"Twice Proficiency: Dart": 1196,
+"Twice Proficiency: Deception": 1197,
+"Twice Proficiency: Dexterity Ability Checks": 1198,
+"Twice Proficiency: Dexterity Attacks": 1199,
+"Twice Proficiency: Dexterity Saving Throws": 1200,
+"Twice Proficiency: Dice Set": 1201,
+"Twice Proficiency: Disguise Kit": 1202,
+"Twice Proficiency: Dragonchess Set": 1203,
+"Twice Proficiency: Drum": 1204,
+"Twice Proficiency: Dulcimer": 1205,
+"Twice Proficiency: Flail": 1206,
+"Twice Proficiency: Flute": 1207,
+"Twice Proficiency: Forgery Kit": 1208,
+"Twice Proficiency: Glaive": 1209,
+"Twice Proficiency: Glassblower Tools": 1210,
+"Twice Proficiency: Greataxe": 1211,
+"Twice Proficiency: Greatclub": 1212,
+"Twice Proficiency: Greatsword": 1213,
+"Twice Proficiency: Halberd": 1214,
+"Twice Proficiency: Half Plate": 1215,
+"Twice Proficiency: Handaxe": 1216,
+"Twice Proficiency: Heavy Armor": 1217,
+"Twice Proficiency: Herbalism Kit": 1218,
+"Twice Proficiency: Hide": 1219,
+"Twice Proficiency: History": 1220,
+"Twice Proficiency: Horn": 1221,
+"Twice Proficiency: Improvised Weapons": 1222,
+"Twice Proficiency: Initiative": 1223,
+"Twice Proficiency: Insight": 1224,
+"Twice Proficiency: Intelligence Ability Checks": 1225,
+"Twice Proficiency: Intelligence Saving Throws": 1226,
+"Twice Proficiency: Intimidation": 1227,
+"Twice Proficiency: Investigation": 1228,
+"Twice Proficiency: Javelin": 1229,
+"Twice Proficiency: Jeweler Tools": 1230,
+"Twice Proficiency: Lance": 1231,
+"Twice Proficiency: Leather": 1232,
+"Twice Proficiency: Leatherworker Tools": 1233,
+"Twice Proficiency: Light Armor": 1234,
+"Twice Proficiency: Light Hammer": 1235,
+"Twice Proficiency: Longbow": 1236,
+"Twice Proficiency: Longsword": 1237,
+"Twice Proficiency: Lute": 1238,
+"Twice Proficiency: Lyre": 1239,
+"Twice Proficiency: Mace": 1240,
+"Twice Proficiency: Martial Weapons": 1241,
+"Twice Proficiency: Mason Tools": 1242,
+"Twice Proficiency: Maul": 1243,
+"Twice Proficiency: Medicine": 1244,
+"Twice Proficiency: Medium Armor": 1245,
+"Twice Proficiency: Melee Attacks": 1246,
+"Twice Proficiency: Mithril Plate Armor": 1247,
+"Twice Proficiency: Morningstar": 1248,
+"Twice Proficiency: Nature": 1249,
+"Twice Proficiency: Navigator Tools": 1250,
+"Twice Proficiency: Net": 1251,
+"Twice Proficiency: Padded": 1252,
+"Twice Proficiency: Painter Supplies": 1253,
+"Twice Proficiency: Pan Flute": 1254,
+"Twice Proficiency: Perception": 1255,
+"Twice Proficiency: Performance": 1256,
+"Twice Proficiency: Pike": 1257,
+"Twice Proficiency: Plate": 1258,
+"Twice Proficiency: Playing Card Set": 1259,
+"Twice Proficiency: Poisoner Kit": 1260,
+"Twice Proficiency: Potter Tools": 1261,
+"Twice Proficiency: Quarterstaff": 1262,
+"Twice Proficiency: Ranged Attacks": 1263,
+"Twice Proficiency: Rapier": 1264,
+"Twice Proficiency: Religion": 1265,
+"Twice Proficiency: Ring Mail": 1266,
+"Twice Proficiency: Saving Throws": 1267,
+"Twice Proficiency: Scale Mail": 1268,
+"Twice Proficiency: Scimitar": 1269,
+"Twice Proficiency: Self": 1270,
+"Twice Proficiency: Shawm": 1271,
+"Twice Proficiency: Shields": 1272,
+"Twice Proficiency: Shortbow": 1273,
+"Twice Proficiency: Shortsword": 1274,
+"Twice Proficiency: Sickle": 1275,
+"Twice Proficiency: Simple Weapon": 1276,
+"Twice Proficiency: Sleight of Hand": 1277,
+"Twice Proficiency: Sling": 1278,
+"Twice Proficiency: Smith Tools": 1279,
+"Twice Proficiency: Spear": 1280,
+"Twice Proficiency: Spell Attacks": 1281,
+"Twice Proficiency: Splint": 1282,
+"Twice Proficiency: Stealth": 1283,
+"Twice Proficiency: Steel Shield": 1284,
+"Twice Proficiency: Strength Ability Checks": 1285,
+"Twice Proficiency: Strength Attacks": 1286,
+"Twice Proficiency: Strength Saving Throws": 1287,
+"Twice Proficiency: Studded Leather": 1288,
+"Twice Proficiency: Survival": 1289,
+"Twice Proficiency: Thieves Tools": 1290,
+"Twice Proficiency: Three-Dragon Ante Set": 1291,
+"Twice Proficiency: Tinker Tools": 1292,
+"Twice Proficiency: Trident": 1293,
+"Twice Proficiency: Vehicles (Land)": 1294,
+"Twice Proficiency: Vehicles (Water)": 1295,
+"Twice Proficiency: Viol": 1296,
+"Twice Proficiency: War Pick": 1297,
+"Twice Proficiency: Warhammer": 1298,
+"Twice Proficiency: Weaver Tools": 1299,
+"Twice Proficiency: Whip": 1300,
+"Twice Proficiency: Wisdom Ability Checks": 1301,
+"Twice Proficiency: Wisdom Saving Throws": 1302,
+"Twice Proficiency: Woodcarver Tools": 1303,
+"Vulnerability": 1304,
+"Vulnerability: Acid": 1305,
+"Vulnerability: All": 1306,
+"Vulnerability: Bludgeoning": 1307,
+"Vulnerability: Cold": 1308,
+"Vulnerability: Fire": 1309,
+"Vulnerability: Force": 1310,
+"Vulnerability: Lightning": 1311,
+"Vulnerability: Necrotic": 1312,
+"Vulnerability: Piercing": 1313,
+"Vulnerability: Poison": 1314,
+"Vulnerability: Psychic": 1315,
+"Vulnerability: Radiant": 1316,
+"Vulnerability: Slashing": 1317,
+"Vulnerability: Thunder": 1318,
+"Weapon Property": 1319,
+"Weapon Property: Finesse": 1320,
+"Weapon Property: Heavy": 1321,
+"Weapon Property: Light": 1322,
+"Weapon Property: Loading": 1323,
+"Weapon Property: Range": 1324,
+"Weapon Property: Reach": 1325,
+"Weapon Property: Thrown": 1326,
+"Weapon Property: Two-Handed": 1327,
+"Weapon Property: Versatile": 1328,
