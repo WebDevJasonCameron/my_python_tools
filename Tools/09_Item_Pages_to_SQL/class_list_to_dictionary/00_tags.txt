@@ -1,5 +1,3 @@
-import csv
-data = """
 1,Ammunition,
 2,Armor,
 3,Artificer,
@@ -69,26 +67,3 @@ data = """
 74,Warm,
 75,Wondrous Item,
 76,Wristwear,
-"""
-
-rows = [row.split(',') for row in data.strip().split('\n')]
-
-result_list = []
-
-for row in rows:
-    class_id = row[0].lower()
-    class_name = row[1].lower()
-    subclass_name = row[2].strip().lower()
-
-    if subclass_name == "":
-        result_list.append(f'"{class_name}": {class_id},')
-    else:
-        result_list.append(f'"{subclass_name}": {class_id},')
-
-output_file = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/class_list_to_dictionary/output_file.txt", "w")
-
-for item in result_list:
-    output_file.writelines(item + "\n")
-
-output_file.close()
-

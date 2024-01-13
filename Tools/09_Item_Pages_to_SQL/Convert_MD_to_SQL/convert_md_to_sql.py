@@ -2,9 +2,9 @@ import os
 import glob
 
 path = "/Users/jasoncameron/Desktop/dnd_items/Items"
-file = "/Users/jasoncameron/Desktop/dnd_items/Items/Staff of the Woodlands.md"
+file = "/Users/jasoncameron/Desktop/dnd_items/Items/Bracers of Archery.md"
 
-item_id_number = 1
+
 
 
 # FINAL RUNNING FUNCTION
@@ -12,21 +12,29 @@ item_id_number = 1
 # FUN
 # <F> Parse_Document
 def Pars_Document(file):
+    item_id_number = 1
     read_file = open(file, 'r')
 
     lines = Capture_Lines(read_file)
 
     item = Fill_In_Item(lines)  # Must be completed Prior to cond & magic bonuses
 
+    # Update Item Attributes
     item["has_charges"] = Search_Description_For_Word("charges", item["description"])
     item["magic_bonus_plus_1"] = Search_Description_For_Bonuses("+1", item["description"])
     item["magic_bonus_plus_2"] = Search_Description_For_Bonuses("+2", item["description"])
     item["magic_bonus_plus_3"] = Search_Description_For_Bonuses("+3", item["description"])
 
-    conditions = Capture_Condition(item["description"])
-    attached_spells = Capture_Attached_Spells(item["description"])
+    item_conditions = Capture_Condition(item["description"])
+    item_attached_spells = Capture_Attached_Spells(item["description"])
+    item_effects = Capture_Effects(item["description_notes"].lower().replace(",", " "))
     item_tags = Capture_Tags(lines)
     item_types = Capture_Types(lines)
+
+    item_output = Item_Output(item)
+    tags_output = Tags_Output(item_tags, item_id_number, item["name"])
+
+    print(tags_output)
 
 
 # <F> Capture_Lines
@@ -40,7 +48,6 @@ def Capture_Lines(input):
 
     return lines
 
-
 # <F> Capture_Types
 def Capture_Types(lines):
     item_types = []
@@ -51,7 +58,6 @@ def Capture_Types(lines):
             item_types.append(mod_line.lower().strip())
 
     return item_types
-
 
 # <F> Capture_Tags
 def Capture_Tags(lines):
@@ -65,7 +71,6 @@ def Capture_Tags(lines):
                 item_tags.append(l.lower().strip())
 
     return item_tags
-
 
 # <F> Capture_Conditions
 def Capture_Condition(item_description):
@@ -95,7 +100,6 @@ def Capture_Condition(item_description):
 
     return item_conditions
 
-
 # <f> Search_Description_For_Word
 def Search_Description_For_Word(searched_word, item_description):
     mod_description = item_description.lower().replace("[", " ").replace("]", " ").replace(",", "").replace(".", "")
@@ -106,7 +110,6 @@ def Search_Description_For_Word(searched_word, item_description):
             return True
         else:
             return False
-
 
 # <f> Search_Description_For_Bonuses
 def Search_Description_For_Bonuses(searched_bonus, item_description):
@@ -120,7 +123,6 @@ def Search_Description_For_Bonuses(searched_bonus, item_description):
             if next_word == "bonus":
                 return True
     return False
-
 
 # <F> Capture_Attached_Spells
 def Capture_Attached_Spells(item_description):
@@ -432,7 +434,6 @@ def Capture_Attached_Spells(item_description):
             attached_spells.remove("Command")
 
     return attached_spells
-
 
 # <F> Capture Effects
 def Capture_Effects(description_notes):
@@ -1768,6 +1769,11 @@ def Capture_Effects(description_notes):
 
                           }
 
+    for key in effects_dictionary:
+        if key.lower() in description_notes.lower():
+            effects.append(key.lower())
+
+    return effects
 
 # <F> Fill_In_Item
 def Fill_In_Item(lines):
@@ -1817,6 +1823,115 @@ def Fill_In_Item(lines):
     item["description"] = string_description.rstrip("\n")
 
     return item
+
+# <F> Item_Output
+def Item_Output(item):
+    return ("('" + item["name"] + "', '" +
+            item["ttrpg"] + "', '" +
+            item["rarity"] + "', '" +
+            item["renowned_quality"] + "', '" +
+            str(item["requires_attunement"]) + "', '" +
+            str(item["has_charges"]) + "', '" +
+            str(item["is_cursed"]) + "', '" +
+            item["cost"] + "', '" +
+            item["weight"] + "', '" +
+            item["description"] + "', '" +
+            item["image_url"] + "', '" +
+            str(item["magic_bonus_plus_1"]) + "', '" +
+            str(item["magic_bonus_plus_2"]) + "', '" +
+            str(item["magic_bonus_plus_3"]) + "', '" +
+            item["description_notes"] + "', '" +
+            str(item["source_id"]) + "')\n"
+            )
+
+# <F> Tags_Output
+def Tags_Output(item_tags, item_id_number, item_name):                   # <R>
+    output = ""
+
+    for tag_word in item_tags:
+        output += Get_Tag_Id_Num(tag_word, item_id_number, item_name)     # <R>
+
+    return output
+
+
+# <f> Get_Tag_Id_Num
+def Get_Tag_Id_Num(tag_word, item_id_number, item_name):                      # <R>
+    tag_list = {
+        "ammunition": 1,
+        "armor": 2,
+        "artificer": 3,
+        "bane": 4,
+        "banishment": 5,
+        "bard": 6,
+        "belt": 7,
+        "buff": 8,
+        "combat": 10,
+        "communication": 11,
+        "consumable": 13,
+        "container": 14,
+        "control": 15,
+        "creation": 16,
+        "cursed": 17,
+        "damage": 18,
+        "debuff": 19,
+        "deception": 20,
+        "detection": 21,
+        "divination": 22,
+        "eldritch machine": 24,
+        "enchantment": 25,
+        "evocation": 27,
+        "exploration": 28,
+        "eyewear": 29,
+        "finesse": 30,
+        "focus": 31,
+        "footwear": 32,
+        "foreknowledge": 33,
+        "handwear": 35,
+        "healing": 36,
+        "held": 37,
+        "headwear": 38,
+        "heavy": 39,
+        "instrument": 40,
+        "jewelry": 41,
+        "magical": 42,
+        "melee": 43,
+        "movement": 44,
+        "necklace": 45,
+        "negates difficult terrain": 46,
+        "negation": 47,
+        "outerwear": 48,
+        "ranged": 49,
+        "ring": 50,
+        "rod": 51,
+        "sentient": 53,
+        "scroll": 54,
+        "scrying": 55,
+        "shield": 56,
+        "shapechanging": 57,
+        "social": 58,
+        "subclass feature": 60,
+        "summoning": 61,
+        "symbiotic": 62,
+        "staff": 63,
+        "tag": 64,
+        "tags": 65,
+        "teleportation": 66,
+        "thrown": 67,
+        "transmutation": 68,
+        "versatile": 69,
+        "vestige of divergence": 70,
+        "utility": 71,
+        "wand": 72,
+        "warding": 73,
+        "warm": 74,
+        "wondrous item": 75,
+        "wristwear": 76,
+    }
+
+    if tag_word.strip() in tag_list:
+        return "(" + str(item_id_number) + ", " + str(tag_list[tag_word]) + "),\n\t"
+    else:
+        return "--  " + tag_word + "   --> Not found from: " + item_name + "\n\t"
 
 
 # RUN ====================================================
