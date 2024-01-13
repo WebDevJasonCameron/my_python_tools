@@ -1340,15 +1340,34 @@ rows = [row.split(',') for row in data.strip().split('\n')]
 
 result_list = []
 
+
+
 for row in rows:
-    class_id = row[0]
-    class_name = row[1]
-    subclass_name = row[2].strip()
+    class_id = ""
+    class_name = ""
+    subclass_name2 = ""
+
+    if row.count(",") + 1 == 4:
+        class_id = row[0]
+        class_name = row[1]
+        subclass_name = row[2].strip() + " " + row[3].strip()
+    elif row.count(",") + 1 == 4:
+        class_id = row[0]
+        class_name = row[1]
+        subclass_name = row[2].strip() + " " + row[3].strip() + " " + row[4].strip()
+    elif row.count(",") + 1 == 5:
+        class_id = row[0]
+        class_name = row[1]
+        subclass_name = row[2].strip() + " " + row[3].strip() + " " + row[4].strip() + " " + row[5].strip()
+    else:
+        class_id = row[0]
+        class_name = row[1]
+        subclass_name = row[2].strip()
 
     if subclass_name == "":
-        result_list.append(f'"{class_name}": {class_id}')
+        result_list.append(f'"{class_name}": {class_id},')
     else:
-        result_list.append(f'"{class_name}: {subclass_name}": {class_id}')
+        result_list.append(f'"{class_name}: {subclass_name}": {class_id},')
 
 output2_file = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/class_list_to_dictionary/output_file2.txt", "w")
 
