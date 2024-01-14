@@ -2,7 +2,7 @@ import os
 import glob
 
 path = "/Users/jasoncameron/Desktop/dnd_items/Items"
-file = "/Users/jasoncameron/Desktop/dnd_items/Items/Bracers of Archery.md"
+file = "/Users/jasoncameron/Desktop/dnd_items/Items/Rod of Rulership.md"
 
 
 
@@ -33,8 +33,9 @@ def Pars_Document(file):
 
     item_output = Item_Output(item)
     tags_output = Tags_Output(item_tags, item_id_number, item["name"])
+    conditions_output = Conditions_Output(item_conditions, item_id_number)
 
-    print(tags_output)
+    print(conditions_output)
 
 
 # <F> Capture_Lines
@@ -1853,6 +1854,15 @@ def Tags_Output(item_tags, item_id_number, item_name):                   # <R>
 
     return output
 
+# <F> Conditions_Output
+def Conditions_Output(item_conditions, item_id_number):
+    output = ""
+
+    for condition_word in item_conditions:
+        output += Get_Condition_Id_Num(condition_word, item_id_number)
+
+    return output
+
 
 # <f> Get_Tag_Id_Num
 def Get_Tag_Id_Num(tag_word, item_id_number, item_name):                      # <R>
@@ -1932,6 +1942,32 @@ def Get_Tag_Id_Num(tag_word, item_id_number, item_name):                      # 
         return "(" + str(item_id_number) + ", " + str(tag_list[tag_word]) + "),\n\t"
     else:
         return "--  " + tag_word + "   --> Not found from: " + item_name + "\n\t"
+
+# <f> Get_Conditions_Id_Num
+def Get_Condition_Id_Num(condition_word, item_id_number):
+
+    condition_list = {
+        "blinded": 1,
+        "charmed": 2,
+        "deafened": 3,
+        "exhaustion": 4,
+        "frightened": 5,
+        "grappled": 6,
+        "incapacitated": 7,
+        "invisible": 8,
+        "paralyzed": 9,
+        "petrified": 10,
+        "poisoned": 11,
+        "prone": 12,
+        "restrained": 13,
+        "stunned": 14,
+        "unconscious": 15,
+    }
+
+    if condition_word in condition_list:
+        return "(" + str(item_id_number) + ", " + str(condition_list[condition_word]) + "),\n\t"
+    else:
+        return "--  " + condition_word + "   --> Not found\n\t"
 
 
 # RUN ====================================================
