@@ -1,0 +1,2135 @@
+ ## HOLD!!!!
+
+    --  item   --> Not found from: Goggles of Night
+	--  object   --> Not found from: Goggles of Night
+	(1, 42),
+	--  item   --> Not found from: Crystal
+	--  gear and equipment   --> Not found from: Crystal
+	--  spellcasting focus   --> Not found from: Crystal
+	--  item   --> Not found from: Staff of Swarming Insects
+	--  weapon   --> Not found from: Staff of Swarming Insects
+	(3, 63),
+	(3, 42),
+	--  item   --> Not found from: Adamantine Breastplate
+	(4, 2),
+	--  breastplate   --> Not found from: Adamantine Breastplate
+	--  item   --> Not found from: Wings of Flying
+	(5, 2),
+	--  cloak   --> Not found from: Wings of Flying
+	(5, 42),
+	--  item   --> Not found from: Scale, Merchant''s
+	--  gear and equipment   --> Not found from: Scale, Merchant''s
+	(6, 14),
+	--  item   --> Not found from: Horn of Valhalla (Iron)
+	--  object   --> Not found from: Horn of Valhalla (Iron)
+	(7, 42),
+	--  item   --> Not found from: Tent, Two-Person
+	--  gear and equipment   --> Not found from: Tent, Two-Person
+	--  item   --> Not found from: Figurine of Wondrous Power
+	--  object   --> Not found from: Figurine of Wondrous Power
+	(9, 42),
+	--  item   --> Not found from: Bottle, Glass
+	--  gear and equipment   --> Not found from: Bottle, Glass
+	(10, 14),
+	--  item   --> Not found from: Staff of the Woodlands
+	--  weapon   --> Not found from: Staff of the Woodlands
+	(11, 63),
+	(11, 42),
+	--  item   --> Not found from: Cartographer''s Tools
+	--  gear and equipment   --> Not found from: Cartographer''s Tools
+	--  tools   --> Not found from: Cartographer''s Tools
+	--  item   --> Not found from: Viol
+	--  gear and equipment   --> Not found from: Viol
+	(13, 40),
+	--  item   --> Not found from: Shortsword of Life Stealing
+	--  weapon   --> Not found from: Shortsword of Life Stealing
+	--  shortsword   --> Not found from: Shortsword of Life Stealing
+	(14, 42),
+	--  item   --> Not found from: Manual of Iron Golems
+	--  book   --> Not found from: Manual of Iron Golems
+	(15, 13),
+	(15, 42),
+	--  item   --> Not found from: Pick, Miner''s
+	--  gear and equipment   --> Not found from: Pick, Miner''s
+	--  item   --> Not found from: Saddle, Pack
+	--  gear and equipment   --> Not found from: Saddle, Pack
+	--  saddle   --> Not found from: Saddle, Pack
+	--  item   --> Not found from: Spikes, Iron (10)
+	--  gear and equipment   --> Not found from: Spikes, Iron (10)
+	--  item   --> Not found from: Longship
+	--  vehicle   --> Not found from: Longship
+	--  item   --> Not found from: Dragon Scale Mail (Silver)
+	(20, 2),
+	--  scale mail   --> Not found from: Dragon Scale Mail (Silver)
+	(20, 42),
+	--  item   --> Not found from: Potion of Clairvoyance
+	--  potion   --> Not found from: Potion of Clairvoyance
+	(21, 42),
+	--  item   --> Not found from: Blowgun Needles
+	--  consumables   --> Not found from: Blowgun Needles
+	(22, 1),
+	--  item   --> Not found from: Berserker Axe
+	--  weapon   --> Not found from: Berserker Axe
+	--  axe   --> Not found from: Berserker Axe
+	(23, 42),
+	--  item   --> Not found from: Lamp
+	--  gear and equipment   --> Not found from: Lamp
+	--  item   --> Not found from: Ring of Fire Elemental Command
+	(25, 41),
+	(25, 50),
+	(25, 42),
+	--  item   --> Not found from: Wagon
+	--  vehicle   --> Not found from: Wagon
+	--  item   --> Not found from: Ball Bearings (bag of 1,000)
+	--  gear and equipment   --> Not found from: Ball Bearings (bag of 1,000)
+	--  item   --> Not found from: Ring of Animal Influence
+	(28, 41),
+	(28, 50),
+	(28, 42),
+	--  item   --> Not found from: Glassblower''s Tools
+	--  gear and equipment   --> Not found from: Glassblower''s Tools
+	--  tools   --> Not found from: Glassblower''s Tools
+	--  item   --> Not found from: Luck Blade Longsword
+	--  weapon   --> Not found from: Luck Blade Longsword
+	--  lognsword   --> Not found from: Luck Blade Longsword
+	(30, 42),
+	--  item   --> Not found from: Horn of Valhalla
+	--  object   --> Not found from: Horn of Valhalla
+	(31, 42),
+	--  item   --> Not found from: Spell Scroll (4th Level)
+	(32, 13),
+	(32, 54),
+	(32, 42),
+	--  item   --> Not found from: Instant Fortress
+	--  object   --> Not found from: Instant Fortress
+	--  fortress   --> Not found from: Instant Fortress
+	(33, 42),
+	--  item   --> Not found from: Luck Blade Greatsword
+	--  weapon   --> Not found from: Luck Blade Greatsword
+	--  greatsword   --> Not found from: Luck Blade Greatsword
+	(34, 42),
+	--  item   --> Not found from: Wand of Magic Missiles
+	--  weapon   --> Not found from: Wand of Magic Missiles
+	(35, 72),
+	(35, 42),
+	--  item   --> Not found from: Potion of Vitality
+	--  potion   --> Not found from: Potion of Vitality
+	(36, 42),
+	--  item   --> Not found from: Sprig of Mistletoe
+	--  gear and equipment   --> Not found from: Sprig of Mistletoe
+	--  spellcasting focus   --> Not found from: Sprig of Mistletoe
+	--  item   --> Not found from: Dragon Scale Mail
+	(38, 2),
+	--  scale mail   --> Not found from: Dragon Scale Mail
+	(38, 42),
+	--  item   --> Not found from: Vicious Revolver
+	--  weapon   --> Not found from: Vicious Revolver
+	--  revolver   --> Not found from: Vicious Revolver
+	(39, 42),
+	--  item   --> Not found from: Ring of Fire Resistance
+	(40, 41),
+	(40, 50),
+	(40, 42),
+	--  item   --> Not found from: Amulet of the Planes
+	(41, 41),
+	--  amulet   --> Not found from: Amulet of the Planes
+	--  item   --> Not found from: Oathbow
+	--  weapon   --> Not found from: Oathbow
+	--  longbow   --> Not found from: Oathbow
+	(42, 42),
+	--  item   --> Not found from: Ring of Resistance
+	(43, 41),
+	(43, 50),
+	(43, 42),
+	--  item   --> Not found from: Potion of Diminution
+	--  potion   --> Not found from: Potion of Diminution
+	(44, 42),
+	--  item   --> Not found from: Efficient Quiver
+	--  gear and equipment   --> Not found from: Efficient Quiver
+	(45, 14),
+	(45, 42),
+	--  item   --> Not found from: Cubic Gate
+	--  object   --> Not found from: Cubic Gate
+	(46, 42),
+	--  item   --> Not found from: Spell Scroll
+	(47, 13),
+	(47, 54),
+	(47, 42),
+	--  item   --> Not found from: Carpenter''s Tools
+	--  gear and equipment   --> Not found from: Carpenter''s Tools
+	--  tools   --> Not found from: Carpenter''s Tools
+	--  item   --> Not found from: Spell Scroll (0 - Cantrip)
+	(49, 13),
+	(49, 54),
+	(49, 42),
+	--  item   --> Not found from: Soap
+	--  gear and equipment   --> Not found from: Soap
+	(50, 13),
+	--  item   --> Not found from: Vicious Trident
+	--  weapon   --> Not found from: Vicious Trident
+	--  trident   --> Not found from: Vicious Trident
+	(51, 42),
+	--  item   --> Not found from: Wand of the War Mage, +1
+	--  weapon   --> Not found from: Wand of the War Mage, +1
+	(52, 72),
+	(52, 42),
+	--  item   --> Not found from: Saddle, Military
+	--  gear and equipment   --> Not found from: Saddle, Military
+	--  saddle   --> Not found from: Saddle, Military
+	--  item   --> Not found from: Berserker Handaxe
+	--  weapon   --> Not found from: Berserker Handaxe
+	--  handaxe   --> Not found from: Berserker Handaxe
+	(54, 42),
+	--  item   --> Not found from: Flask or Tankard
+	--  gear and equipment   --> Not found from: Flask or Tankard
+	(55, 14),
+	--  item   --> Not found from: Rod of Alertness
+	--  object   --> Not found from: Rod of Alertness
+	(56, 51),
+	(56, 42),
+	--  item   --> Not found from: Trident of Fish Command
+	--  weapon   --> Not found from: Trident of Fish Command
+	--  trident   --> Not found from: Trident of Fish Command
+	(57, 42),
+	--  item   --> Not found from: Carpet of Flying
+	--  vehicle   --> Not found from: Carpet of Flying
+	--  item   --> Not found from: Deck of Illusions
+	--  object   --> Not found from: Deck of Illusions
+	(59, 42),
+	--  item   --> Not found from: Mithral Half Plate
+	(60, 2),
+	--  half plate   --> Not found from: Mithral Half Plate
+	(60, 42),
+	--  item   --> Not found from: Frost Brand Scimitar
+	--  weapon   --> Not found from: Frost Brand Scimitar
+	--  scimitar   --> Not found from: Frost Brand Scimitar
+	(61, 42),
+	--  item   --> Not found from: Potion of Force Resistance
+	--  potion   --> Not found from: Potion of Force Resistance
+	(62, 42),
+	--  item   --> Not found from: Rope, Silk (50 feet)
+	--  gear and equipment   --> Not found from: Rope, Silk (50 feet)
+	--  item   --> Not found from: Greatsword of Wounding
+	--  weapon   --> Not found from: Greatsword of Wounding
+	--  greatsword   --> Not found from: Greatsword of Wounding
+	(64, 42),
+	--  item   --> Not found from: Dragon Scale Mail (Gold)
+	(65, 2),
+	--  scale mail   --> Not found from: Dragon Scale Mail (Gold)
+	(65, 42),
+	--  item   --> Not found from: Navigator''s Tools
+	--  gear and equipment   --> Not found from: Navigator''s Tools
+	--  tools   --> Not found from: Navigator''s Tools
+	--  item   --> Not found from: Vorpal Greatsword
+	--  weapon   --> Not found from: Vorpal Greatsword
+	--  greatsword   --> Not found from: Vorpal Greatsword
+	(67, 42),
+	--  item   --> Not found from: Vicious Dagger
+	--  weapon   --> Not found from: Vicious Dagger
+	--  dagger   --> Not found from: Vicious Dagger
+	(68, 42),
+	--  item   --> Not found from: Bracers of Archery
+	(69, 2),
+	--  bracers   --> Not found from: Bracers of Archery
+	(69, 42),
+	--  item   --> Not found from: Potion of Water Breathing
+	--  potion   --> Not found from: Potion of Water Breathing
+	(70, 42),
+	--  item   --> Not found from: Pan Flute
+	--  gear and equipment   --> Not found from: Pan Flute
+	(71, 40),
+	--  item   --> Not found from: Basket
+	--  gear and equipment   --> Not found from: Basket
+	(72, 14),
+	--  species   --> Not found from: [Mastiff](https://www.dndbeyond.com/monsters/16953-mastiff)
+	--  non_playable   --> Not found from: [Mastiff](https://www.dndbeyond.com/monsters/16953-mastiff)
+	--  beast   --> Not found from: [Mastiff](https://www.dndbeyond.com/monsters/16953-mastiff)
+	--  mount   --> Not found from: [Mastiff](https://www.dndbeyond.com/monsters/16953-mastiff)
+	--  item   --> Not found from: Figurine of Wondrous Power (Golden Lions)
+	--  object   --> Not found from: Figurine of Wondrous Power (Golden Lions)
+	(74, 42),
+	--  item   --> Not found from: Feather Token (Whip)
+	(75, 13),
+	(75, 42),
+	--  item   --> Not found from: Plate Armor of Etherealness
+	(76, 2),
+	--  plate   --> Not found from: Plate Armor of Etherealness
+	(76, 42),
+	--  item   --> Not found from: Giant Slayer Battleaxe
+	--  weapon   --> Not found from: Giant Slayer Battleaxe
+	--  battleaxe   --> Not found from: Giant Slayer Battleaxe
+	(77, 42),
+	--  item   --> Not found from: Backpack
+	--  gear and equipment   --> Not found from: Backpack
+	(78, 14),
+	--  item   --> Not found from: Crystal Ball
+	--  object   --> Not found from: Crystal Ball
+	(79, 42),
+	--  item   --> Not found from: Sphere of Annihilation
+	--  object   --> Not found from: Sphere of Annihilation
+	(80, 42),
+	--  item   --> Not found from: Scimitar of Speed
+	--  weapon   --> Not found from: Scimitar of Speed
+	--  scimitar   --> Not found from: Scimitar of Speed
+	(81, 42),
+	--  item   --> Not found from: Giant Slayer Longsword
+	--  weapon   --> Not found from: Giant Slayer Longsword
+	--  longsword   --> Not found from: Giant Slayer Longsword
+	(82, 42),
+	--  item   --> Not found from: Ring of Swimming
+	(83, 41),
+	(83, 50),
+	(83, 42),
+	--  item   --> Not found from: Dwarven Thrower
+	--  weapon   --> Not found from: Dwarven Thrower
+	--  warhammer   --> Not found from: Dwarven Thrower
+	(84, 42),
+	--  item   --> Not found from: Pole (10-foot)
+	--  gear and equipment   --> Not found from: Pole (10-foot)
+	--  item   --> Not found from: Galley
+	--  vehicle   --> Not found from: Galley
+	--  item   --> Not found from: Feather Token
+	(87, 13),
+	(87, 42),
+	--  item   --> Not found from: Bag of Holding
+	(88, 42),
+	--  gear and equipment   --> Not found from: Bag of Holding
+	(88, 14),
+	(88, 71),
+	--  item   --> Not found from: Ring of Earth Elemental Command
+	(89, 41),
+	(89, 50),
+	(89, 42),
+	--  item   --> Not found from: Spell Scroll (8th Level)
+	(90, 13),
+	(90, 54),
+	(90, 42),
+	--  item   --> Not found from: Clothes, Costume
+	--  gear and equipment   --> Not found from: Clothes, Costume
+	--  clothes   --> Not found from: Clothes, Costume
+	--  item   --> Not found from: Yew Wand
+	--  gear and equipment   --> Not found from: Yew Wand
+	--  spellcasting focus   --> Not found from: Yew Wand
+	--  item   --> Not found from: Reliquary
+	--  gear and equipment   --> Not found from: Reliquary
+	--  spellcasting focus   --> Not found from: Reliquary
+	--  item   --> Not found from: Vicious Greatclub
+	--  weapon   --> Not found from: Vicious Greatclub
+	--  greatclub   --> Not found from: Vicious Greatclub
+	(94, 42),
+	--  item   --> Not found from: Abacus
+	--  gear and equipment   --> Not found from: Abacus
+	--  item   --> Not found from: Three-Dragon Ante Set
+	--  gear and equipment   --> Not found from: Three-Dragon Ante Set
+	--  gaming set   --> Not found from: Three-Dragon Ante Set
+	--  item   --> Not found from: Helm of Teleportation
+	(97, 2),
+	--  helm   --> Not found from: Helm of Teleportation
+	(97, 42),
+	--  item   --> Not found from: Figurine of Wondrous Power (Ebony Fly)
+	--  object   --> Not found from: Figurine of Wondrous Power (Ebony Fly)
+	(98, 42),
+	--  item   --> Not found from: Potion of Invisibility
+	--  potion   --> Not found from: Potion of Invisibility
+	(99, 42),
+	--  item   --> Not found from: Potion of Climbing
+	--  potion   --> Not found from: Potion of Climbing
+	(100, 42),
+	--  item   --> Not found from: Potion of Resistance
+	--  potion   --> Not found from: Potion of Resistance
+	(101, 42),
+	--  item   --> Not found from: Flame Tongue Scimitar
+	--  weapon   --> Not found from: Flame Tongue Scimitar
+	--  scimitar   --> Not found from: Flame Tongue Scimitar
+	(102, 42),
+	--  item   --> Not found from: Staff of Frost
+	--  weapon   --> Not found from: Staff of Frost
+	(103, 63),
+	(103, 42),
+	--  item   --> Not found from: Manual of Bodily Health
+	--  book   --> Not found from: Manual of Bodily Health
+	(104, 42),
+	--  item   --> Not found from: Flame Tongue Greatsword
+	--  weapon   --> Not found from: Flame Tongue Greatsword
+	--  greatsword   --> Not found from: Flame Tongue Greatsword
+	(105, 42),
+	--  item   --> Not found from: Flame Tongue Longsword
+	--  weapon   --> Not found from: Flame Tongue Longsword
+	--  longsword   --> Not found from: Flame Tongue Longsword
+	(106, 42),
+	--  item   --> Not found from: Potion of Gaseous Form
+	--  potion   --> Not found from: Potion of Gaseous Form
+	(107, 42),
+	--  item   --> Not found from: Mason''s Tools
+	--  gear and equipment   --> Not found from: Mason''s Tools
+	--  tools   --> Not found from: Mason''s Tools
+	--  item   --> Not found from: Holy Avenger
+	--  weapon   --> Not found from: Holy Avenger
+	--  sword   --> Not found from: Holy Avenger
+	(109, 42),
+	--  item   --> Not found from: Scimitar of Life Stealing
+	--  weapon   --> Not found from: Scimitar of Life Stealing
+	--  scimitar   --> Not found from: Scimitar of Life Stealing
+	(110, 42),
+	--  item   --> Not found from: Mac-Fuirmidh Cittern
+	(111, 40),
+	(111, 42),
+	--  item   --> Not found from: Wand of Binding
+	--  weapon   --> Not found from: Wand of Binding
+	(112, 72),
+	(112, 42),
+	--  item   --> Not found from: Mirror, Steel
+	--  gear and equiopment   --> Not found from: Mirror, Steel
+	--  item   --> Not found from: Oil of Sharpness
+	--  potion   --> Not found from: Oil of Sharpness
+	(114, 42),
+	--  item   --> Not found from: Clothes, Traveler''s
+	--  gear and equipment   --> Not found from: Clothes, Traveler''s
+	--  clothes   --> Not found from: Clothes, Traveler''s
+	--  item   --> Not found from: Iron Flask
+	--  object   --> Not found from: Iron Flask
+	(116, 42),
+	--  item   --> Not found from: Signet Ring
+	--  gear and equipment   --> Not found from: Signet Ring
+	--  item   --> Not found from: Adamantine Chain Shirt
+	(118, 2),
+	--  chain shirt   --> Not found from: Adamantine Chain Shirt
+	--  item   --> Not found from: Ring of Telekinesis
+	(119, 41),
+	(119, 50),
+	(119, 42),
+	--  item   --> Not found from: Talisman of the Sphere
+	(120, 41),
+	(120, 42),
+	--  item   --> Not found from: Vicious War Pick
+	--  weapon   --> Not found from: Vicious War Pick
+	--  war pick   --> Not found from: Vicious War Pick
+	(121, 42),
+	--  item   --> Not found from: Vicious Shortsword
+	--  weapon   --> Not found from: Vicious Shortsword
+	--  shortsword   --> Not found from: Vicious Shortsword
+	(122, 42),
+	--  item   --> Not found from: Elemental Gem (Yellow Diamond)
+	(123, 13),
+	--  gem   --> Not found from: Elemental Gem (Yellow Diamond)
+	(123, 42),
+	--  item   --> Not found from: Manual of Gainful Exercise
+	--  book   --> Not found from: Manual of Gainful Exercise
+	(124, 42),
+	--  item   --> Not found from: Dragon Scale Mail (Green)
+	(125, 2),
+	--  scale mail   --> Not found from: Dragon Scale Mail (Green)
+	(125, 42),
+	--  item   --> Not found from: Sword of Sharpness
+	--  weapon   --> Not found from: Sword of Sharpness
+	--  sword   --> Not found from: Sword of Sharpness
+	--  item   --> Not found from: Luck Blade Rapier
+	--  weapon   --> Not found from: Luck Blade Rapier
+	--  rapier   --> Not found from: Luck Blade Rapier
+	(127, 42),
+	--  item   --> Not found from: Vicious Greataxe
+	--  weapon   --> Not found from: Vicious Greataxe
+	--  greataxe   --> Not found from: Vicious Greataxe
+	(128, 42),
+	--  item   --> Not found from: Vial
+	--  gear and equipment   --> Not found from: Vial
+	(129, 14),
+	--  item   --> Not found from: Ring of Poison Resistance
+	(130, 41),
+	(130, 50),
+	(130, 42),
+	--  item   --> Not found from: Longsword, +2
+	--  weapon   --> Not found from: Longsword, +2
+	--  mundane   --> Not found from: Longsword, +2
+	--  item   --> Not found from: Lantern, Bullseye
+	--  gear and equipment   --> Not found from: Lantern, Bullseye
+	--  item   --> Not found from: Vicious Morningstar
+	--  weapon   --> Not found from: Vicious Morningstar
+	--  morningstar   --> Not found from: Vicious Morningstar
+	(133, 42),
+	--  item   --> Not found from: Fochlucan Bandore
+	(134, 40),
+	(134, 42),
+	--  item   --> Not found from: Rod of Security
+	--  object   --> Not found from: Rod of Security
+	(135, 51),
+	(135, 42),
+	--  item   --> Not found from: Elemental Gem (Red Diamond)
+	(136, 13),
+	--  gem   --> Not found from: Elemental Gem (Red Diamond)
+	(136, 42),
+	--  item   --> Not found from: Case, Crossbow Bolt
+	--  gear and equipment   --> Not found from: Case, Crossbow Bolt
+	(137, 14),
+	--  item   --> Not found from: Chariot
+	--  item   --> Not found from: Barding
+	--  gear and equipment   --> Not found from: Barding
+	--  item   --> Not found from: Dragon Scale Mail (Black)
+	(140, 2),
+	--  scale mail   --> Not found from: Dragon Scale Mail (Black)
+	(140, 42),
+	--  item   --> Not found from: Mithral Plate
+	(141, 2),
+	--  plate   --> Not found from: Mithral Plate
+	(141, 42),
+	--  item   --> Not found from: Giant Slayer Greatsword
+	--  weapon   --> Not found from: Giant Slayer Greatsword
+	--  greatsword   --> Not found from: Giant Slayer Greatsword
+	(142, 42),
+	--  item   --> Not found from: Saddle, Riding
+	--  gear and equipment   --> Not found from: Saddle, Riding
+	--  saddle   --> Not found from: Saddle, Riding
+	--  item   --> Not found from: Dragon Slayer Rapier
+	--  weapon   --> Not found from: Dragon Slayer Rapier
+	--  rapier   --> Not found from: Dragon Slayer Rapier
+	(144, 42),
+	--  item   --> Not found from: Dust of Sneezing and Choking
+	--  object   --> Not found from: Dust of Sneezing and Choking
+	(145, 42),
+	--  item   --> Not found from: Shield of Missile Attraction
+	(146, 2),
+	(146, 56),
+	(146, 42),
+	--  item   --> Not found from: Horn
+	--  gear and equipment   --> Not found from: Horn
+	(147, 40),
+	--  item   --> Not found from: Rod
+	--  gear and equipment   --> Not found from: Rod
+	--  spellcasting focus   --> Not found from: Rod
+	--  item   --> Not found from: Ram, Portable
+	--  gear and equipment   --> Not found from: Ram, Portable
+	--  item   --> Not found from: Wind Fan
+	--  object   --> Not found from: Wind Fan
+	(150, 42),
+	--  item   --> Not found from: Lantern, Hooded
+	--  gear and equipment   --> Not found from: Lantern, Hooded
+	--  item   --> Not found from: Pipes of Haunting
+	--  instruments   --> Not found from: Pipes of Haunting
+	(152, 42),
+	--  item   --> Not found from: Sack
+	--  gear and equipment   --> Not found from: Sack
+	(153, 14),
+	--  item   --> Not found from: Gloves of Swimming and Climbing
+	(154, 2),
+	--  gloves   --> Not found from: Gloves of Swimming and Climbing
+	(154, 42),
+	--  item   --> Not found from: Carpet of Flying (4 ft. x 6 ft.)
+	--  vehicle   --> Not found from: Carpet of Flying (4 ft. x 6 ft.)
+	--  item   --> Not found from: Bag of Devouring
+	(156, 42),
+	--  gear and equipment   --> Not found from: Bag of Devouring
+	(156, 14),
+	(156, 71),
+	--  item   --> Not found from: Helm of Comprehending Languages
+	(157, 2),
+	--  helm   --> Not found from: Helm of Comprehending Languages
+	(157, 42),
+	--  item   --> Not found from: Spell Scroll (7th Level)
+	(158, 13),
+	(158, 54),
+	(158, 42),
+	--  item   --> Not found from: Robe of Eyes
+	(159, 2),
+	--  robes   --> Not found from: Robe of Eyes
+	(159, 42),
+	--  item   --> Not found from: Vorpal Sword
+	--  weapon   --> Not found from: Vorpal Sword
+	--  sword   --> Not found from: Vorpal Sword
+	--  any   --> Not found from: Vorpal Sword
+	(160, 42),
+	--  item   --> Not found from: Figurine of Wondrous Power (Obsidian Steed)
+	--  object   --> Not found from: Figurine of Wondrous Power (Obsidian Steed)
+	(161, 42),
+	--  item   --> Not found from: Universal Solvent
+	(162, 13),
+	--  item   --> Not found from: Staff of Fire
+	--  weapon   --> Not found from: Staff of Fire
+	(163, 63),
+	(163, 42),
+	--  item   --> Not found from: Necklace of Prayer Beads
+	(164, 41),
+	(164, 42),
+	--  item   --> Not found from: Feather Token (Swan Boat)
+	(165, 13),
+	(165, 42),
+	--  item   --> Not found from: Fishing Tackle
+	--  gear and equipment   --> Not found from: Fishing Tackle
+	--  item   --> Not found from: Dragon Scale Mail (White)
+	(167, 2),
+	--  scale mail   --> Not found from: Dragon Scale Mail (White)
+	(167, 42),
+	--  item   --> Not found from: Climber''s Kit
+	--  gear and equipment   --> Not found from: Climber''s Kit
+	--  kit   --> Not found from: Climber''s Kit
+	--  item   --> Not found from: Nine Lives Stealer Scimitar
+	--  weapon   --> Not found from: Nine Lives Stealer Scimitar
+	--  scimitar   --> Not found from: Nine Lives Stealer Scimitar
+	(169, 42),
+	--  item   --> Not found from: Amulet of Proof against Detection and Location
+	(170, 41),
+	--  amulet   --> Not found from: Amulet of Proof against Detection and Location
+	--  item   --> Not found from: Vicious Quarterstaff
+	--  weapon   --> Not found from: Vicious Quarterstaff
+	--  quarterstaff   --> Not found from: Vicious Quarterstaff
+	(171, 42),
+	--  item   --> Not found from: Horn of Valhalla (Silver)
+	--  object   --> Not found from: Horn of Valhalla (Silver)
+	(172, 42),
+	--  item   --> Not found from: Mithral Chain Shirt
+	(173, 2),
+	--  chain shirt   --> Not found from: Mithral Chain Shirt
+	(173, 42),
+	--  item   --> Not found from: Potion of Heroism
+	--  potion   --> Not found from: Potion of Heroism
+	(174, 42),
+	--  item   --> Not found from: Rapier of Wounding
+	--  weapon   --> Not found from: Rapier of Wounding
+	--  rapier   --> Not found from: Rapier of Wounding
+	(175, 42),
+	--  item   --> Not found from: Bit and Bridle
+	--  gear and equipment   --> Not found from: Bit and Bridle
+	--  item   --> Not found from: Pot, Iron
+	--  gear and equipment   --> Not found from: Pot, Iron
+	--  item   --> Not found from: Figurine of Wondrous Power (Serpentine Owl)
+	--  object   --> Not found from: Figurine of Wondrous Power (Serpentine Owl)
+	(178, 42),
+	--  item   --> Not found from: Apparatus of the Crab
+	--  vehicle   --> Not found from: Apparatus of the Crab
+	--  item   --> Not found from: Giant Slayer Shortsword
+	--  weapon   --> Not found from: Giant Slayer Shortsword
+	--  shortsword   --> Not found from: Giant Slayer Shortsword
+	(180, 42),
+	--  item   --> Not found from: Dust of Dryness
+	--  item   --> Not found from: Weaver''s Tools
+	--  gear and equipment   --> Not found from: Weaver''s Tools
+	--  tools   --> Not found from: Weaver''s Tools
+	--  item   --> Not found from: Gem of Seeing
+	--  object   --> Not found from: Gem of Seeing
+	(183, 42),
+	--  item   --> Not found from: Boots of the Winterlands
+	(184, 2),
+	--  boots   --> Not found from: Boots of the Winterlands
+	(184, 42),
+	--  species   --> Not found from: [Camel](https://www.dndbeyond.com/monsters/16819-camel)
+	--  non_playable   --> Not found from: [Camel](https://www.dndbeyond.com/monsters/16819-camel)
+	--  beast   --> Not found from: [Camel](https://www.dndbeyond.com/monsters/16819-camel)
+	--  mount   --> Not found from: [Camel](https://www.dndbeyond.com/monsters/16819-camel)
+	--  item   --> Not found from: Horseshoes of Speed
+	--  object   --> Not found from: Horseshoes of Speed
+	(186, 42),
+	--  item   --> Not found from: Ladder (10 foot)
+	--  gear and equipment   --> Not found from: Ladder (10 foot)
+	--  item   --> Not found from: Ring of Invisibility
+	(188, 41),
+	(188, 50),
+	(188, 42),
+	--  item   --> Not found from: Cloak of the Manta Ray
+	(189, 2),
+	--  carmor   --> Not found from: Cloak of the Manta Ray
+	(189, 42),
+	--  item   --> Not found from: Feather Token (Fan)
+	(190, 13),
+	(190, 42),
+	--  item   --> Not found from: Holy Water (flask)
+	--  gear   --> Not found from: Holy Water (flask)
+	--  item   --> Not found from: Ring of Mind Shielding
+	(192, 41),
+	(192, 50),
+	(192, 42),
+	--  item   --> Not found from: Hourglass
+	--  gear and equipment   --> Not found from: Hourglass
+	--  item   --> Not found from: Oil (flask)
+	--  gear and equipment   --> Not found from: Oil (flask)
+	(194, 13),
+	--  item   --> Not found from: Paper (one sheet)
+	--  gear and equipment   --> Not found from: Paper (one sheet)
+	(195, 13),
+	--  item   --> Not found from: Frost Brand
+	--  weapon   --> Not found from: Frost Brand
+	--  sword   --> Not found from: Frost Brand
+	(196, 42),
+	--  item   --> Not found from: Potion of Speed
+	--  potion   --> Not found from: Potion of Speed
+	(197, 42),
+	--  item   --> Not found from: Antitoxin
+	--  gear and equipment   --> Not found from: Antitoxin
+	(198, 13),
+	--  potion   --> Not found from: Antitoxin
+	--  item   --> Not found from: Belt of Giant Strength
+	(199, 2),
+	(199, 42),
+	(199, 7),
+	--  item   --> Not found from: Potion of Fire Resistance
+	--  potion   --> Not found from: Potion of Fire Resistance
+	(200, 42),
+	--  item   --> Not found from: Robe of Useful Items
+	(201, 2),
+	--  robe   --> Not found from: Robe of Useful Items
+	(201, 42),
+	--  item   --> Not found from: Vicious Crossbow, Heavy
+	--  weapon   --> Not found from: Vicious Crossbow, Heavy
+	--  crossbow, heavy   --> Not found from: Vicious Crossbow, Heavy
+	(202, 42),
+	--  item   --> Not found from: Sailing Ship
+	--  vehicle   --> Not found from: Sailing Ship
+	--  item   --> Not found from: Dragon Scale Mail (Blue)
+	(204, 2),
+	--  scale mail   --> Not found from: Dragon Scale Mail (Blue)
+	(204, 42),
+	--  item   --> Not found from: Poison, Basic (vial)
+	--  gear and equipment   --> Not found from: Poison, Basic (vial)
+	(205, 13),
+	--  item   --> Not found from: Saddlebags
+	--  gear and equipment   --> Not found from: Saddlebags
+	--  item   --> Not found from: Figurine of Wondrous Power (Marble Elephant)
+	--  object   --> Not found from: Figurine of Wondrous Power (Marble Elephant)
+	(207, 42),
+	--  item   --> Not found from: Bag of Beans
+	(208, 42),
+	(208, 13),
+	--  item   --> Not found from: Ring of the Ram
+	(209, 41),
+	(209, 50),
+	(209, 42),
+	--  item   --> Not found from: Ink Pen
+	--  gear and equipment   --> Not found from: Ink Pen
+	--  item   --> Not found from: Rope, Hempen (50 feet)
+	--  gear and equipment   --> Not found from: Rope, Hempen (50 feet)
+	--  item   --> Not found from: Wand of Enemy Detection
+	--  weapon   --> Not found from: Wand of Enemy Detection
+	(212, 72),
+	(212, 42),
+	--  item   --> Not found from: Circlet of Blasting
+	(213, 41),
+	(213, 42),
+	--  item   --> Not found from: Sword of Wounding
+	--  weapon   --> Not found from: Sword of Wounding
+	--  sword   --> Not found from: Sword of Wounding
+	(214, 42),
+	--  item   --> Not found from: Rowboat
+	--  vehicle   --> Not found from: Rowboat
+	--  item   --> Not found from: Dust of Disappearance
+	--  object   --> Not found from: Dust of Disappearance
+	(216, 42),
+	--  item   --> Not found from: Crossbow Bolts
+	--  consumables   --> Not found from: Crossbow Bolts
+	(217, 1),
+	--  item   --> Not found from: Staff of Thunder and Lightning
+	--  weapon   --> Not found from: Staff of Thunder and Lightning
+	(218, 63),
+	(218, 42),
+	--  item   --> Not found from: Flame Tongue Shortsword
+	--  weapon   --> Not found from: Flame Tongue Shortsword
+	--  shortsword   --> Not found from: Flame Tongue Shortsword
+	(219, 42),
+	--  item   --> Not found from: Vicious Javelin
+	--  weapon   --> Not found from: Vicious Javelin
+	--  javelin   --> Not found from: Vicious Javelin
+	(220, 42),
+	--  item   --> Not found from: Rapier of Life Stealing
+	--  weapon   --> Not found from: Rapier of Life Stealing
+	--  rapier   --> Not found from: Rapier of Life Stealing
+	(221, 42),
+	--  item   --> Not found from: Vicious Rifle, Hunting
+	--  weapon   --> Not found from: Vicious Rifle, Hunting
+	--  rifle, hunting   --> Not found from: Vicious Rifle, Hunting
+	(222, 42),
+	--  item   --> Not found from: Longsword of Sharpness
+	--  weapon   --> Not found from: Longsword of Sharpness
+	--  longsword   --> Not found from: Longsword of Sharpness
+	--  item   --> Not found from: Rod of Lordly Might
+	--  object   --> Not found from: Rod of Lordly Might
+	(224, 51),
+	(224, 42),
+	--  item   --> Not found from: Giant Slayer Handaxe
+	--  weapon   --> Not found from: Giant Slayer Handaxe
+	--  handaxe   --> Not found from: Giant Slayer Handaxe
+	(225, 42),
+	--  item   --> Not found from: Belt of Stone Giant Strength
+	(226, 2),
+	(226, 7),
+	(226, 42),
+	--  species   --> Not found from: [Elephant](https://www.dndbeyond.com/monsters/16855-elephant)
+	--  non_playable   --> Not found from: [Elephant](https://www.dndbeyond.com/monsters/16855-elephant)
+	--  beast   --> Not found from: [Elephant](https://www.dndbeyond.com/monsters/16855-elephant)
+	--  mount   --> Not found from: [Elephant](https://www.dndbeyond.com/monsters/16855-elephant)
+	--  item   --> Not found from: Potion of Healing
+	--  potion   --> Not found from: Potion of Healing
+	(228, 42),
+	--  item   --> Not found from: Vicious Whip
+	--  weapon   --> Not found from: Vicious Whip
+	--  whip   --> Not found from: Vicious Whip
+	(229, 42),
+	--  item   --> Not found from: Oil of Sharpness
+	--  potio   --> Not found from: Oil of Sharpness
+	(230, 42),
+	--  item   --> Not found from: Barrel
+	--  gear and equipment   --> Not found from: Barrel
+	(231, 14),
+	--  item   --> Not found from: Forgery Kit
+	--  gear and equipment   --> Not found from: Forgery Kit
+	--  kit   --> Not found from: Forgery Kit
+	--  item   --> Not found from: Dragon Scale Mail (Red)
+	(233, 2),
+	--  scale mail   --> Not found from: Dragon Scale Mail (Red)
+	(233, 42),
+	--  item   --> Not found from: Potion of Healing
+	--  gear and equipment   --> Not found from: Potion of Healing
+	--  potion   --> Not found from: Potion of Healing
+	(234, 13),
+	--  item   --> Not found from: Vicious Antimatter Rifle
+	--  weapon   --> Not found from: Vicious Antimatter Rifle
+	--  antimatter rifle   --> Not found from: Vicious Antimatter Rifle
+	(235, 42),
+	--  item   --> Not found from: Ring of Spell Storing
+	(236, 41),
+	(236, 50),
+	(236, 42),
+	--  item   --> Not found from: Amulet of Health
+	(237, 41),
+	--  amulet   --> Not found from: Amulet of Health
+	--  item   --> Not found from: Nine Lives Stealer Longsword
+	--  weapon   --> Not found from: Nine Lives Stealer Longsword
+	--  longsword   --> Not found from: Nine Lives Stealer Longsword
+	(238, 42),
+	--  item   --> Not found from: Periapt of Wound Closure
+	(239, 41),
+	(239, 42),
+	--  item   --> Not found from: Periapt of Health
+	(240, 41),
+	(240, 42),
+	--  item   --> Not found from: Potion of Stone Giant Strength
+	--  potion   --> Not found from: Potion of Stone Giant Strength
+	(241, 42),
+	--  item   --> Not found from: Doss Lute
+	(242, 40),
+	(242, 42),
+	--  item   --> Not found from: Potion of Hill Giant Strength
+	--  potion   --> Not found from: Potion of Hill Giant Strength
+	(243, 42),
+	--  item   --> Not found from: Bag of Tricks
+	(244, 42),
+	--  gear and equipment   --> Not found from: Bag of Tricks
+	(244, 14),
+	(244, 71),
+	--  item   --> Not found from: Vicious Longbow
+	--  weapon   --> Not found from: Vicious Longbow
+	--  longbow   --> Not found from: Vicious Longbow
+	(245, 42),
+	--  item   --> Not found from: Ring of Psychic Resistance
+	(246, 41),
+	(246, 50),
+	(246, 42),
+	--  item   --> Not found from: Robe of Stars
+	(247, 2),
+	--  robe   --> Not found from: Robe of Stars
+	(247, 42),
+	--  item   --> Not found from: Flame Tongue
+	--  weapon   --> Not found from: Flame Tongue
+	--  sword   --> Not found from: Flame Tongue
+	(248, 42),
+	--  item   --> Not found from: Dragon Slayer
+	--  weapon   --> Not found from: Dragon Slayer
+	--  sword   --> Not found from: Dragon Slayer
+	(249, 42),
+	--  item   --> Not found from: Vicious Rapier
+	--  weapon   --> Not found from: Vicious Rapier
+	--  rapier   --> Not found from: Vicious Rapier
+	(250, 42),
+	--  item   --> Not found from: Bedroll
+	--  gear and equipment   --> Not found from: Bedroll
+	(251, 14),
+	--  item   --> Not found from: Animated Shield
+	(252, 2),
+	(252, 56),
+	(252, 42),
+	--  item   --> Not found from: Shortsword of Wounding
+	--  weapon   --> Not found from: Shortsword of Wounding
+	--  shortsword   --> Not found from: Shortsword of Wounding
+	(253, 42),
+	--  item   --> Not found from: Portable Hole
+	(254, 42),
+	--  gear and equipment   --> Not found from: Portable Hole
+	(254, 14),
+	(254, 71),
+	--  item   --> Not found from: Chalk (1 piece)
+	--  gear and equipment   --> Not found from: Chalk (1 piece)
+	--  item   --> Not found from: Spellguard Shield
+	(256, 2),
+	(256, 56),
+	(256, 42),
+	--  item   --> Not found from: Vicious Yklwa
+	--  weapon   --> Not found from: Vicious Yklwa
+	--  yklwa   --> Not found from: Vicious Yklwa
+	(257, 42),
+	--  item   --> Not found from: Wand of Fear
+	--  weapon   --> Not found from: Wand of Fear
+	(258, 72),
+	(258, 42),
+	--  item   --> Not found from: Vorpal Scimitar
+	--  weapon   --> Not found from: Vorpal Scimitar
+	--  scimitar   --> Not found from: Vorpal Scimitar
+	(259, 42),
+	--  item   --> Not found from: Saddlebags
+	--  gear and equipment   --> Not found from: Saddlebags
+	(260, 14),
+	--  item   --> Not found from: Bell
+	--  gear and equipment   --> Not found from: Bell
+	(261, 14),
+	--  item   --> Not found from: Scarab of Protection
+	(262, 41),
+	--  medallion   --> Not found from: Scarab of Protection
+	(262, 42),
+	--  item   --> Not found from: Carriage
+	--  vehicle   --> Not found from: Carriage
+	--  item   --> Not found from: Crystal Ball of True Seeing
+	--  object   --> Not found from: Crystal Ball of True Seeing
+	(264, 42),
+	--  item   --> Not found from: Boots of Elvenkind
+	(265, 2),
+	--  boots   --> Not found from: Boots of Elvenkind
+	(265, 42),
+	--  item   --> Not found from: Healer''s Kit
+	--  gear and equipment   --> Not found from: Healer''s Kit
+	--  kit   --> Not found from: Healer''s Kit
+	--  item   --> Not found from: Manual of Flesh Golems
+	--  book   --> Not found from: Manual of Flesh Golems
+	(267, 13),
+	(267, 42),
+	--  item   --> Not found from: Wand of Secrets
+	--  weapon   --> Not found from: Wand of Secrets
+	(268, 72),
+	(268, 42),
+	--  item   --> Not found from: Elemental Gem
+	--  item   --> Not found from: Vicious Musket
+	--  weapon   --> Not found from: Vicious Musket
+	--  musket   --> Not found from: Vicious Musket
+	(270, 42),
+	--  item   --> Not found from: Vicious Glaive
+	--  weapon   --> Not found from: Vicious Glaive
+	--  glaive   --> Not found from: Vicious Glaive
+	(271, 42),
+	--  item   --> Not found from: Tome of Clear Thought
+	--  book   --> Not found from: Tome of Clear Thought
+	(272, 42),
+	--  item   --> Not found from: Manual of Golems
+	--  book   --> Not found from: Manual of Golems
+	(273, 13),
+	(273, 42),
+	--  item   --> Not found from: Jug or Pitcher
+	--  gear and equipment   --> Not found from: Jug or Pitcher
+	(274, 14),
+	--  item   --> Not found from: Dragonchess Set
+	--  gear and equipment   --> Not found from: Dragonchess Set
+	--  gaming set   --> Not found from: Dragonchess Set
+	--  item   --> Not found from: Eversmoking Bottle
+	--  object   --> Not found from: Eversmoking Bottle
+	--  magicalh   --> Not found from: Eversmoking Bottle
+	--  item   --> Not found from: Bead of Force
+	(277, 42),
+	(277, 13),
+	--  item   --> Not found from: Potion of Healing (Supreme)
+	--  potion   --> Not found from: Potion of Healing (Supreme)
+	(278, 42),
+	--  item   --> Not found from: Ring of Air Elemental Command
+	(279, 41),
+	(279, 50),
+	(279, 42),
+	--  species   --> Not found from: [Warhorse](https://www.dndbeyond.com/monsters/17049-warhorse)
+	--  non_playable   --> Not found from: [Warhorse](https://www.dndbeyond.com/monsters/17049-warhorse)
+	--  beast   --> Not found from: [Warhorse](https://www.dndbeyond.com/monsters/17049-warhorse)
+	--  mount   --> Not found from: [Warhorse](https://www.dndbeyond.com/monsters/17049-warhorse)
+	--  item   --> Not found from: Hammer of Thunderbolts
+	--  weapon   --> Not found from: Hammer of Thunderbolts
+	--  hammer   --> Not found from: Hammer of Thunderbolts
+	--  maul   --> Not found from: Hammer of Thunderbolts
+	--  item   --> Not found from: Chain (10 feet)
+	--  gear and equipment   --> Not found from: Chain (10 feet)
+	--  item   --> Not found from: Giant Slayer Scimitar
+	--  weapon   --> Not found from: Giant Slayer Scimitar
+	--  scimitar   --> Not found from: Giant Slayer Scimitar
+	(283, 42),
+	--  item   --> Not found from: Holy Avenger Longsword
+	--  weapon   --> Not found from: Holy Avenger Longsword
+	--  longsword   --> Not found from: Holy Avenger Longsword
+	(284, 42),
+	--  item   --> Not found from: Alchemist''s Supplies
+	--  gear and equipment   --> Not found from: Alchemist''s Supplies
+	--  tools   --> Not found from: Alchemist''s Supplies
+	--  supplies   --> Not found from: Alchemist''s Supplies
+	--  item   --> Not found from: Robe of the Archmagi
+	(286, 2),
+	--  robe   --> Not found from: Robe of the Archmagi
+	(286, 42),
+	--  item   --> Not found from: Greatsword of Life Stealing
+	--  weapon   --> Not found from: Greatsword of Life Stealing
+	--  greatsword   --> Not found from: Greatsword of Life Stealing
+	(287, 42),
+	--  item   --> Not found from: Nine Lives Stealer
+	--  weapon   --> Not found from: Nine Lives Stealer
+	--  sword   --> Not found from: Nine Lives Stealer
+	(288, 42),
+	--  item   --> Not found from: Luck Blade Shortsword
+	--  weapon   --> Not found from: Luck Blade Shortsword
+	--  shortsword   --> Not found from: Luck Blade Shortsword
+	(289, 42),
+	--  item   --> Not found from: Vicious Maul
+	--  weapon   --> Not found from: Vicious Maul
+	--  maul   --> Not found from: Vicious Maul
+	(290, 42),
+	--  item   --> Not found from: Dragon Scale Mail (Brass)
+	(291, 2),
+	--  scale mail   --> Not found from: Dragon Scale Mail (Brass)
+	(291, 42),
+	--  item   --> Not found from: Vicious Light Hammer
+	--  weapon   --> Not found from: Vicious Light Hammer
+	--  light hammer   --> Not found from: Vicious Light Hammer
+	(292, 42),
+	--  item   --> Not found from: Wooden Staff
+	--  gear and equipment   --> Not found from: Wooden Staff
+	--  spellcasting focus   --> Not found from: Wooden Staff
+	--  item   --> Not found from: Wand of the War Mage
+	--  weapon   --> Not found from: Wand of the War Mage
+	(294, 72),
+	(294, 42),
+	--  item   --> Not found from: Boots of Speed
+	(295, 2),
+	--  boots   --> Not found from: Boots of Speed
+	(295, 42),
+	--  item   --> Not found from: Totem
+	--  gear and equipment   --> Not found from: Totem
+	--  spellcasting focus   --> Not found from: Totem
+	--  item   --> Not found from: Waterskin
+	--  gear and equipment   --> Not found from: Waterskin
+	(297, 14),
+	--  item   --> Not found from: Potion of Psychic Resistance
+	--  potion   --> Not found from: Potion of Psychic Resistance
+	(298, 42),
+	--  item   --> Not found from: Spell Scroll (1st Level)
+	(299, 13),
+	(299, 54),
+	(299, 42),
+	--  item   --> Not found from: Mess Kit
+	--  gear and equipment   --> Not found from: Mess Kit
+	--  kit   --> Not found from: Mess Kit
+	--  item   --> Not found from: Potion of Stone Giant Strength
+	--  potion   --> Not found from: Potion of Stone Giant Strength
+	(301, 42),
+	--  item   --> Not found from: Cobbler''s Tools
+	--  gear and equipment   --> Not found from: Cobbler''s Tools
+	--  tools   --> Not found from: Cobbler''s Tools
+	--  item   --> Not found from: Cloak of Protection
+	(303, 2),
+	--  cloak   --> Not found from: Cloak of Protection
+	(303, 42),
+	--  item   --> Not found from: Glamoured Studded Leather
+	(304, 2),
+	--  studded leather   --> Not found from: Glamoured Studded Leather
+	(304, 42),
+	--  item   --> Not found from: Giant Slayer Greataxe
+	--  weapon   --> Not found from: Giant Slayer Greataxe
+	--  greataxe   --> Not found from: Giant Slayer Greataxe
+	(305, 42),
+	--  species   --> Not found from: [Draft Horse](https://www.dndbeyond.com/monsters/16844-draft-horse)
+	--  non_playable   --> Not found from: [Draft Horse](https://www.dndbeyond.com/monsters/16844-draft-horse)
+	--  beast   --> Not found from: [Draft Horse](https://www.dndbeyond.com/monsters/16844-draft-horse)
+	--  mount   --> Not found from: [Draft Horse](https://www.dndbeyond.com/monsters/16844-draft-horse)
+	--  item   --> Not found from: Carpet of Flying (3 ft. x 5 ft.)
+	--  vehicle   --> Not found from: Carpet of Flying (3 ft. x 5 ft.)
+	--  item   --> Not found from: Mirror of Life Trapping
+	--  object   --> Not found from: Mirror of Life Trapping
+	(308, 42),
+	--  item   --> Not found from: Mantle of Spell Resistance
+	(309, 2),
+	--  mantle   --> Not found from: Mantle of Spell Resistance
+	(309, 42),
+	--  item   --> Not found from: Winged Boots
+	(310, 2),
+	--  boots   --> Not found from: Winged Boots
+	(310, 42),
+	--  item   --> Not found from: Potion of Radiant Resistance
+	--  potion   --> Not found from: Potion of Radiant Resistance
+	(311, 42),
+	--  item   --> Not found from: Vicious Flail
+	--  weapon   --> Not found from: Vicious Flail
+	--  flail   --> Not found from: Vicious Flail
+	(312, 42),
+	--  item   --> Not found from: Dragon Scale Mail (Copper)
+	(313, 2),
+	--  scale mail   --> Not found from: Dragon Scale Mail (Copper)
+	(313, 42),
+	--  item   --> Not found from: Gauntlets of Ogre Power
+	(314, 2),
+	(314, 42),
+	--  item   --> Not found from: Holy Avenger Rapier
+	--  weapon   --> Not found from: Holy Avenger Rapier
+	--  rapier   --> Not found from: Holy Avenger Rapier
+	(315, 42),
+	--  item   --> Not found from: Tinderbox
+	--  gear and equipment   --> Not found from: Tinderbox
+	--  item   --> Not found from: Vicious Warhammer
+	--  weapon   --> Not found from: Vicious Warhammer
+	--  warhammer   --> Not found from: Vicious Warhammer
+	(317, 42),
+	--  item   --> Not found from: Berserker Battleaxe
+	--  weapon   --> Not found from: Berserker Battleaxe
+	--  battleaxe   --> Not found from: Berserker Battleaxe
+	(318, 42),
+	--  item   --> Not found from: Talisman of Pure Good
+	(319, 41),
+	(319, 42),
+	--  item   --> Not found from: Vicious Blowgun
+	--  weapon   --> Not found from: Vicious Blowgun
+	--  blowgun   --> Not found from: Vicious Blowgun
+	(320, 42),
+	--  item   --> Not found from: Wand of Fireballs
+	--  weapon   --> Not found from: Wand of Fireballs
+	(321, 72),
+	(321, 42),
+	--  item   --> Not found from: Folding Boat
+	--  vehicle   --> Not found from: Folding Boat
+	(322, 42),
+	--  item   --> Not found from: Candle
+	--  gear and equipment   --> Not found from: Candle
+	--  consumbable   --> Not found from: Candle
+	--  item   --> Not found from: Vicious Pistol, Automatic
+	--  weapon   --> Not found from: Vicious Pistol, Automatic
+	--  pistol, automatic   --> Not found from: Vicious Pistol, Automatic
+	(324, 42),
+	--  item   --> Not found from: Lyre
+	--  gear and equipment   --> Not found from: Lyre
+	(325, 40),
+	--  item   --> Not found from: Dragon Slayer Shortsword
+	--  weapon   --> Not found from: Dragon Slayer Shortsword
+	--  shortsword   --> Not found from: Dragon Slayer Shortsword
+	(326, 42),
+	--  item   --> Not found from: Belt of Dwarvenkind
+	(327, 2),
+	(327, 42),
+	(327, 7),
+	--  item   --> Not found from: Frost Brand Longsword
+	--  weapon   --> Not found from: Frost Brand Longsword
+	--  longsword   --> Not found from: Frost Brand Longsword
+	(328, 42),
+	--  item   --> Not found from: Drum
+	--  gear and equipment   --> Not found from: Drum
+	(329, 40),
+	--  item   --> Not found from: Ring of Warmth
+	(330, 41),
+	(330, 50),
+	(330, 42),
+	--  item   --> Not found from: Hunting Trap
+	--  gear and equipment   --> Not found from: Hunting Trap
+	--  trap   --> Not found from: Hunting Trap
+	--  item   --> Not found from: Rope, Hempen (50 feet)
+	--  gear and equipment   --> Not found from: Rope, Hempen (50 feet)
+	--  item   --> Not found from: Ring of Protection
+	(333, 41),
+	--  item   --> Not found from: Vicious Net
+	--  weapon   --> Not found from: Vicious Net
+	--  net   --> Not found from: Vicious Net
+	(334, 42),
+	--  item   --> Not found from: Adamantine Ring Mail
+	(335, 2),
+	--  ring mail   --> Not found from: Adamantine Ring Mail
+	--  item   --> Not found from: Clothes, Common
+	--  gear and equipment   --> Not found from: Clothes, Common
+	--  clothes   --> Not found from: Clothes, Common
+	--  item   --> Not found from: Sled
+	--  vehicle   --> Not found from: Sled
+	--  item   --> Not found from: Thieves'' Tools
+	--  gear and equipment   --> Not found from: Thieves'' Tools
+	--  tools   --> Not found from: Thieves'' Tools
+	--  item   --> Not found from: Ring of Djinni Summoning
+	(339, 41),
+	(339, 50),
+	(339, 42),
+	--  item   --> Not found from: Gem of Brightness
+	--  object   --> Not found from: Gem of Brightness
+	(340, 42),
+	--  item   --> Not found from: Anstruth Harp
+	(341, 40),
+	(341, 42),
+	--  item   --> Not found from: Scimitar of Wounding
+	--  weapon   --> Not found from: Scimitar of Wounding
+	--  scimitar   --> Not found from: Scimitar of Wounding
+	(342, 42),
+	--  item   --> Not found from: Staff of Withering
+	--  weapon   --> Not found from: Staff of Withering
+	(343, 63),
+	(343, 42),
+	--  item   --> Not found from: Figurine of Wondrous Power (Silver Raven)
+	--  object   --> Not found from: Figurine of Wondrous Power (Silver Raven)
+	(344, 42),
+	--  item   --> Not found from: Spell Scroll (3rd Level)
+	(345, 13),
+	(345, 54),
+	(345, 42),
+	--  item   --> Not found from: Cloak of Displacement
+	(346, 2),
+	--  cloak   --> Not found from: Cloak of Displacement
+	(346, 42),
+	--  item   --> Not found from: Dragon Slayer Longsword
+	--  weapon   --> Not found from: Dragon Slayer Longsword
+	--  longsword   --> Not found from: Dragon Slayer Longsword
+	(347, 42),
+	--  item   --> Not found from: Arrows
+	--  consumables   --> Not found from: Arrows
+	(348, 1),
+	--  item   --> Not found from: Helm of Brilliance
+	(349, 2),
+	--  helm   --> Not found from: Helm of Brilliance
+	(349, 42),
+	--  item   --> Not found from: Wand of Paralysis
+	--  weapon   --> Not found from: Wand of Paralysis
+	(350, 72),
+	(350, 42),
+	--  item   --> Not found from: Armor of Vulnerability
+	(351, 2),
+	--  plate   --> Not found from: Armor of Vulnerability
+	(351, 42),
+	--  item   --> Not found from: Chime of Opening
+	--  gear and equipment   --> Not found from: Chime of Opening
+	(352, 42),
+	--  item   --> Not found from: Headband of Intellect
+	(353, 2),
+	--  headband   --> Not found from: Headband of Intellect
+	(353, 42),
+	--  item   --> Not found from: Decanter of Endless Water
+	--  object   --> Not found from: Decanter of Endless Water
+	(354, 42),
+	--  item   --> Not found from: Longsword of Life Stealing
+	--  weapon   --> Not found from: Longsword of Life Stealing
+	--  longsword   --> Not found from: Longsword of Life Stealing
+	(355, 42),
+	--  item   --> Not found from: Boots of Elvenkind
+	(356, 2),
+	--  boot   --> Not found from: Boots of Elvenkind
+	(356, 42),
+	--  item   --> Not found from: Spell Scroll (2nd Level)
+	(357, 13),
+	(357, 54),
+	(357, 42),
+	--  item   --> Not found from: Block and Tackle
+	--  gear and equipment   --> Not found from: Block and Tackle
+	--  item   --> Not found from: Gauntlets of Ogre Power
+	(359, 2),
+	--  gauntlets   --> Not found from: Gauntlets of Ogre Power
+	(359, 42),
+	--  item   --> Not found from: Ring of Evasion
+	(360, 41),
+	(360, 50),
+	(360, 42),
+	--  item   --> Not found from: Saddle, Exotic
+	--  gear and equipment   --> Not found from: Saddle, Exotic
+	--  saddle   --> Not found from: Saddle, Exotic
+	--  item   --> Not found from: Potion of Giant Strength
+	--  potion   --> Not found from: Potion of Giant Strength
+	(362, 42),
+	--  item   --> Not found from: Medallion of Thoughts
+	(363, 41),
+	(363, 42),
+	--  item   --> Not found from: Bracers of Defense
+	(364, 2),
+	--  bracers   --> Not found from: Bracers of Defense
+	(364, 42),
+	--  item   --> Not found from: Cloak of Arachnida
+	--  item   --> Not found from: Mace of Terror
+	--  weapon   --> Not found from: Mace of Terror
+	--  mace   --> Not found from: Mace of Terror
+	(366, 42),
+	--  item   --> Not found from: Pipes of the Sewers
+	--  item   --> Not found from: Arrow of Slaying
+	--  weapon   --> Not found from: Arrow of Slaying
+	--  arrow   --> Not found from: Arrow of Slaying
+	--  item   --> Not found from: Wand of Lightning Bolts
+	--  weapon   --> Not found from: Wand of Lightning Bolts
+	(369, 72),
+	(369, 42),
+	--  item   --> Not found from: Hat of Disguise
+	--  object   --> Not found from: Hat of Disguise
+	(370, 42),
+	--  item   --> Not found from: Wand of Web
+	--  weapon   --> Not found from: Wand of Web
+	(371, 72),
+	(371, 42),
+	--  item   --> Not found from: Broom of Flying
+	--  mount   --> Not found from: Broom of Flying
+	(372, 42),
+	--  item   --> Not found from: Giant Slayer
+	--  weapon   --> Not found from: Giant Slayer
+	--  axe   --> Not found from: Giant Slayer
+	--  sword   --> Not found from: Giant Slayer
+	(373, 42),
+	--  item   --> Not found from: Vicious Sickle
+	--  weapon   --> Not found from: Vicious Sickle
+	--  sickle   --> Not found from: Vicious Sickle
+	(374, 42),
+	--  item   --> Not found from: Eyes of Charming
+	--  object   --> Not found from: Eyes of Charming
+	(375, 42),
+	--  item   --> Not found from: Warship
+	--  vehicle   --> Not found from: Warship
+	--  item   --> Not found from: Frost Brand Rapier
+	--  weapon   --> Not found from: Frost Brand Rapier
+	--  rapier   --> Not found from: Frost Brand Rapier
+	(377, 42),
+	--  item   --> Not found from: Bucket
+	--  gear and equipment   --> Not found from: Bucket
+	(378, 14),
+	--  item   --> Not found from: Lance, +1
+	--  weapon   --> Not found from: Lance, +1
+	--  mundane   --> Not found from: Lance, +1
+	--  item   --> Not found from: Carpet of Flying (5 ft. x 7 ft.)
+	--  vehicle   --> Not found from: Carpet of Flying (5 ft. x 7 ft.)
+	--  item   --> Not found from: Figurine of Wondrous Power (Bronze Griffon)
+	--  object   --> Not found from: Figurine of Wondrous Power (Bronze Griffon)
+	(381, 42),
+	--  item   --> Not found from: Potion of Cold Resistance
+	--  potion   --> Not found from: Potion of Cold Resistance
+	(382, 42),
+	--  item   --> Not found from: Adamantine Breastplate
+	(383, 2),
+	--  breastplate   --> Not found from: Adamantine Breastplate
+	--  item   --> Not found from: Ring of Radiant Resistance
+	(384, 41),
+	(384, 50),
+	(384, 42),
+	--  item   --> Not found from: Rod of Absorption
+	--  object   --> Not found from: Rod of Absorption
+	(385, 51),
+	(385, 42),
+	--  item   --> Not found from: Philter of Love
+	--  potion   --> Not found from: Philter of Love
+	(386, 42),
+	--  item   --> Not found from: Ring of Shooting Stars
+	(387, 41),
+	(387, 50),
+	(387, 42),
+	--  item   --> Not found from: Wand of Polymorph
+	--  weapon   --> Not found from: Wand of Polymorph
+	(388, 72),
+	(388, 42),
+	--  item   --> Not found from: Donkey (or Mule)
+	--  mount   --> Not found from: Donkey (or Mule)
+	--  item   --> Not found from: Pole (10-foot)
+	--  gear and equipment   --> Not found from: Pole (10-foot)
+	--  item   --> Not found from: Smith''s Tools
+	--  gear and equipment   --> Not found from: Smith''s Tools
+	--  tools   --> Not found from: Smith''s Tools
+	--  item   --> Not found from: Alchemist''s Fire (flask)
+	--  gear and equipment   --> Not found from: Alchemist''s Fire (flask)
+	--  potion   --> Not found from: Alchemist''s Fire (flask)
+	(392, 13),
+	--  item   --> Not found from: Figurine of Wondrous Power (Ivory Goats)
+	--  object   --> Not found from: Figurine of Wondrous Power (Ivory Goats)
+	(393, 42),
+	--  item   --> Not found from: Potion of Acid Resistance
+	--  potion   --> Not found from: Potion of Acid Resistance
+	(394, 42),
+	--  item   --> Not found from: Ram, Portable
+	--  gear and equipment   --> Not found from: Ram, Portable
+	--  item   --> Not found from: Keelboat
+	--  vehicle   --> Not found from: Keelboat
+	--  item   --> Not found from: Ring of X-ray Vision
+	(397, 41),
+	(397, 50),
+	(397, 42),
+	--  item   --> Not found from: Dragon Scale Mail (Bronze)
+	(398, 2),
+	--  scale maile   --> Not found from: Dragon Scale Mail (Bronze)
+	(398, 42),
+	--  item   --> Not found from: Boots of Levitation
+	(399, 2),
+	--  boots   --> Not found from: Boots of Levitation
+	(399, 42),
+	--  item   --> Not found from: Potion of Animal Friendship
+	--  potion   --> Not found from: Potion of Animal Friendship
+	(400, 42),
+	--  item   --> Not found from: Vicious Halberd
+	--  weapon   --> Not found from: Vicious Halberd
+	--  halberd   --> Not found from: Vicious Halberd
+	(401, 42),
+	--  item   --> Not found from: Spyglass
+	--  gear and equipment   --> Not found from: Spyglass
+	--  item   --> Not found from: Hammer
+	--  gear and equipment   --> Not found from: Hammer
+	--  item   --> Not found from: Vicious Shortbow
+	--  weapon   --> Not found from: Vicious Shortbow
+	--  shortbow   --> Not found from: Vicious Shortbow
+	(404, 42),
+	--  item   --> Not found from: Blanket
+	--  gear and equipment   --> Not found from: Blanket
+	--  item   --> Not found from: Hammer, Sledge
+	--  gear and equipment   --> Not found from: Hammer, Sledge
+	--  item   --> Not found from: Nine Lives Stealer Shortsword
+	--  weapon   --> Not found from: Nine Lives Stealer Shortsword
+	--  scimitar   --> Not found from: Nine Lives Stealer Shortsword
+	(407, 42),
+	--  item   --> Not found from: Orb
+	--  gear and equipment   --> Not found from: Orb
+	--  spellcasting focus   --> Not found from: Orb
+	--  item   --> Not found from: Dagger of Venom
+	--  weapon   --> Not found from: Dagger of Venom
+	--  dagger   --> Not found from: Dagger of Venom
+	(409, 42),
+	--  item   --> Not found from: Shawm
+	--  gear and equipment   --> Not found from: Shawm
+	(410, 40),
+	--  item   --> Not found from: Bowl of Commanding Water Elementals
+	--  object   --> Not found from: Bowl of Commanding Water Elementals
+	(411, 42),
+	--  item   --> Not found from: Holy Avenger Shortsword
+	--  weapon   --> Not found from: Holy Avenger Shortsword
+	--  shortsword   --> Not found from: Holy Avenger Shortsword
+	(412, 42),
+	--  item   --> Not found from: Elemental Gem (Blue Sapphire)
+	(413, 13),
+	--  gem   --> Not found from: Elemental Gem (Blue Sapphire)
+	(413, 42),
+	--  item   --> Not found from: Figurine of Wondrous Power (Onyx Dog)
+	--  object   --> Not found from: Figurine of Wondrous Power (Onyx Dog)
+	(414, 42),
+	--  item   --> Not found from: Necklace of Adaptation
+	(415, 41),
+	(415, 42),
+	--  item   --> Not found from: Signal Whistle
+	--  gear and equipment   --> Not found from: Signal Whistle
+	--  item   --> Not found from: Vorpal Longsword
+	--  weapon   --> Not found from: Vorpal Longsword
+	--  longsword   --> Not found from: Vorpal Longsword
+	(417, 42),
+	--  item   --> Not found from: Sling Bullets
+	--  consumables   --> Not found from: Sling Bullets
+	(418, 1),
+	--  item   --> Not found from: Spell Scroll (4th Level)
+	(419, 13),
+	(419, 54),
+	(419, 42),
+	--  item   --> Not found from: Quiver
+	--  gear and equipment   --> Not found from: Quiver
+	(420, 14),
+	--  item   --> Not found from: Staff of Charming
+	--  weapon   --> Not found from: Staff of Charming
+	(421, 63),
+	--  item   --> Not found from: Brewer''s Supplies
+	--  gear and equipment   --> Not found from: Brewer''s Supplies
+	--  tools   --> Not found from: Brewer''s Supplies
+	--  supplies   --> Not found from: Brewer''s Supplies
+	--  item   --> Not found from: Keoghtom''s Ointment
+	(423, 13),
+	(423, 42),
+	--  item   --> Not found from: Ladder (10 foot)
+	--  gear and equipment   --> Not found from: Ladder (10 foot)
+	--  item   --> Not found from: Crowbar
+	--  gear and equipment   --> Not found from: Crowbar
+	--  item   --> Not found from: Crystal Ball of Telepathy
+	--  services   --> Not found from: Crystal Ball of Telepathy
+	(426, 42),
+	--  item   --> Not found from: Iron Bands of Binding
+	--  object   --> Not found from: Iron Bands of Binding
+	(427, 42),
+	--  item   --> Not found from: Wand of Wonder
+	--  weapon   --> Not found from: Wand of Wonder
+	(428, 72),
+	(428, 42),
+	--  item   --> Not found from: Ring of Feather Falling
+	(429, 41),
+	(429, 50),
+	(429, 42),
+	--  item   --> Not found from: Potion of Necrotic Resistance
+	--  potion   --> Not found from: Potion of Necrotic Resistance
+	(430, 42),
+	--  item   --> Not found from: Dice Set
+	--  gear and equipment   --> Not found from: Dice Set
+	--  gaming set   --> Not found from: Dice Set
+	--  item   --> Not found from: Mace of Smiting
+	--  weapon   --> Not found from: Mace of Smiting
+	--  mace   --> Not found from: Mace of Smiting
+	(432, 42),
+	--  item   --> Not found from: Cart
+	--  vehicle   --> Not found from: Cart
+	--  item   --> Not found from: Manual of Clay Golems
+	--  book   --> Not found from: Manual of Clay Golems
+	(434, 13),
+	(434, 42),
+	--  item   --> Not found from: Brazier of Commanding Fire Elementals
+	--  object   --> Not found from: Brazier of Commanding Fire Elementals
+	(435, 42),
+	--  item   --> Not found from: Dragon Slayer Scimitar
+	--  weapon   --> Not found from: Dragon Slayer Scimitar
+	--  scimitar   --> Not found from: Dragon Slayer Scimitar
+	(436, 42),
+	--  item   --> Not found from: Disguise Kit
+	--  gear and equipment   --> Not found from: Disguise Kit
+	--  kit   --> Not found from: Disguise Kit
+	--  item   --> Not found from: Dwarven Plate
+	(438, 2),
+	--  plate   --> Not found from: Dwarven Plate
+	(438, 42),
+	--  item   --> Not found from: Parchment (one sheet)
+	--  gear and equipment   --> Not found from: Parchment (one sheet)
+	(439, 13),
+	--  item   --> Not found from: Vicious Rifle, Automatic
+	--  weapon   --> Not found from: Vicious Rifle, Automatic
+	--  rifle, automatic   --> Not found from: Vicious Rifle, Automatic
+	(440, 42),
+	--  item   --> Not found from: Talisman of Ultimate Evil
+	(441, 41),
+	(441, 42),
+	--  item   --> Not found from: Flute
+	--  gear and equipment   --> Not found from: Flute
+	(442, 40),
+	--  item   --> Not found from: Boots of Striding and Springing
+	(443, 2),
+	--  boot   --> Not found from: Boots of Striding and Springing
+	(443, 42),
+	--  item   --> Not found from: Vicious Pike
+	--  weapon   --> Not found from: Vicious Pike
+	--  pike   --> Not found from: Vicious Pike
+	(444, 42),
+	--  item   --> Not found from: Woodcarver''s Tools
+	--  gear and equipment   --> Not found from: Woodcarver''s Tools
+	--  tools   --> Not found from: Woodcarver''s Tools
+	--  item   --> Not found from: Stone of Controlling Earth Elementals
+	--  object   --> Not found from: Stone of Controlling Earth Elementals
+	(446, 42),
+	--  item   --> Not found from: Frost Brand Greatsword
+	--  weapon   --> Not found from: Frost Brand Greatsword
+	--  greatsword   --> Not found from: Frost Brand Greatsword
+	(447, 42),
+	--  item   --> Not found from: Ring of Spell Turning
+	(448, 41),
+	(448, 50),
+	(448, 42),
+	--  item   --> Not found from: Lute
+	--  gear and equipment   --> Not found from: Lute
+	(449, 40),
+	--  item   --> Not found from: Deck of Many Things
+	--  object   --> Not found from: Deck of Many Things
+	(450, 42),
+	--  item   --> Not found from: Manual of Quickness of Action
+	--  book   --> Not found from: Manual of Quickness of Action
+	(451, 42),
+	--  item   --> Not found from: Staff of Healing
+	--  weapon   --> Not found from: Staff of Healing
+	(452, 63),
+	(452, 42),
+	--  item   --> Not found from: Spell Scroll (9th Level)
+	(453, 13),
+	(453, 54),
+	(453, 42),
+	--  item   --> Not found from: Lantern, Bullseye
+	--  gear and equipment   --> Not found from: Lantern, Bullseye
+	--  item   --> Not found from: Feather Token (Bird)
+	(455, 13),
+	(455, 42),
+	--  item   --> Not found from: Vicious Pistol
+	--  weapon   --> Not found from: Vicious Pistol
+	--  pistol   --> Not found from: Vicious Pistol
+	(456, 42),
+	--  item   --> Not found from: Necklace of Fireballs
+	(457, 41),
+	(457, 42),
+	--  item   --> Not found from: Potion of Mind Reading
+	--  poition   --> Not found from: Potion of Mind Reading
+	(458, 42),
+	--  item   --> Not found from: Canaith Mandolin
+	(459, 40),
+	(459, 42),
+	--  item   --> Not found from: Spellbook
+	--  gear and equipment   --> Not found from: Spellbook
+	--  item   --> Not found from: Adamantine Splint
+	(461, 2),
+	--  splint   --> Not found from: Adamantine Splint
+	(461, 42),
+	--  item   --> Not found from: Javelin of Lightning
+	--  weapon   --> Not found from: Javelin of Lightning
+	--  javelin   --> Not found from: Javelin of Lightning
+	(462, 42),
+	--  item   --> Not found from: Oil of Etherealness
+	--  potion   --> Not found from: Oil of Etherealness
+	(463, 42),
+	--  item   --> Not found from: Dancing Sword
+	--  weapon   --> Not found from: Dancing Sword
+	--  sword   --> Not found from: Dancing Sword
+	(464, 42),
+	--  item   --> Not found from: Vicious Longsword
+	--  weapon   --> Not found from: Vicious Longsword
+	--  longsword   --> Not found from: Vicious Longsword
+	(465, 42),
+	--  item   --> Not found from: Potion of Poison
+	--  poition   --> Not found from: Potion of Poison
+	(466, 42),
+	--  item   --> Not found from: Vicious Laser Rifle
+	--  weapon   --> Not found from: Vicious Laser Rifle
+	--  laser rifle   --> Not found from: Vicious Laser Rifle
+	(467, 42),
+	--  item   --> Not found from: Wand of the War Mage, +3
+	--  weapon   --> Not found from: Wand of the War Mage, +3
+	(468, 72),
+	(468, 42),
+	--  item   --> Not found from: Adamantine Plate
+	(469, 2),
+	--  plate   --> Not found from: Adamantine Plate
+	--  item   --> Not found from: Ring of Cold Resistance
+	(470, 41),
+	(470, 50),
+	(470, 42),
+	--  item   --> Not found from: Lantern of Revealing
+	--  gear and equipment   --> Not found from: Lantern of Revealing
+	--  lanter   --> Not found from: Lantern of Revealing
+	(471, 42),
+	--  item   --> Not found from: Cube of Force
+	--  object   --> Not found from: Cube of Force
+	(472, 42),
+	--  item   --> Not found from: Immovable Rod
+	--  obstacle   --> Not found from: Immovable Rod
+	(473, 51),
+	(473, 42),
+	--  item   --> Not found from: Berserker Greataxe
+	--  weapon   --> Not found from: Berserker Greataxe
+	--  greataxe   --> Not found from: Berserker Greataxe
+	(474, 42),
+	--  item   --> Not found from: Sword of Life Stealing
+	--  weapon   --> Not found from: Sword of Life Stealing
+	--  sword   --> Not found from: Sword of Life Stealing
+	(475, 42),
+	--  item   --> Not found from: Mithral Armor
+	(476, 2),
+	--  item   --> Not found from: Piton
+	--  gear and equipment   --> Not found from: Piton
+	--  item   --> Not found from: Frost Brand Shortsword
+	--  weapon   --> Not found from: Frost Brand Shortsword
+	--  rapier   --> Not found from: Frost Brand Shortsword
+	(478, 42),
+	--  item   --> Not found from: Ring of Three Wishes
+	(479, 41),
+	(479, 50),
+	(479, 42),
+	--  item   --> Not found from: Flame Tongue Rapier
+	--  weapon   --> Not found from: Flame Tongue Rapier
+	--  rapier   --> Not found from: Flame Tongue Rapier
+	(480, 42),
+	--  item   --> Not found from: Potion of Lightning Resistance
+	--  potion   --> Not found from: Potion of Lightning Resistance
+	(481, 42),
+	--  item   --> Not found from: Vicious Battleaxe
+	--  weapon   --> Not found from: Vicious Battleaxe
+	--  battleaxe   --> Not found from: Vicious Battleaxe
+	(482, 42),
+	--  item   --> Not found from: Elemental Gem (Emerald)
+	(483, 13),
+	--  gem   --> Not found from: Elemental Gem (Emerald)
+	(483, 42),
+	--  item   --> Not found from: Vicious Sling
+	--  weapon   --> Not found from: Vicious Sling
+	--  sling   --> Not found from: Vicious Sling
+	(484, 42),
+	--  item   --> Not found from: Potion of Thunder Resistance
+	--  potion   --> Not found from: Potion of Thunder Resistance
+	(485, 42),
+	--  item   --> Not found from: Dulcimer
+	--  gear and equipment   --> Not found from: Dulcimer
+	(486, 40),
+	--  species   --> Not found from: [Pony](https://www.dndbeyond.com/monsters/16984-pony)
+	--  non_playable   --> Not found from: [Pony](https://www.dndbeyond.com/monsters/16984-pony)
+	--  beast   --> Not found from: [Pony](https://www.dndbeyond.com/monsters/16984-pony)
+	--  mount   --> Not found from: [Pony](https://www.dndbeyond.com/monsters/16984-pony)
+	--  item   --> Not found from: Potion of Storm Giant Strength
+	--  potion   --> Not found from: Potion of Storm Giant Strength
+	(488, 42),
+	--  item   --> Not found from: Vicious Scimitar
+	--  weapon   --> Not found from: Vicious Scimitar
+	--  scimitar   --> Not found from: Vicious Scimitar
+	(489, 42),
+	--  item   --> Not found from: Emblem
+	--  gear and equipment   --> Not found from: Emblem
+	--  spellcasting focus   --> Not found from: Emblem
+	--  item   --> Not found from: Manacles
+	--  gear and equipment   --> Not found from: Manacles
+	--  item   --> Not found from: Marvelous Pigments
+	(492, 13),
+	(492, 42),
+	--  item   --> Not found from: Orb of Dragonkind
+	--  object   --> Not found from: Orb of Dragonkind
+	(493, 42),
+	--  2 minor beneficial properties   --> Not found from: Orb of Dragonkind
+	--  1 minor detrimental property   --> Not found from: Orb of Dragonkind
+	--  1 major detrimental property   --> Not found from: Orb of Dragonkind
+	--  item   --> Not found from: Chest
+	--  gear and equipment   --> Not found from: Chest
+	(494, 14),
+	--  item   --> Not found from: Greatsword of Sharpness
+	--  weapon   --> Not found from: Greatsword of Sharpness
+	--  greatsword   --> Not found from: Greatsword of Sharpness
+	--  item   --> Not found from: Vicious Weapon
+	--  weapon   --> Not found from: Vicious Weapon
+	--  any   --> Not found from: Vicious Weapon
+	(496, 42),
+	--  item   --> Not found from: Ring of Free Action
+	(497, 41),
+	(497, 50),
+	(497, 42),
+	--  item   --> Not found from: Mithral Ring Mail
+	(498, 2),
+	--  ring mail   --> Not found from: Mithral Ring Mail
+	(498, 42),
+	--  item   --> Not found from: Vicious Dart
+	--  weapon   --> Not found from: Vicious Dart
+	--  dart   --> Not found from: Vicious Dart
+	(499, 42),
+	--  item   --> Not found from: Bagpipes
+	--  gear and equipment   --> Not found from: Bagpipes
+	(500, 40),
+	--  item   --> Not found from: Vicious Handaxe
+	--  weapon   --> Not found from: Vicious Handaxe
+	--  handaxe   --> Not found from: Vicious Handaxe
+	(501, 42),
+	--  item   --> Not found from: Book
+	--  gear and equipment   --> Not found from: Book
+	--  book   --> Not found from: Book
+	--  item   --> Not found from: Potion of Healing (Greater)
+	--  potion   --> Not found from: Potion of Healing (Greater)
+	(503, 42),
+	--  item   --> Not found from: Sun Blade
+	--  weapon   --> Not found from: Sun Blade
+	--  longsword   --> Not found from: Sun Blade
+	(504, 42),
+	--  item   --> Not found from: Painter''s Supplies
+	--  gear and equipment   --> Not found from: Painter''s Supplies
+	--  tools   --> Not found from: Painter''s Supplies
+	--  supplies   --> Not found from: Painter''s Supplies
+	--  item   --> Not found from: Armor of Invulnerability
+	(506, 2),
+	--  plate   --> Not found from: Armor of Invulnerability
+	(506, 42),
+	--  item   --> Not found from: Potion of Poison Resistance
+	--  potion   --> Not found from: Potion of Poison Resistance
+	(507, 42),
+	--  item   --> Not found from: Cloak of Elvenkind
+	(508, 2),
+	--  cloak   --> Not found from: Cloak of Elvenkind
+	(508, 42),
+	--  item   --> Not found from: Dagger
+	--  weapon   --> Not found from: Dagger
+	--  dagger   --> Not found from: Dagger
+	--  knife   --> Not found from: Dagger
+	--  item   --> Not found from: Adamantine Scale Mail
+	(510, 2),
+	--  scale mail   --> Not found from: Adamantine Scale Mail
+	--  item   --> Not found from: Robe of Scintillating Colors
+	(511, 2),
+	--  robe   --> Not found from: Robe of Scintillating Colors
+	(511, 42),
+	--  item   --> Not found from: Amulet
+	--  gear and equipment   --> Not found from: Amulet
+	--  spellcasting focus   --> Not found from: Amulet
+	--  item   --> Not found from: Pearl of Power
+	--  object   --> Not found from: Pearl of Power
+	(513, 42),
+	--  item   --> Not found from: Potion of Growth
+	--  potion   --> Not found from: Potion of Growth
+	(514, 42),
+	--  item   --> Not found from: Ring of Necrotic Resistance
+	(515, 41),
+	(515, 50),
+	(515, 42),
+	--  species   --> Not found from: [Riding Horse](https://www.dndbeyond.com/monsters/16997-riding-horse)
+	--  non_playable   --> Not found from: [Riding Horse](https://www.dndbeyond.com/monsters/16997-riding-horse)
+	--  beast   --> Not found from: [Riding Horse](https://www.dndbeyond.com/monsters/16997-riding-horse)
+	--  mount   --> Not found from: [Riding Horse](https://www.dndbeyond.com/monsters/16997-riding-horse)
+	--  item   --> Not found from: Longsword, +1
+	--  weapon   --> Not found from: Longsword, +1
+	--  longsword   --> Not found from: Longsword, +1
+	(517, 42),
+	--  item   --> Not found from: Whetstone
+	--  gear and equipment   --> Not found from: Whetstone
+	--  item   --> Not found from: Brooch of Shielding
+	(519, 41),
+	(519, 42),
+	--  item   --> Not found from: Herbalism Kit
+	--  gear and equipment   --> Not found from: Herbalism Kit
+	--  kit   --> Not found from: Herbalism Kit
+	--  item   --> Not found from: Vicious Mace
+	--  weapon   --> Not found from: Vicious Mace
+	--  mace   --> Not found from: Vicious Mace
+	(521, 42),
+	--  item   --> Not found from: Horn of Blasting
+	--  object   --> Not found from: Horn of Blasting
+	(522, 42),
+	--  item   --> Not found from: Poisoner''s Kit
+	--  gear and equipment   --> Not found from: Poisoner''s Kit
+	--  kit   --> Not found from: Poisoner''s Kit
+	--  item   --> Not found from: Elven Chain
+	(524, 2),
+	--  chain shirt   --> Not found from: Elven Chain
+	--  item   --> Not found from: Stone of Good Luck (Luckstone)
+	--  object   --> Not found from: Stone of Good Luck (Luckstone)
+	(525, 42),
+	--  item   --> Not found from: Rations (1 day)
+	--  gear and equipment   --> Not found from: Rations (1 day)
+	(526, 13),
+	--  item   --> Not found from: Feather Token (Anchor)
+	(527, 13),
+	(527, 42),
+	--  item   --> Not found from: Ring of Force Resistance
+	(528, 41),
+	(528, 50),
+	(528, 42),
+	--  item   --> Not found from: Staff
+	--  gear and equipment   --> Not found from: Staff
+	--  spellcasting focus   --> Not found from: Staff
+	--  item   --> Not found from: Acid (vial)
+	--  gear and equipment   --> Not found from: Acid (vial)
+	--  item   --> Not found from: Robes
+	--  gear and equipment   --> Not found from: Robes
+	--  clothes   --> Not found from: Robes
+	--  item   --> Not found from: Mithral Splint
+	(532, 2),
+	--  splint   --> Not found from: Mithral Splint
+	(532, 42),
+	--  item   --> Not found from: Ring of Thunder Resistance
+	(533, 41),
+	(533, 50),
+	(533, 42),
+	--  item   --> Not found from: Caltrops (bag of 20)
+	--  gear and equipment   --> Not found from: Caltrops (bag of 20)
+	--  item   --> Not found from: Luck Blade
+	--  weapon   --> Not found from: Luck Blade
+	--  sword   --> Not found from: Luck Blade
+	(535, 42),
+	--  item   --> Not found from: Dimensional Shackles
+	--  shackles   --> Not found from: Dimensional Shackles
+	(536, 42),
+	--  item   --> Not found from: Nine Lives Stealer Greatsword
+	--  weapon   --> Not found from: Nine Lives Stealer Greatsword
+	--  greatsword   --> Not found from: Nine Lives Stealer Greatsword
+	(537, 42),
+	--  item   --> Not found from: Candle of Invocation
+	--  object   --> Not found from: Candle of Invocation
+	(538, 42),
+	--  item   --> Not found from: Calligrapher''s Supplies
+	--  gear and equipment   --> Not found from: Calligrapher''s Supplies
+	--  tools   --> Not found from: Calligrapher''s Supplies
+	--  supplies   --> Not found from: Calligrapher''s Supplies
+	--  item   --> Not found from: Efreeti Bottle
+	--  object   --> Not found from: Efreeti Bottle
+	(540, 42),
+	--  item   --> Not found from: Cloak of the Bat
+	--  item   --> Not found from: Tinker''s Tools
+	--  gear and equipment   --> Not found from: Tinker''s Tools
+	--  tools   --> Not found from: Tinker''s Tools
+	--  item   --> Not found from: Adamantine Armor
+	(543, 2),
+	--  medium   --> Not found from: Adamantine Armor
+	(543, 39),
+	--  item   --> Not found from: Holy Avenger Greatsword
+	--  weapon   --> Not found from: Holy Avenger Greatsword
+	--  greatsword   --> Not found from: Holy Avenger Greatsword
+	(544, 42),
+	--  item   --> Not found from: Cli Lyre
+	(545, 40),
+	(545, 42),
+	--  item   --> Not found from: Lock
+	--  gear and equipment   --> Not found from: Lock
+	--  item   --> Not found from: Shovel
+	--  gear and equipment   --> Not found from: Shovel
+	--  tool   --> Not found from: Shovel
+	--  item   --> Not found from: Holy Avenger Scimitar
+	--  weapon   --> Not found from: Holy Avenger Scimitar
+	--  scimitar   --> Not found from: Holy Avenger Scimitar
+	(548, 42),
+	--  item   --> Not found from: Potion of Frost Giant Strength
+	--  potion   --> Not found from: Potion of Frost Giant Strength
+	(549, 42),
+	--  item   --> Not found from: Mithral Scale Mail
+	(550, 2),
+	--  scale mail   --> Not found from: Mithral Scale Mail
+	(550, 42),
+	--  item   --> Not found from: Vicious Laser Pistol
+	--  weapon   --> Not found from: Vicious Laser Pistol
+	--  laser pistol   --> Not found from: Vicious Laser Pistol
+	(551, 42),
+	--  item   --> Not found from: Sealing Wax
+	--  gear and equipment   --> Not found from: Sealing Wax
+	(552, 13),
+	--  item   --> Not found from: Crystal Ball of Mind Reading
+	--  object   --> Not found from: Crystal Ball of Mind Reading
+	(553, 42),
+	--  item   --> Not found from: Leatherworker''s Tools
+	--  gear and equipment   --> Not found from: Leatherworker''s Tools
+	--  tools   --> Not found from: Leatherworker''s Tools
+	--  item   --> Not found from: Ring of Lightning Resistance
+	(555, 41),
+	(555, 50),
+	(555, 42),
+	--  item   --> Not found from: Ioun Stone
+	--  object   --> Not found from: Ioun Stone
+	(556, 42),
+	--  item   --> Not found from: Ink (1 ounce bottle)
+	--  gear and equipment   --> Not found from: Ink (1 ounce bottle)
+	(557, 13),
+	--  item   --> Not found from: Rod of Rulership
+	--  object   --> Not found from: Rod of Rulership
+	(558, 51),
+	(558, 42),
+	--  item   --> Not found from: Cape of the Mountebank
+	(559, 2),
+	--  cape   --> Not found from: Cape of the Mountebank
+	(559, 42),
+	--  item   --> Not found from: Feed (per day)
+	--  gear and equipment   --> Not found from: Feed (per day)
+	(560, 13),
+	--  item   --> Not found from: Staff of Power
+	--  weapon   --> Not found from: Staff of Power
+	(561, 63),
+	(561, 42),
+	--  item   --> Not found from: Eyes of Minute Seeing
+	--  object   --> Not found from: Eyes of Minute Seeing
+	(562, 42),
+	--  item   --> Not found from: Vicious Club
+	--  weapon   --> Not found from: Vicious Club
+	--  club   --> Not found from: Vicious Club
+	(563, 42),
+	--  item   --> Not found from: Vicious Lance
+	--  weapon   --> Not found from: Vicious Lance
+	--  lance   --> Not found from: Vicious Lance
+	(564, 42),
+	--  item   --> Not found from: Ring of Regeneration
+	(565, 41),
+	(565, 50),
+	(565, 42),
+	--  item   --> Not found from: Ring of Jumping
+	(566, 41),
+	(566, 50),
+	(566, 42),
+	--  item   --> Not found from: Tome of Leadership and Influence
+	--  book   --> Not found from: Tome of Leadership and Influence
+	(567, 42),
+	--  item   --> Not found from: Defender
+	--  weapon   --> Not found from: Defender
+	--  sword   --> Not found from: Defender
+	(568, 42),
+	--  item   --> Not found from: Carpet of Flying (6 ft. x 9 ft.)
+	--  vehicle   --> Not found from: Carpet of Flying (6 ft. x 9 ft.)
+	--  item   --> Not found from: Vicious Crossbow, Light
+	--  weapon   --> Not found from: Vicious Crossbow, Light
+	--  crossbow, light   --> Not found from: Vicious Crossbow, Light
+	(570, 42),
+	--  item   --> Not found from: Grappling Hook
+	--  gear and equipment   --> Not found from: Grappling Hook
+	--  item   --> Not found from: Staff of the Magi
+	--  weapon   --> Not found from: Staff of the Magi
+	(572, 63),
+	(572, 42),
+	--  item   --> Not found from: Clothes, Fine
+	--  gear and equipment   --> Not found from: Clothes, Fine
+	--  clothes   --> Not found from: Clothes, Fine
+	--  item   --> Not found from: Horn of Valhalla (Bronze)
+	--  object   --> Not found from: Horn of Valhalla (Bronze)
+	(574, 42),
+	--  item   --> Not found from: Sack
+	--  gear and equipment   --> Not found from: Sack
+	--  item   --> Not found from: Spell Scroll (6th Level)
+	(576, 13),
+	(576, 54),
+	(576, 42),
+	--  item   --> Not found from: Belt of Frost Giant Strength
+	(577, 2),
+	(577, 7),
+	(577, 42),
+	--  item   --> Not found from: Mithral Chain Mail
+	(578, 2),
+	--  chain mail   --> Not found from: Mithral Chain Mail
+	(578, 42),
+	--  item   --> Not found from: Ring of Water Elemental Command
+	(579, 41),
+	(579, 50),
+	(579, 42),
+	--  item   --> Not found from: Potion of Healing
+	--  potion   --> Not found from: Potion of Healing
+	(580, 42),
+	--  item   --> Not found from: Staff of Striking
+	--  weapon   --> Not found from: Staff of Striking
+	(581, 63),
+	(581, 42),
+	--  item   --> Not found from: Perfume (vial)
+	--  gear and equipment   --> Not found from: Perfume (vial)
+	(582, 13),
+	--  item   --> Not found from: Demon Armor
+	(583, 2),
+	--  plate   --> Not found from: Demon Armor
+	--  item   --> Not found from: Jeweler''s Tools
+	--  gear and equipment   --> Not found from: Jeweler''s Tools
+	--  tools   --> Not found from: Jeweler''s Tools
+	--  item   --> Not found from: Mithral Breastplate
+	(585, 2),
+	--  breastplate   --> Not found from: Mithral Breastplate
+	(585, 42),
+	--  item   --> Not found from: Eyes of the Eagle
+	--  object   --> Not found from: Eyes of the Eagle
+	(586, 42),
+	--  item   --> Not found from: Mirror, Steel
+	--  gear and equipment   --> Not found from: Mirror, Steel
+	--  item   --> Not found from: Luck Blade Scimitar
+	--  weapon   --> Not found from: Luck Blade Scimitar
+	--  scimitar   --> Not found from: Luck Blade Scimitar
+	(588, 42),
+	--  item   --> Not found from: Horn of Valhalla (Brass)
+	--  object   --> Not found from: Horn of Valhalla (Brass)
+	(589, 42),
+	--  item   --> Not found from: Censer of Controlling Air Elementals
+	--  object   --> Not found from: Censer of Controlling Air Elementals
+	(590, 42),
+	--  item   --> Not found from: Torch
+	--  gear and equipment   --> Not found from: Torch
+	--  light   --> Not found from: Torch
+	--  item   --> Not found from: Giant Slayer Rapier
+	--  weapon   --> Not found from: Giant Slayer Rapier
+	--  rapier   --> Not found from: Giant Slayer Rapier
+	(592, 42),
+	--  item   --> Not found from: Wand
+	--  gear and equipment   --> Not found from: Wand
+	--  spellcasting focus   --> Not found from: Wand
+	--  item   --> Not found from: Cook''s Utensils
+	--  gear and equipment   --> Not found from: Cook''s Utensils
+	--  tools   --> Not found from: Cook''s Utensils
+	--  item   --> Not found from: Staff of the Python
+	--  weapon   --> Not found from: Staff of the Python
+	(595, 63),
+	(595, 42),
+	--  item   --> Not found from: Slippers of Spider Climbing
+	(596, 2),
+	--  slippers   --> Not found from: Slippers of Spider Climbing
+	(596, 42),
+	--  item   --> Not found from: Pouch
+	--  gear and equipment   --> Not found from: Pouch
+	(597, 14),
+	--  item   --> Not found from: Gloves of Missile Snaring
+	(598, 2),
+	--  gloves   --> Not found from: Gloves of Missile Snaring
+	(598, 42),
+	--  item   --> Not found from: Vicious Crossbow, Hand
+	--  weapon   --> Not found from: Vicious Crossbow, Hand
+	--  crossbow, hand   --> Not found from: Vicious Crossbow, Hand
+	(599, 42),
+	--  item   --> Not found from: Potion of Healing (Superior)
+	--  potion   --> Not found from: Potion of Healing (Superior)
+	(600, 42),
+	--  item   --> Not found from: Wand of the War Mage, +2
+	--  weapon   --> Not found from: Wand of the War Mage, +2
+	(601, 72),
+	(601, 42),
+	--  item   --> Not found from: Periapt of Proof against Poison
+	(602, 41),
+	(602, 42),
+	--  item   --> Not found from: Playing Card Set
+	--  gear and equipment   --> Not found from: Playing Card Set
+	--  gaming set   --> Not found from: Playing Card Set
+	--  item   --> Not found from: Adamantine Chain Mail
+	(604, 2),
+	--  chain mail   --> Not found from: Adamantine Chain Mail
+	--  item   --> Not found from: Potter''s Tools
+	--  gear and equipment   --> Not found from: Potter''s Tools
+	--  tools   --> Not found from: Potter''s Tools
+	--  item   --> Not found from: Case, Map or Scroll
+	--  gear and equipment   --> Not found from: Case, Map or Scroll
+	(606, 14),
+	--  item   --> Not found from: Ring of Water Walking
+	(607, 41),
+	(607, 50),
+	(607, 42),
+	--  item   --> Not found from: Ring of Elemental Command
+	(608, 41),
+	(608, 50),
+	(608, 42),
+	--  item   --> Not found from: Armor of Resistance
+	(609, 2),
+	--  light   --> Not found from: Armor of Resistance
+	--  medium   --> Not found from: Armor of Resistance
+	(609, 39),
+	(609, 42),
+	--  item   --> Not found from: Nine Lives Stealer Rapier
+	--  weapon   --> Not found from: Nine Lives Stealer Rapier
+	--  rapier   --> Not found from: Nine Lives Stealer Rapier
+	(610, 42),
+	--  item   --> Not found from: Component Pouch
+	--  gear and equipment   --> Not found from: Component Pouch
+	(611, 14),
+	--  item   --> Not found from: Feather Token (Tree)
+	(612, 13),
+	(612, 42),
+	--  item   --> Not found from: Potion of Flying
+	--  potion   --> Not found from: Potion of Flying
+	(613, 42),
+	--  item   --> Not found from: Holy Water (flask)
+	--  gear and equipment   --> Not found from: Holy Water (flask)
+	(614, 13),
+	--  item   --> Not found from: Sovereign Glue
+	(615, 13),
+	--  item   --> Not found from: Wand of Paralysis
+	--  weapon   --> Not found from: Wand of Paralysis
+	(616, 72),
+	(616, 42),
+	--  item   --> Not found from: Helm of Telepathy
+	(617, 2),
+	--  helm   --> Not found from: Helm of Telepathy
+	(617, 42),
+	--  item   --> Not found from: Manual of Stone Golems
+	--  book   --> Not found from: Manual of Stone Golems
+	(618, 13),
+	(618, 42),
+	--  item   --> Not found from: Arrow-Catching Shield
+	(619, 2),
+	(619, 56),
+	(619, 42),
+	--  item   --> Not found from: Well of Many Worlds
+	--  object   --> Not found from: Well of Many Worlds
+	(620, 42),
+	--  item   --> Not found from: Longsword of Wounding
+	--  weapon   --> Not found from: Longsword of Wounding
+	--  longsword   --> Not found from: Longsword of Wounding
+	(621, 42),
+	--  item   --> Not found from: Vicious Shotgun
+	--  weapon   --> Not found from: Vicious Shotgun
+	--  shotgun   --> Not found from: Vicious Shotgun
+	(622, 42),
+	--  item   --> Not found from: Handy Haversack
+	(623, 42),
+	--  gear and equipment   --> Not found from: Handy Haversack
+	(623, 14),
+	(623, 71),
+	--  item   --> Not found from: Horseshoes of a Zephyr
+	--  object   --> Not found from: Horseshoes of a Zephyr
+	(624, 42),
+	--  item   --> Not found from: Potion of Cloud Giant Strength
+	--  potion   --> Not found from: Potion of Cloud Giant Strength
+	(625, 42),
+	--  item   --> Not found from: Dragon Slayer Greatsword
+	--  weapon   --> Not found from: Dragon Slayer Greatsword
+	--  greatsword   --> Not found from: Dragon Slayer Greatsword
+	(626, 42),
+	--  item   --> Not found from: Rope of Climbing
+	--  gear and equipment   --> Not found from: Rope of Climbing
+	--  rope   --> Not found from: Rope of Climbing
+	(627, 42),
+	--  item   --> Not found from: Rope of Entanglement
+	--  gear and equipment   --> Not found from: Rope of Entanglement
+	--  rope   --> Not found from: Rope of Entanglement
+	(628, 42),
+	--  item   --> Not found from: Ring of Acid Resistance
+	(629, 41),
+	(629, 50),
+	(629, 42),
+	--  item   --> Not found from: Vicious Spear
+	--  weapon   --> Not found from: Vicious Spear
+	--  spear   --> Not found from: Vicious Spear
+	(630, 42),
+	--  item   --> Not found from: Mace of Disruption
+	--  weapon   --> Not found from: Mace of Disruption
+	--  mace   --> Not found from: Mace of Disruption
+	(631, 42),
+	--  item   --> Not found from: Mac-Fuirmidh Cittern
+	(632, 40),
+	(632, 42),

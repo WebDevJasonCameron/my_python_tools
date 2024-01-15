@@ -11,14 +11,14 @@ def Run_Parser_In_Dir(path):
     files = os.listdir(path)
     for file in files:
         f = path + file
-        Pars_Documents(f, item_id_number)
+        Parse_Documents(f, item_id_number)
         item_id_number += 1
 
     print("Completed")
 
 # FUN
 # <F> Parse_Document
-def Pars_Documents(file, item_id_number):
+def Parse_Documents(file, item_id_number):
     read_file = open(file, 'r')
 
     lines = Capture_Lines(read_file)
@@ -44,10 +44,14 @@ def Pars_Documents(file, item_id_number):
     attached_spells_output = Attached_Spells_Output(item_attached_spells, item_id_number)
     effects_output = Effects_Output(item_effects, item_id_number)
 
+    print(item_types)
+
+    """
     print(str(item_id_number) + ". Recording Item: " + item["name"] + "\n")
     item_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/00_insert_items.txt", "a")
     item_doc.writelines(item_output)
     item_doc.close()
+    """
 
     # Forgot the Types Table!
     print(str(item_id_number) + ". Recording Type: " + item["name"] + "\n")
@@ -55,6 +59,7 @@ def Pars_Documents(file, item_id_number):
     type_doc.writelines(types_output)
     type_doc.close()
 
+    """
     print(str(item_id_number) + ". Recording Tag: " + item["name"] + "\n")
     tag_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/02_insert_item_tags.txt", "a")
     tag_doc.writelines(tags_output)
@@ -74,6 +79,7 @@ def Pars_Documents(file, item_id_number):
     effect_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/06_insert_item_effects.txt", "a")
     effect_doc.writelines(effects_output)
     effect_doc.close()
+    """
 
 # <F> Capture_Lines
 def Capture_Lines(input):
@@ -91,7 +97,9 @@ def Capture_Types(lines):
     item_types = []
 
     for line in lines:
-        if line.startswith("- "):
+        if line.lower().strip() == "- item" or line.lower().strip() == "- object":
+            continue
+        elif line.startswith("- ") and "." not in line and "[" not in line:
             mod_line = line.replace("- ", "")
             item_types.append(mod_line.lower().strip())
 
@@ -1887,7 +1895,7 @@ def Types_Output(item_types, item_id_number, item_name):  # <R>
     output = ""
 
     for type_word in item_types:
-        output += Get_Tag_Id_Num(type_word, item_id_number, item_name)  # <R>
+        output += Get_Type_Id_Num(type_word, item_id_number, item_name)  # <R>
 
     return output
 
@@ -3833,4 +3841,7 @@ def Get_Effect_Id_Num(effect_word, item_id_number):
 
 
 # RUN ====================================================
-Run_Parser_In_Dir(path)
+#Run_Parser_In_Dir(path)
+file = "/Users/jasoncameron/Desktop/dnd_items/Items/Staff of Swarming Insects.md"
+item_id_number = 1
+Parse_Documents(file, item_id_number)
