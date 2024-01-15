@@ -38,6 +38,7 @@ def Pars_Documents(file, item_id_number):
     item_types = Capture_Types(lines)
 
     item_output = Item_Output(item)
+    types_output = Types_Output(item_types, item_id_number, item["name"])
     tags_output = Tags_Output(item_tags, item_id_number, item["name"])
     conditions_output = Conditions_Output(item_conditions, item_id_number)
     attached_spells_output = Attached_Spells_Output(item_attached_spells, item_id_number)
@@ -48,23 +49,29 @@ def Pars_Documents(file, item_id_number):
     item_doc.writelines(item_output)
     item_doc.close()
 
+    # Forgot the Types Table!
+    print(str(item_id_number) + ". Recording Type: " + item["name"] + "\n")
+    type_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/01_insert_item_types.txt", "a")
+    type_doc.writelines(types_output)
+    type_doc.close()
+
     print(str(item_id_number) + ". Recording Tag: " + item["name"] + "\n")
-    tag_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/01_insert_item_tags.txt", "a")
+    tag_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/02_insert_item_tags.txt", "a")
     tag_doc.writelines(tags_output)
     tag_doc.close()
 
     print(str(item_id_number) + ". Recording Condition: " + item["name"] + "\n")
-    condition_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/03_insert_item_conditions.txt", "a")
+    condition_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/04_insert_item_conditions.txt", "a")
     condition_doc.writelines(conditions_output)
     condition_doc.close()
 
     print(str(item_id_number) + ". Recording Attached Spell: " + item["name"] + "\n")
-    attached_spell_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/04_insert_item_attached_spells.txt", "a")
+    attached_spell_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/05_insert_item_attached_spells.txt", "a")
     attached_spell_doc.writelines(attached_spells_output)
     attached_spell_doc.close()
 
     print(str(item_id_number) + ". Recording Effect: " + item["name"] + "\n")
-    effect_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/05_insert_item_effects.txt", "a")
+    effect_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/06_insert_item_effects.txt", "a")
     effect_doc.writelines(effects_output)
     effect_doc.close()
 
@@ -1875,6 +1882,15 @@ def Item_Output(item):
             str(item["source_id"]) + "'),\n"
             ).replace("''", "null")
 
+# <F> Types_Output
+def Types_Output(item_types, item_id_number, item_name):  # <R>
+    output = ""
+
+    for type_word in item_types:
+        output += Get_Tag_Id_Num(type_word, item_id_number, item_name)  # <R>
+
+    return output
+
 # <F> Tags_Output
 def Tags_Output(item_tags, item_id_number, item_name):  # <R>
     output = ""
@@ -1910,6 +1926,172 @@ def Effects_Output(item_effects, item_id_number):
         output += Get_Effect_Id_Num(effect_word, item_id_number)
 
     return output
+
+# <f> Get_Type_Id_Num
+def Get_Type_Id_Num(type_word, item_id_number, item_name):  # <R>
+    type_list = {
+        "weapon": 1,
+        "weapon: any": 2,
+        "weapon melee": 3,
+        "weapon melee: battleaxe": 4,
+        "weapon melee: club": 5,
+        "weapon melee: dagger": 6,
+        "weapon melee: double-bladed scimitar": 7,
+        "weapon melee: flail": 8,
+        "weapon melee: glaive": 9,
+        "weapon melee: greataxe": 10,
+        "weapon melee: greatclub": 11,
+        "weapon melee: greatsword": 12,
+        "weapon melee: halberd": 13,
+        "weapon melee: handaxe": 14,
+        "weapon melee: hoopak": 15,
+        "weapon melee: lance": 16,
+        "weapon melee: light hammer": 17,
+        "weapon melee: longsword": 18,
+        "weapon melee: mace": 19,
+        "weapon melee: maul": 20,
+        "weapon melee: morningstar": 21,
+        "weapon melee: pike": 22,
+        "weapon melee: quarterstaff": 23,
+        "weapon melee: rapier": 24,
+        "weapon melee: scimitar": 25,
+        "weapon melee: shortsword": 26,
+        "weapon melee: sickle": 27,
+        "weapon melee: spear": 28,
+        "weapon melee: trident": 29,
+        "weapon melee: war pick": 30,
+        "weapon melee: warhammer": 31,
+        "weapon melee: whip": 32,
+        "weapon melee: yklwa": 33,
+        "weapon ranged": 34,
+        "weapon ranged: blowgun": 35,
+        "weapon ranged: crossbow, hand": 36,
+        "weapon ranged: crossbow, heavy": 37,
+        "weapon ranged: crossbow, light": 38,
+        "weapon ranged: hoopak (ranged)": 39,
+        "weapon ranged: longbow": 40,
+        "weapon ranged: shortbow": 41,
+        "weapon ranged: sling": 42,
+        "weapon ammunition": 43,
+        "weapon ammunition: dart": 44,
+        "weapon thrown": 45,
+        "weapon thrown: boomerang": 46,
+        "weapon thrown: javelin": 48,
+        "weapon thrown: net": 49,
+        "weapon firearms": 50,
+        "weapon firearms: antimatter riffle": 51,
+        "weapon firearms: bad news": 52,
+        "weapon firearms: blunderbuss": 53,
+        "weapon firearms: firearm": 54,
+        "weapon firearms: hand mortar": 55,
+        "weapon firearms: laser pistol": 56,
+        "weapon firearms: laser rifle": 57,
+        "weapon firearms: musket": 58,
+        "weapon firearms: palm pistol": 59,
+        "weapon firearms: pepperbox": 60,
+        "weapon firearms: pistol": 61,
+        "weapon firearms: pistol, automatic": 62,
+        "weapon firearms: revolver": 63,
+        "weapon firearms: rifle, automatic": 64,
+        "weapon firearms: rifle, hunting": 65,
+        "weapon firearms: shotgun": 66,
+        "armor": 67,
+        "armor: any": 68,
+        "light armor: any": 69,
+        "light armor: pride silk outfit": 70,
+        "light armor: padded": 71,
+        "light armor: leather": 72,
+        "light armor: studded leather": 73,
+        "medium armor: any": 74,
+        "medium armor: hide": 75,
+        "medium armor: chain shirt": 76,
+        "medium armor: scale mail": 77,
+        "medium armor: breastplate": 78,
+        "medium armor: half plate": 79,
+        "medium armor: spiked armor": 80,
+        "heavy armor: any": 81,
+        "heavy armor: ring mail": 82,
+        "heavy armor: chain mail": 83,
+        "heavy armor: splint": 84,
+        "heavy armor: plate": 85,
+        "shields": 86,
+        "magical": 87,
+        "magical: rings": 88,
+        "magical: wands": 89,
+        "magical: staves": 90,
+        "magical: rods": 91,
+        "magical: scrolls": 92,
+        "magical: potions": 93,
+        "magical: wondrous items": 94,
+        "adventure gear": 95,
+        "adventure gear: backpacks": 96,
+        "adventure gear: bedrolls": 97,
+        "adventure gear: rations": 98,
+        "adventure gear: climbing gear": 99,
+        "adventure gear: camping supplies": 100,
+        "adventure gear: rope": 101,
+        "vehicles": 102,
+        "vehicles: land vehicles": 103,
+        "vehicles: water vehicles": 104,
+        "vehicles: air vehicles": 105,
+        "clothing": 106,
+        "clothing: common clothing": 107,
+        "clothing: noble attire": 108,
+        "clothing: traveller cloaks": 109,
+        "clothing: hats and headgear": 110,
+        "artifacts": 111,
+        "crafting": 112,
+        "crafting: alchemical substances": 113,
+        "crafting: crafting materials": 114,
+        "tools": 115,
+        "tools: cooking utensils": 116,
+        "books": 117,
+        "books: spellbooks": 118,
+        "books: tomes of knowledge": 119,
+        "books: scrolls": 120,
+        "books: ancient scrolls": 121,
+        "containers": 122,
+        "containers: bags of holding": 123,
+        "containers: chests": 124,
+        "containers: pouches": 125,
+        "food": 126,
+        "food: beverages": 127,
+        "food: specialized food": 128,
+        "instruments": 129,
+        "instruments: any": 130,
+        "instruments: musical instruments": 131,
+        "jewelry": 132,
+        "jewelry: any": 133,
+        "jewelry: necklaces": 134,
+        "jewelry: bracelets": 135,
+        "jewelry: earrings": 136,
+        "jewelry: gemstones": 137,
+        "navigation": 138,
+        "navigation: maps": 139,
+        "navigation: compass": 140,
+        "navigation: nautical charts": 141,
+        "pets": 142,
+        "pets: any": 143,
+        "pets: familiars": 144,
+        "pets: exotic pets": 145,
+        "poisons": 146,
+        "poisons: poison weapons": 147,
+        "poisons: ingestible poisons": 148,
+        "trophies": 149,
+        "trophies: monster trophies": 150,
+        "trophies: rare specimens": 151,
+        "documents": 152,
+        "documents: any": 153,
+        "documents: letters": 154,
+        "documents: contracts": 155,
+        "documents: important documents": 156,
+        "mundane": 157,
+        "miscellaneous": 158,
+    }
+    if type_word.strip() in type_list:
+        return "(" + str(item_id_number) + ", " + str(type_list[type_word]) + "),\n\t"
+    else:
+        return "--  " + type_word + "   --> Not found from: " + item_name + "\n\t"
 
 # <f> Get_Tag_Id_Num
 def Get_Tag_Id_Num(tag_word, item_id_number, item_name):  # <R>
