@@ -2,15 +2,23 @@ import os
 import glob
 
 path = "/Users/jasoncameron/Desktop/dnd_items/Items"
-file = "/Users/jasoncameron/Desktop/dnd_items/Items/Belt of Dwarvenkind.md"
 
 
 # FINAL RUNNING FUNCTION
+def Run_Parser_In_Dir(path):
+    item_id_number = 1
+
+    files = os.listdir(path)
+    for file in files:
+        f = path + file
+        Pars_Documents(f, item_id_number)
+        item_id_number += 1
+
+    print("Completed")
 
 # FUN
 # <F> Parse_Document
-def Pars_Document(file):
-    item_id_number = 1
+def Pars_Documents(file, item_id_number):
     read_file = open(file, 'r')
 
     lines = Capture_Lines(read_file)
@@ -35,8 +43,30 @@ def Pars_Document(file):
     attached_spells_output = Attached_Spells_Output(item_attached_spells, item_id_number)
     effects_output = Effects_Output(item_effects, item_id_number)
 
-    print(effects_output)
+    print(str(item_id_number) + ". Recording Item: " + item["name"] + "\n")
+    item_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/00_insert_items.sql", "a")
+    item_doc.writelines(item_output)
+    item_doc.close()
 
+    print(str(item_id_number) + ". Recording Tag: " + item["name"] + "\n")
+    tag_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/01_insert_item_tags.sql", "a")
+    tag_doc.writelines(tags_output)
+    tag_doc.close()
+
+    print(str(item_id_number) + ". Recording Condition: " + item["name"] + "\n")
+    condition_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/03_insert_item_conditions.sql", "a")
+    condition_doc.writelines(conditions_output)
+    condition_doc.close()
+
+    print(str(item_id_number) + ". Recording Attached Spell: " + item["name"] + "\n")
+    attached_spell_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/04_insert_item_attached_spells.sql", "a")
+    attached_spell_doc.writelines(attached_spells_output)
+    attached_spell_doc.close()
+
+    print(str(item_id_number) + ". Recording Effect: " + item["name"] + "\n")
+    effect_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/05_insert_item_effects.sql", "a")
+    effect_doc.writelines(effects_output)
+    effect_doc.close()
 
 # <F> Capture_Lines
 def Capture_Lines(input):
@@ -49,7 +79,6 @@ def Capture_Lines(input):
 
     return lines
 
-
 # <F> Capture_Types
 def Capture_Types(lines):
     item_types = []
@@ -60,7 +89,6 @@ def Capture_Types(lines):
             item_types.append(mod_line.lower().strip())
 
     return item_types
-
 
 # <F> Capture_Tags
 def Capture_Tags(lines):
@@ -74,7 +102,6 @@ def Capture_Tags(lines):
                 item_tags.append(l.lower().strip())
 
     return item_tags
-
 
 # <F> Capture_Conditions
 def Capture_Condition(item_description):
@@ -104,7 +131,6 @@ def Capture_Condition(item_description):
 
     return item_conditions
 
-
 # <f> Search_Description_For_Word
 def Search_Description_For_Word(searched_word, item_description):
     mod_description = item_description.lower().replace("[", " ").replace("]", " ").replace(",", "").replace(".", "")
@@ -115,7 +141,6 @@ def Search_Description_For_Word(searched_word, item_description):
             return True
         else:
             return False
-
 
 # <f> Search_Description_For_Bonuses
 def Search_Description_For_Bonuses(searched_bonus, item_description):
@@ -129,7 +154,6 @@ def Search_Description_For_Bonuses(searched_bonus, item_description):
             if next_word == "bonus":
                 return True
     return False
-
 
 # <F> Capture_Attached_Spells
 def Capture_Attached_Spells(item_description):
@@ -441,7 +465,6 @@ def Capture_Attached_Spells(item_description):
             attached_spells.remove("Command")
 
     return attached_spells
-
 
 # <F> Capture Effects
 def Capture_Effects(description_notes):
@@ -1783,7 +1806,6 @@ def Capture_Effects(description_notes):
 
     return effects
 
-
 # <F> Fill_In_Item
 def Fill_In_Item(lines):
     item = {"name": "",
@@ -1833,7 +1855,6 @@ def Fill_In_Item(lines):
 
     return item
 
-
 # <F> Item_Output
 def Item_Output(item):
     return ("('" + item["name"] + "', '" +
@@ -1854,7 +1875,6 @@ def Item_Output(item):
             str(item["source_id"]) + "')\n"
             )
 
-
 # <F> Tags_Output
 def Tags_Output(item_tags, item_id_number, item_name):  # <R>
     output = ""
@@ -1863,7 +1883,6 @@ def Tags_Output(item_tags, item_id_number, item_name):  # <R>
         output += Get_Tag_Id_Num(tag_word, item_id_number, item_name)  # <R>
 
     return output
-
 
 # <F> Conditions_Output
 def Conditions_Output(item_conditions, item_id_number):
@@ -1874,7 +1893,6 @@ def Conditions_Output(item_conditions, item_id_number):
 
     return output
 
-
 # <F> Attached_Spells_Output
 def Attached_Spells_Output(item_attached_spells, item_id_number):
     output = ""
@@ -1884,7 +1902,6 @@ def Attached_Spells_Output(item_attached_spells, item_id_number):
 
     return output
 
-
 # <F> Effects_Output
 def Effects_Output(item_effects, item_id_number):
     output = ""
@@ -1893,7 +1910,6 @@ def Effects_Output(item_effects, item_id_number):
         output += Get_Effect_Id_Num(effect_word, item_id_number)
 
     return output
-
 
 # <f> Get_Tag_Id_Num
 def Get_Tag_Id_Num(tag_word, item_id_number, item_name):  # <R>
@@ -1974,7 +1990,6 @@ def Get_Tag_Id_Num(tag_word, item_id_number, item_name):  # <R>
     else:
         return "--  " + tag_word + "   --> Not found from: " + item_name + "\n\t"
 
-
 # <f> Get_Conditions_Id_Num
 def Get_Condition_Id_Num(condition_word, item_id_number):
     condition_list = {
@@ -1999,7 +2014,6 @@ def Get_Condition_Id_Num(condition_word, item_id_number):
         return "(" + str(item_id_number) + ", " + str(condition_list[condition_word]) + "),\n\t"
     else:
         return "--  " + condition_word + "   --> Not found\n\t"
-
 
 # <f> Get_Attached_Spell_Id_Num
 def Get_Attached_Spell_Id_Num(attached_spell_word, item_id_number):
@@ -2298,7 +2312,6 @@ def Get_Attached_Spell_Id_Num(attached_spell_word, item_id_number):
         return "(" + str(item_id_number) + ", " + str(attached_spell_list[attached_spell_word]) + "),\n\t"
     else:
         return "--  " + attached_spell_word + "   --> Not found\n\t"
-
 
 # <f> Get_Effect_Id_Num
 def Get_Effect_Id_Num(effect_word, item_id_number):
@@ -3638,4 +3651,4 @@ def Get_Effect_Id_Num(effect_word, item_id_number):
 
 
 # RUN ====================================================
-Pars_Document(file)
+Run_Parser_In_Dir(path)
