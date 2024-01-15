@@ -4,9 +4,6 @@ import glob
 path = "/Users/jasoncameron/Desktop/dnd_items/Items"
 file = "/Users/jasoncameron/Desktop/dnd_items/Items/Orb of Dragonkind.md"
 
-
-
-
 # FINAL RUNNING FUNCTION
 
 # FUN
@@ -38,7 +35,7 @@ def Pars_Document(file):
     effects_output = Effects_Output(item_effects, item_id_number)
 
     print(attached_spells_output)
-    print(effects_output)
+    # print(effects_output)
 
 
 
@@ -2284,7 +2281,7 @@ def Get_Attached_Spell_Id_Num(attached_spell_word, item_id_number):
         "conjure animals": 288,
     }
 
-    if attached_spell_word == attached_spell_list:
+    if attached_spell_word in attached_spell_list:
         return "(" + str(item_id_number) + ", " + str(attached_spell_list[attached_spell_word]) + "),\n\t"
     else:
         return "--  " + attached_spell_word + "   --> Not found\n\t"
