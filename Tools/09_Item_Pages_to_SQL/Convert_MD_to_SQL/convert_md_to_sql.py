@@ -1,7 +1,7 @@
 import os
 import glob
 
-path = "/Users/jasoncameron/Desktop/dnd_items/Items"
+path = "/Users/jasoncameron/Desktop/dnd_items/Items/"
 
 
 # FINAL RUNNING FUNCTION
@@ -45,6 +45,7 @@ def Pars_Documents(file, item_id_number):
 
     print(str(item_id_number) + ". Recording Item: " + item["name"] + "\n")
     item_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/00_insert_items.sql", "a")
+    item_doc.writelines("\n\t" + file + "\n")
     item_doc.writelines(item_output)
     item_doc.close()
 
@@ -1872,8 +1873,8 @@ def Item_Output(item):
             str(item["magic_bonus_plus_2"]) + "', '" +
             str(item["magic_bonus_plus_3"]) + "', '" +
             item["description_notes"] + "', '" +
-            str(item["source_id"]) + "')\n"
-            )
+            str(item["source_id"]) + "'),\n"
+            ).replace("''", "null")
 
 # <F> Tags_Output
 def Tags_Output(item_tags, item_id_number, item_name):  # <R>
