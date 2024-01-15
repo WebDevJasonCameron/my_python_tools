@@ -1350,7 +1350,7 @@ for row in rows:
 output_file = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/class_list_to_dictionary/output_file2.txt", "w")
 
 for item in result_list:
-    output_file.writelines(item + "\n")
+    output_file.writelines(item.lower() + "\n")
 
 output_file.close()
 
