@@ -44,27 +44,27 @@ def Pars_Documents(file, item_id_number):
     effects_output = Effects_Output(item_effects, item_id_number)
 
     print(str(item_id_number) + ". Recording Item: " + item["name"] + "\n")
-    item_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/00_insert_items.sql", "a")
+    item_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/00_insert_items.txt", "a")
     item_doc.writelines(item_output)
     item_doc.close()
 
     print(str(item_id_number) + ". Recording Tag: " + item["name"] + "\n")
-    tag_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/01_insert_item_tags.sql", "a")
+    tag_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/01_insert_item_tags.txt", "a")
     tag_doc.writelines(tags_output)
     tag_doc.close()
 
     print(str(item_id_number) + ". Recording Condition: " + item["name"] + "\n")
-    condition_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/03_insert_item_conditions.sql", "a")
+    condition_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/03_insert_item_conditions.txt", "a")
     condition_doc.writelines(conditions_output)
     condition_doc.close()
 
     print(str(item_id_number) + ". Recording Attached Spell: " + item["name"] + "\n")
-    attached_spell_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/04_insert_item_attached_spells.sql", "a")
+    attached_spell_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/04_insert_item_attached_spells.txt", "a")
     attached_spell_doc.writelines(attached_spells_output)
     attached_spell_doc.close()
 
     print(str(item_id_number) + ". Recording Effect: " + item["name"] + "\n")
-    effect_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/05_insert_item_effects.sql", "a")
+    effect_doc = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/output/05_insert_item_effects.txt", "a")
     effect_doc.writelines(effects_output)
     effect_doc.close()
 
