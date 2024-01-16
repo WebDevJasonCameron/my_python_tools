@@ -1,4 +1,0 @@
-(1, 1),
-	--  staff   --> Not found from: Staff of Swarming Insects
-	(1, 87),
-	

@@ -1,3 +1,5 @@
+import csv
+data = """
 1,weapon, , , , ,
 2,weapon melee, , , , ,
 3,weapon melee,battleaxe, , , , ,
@@ -158,3 +160,29 @@
 158,spellcasting, , , , ,
 159,consumable, , , , ,
 160,saddle, , , , ,
+"""
+
+rows = [row.split(',') for row in data.strip().split('\n')]
+
+result_list = []
+
+for row in rows:
+
+    if row[2] == " ":
+        result_list.append(f'"{row[1]}": {row[0]},')
+    elif row[3] == " ":
+        result_list.append(f'"{row[2]}": {row[0]},')
+    elif row[4] == " ":
+        result_list.append(f'"{row[2]},{row[3]}": {row[0]},')
+    elif row[5] == " ":
+        result_list.append(f'"{row[2]},{row[3]},{row[4]}": {row[0]},')
+    elif row[6] == " ":
+        result_list.append(f'"{row[2]},{row[3]},{row[4]},{row[5]}": {row[0]},')
+
+output_file = open("/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Tools/09_Item_Pages_to_SQL/class_list_to_dictionary/output_file3.txt", "w")
+
+for item in result_list:
+    output_file.writelines(item.lower() + "\n")
+
+output_file.close()
+
