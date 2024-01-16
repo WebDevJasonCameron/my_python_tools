@@ -2151,8 +2151,18 @@ def Get_Type_Id_Num(type_word, item_id_number, item_name):  # <R>
 
     if type_word.strip() in type_list:
         return "(" + str(item_id_number) + ", " + str(type_list[type_word]) + "),\n\t"
-    elif type_word.strip() == "weapon ammunition":
-        return "(" + str(item_id_number) + ", 44),\n\t"
+    elif type_word.strip() == "ammunition":
+        return "(" + str(item_id_number) + ", 47),\n\t"
+    elif type_word.strip() == "consumable":
+        return "(" + str(item_id_number) + ", 186),\n\t"
+    elif type_word.strip() == "instrument":
+        return "(" + str(item_id_number) + ", 148),\n\t"
+    elif type_word.strip() == "robe":
+        return "(" + str(item_id_number) + ", 127),\n\t"
+    elif type_word.strip() == "boot":
+        return "(" + str(item_id_number) + ", 117),\n\t"
+    elif type_word.strip() == "tool":
+        return "(" + str(item_id_number) + ", 134),\n\t"
     else:
         return "--  " + type_word + "   --> Not found from: " + item_name + "\n\t"
 
