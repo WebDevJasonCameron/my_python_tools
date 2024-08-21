@@ -3,6 +3,7 @@ import hashlib
 import logging
 from pathlib import Path
 
+# Test this!
 # Configure logging
 logging.basicConfig(filename='file_hash_log.txt', level=logging.INFO, format='%(asctime)s - %(message)s')
 
