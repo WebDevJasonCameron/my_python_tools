@@ -11,13 +11,63 @@
     <!-- List Files -->
     <button onclick="listFiles()">List Files</button>
     <div id="fileList"></div>
-    
+
+    <!-- Read File -->
+    <h2>Read File</h2>
+    <input type="text" id="readFileName" placeholder="File name">
+    <button onclick="downloadFile()">Read File</button>
+    <pre id="fileContent"></pre>
+
+    <!-- Write File -->
+    <h2>Create/Update File</h2>
+    <input type="text" id="writeFileName" placeholder="File name">
+    <textarea id="writeFileContent" placeholder="File content"></textarea>
+    <button onclick="writeFile()">Write File</button>
+
+    <!-- Delete File -->
+    <h2>Delete File</h2>
+    <input type="text" id="deleteFileName" placeholder="File name">
+    <button onclick="deleteFile()">Delete File</button>
+
     <script>
         function listFiles() {
             fetch('/cgi-bin/list_files.py')
                 .then(response => response.json())
                 .then(data => {
                     document.getElementById('fileList').innerHTML = data.join('<br>');
+                });
+        }
+
+        function readFile() {
+            const fileName = document.getElementById('readFileName').value;
+            fetch(`/cgi-bin/read_file.py?file_name=${fileName}`)
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('fileContent').innerText = data;
+                });
+        }
+
+        function downloadFile() {
+            const fileName = document.getElementById('readFileName').value;
+            window.open(`/cgi-bin/read_file.py?file_name=${encodeURIComponent(fileName)}`);
+        }
+
+        function writeFile() {
+            const fileName = document.getElementById('writeFileName').value;
+            const content = document.getElementById('writeFileContent').value;
+            fetch(`/cgi-bin/write_file.py?file_name=${fileName}&content=${encodeURIComponent(content)}`)
+                .then(response => response.text())
+                .then(data => {
+                    alert(data);
+                });
+        }
+
+        function deleteFile() {
+            const fileName = document.getElementById('deleteFileName').value;
+            fetch(`/cgi-bin/delete_file.py?file_name=${fileName}`)
+                .then(response => response.text())
+                .then(data => {
+                    alert(data);
                 });
         }
     </script>
