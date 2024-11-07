@@ -1,24 +1,27 @@
 #!/usr/bin/env python3
-import cgi
 import os
-
-# Set the path to your files directory
-file_directory = "/Users/jasoncameron/00_Drive/Core/Data_Engineer/my_python_tools/Explore/02_Web_FTP/directory_to_manage"  # Update with your actual directory
+import urllib.parse
+import sys
+from config import file_directory  # Import the file_directory variable
 
 print("Content-Type: application/octet-stream")
 
-# Get the filename from the query parameters
-form = cgi.FieldStorage()
-file_name = form.getvalue("file_name")
+# Parse query parameters
+query_string = os.environ.get('QUERY_STRING', '')
+query_params = dict(urllib.parse.parse_qsl(query_string))
+file_name = query_params.get("file_name")
 
-# Validate the file path to avoid directory traversal attacks
-file_path = os.path.join(file_directory, file_name)
-if not os.path.isfile(file_path) or not os.path.commonpath([file_directory]) == os.path.commonpath([file_directory, file_path]):
+# Construct the file path using the imported file_directory
+file_path = os.path.join(file_directory, file_name) if file_name else None
+
+# Validate file path and prevent directory traversal
+if not file_name or not os.path.isfile(file_path) or not os.path.commonpath([file_directory]) == os.path.commonpath([file_directory, file_path]):
     print("\nError: Invalid file path")
+    sys.exit(1)
 else:
-    # Set headers for file download
+    # Set headers for download
     print(f"Content-Disposition: attachment; filename={file_name}\n")
     
-    # Read and output the file contents
+    # Read and output file contents
     with open(file_path, 'rb') as file:
-        print(file.read().decode('ISO-8859-1'))  # Decoding as ISO-8859-1 for CGI compatibility with binary data
+        print(file.read().decode('ISO-8859-1'))
