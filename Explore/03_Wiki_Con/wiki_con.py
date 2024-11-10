@@ -4,6 +4,7 @@ from html.parser import HTMLParser
 from urllib.parse import urljoin, urlparse
 import time
 
+# <C> Wiki Parser
 class WikiParser(HTMLParser):
     def __init__(self, base_url):
         super().__init__()
@@ -23,6 +24,7 @@ class WikiParser(HTMLParser):
                 elif tag in ['img', 'script', 'link'] and attr in ['src', 'href']:
                     self.assets.append(full_url)
 
+# <F> Download Page
 def download_page(url, base_dir, auth_handler):
     try:
         # Open URL with authentication
@@ -57,6 +59,7 @@ def download_page(url, base_dir, auth_handler):
         print(f"Failed to download {url}: {e}")
         return []
 
+# <F> Download Assets
 def download_assets(assets, base_url, base_dir, html_content):
     for asset_url in assets:
         try:
@@ -76,6 +79,7 @@ def download_assets(assets, base_url, base_dir, html_content):
             print(f"Failed to download asset {asset_url}: {e}")
     return html_content
 
+# <F> URL to Filename
 def url_to_filename(url, base_dir):
     parsed = urlparse(url)
     path = parsed.path.strip('/').replace('/', '_')
@@ -86,8 +90,8 @@ def url_to_filename(url, base_dir):
 # Example setup with authentication
 username = 'your_username'
 password = 'your_password'
-base_url = "http://example-wiki.com"
-base_dir = "./wiki_archive"
+base_url = "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html"
+base_dir = "./test_scrape_archive"
 
 # Setup authentication handler
 password_mgr = urllib.request.HTTPPasswordMgrWithDefaultRealm()
